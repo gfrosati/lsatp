@@ -7,7 +7,7 @@ Trabajo práctico para la materia Introducción a la Neurociencia Computacional 
 
 * En la carpeta artículos se encuentran los +10.000 artículos bajados aleatoriamente desde la Wikipedia en español para el experimento con el programa *article_fetcher* (Ruby)
 
-* En la carpeta discursos se encuentran los discursos de apertura / toma de poseción analizados en el experimento.
+* En la carpeta discursos se encuentran los discursos de apertura / toma de posesión analizados en el experimento.
 
 * El archivo *generadorLSA.py* (Python) generea un LSA de 300 dimensiones utilizando gensim a partir de los artículos de la Wikipedia descargados que sirven como base para el experimento.
 
