@@ -1,0 +1,27 @@
+Una matriz antisimétrica es una matriz cuadrada A cuya traspuesta es igual a su negativa, es decir vale la relación AT = -A.
+Una matriz de m × n elementos (m = filas, n = columnas) :
+
+es antisimétrica (o hemisimétrica), si es una matriz cuadrada (m = n) y  para todo i, j =1,2,3,...,n. En consecuencia,  para todo i. Por lo tanto, la matriz A asume la forma:
+
+
+== Ejemplo ==
+La matriz
+
+es antisimétrica, ya que
+
+La diagonal principal se conserva y todos los otros números son cambiados de signo al opuesto. Nótese que la matriz traspuesta de la matriz antisimétrica A es -A, y que la antisimetría es respecto a la diagonal principal.
+Si n=m es impar el determinante de la matriz siempre será 0.
+
+
+== Descomposición en matriz simétrica y antisimétrica ==
+Sea A una matriz cuadrada, esta se puede descomponer en suma de parte simétrica y antisimétrica de la siguiente forma:
+
+donde la parte antisimétrica es
+
+
+== Véase también ==
+Matriz simétrica
+
+
+== Enlaces externos ==
+Weisstein, Eric W. «Antisymmetric Matrix». En Weisstein, Eric W. MathWorld (en inglés). Wolfram Research.

@@ -1,0 +1,5 @@
+Net 30 es una forma de comercio que especifica que el pago de un crédito se espera recibir en su totalidad 30 días luego de que los bienes fueran entregados. Los términos Net 30 son usualmente asociados con un crédito por pago temprano: por ejemplo, la notación "2% 10, net 30" indica que un descuento del 2% es dado si el pago es recibido durante los 10 días de la entrega de la mercadería, y que el pago completo es esperado dentro de 30 días.
+
+Por ejemplo, si se escribe "$1000 2/10 net 30" en una factura, el comprador puede tomar un descuento del 2% ($1000 x .02 = $20) y hacer un pago de $980 dentro de 10 días, ...
+Si se ofrece un término de pago de "2/10, net 30", el costo aproxiamdo de no tomar el descuento y pagar al fin del período del crédito sería de la siguiente manera:
+[2/(100-2)]*[365/(30-10)]=0.3724 en porcentage = 37.24%

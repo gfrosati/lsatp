@@ -1,0 +1,60 @@
+La escala sismológica de magnitud de momento (MW) es una escala logarítmica usada para medir y comparar terremotos. Está basada en la medición de la energía total que se libera en un sismo. Fue introducida en 1979 por Thomas C. Hanks y Hiroo Kanamori como la sucesora de la escala sismológica de Richter.
+Una ventaja de la escala de magnitud de momento es que no se satura cerca de valores altos. Es decir, a diferencia de otras escalas, ésta no tiene un valor por encima del cual todos los terremotos más grandes reflejen magnitudes muy similares.
+Otra ventaja que posee esta escala es que coincide y continúa con los parámetros de la escala sismológica de Richter.
+Por estas razones, la escala de magnitud de momento es la más usada por sismólogos para medir y comparar terremotos de grandes proporciones. El Centro Nacional de Información Sísmica (National Earthquake Information Center), dependiente del Servicio Geológico de los Estados Unidos, usa esta escala para la medición de terremotos de una magnitud superior a 6,9.
+A pesar de lo anterior, la escala sismológica de Richter es la que goza de más popularidad en la prensa. Luego, es común que la prensa comunique la magnitud de un terremoto en «escala de Richter» cuando éste ha sido medido en realidad con la escala de magnitud de momento. En algunos casos esto no constituye un error, dada la coincidencia de parámetros de ambas escalas, aunque se recomienda indicar simplemente «magnitud» y evitar la coletilla «grados en la escala de Richter» para evitar errores.
+
+
+== Magnitud de momento sísmico ==
+La magnitud de momento sísmico (Mw) resume en un único número la cantidad de energía liberada por el terremoto (llamada momento sísmico, M0). La "w" en el subíndice del símbolo «Mw», proviene de la palabra inglesa «work», que significa «trabajo».
+Mw coincide con las estimaciones obtenidas mediante otras escalas, como por ejemplo la escala sismológica de Richter. Es decir, Mw permite entender la cantidad de energía liberada por el terremoto (M0) en términos del resto de las escalas sísmicas. Es por esto que se usa Mw en vez de M0 como parámetro de la escala.
+Los períodos de oscilación de las ondas sísmicas grandes son proporcionales al momento sísmico (M0). Es por esto que se suele medir la magnitud de momento Mw a través de los períodos de oscilación por medio de sismógrafos.
+La relación entre Mw y M0 está dada por una fórmula desarrollada por Hiroo Kanamori en el Instituto de Sismología de California, que es la que sigue:
+
+Obsérvese que la magnitud de momento sísmico (Mw) se obtiene a partir de una función logarítmica con argumento adimensional y por tanto, es una variable adimensional. En cambio, el momento sísmico (M0), al ser una variable que mide energía (fuerza x desplazamiento), tiene como unidad derivada la N x m o dina x cm. Más concretamente, el momento sísmico (M0) es una cantidad que combina el área de ruptura y la compensación de la falla con una medida de la resistencia de las rocas mediante la siguiente ecuación:
+
+donde:
+μ es el módulo de deformación de las rocas involucradas en el terremoto. Usualmente es de 30 gigapascales.
+A es el área de ruptura a lo largo de la falla geológica donde ocurrió el terremoto.
+u es el desplazamiento promedio de A.
+
+
+== Comparación con la energía sísmica irradiada ==
+La energía potencial es acumulada en el borde de la falla en la forma de tensión. Durante un terremoto la energía almacenada se transforma y resulta en:
+Ruptura y deformación de las rocas
+Calor
+Energía sísmica irradiada 
+El momento sísmico  es una medida de la cantidad total de energía que se transforma durante el terremoto. Solo una pequeña fracción del momento sísmico  es convertida en Energía Sísmica Irradiada , que es la que los sismógrafos registran.
+Usando la relación estimada:
+
+Choy y Boatwright definieron en 1995 la magnitud de energía
+
+
+== Comparación con explosiones nucleares ==
+La energía liberada por armas nucleares es tradicionalmente expresada en términos de la energía almacenada en un kilotón o megatón del explosivo convencional trinitrotolueno (TNT).
+Muchos académicos aseveran que una explosión de 1kt TNT es más o menos equivalente a un terremoto de magnitud 4 (regla de uso común en sismología). Esto lleva a la siguiente ecuación:
+.
+Donde  es la masa del explosivo de TNT que es citado para fines comparativos.
+Tal comparación no es muy significativa. En los terremotos, al igual que las explosiones de armas nucleares subterráneas, sólo una pequeña fracción de la cantidad total de energía transformada termina siendo radiada como energía sísmica. Luego, una eficiencia sísmica debe ser elegida para una bomba que es citada como comparación. Usando la energía específica del TNT (4.184 MJ/kg), la fórmula indicada anteriormente implica el asumir el hecho de que alrededor del 0,5% de la energía de la bomba es convertida en energía sísmica irradiada . Para verdaderas pruebas nucleares subterráneas, la actual eficiencia sísmica obtenida varía significativamente y depende de los parámetros de diseño y el lugar de la prueba llevada a cabo.
+
+
+== Véase también ==
+Geofísica
+Anexo:Grandes terremotos del mundo
+Escala sismológica de Mercalli
+Escala sismológica de Richter
+Escala Medvedev-Sponheuer-Karnik
+Ingeniería sísmica
+
+
+== Referencias ==
+
+
+== Bibliografía ==
+Hanks TC, Kanamori H (1979). "A moment magnitude scale". Journal of Geophysical Research 84 (B5): 2348-50.
+Choy GL, Boatwright JL (1995). "Global patterns of radiated seismic energy and apparent stress". Journal of Geophysical Research 100 (B9): 18205-28.
+Utsu,T., 2002, Relationships between magnitude scales, in: Lee, W.H.K, Kanamori, H., Jennings, P.C., and Kisslinger, C., editors, International Handbook of Earthquake and Engineering Seismology: Academic Press, a division of Elsevier, two volumes, International Geophysics, vol. 81-A, pages 733-746.
+
+
+== Enlaces externos ==
+What is moment magnitude? (en inglés)

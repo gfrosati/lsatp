@@ -1,0 +1,32 @@
+En MS-DOS, sistemas operativos compatibles, y en CP/M de 8-bits, un fichero COM es un tipo simple de fichero ejecutable. El nombre del formato de fichero proviene de la extensión del nombre de fichero .com (no debe confundirse con el nivel superior de dominio .com), que fue la extensión original usada para estos ficheros. Sin embargo, no existe asociación real entre el formato de fichero y la extensión del nombre de fichero más que en CP/M y versiones muy antiguas de MS-DOS.
+A diferencia de los archivos EXE, los COM tienen una estructura muy simple y almacenan en forma directa y lineal la imagen de memoria que será un programa. Solamente pueden almacenarse en archivos COM los programas que quepan en un solo segmento.
+
+
+== Plataformas que lo soportan ==
+El formato aún es ejecutable en muchas plataformas modernas basadas en Windows, pero se ejecuta en un subsistema emulando MS-DOS que fue eliminado de las variantes x64.
+Los ficheros COM también pueden ser ejecutados en emuladores de DOS como DOSBox, en cualquier plataforma que soporte estos emuladores. Originalmente el COM era la abreviatura de "comando" ya que los ficheros.com contenían el código de los comandos básicos que se podían ejecutar en la máquina.
+Varias utilidades del núcleo, como la versión de MS-DOS de more, usaban este formato, al mismo tiempo que las primeras y pequeñas aplicaciones del sistema, como el juego de IBM Alley Cat.
+
+
+== Formato Binario ==
+El formato COM es quizás el formato ejecutable más simple de todos, no contiene metadatos, sólo código y datos, y se carga en el desplazamiento 0x0100 de un segmento y se ejecuta. Debido a la segmentación de la memoria no es necesaria la relocalización.
+Sin embargo su simpleza tiene un precio: el binario tiene un tamaño máximo de 65,280 (0xFF00) bytes y almacena todo su código y datos en un segmento. Esto no era un problema en los primeros ordenadores de 8-bits, pero es la razón principal por la que este formato cayó en desuso con la introducción de los procesadores de 16-bits y luego con los de 32-bits debido a sus mayores memorias segmentadas.
+En la arquitectura de la CPU Intel 8080, sólo se pueden direccionar 65,536 bytes de memoria (rango de memorias de 0x0000 a 0xFFFF). Bajo CP/M, la primera página de esta memoria, de 0x0000 a 0x00FF, estaba reservada para uso del sistema, y cualquier programa de usuario tenía que ser cargado exactamente en la dirección 0x0100 para ser ejecutado. Los ficheros COM se ajustan a este modelo perfectamente. Hay que darse cuenta de que no había posibilidad de ejecutar más de un programa o comando a la vez: el programa cargado en 0x0100 era ejecutado, y ningún otro.
+Aunque el formato de fichero es el mismo en MS-DOS y CP/M, esto no significa que los programas de CP/M se pueden ejecutar directamente bajo MS-DOS o viceversa, los ficheros COM de MS-DOS contienen instrucciones x86, mientras que los ficheros COM de CP/M contienen instrucciones 8080, 8085 o Z80. Además, los ficheros COM de MS-DOS a menudo dependen de llamadas al sistema operativo proporcionadas exclusivamente por MS-DOS a través de la interrupción 21h. Es posible crear un fichero COM pesado que pueden ejecutar las dos familias de procesadores.
+Los ficheros pueden tener nombres terminados en.COM pero no tener el formato descrito anteriormente, esto se sabe gracias a un número mágico al principio del fichero. Por ejemplo, el fichero COMMAND.COM en DR-DOS 6 está actualmente en el formato ejecutable de DOS, indicado por los primeros dos bytes del fichero que son MZ (0x4D5A), las iniciales de Mark Zbikowski. Bajo CP/M 3, si el primer byte de un fichero COM es 0xC9 entonces esto indica la presencia de una cabecera de 256 bytes, ya que 0xC9 corresponde a la instrucción RET de 8080. Esto significa que el fichero COM terminará inmediatamente si se ejecuta en una versión anterior de CP/M que no soporte esta extensión.
+
+
+== Precedencia de ejecución ==
+Si un directorio contiene dos ficheros uno COM y otro EXE con el mismo nombre (sin incluir la extensión), el fichero COM se ejecutará antes. Por ejemplo, si un directorio contiene dos ficheros llamados nota.com y nota.exe, lo siguiente ejecutará el fichero nota.com:
+
+C:\>nota
+
+Si el usuario quiere ejecutar nota.exe, tiene que usar explícitamente el nombre completo del fichero:
+
+C:\>nota.exe
+
+
+== Uso malicioso ==
+Aprovechándose del error de funcionamiento en la precedencia de ejecución, los creadores de virus algunas veces usan nombres como notepad.com para sus creaciones. Su idea es que, si se pone el fichero en el directorio del fichero EXE correspondiente, una ejecución del comando o un fichero batch puede lanzar su programa, sin darse cuenta, en vez del editor de texto notepad.exe.
+Algunos creadores recientes de virus han intentado atacar a los nuevos usuarios de ordenadores que probablemente no tendrán conocimientos del formato de ficheros COM, a través de su más probable familiaridad con los nombres de dominio de Internet punto-com. Se han enviado e-mails con un documento adjunto llamado "www.free-gift.com" (en castellano sería "www.regalo-gratis.com"). Los usuarios imprudentes de Microsoft Windows que pulsaron en el documento adjunto no estaban visitando un sitio web en http://www.free-gift.com/, en vez de eso lo que estaban haciendo era ejecutar un comando binario cuidadosamente elaborado, y probablemente malicioso, llamado www.free-gift y dándole permiso absoluto para hacer a su máquina todo lo que se le pasara al autor del mismo por la cabeza.
+Esto no quiere decir que haya nada malicioso sobre el formato de fichero COM en sí mismo, solo es un ejemplo que muestra una colisión no intencionada entre el.com de los ficheros de comandos y, una década o más tarde, el.com de los sitios web comerciales.

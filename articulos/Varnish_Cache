@@ -1,0 +1,33 @@
+Varnish Cache es un acelerador de aplicaciones web, también conocido como caché de proxy HTTP inversa. Se instala delante de cualquier servidor HTTP y se configura para almacenar en el caché del servidor una copia del recurso solicitad. Está ideado para aumentar el rendimiento de aplicaciones web con contenidos pesados y APIs altamente consumidas.
+Es una alternativa a otras opciones existentes que plantean caché de cliente o servidores de origen. Además Varnish Cache está orientado exclusivamente a HTTP a diferencia de otros que ofrecen soporte FTP, SMTP u otros protocolos de red.
+Actualmente es utilizado por una gran cantidad de sitios web de alta demanda y tráfico como The New York Times, The Guardian, The Hindu, Corriere della Sera, y sitios de redes sociales y contenidos como Wikipedia, Facebook, Twitter, Vimeo, Tumblr, entre otros. De los top 10K sitios en la web, alrededor de una décima parte usan Varnish Cache.
+
+
+== Historia ==
+El proyecto fue iniciado como una "rama" del tabloide Noruego Verdens Gang. El arquitecto y desarrollador principal es consultor independiente danés Poul-Henning Kamp, quien es un bien conocido desarrollador del núcleo de FreeBSD. El proyecto además contó con el gerencia, infraestructura y desarrollos adicionales aportados por la comunidad Noruega de Linux, Linpro. El soporte, gerencia y desarrollo luego paso a una empresa independiente, Varnish Software.
+El proyecto se inició en 2005. Varnish Cache versión 1.0 fue lanzado en septiembre de 2006.  Varnish 2.0 en 2008, Varnish 3.0 en 2011, y Varnish 4.0 en 2014.
+
+
+== Arquitectura ==
+Varnish Cache salva datos en una memoria virtual del servidor y delega la tarea de decidir que es lo que se salva en memoria o se página en disco al sistema operativo. Esto ayuda a evitar los problemas que ocurren cuando el sistema operativo comienza a cachear datos mientras estos son movidos a disco por la aplicación.
+Además Varnish Cache hace fuerte uso de múltiples hilos, creando un hilo "obrero" separado por cada cliente. Cuando el número máximo de conexiones es alcanzado, las nuevas conexiones son colocadas en un fila de sobre demanda, hasta que también se alcance el límite máximo de esta fila, cuando las conexiones comienza a ser rechazadas.
+Una de las características clave, además de su rendimiento, es la flexibilidad de su configuración del lenguaje VCL ("Varnish Configuration Language"). VCL es un lenguaje específico de dominio DSL utilizado para implementar ganchos o "hooks" que son llamados en momentos críticos del manejo de cada solicitud. Cuando un script VCL es cargado, traducido al lenguaje C, compilado a un objeto compartido por el compilador de sistema y cargado directamente en el acelerador, permitiendo reconfiguraciones sin necesidad de reinicios.
+VCL permite determinar las políticas a tomar sobre las peticiones de entrada. En esta política se puede decidir qué contenido desea servir, desde donde se desea obtener el contenido y la forma en que la solicitud o la respuesta debe ser alterada. Esto hace a Varnish Cache mucho más configurable y flexible que otros aceleradores HTTP.
+Hay una cantidad de parámetros de ejecución para controlar el máximo y mínimo de hilos, timeouts, etc. Existe una interfaz de línea de comando que permite modificar estos parámetros, compilar nuevos scripts VCL, cargarlos y activarlos, sin necesidad de reinicio.
+Para reducir la cantidad de llamadas de sistema, la información de logs es almacenada en la memoria compartida, mientras que las tareas de monitoreo, filtrado, formateo y escritura de los logs a disco es delegada una aplicación diferente.
+Varnish Modules ofrece soporte de plugins también llamados VMODs
+
+
+== Balanceo de Carga ==
+Varnish Cache soporta balanceo de carga usando competencia de parejas (Round robin) o un director aleatorio con pesos asignados por el back-end. También es posible el monitoreo la salud de los back-ends.
+
+
+== Licencia ==
+Varnish Cache es software libre licenciado bajo una licencia BSD. Es posible ofrecer apoyo comercial al proyecto, entre otras fuentes de colaboración.
+↑ "Making Catalyst Sites Shine with Varnish", Dec. 14, 2008
+↑ "Varnish 1.0 released", Sep. 20, 2006
+↑ "Varnish 2.0 released", Oct. 15 2008
+↑ "Varnish 3.0.0 released", Jun. 16 2011
+↑ "Varnish 4.0.0 released", Apr. 10 2014
+↑ «VMODs Directory (Varnish Modules and Extensions) | Varnish Community». Varnish-cache.org. Consultado el 2014-07-18. 
+↑ «BackendPolling – Varnish». Varnish-cache.org. Consultado el 2014-07-18.

@@ -1,0 +1,19 @@
+El test de Chow es un test estadístico y econométrico que prueba si los coeficientes en dos regresiones lineales en dos sets de datos son iguales. El test de Chow fue inventado por el economista Gregory Chow. En econometria, el test de Chow es normalmente usado en el análisis de series de tiempo para probar la presencia de un cambio estructural.
+
+Supongamos que modelamos nuestra data como:
+
+Si dividimos nuestra data en dos grupos, entonces tendremos
+
+y
+
+La hipótesis nula del test de Chow será que , , y .
+Sea  la suma de cuadrados residuos de la data combinada,  la suma de cuadrados residuos del primer grupo y  la suma de cuadrados residuos del segundo grupo. y  son el número de observaciones en cada grupo y  es el número total de parámetros (en este caso, 3). Entonces el estadístico del test de Chow será
+
+El estadístico del test se comporta como una distribución F con  y  grados de libertad.
+
+
+== Referencias ==
+Howard E. Doran: Applied Regression Analysis in Econometrics. CRC Press 1989, ISBN 0-8247-8049-3, p. 146 (restricted online version (Google Books))
+Christopher Dougherty: Introduction to Econometrics. Oxford University Press 2007, ISBN 0-19-928096-7, p. 194 (restricted online version (Google Books))
+Gregory C. Chow (1960). «Tests of Equality Between Sets of Coefficients in Two Linear Regressions». Econometrica 28 (3): 591–605. doi:10.2307/1910133. JSTOR 1910133. 
+[1] [2] [3] Series of explanations from the Stata Corporation

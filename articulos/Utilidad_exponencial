@@ -1,0 +1,14 @@
+En economía y finanzas, la utilidad exponencial se refiere a una forma específica de la función de utilidad, que se utiliza en algunos contextos, por su comodidad a la hora de riesgos (a veces referido como la incertidumbre) está presente, en cuyo caso la utilidad esperada se maximiza. Formalmente, la utilidad exponencial viene dada por:
+,
+donde c es una variable que toma las decisiones económicas tiene que ver con, por ejemplo, el consumo y la un es una constante positiva que representa el grado de aversión al riesgo . La variable C en sí será una función de opciones del agente (por ejemplo la oferta de trabajo , etc, dependiendo del enfoque del modelo) y de exógenos estocásticos variables.
+Tenga en cuenta que el término aditivo 1 en la función anterior es matemáticamente irrelevante y es (a veces) incluido sólo para la característica estética que mantiene el rango de la función entre cero y uno sobre el dominio de los valores no negativos para c. La razón de su irrelevancia es que maximizar el valor esperado de la utilidad  da el mismo resultado para la variable de elección como no maximizar el valor esperado de ; Ya que los valores esperados de utilidad (en contraposición a la función de utilidad en sí) se interpretan de forma ordinal en lugar de cardinal , el rango y el signo de los valores de utilidad esperados son de ninguna importancia.
+La función de utilidad exponencial es un caso especial de la aversión al riesgo absoluta hiperbólicas funciones de utilidad.
+
+
+== Características ==
+La utilidad exponencial implica una aversión absoluta constante al riesgo, con el coeficiente de aversión absoluta al riesgo igual a una constante:
+
+En el modelo estándar de un activo riesgoso y un activo libre de riesgo,  Por ejemplo, esta característica implica que la explotación óptima de los activos de riesgo es independiente del nivel de riqueza inicial, por lo que al margen de cualquier adicional riqueza sería asignado totalmente a las participaciones adicionales del activo libre de riesgo. Esta característica explica por qué la función de utilidad exponencial se considera poco realista.
+
+
+== Referencias ==

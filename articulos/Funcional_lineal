@@ -1,0 +1,10 @@
+En álgebra lineal, una forma o funcional lineal (también llamado covector o 1-forma) es una aplicación o transformación lineal de un espacio vectorial sobre su cuerpo de escalares, es decir, esta transformación aplica vectores en escalares.
+En general, si V es un espacio vectorial sobre un cuerpo k, entonces un funcional lineal ƒ es una función de V a k que es lineal:
+ para todo 
+ para todo 
+Al conjunto de todas las transformaciones lineales de un espacio vectorial sobre su cuerpo, Homk(V,k), se le llama espacio dual y se le denota generalmente por V* o V′.
+
+
+== Véase también ==
+1-forma
+Funcional lineal positiva

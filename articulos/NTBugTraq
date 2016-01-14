@@ -1,0 +1,17 @@
+NTBugtraq es un foro basado en internet dedicado a fomentar técnicas de seguridad y a discutir y notificar sobre vulnerabilidades en sistemas Windows.
+Inicialmente su propietario fue Russ Cooper que en el año 2000 la vendió a ICSA
+
+
+== Política de revelación ==
+En 1999 definió su política de revelación de información de vulnerabilidades que fue de las primera con una descripción formal. Se puede decir que se trata de una política de revelación parcial que básicamente es de revelación completa con elementos de revelación responsable.
+Se resume en los siguientes puntos:
+En un primer momento un responsable reproduce la vulnerabilidad. La verifica.
+Dependiendo de la severidad de la vulnerabilidad el responsable se pone en contacto con el proveedor (si es grave) o (si es leve) publica la vulnerabilidad (primera desviación de la revelación responsable).
+Si la vulnerabilidad es grave el responsable asume el rol de coordinador e inicia el contacto con el proveedor. Después del contacto inicial el proveedor tiene 48 horas para confirmar la reproducción de la vulnerabilidad.
+Se intenta retrasar la revelación pública de la vulnerabilidad hasta que el proveedor provea de un arregle (parche). Se le da un tiempo de 14 días (algunos piensas que se debería ampliar a 30).Sin embargo si el proveedor no es receptivo se procederá a la revelación.
+Cuando se revela la vulnerabilidad no hay limitaciones en la inclusión de detalles sobre la misma pudiendo incluir un exploit (desviación de la revelación responsable)
+
+
+== Referencias ==
+Andrew Cencini et ali., "Software Vulnerabilities: Full-, Responsible-, and Non-Disclosure". Diciembre 2005
+Stephen A. Sheperd,"Vulnerability Disclosure. How do we define Responsible Disclosure?. SANS Institute. Abril 2003

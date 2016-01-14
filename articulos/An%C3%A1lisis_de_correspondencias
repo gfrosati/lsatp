@@ -1,0 +1,15 @@
+En estadística multivariante, el análisis de correspondencias es una técnica descriptiva desarrollada por Jean-Paul Benzécri. Suele aplicarse al estudio de tablas de contingencia y es conceptualmente similar al análisis de componentes principales con la diferencia de que en el análisis de correspondencias los datos se escalan de modo que filas y columnas se tratan de modo equivalente.
+El análisis de correspondencias descompone el estadístico del test de la ji-cuadrado asociado a una tabla de contingencia en componentes ortogonales. Dado que se trata de una técnica descriptiva, puede aplicarse incluso en circunstancias en las que la prueba anterior no es apropiada.
+Existen distintas versiones de esta técnica, incluyendo:
+Detrended correspondence analysis
+Análisis de correspondencias canónico
+Análisis de correspondencias múltiple, una extensión a tablas de contingencia multidimensionales
+Análisis de correspondencias baricéntrico, que se aplica a problemas de discriminación basado en variables cualitativas
+
+
+== Implementaciones ==
+Orange posee un módulo específico, orngCA
+R dispone de paquetes tales como ade4, ca y FactoMineR que implementan este tipo de análisis
+
+
+== Referencias ==

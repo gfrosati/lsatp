@@ -1,0 +1,67 @@
+Simple Linux Utility for Resource Management (o simplemente SLURM) es un planificador de tareas open-source usado por muchos de los super ordenadores a nivel mundial y por clusters de computación. Provee tres funcionalidades clave:
+Permite acceso exclusivo y/o no exclusivo a recursos (nodos) a usuarios durante un tiempo determinado de forma que puede ejecutar tareas.
+Provee un framework para iniciar, ejecutar y monitorizar tareas (típicamente tareas paralelas como MPI) en un set de nodos asignados.
+Arbitra el acceso a los recursos gestionando una cola de tareas pendientes.
+SLURM es el sistema batch en muchos de los super ordenadores del TOP500, incluyendo al más rápido actualmente, el IBM Sequoia, o el español Mare Nostrum. SLURM ha sido diseñado para manejar miles de nodos en un solo cluster.
+SLURM usa un algoritmo de planificación basado en la Curva de Hilbert para optimizar la localidad de las asignaciones en ordenadores paralelos.
+
+
+== Historia ==
+SLURM inició su desarrollo como un esfuerzo colaborativo principalmente por el Laboratorio Nacional Lawrence Livermore, SchedMD, Linux NetworX, Hewlett-Packard, y Grupo Bull como un Gestor de Recursos basado en Software Libre. Ha evolucionado hacia un sofisticado planificador de tareas capaz de satisfacer los requisitos de muchos de los mayores centros de computación, siendo de los más usados actualmente.
+
+
+== Estructura ==
+El diseño de SLURM es muy modular, con docenas de plugins opcionales. En su configuración más simple, puede ser instalado y configurado en pocos minutos, mientras que configuraciones mas sofisticadasa proveen integración con Bases de datos para cuentas de usuario, gestión de límites de recursos y priorización de carga de trabajo. SLURM trabaja así mismo con muchos meta-planificadores como Moab Cluster Suite, Maui Cluster Scheduler y LSF.
+
+
+== Características Notables ==
+Altamente escalable (permite planificar hasta 100.000 trabajos independientes en los 100.000 sockets del IBM Sequoia)
+Alto rendimiento (hasta 1000 peticiones de trabajo y 500 ejecuciones por segundo)
+Software Libre
+Altamente configurable con más de 100 plugins
+Planificación compartida sobre la base de jerarquías de usuarios
+Planificación preventiva y en grupo
+Posibilidad de integración con Bases de datos para cuentas de usuario y configuración
+Asignación de recursos optimizada para topología de red y de nodo (sockets, cores e hiperthreading)
+Reserva avanzada
+Los nodos ociosos pueden ser apagados
+Diferentes sistemas operativos pueden ser usados para cada tarea
+Planificación para recursos genéricos (por ejemplo, unidades de procesamiento gráfico)
+Contabilidad en tiempo real a nivel de tarea (identifica tareas específicas con gran uso de CPU o memoria)
+
+
+== Lo que vendrá con la versión 2.5 de SLURM (4Q 2012) ==
+Contabilidad de energía usada por las tareas
+Planificación energética eficiente (incluyendo especificación de la frecuencia de la CPU para las diferentes tareas)
+Integración con Apache Hadoop + Open MPI para el lanzamiento de tareas
+Integración con FlexNet Publisher
+Soporte del entorno paralelo de IBM (PE/POE)
+
+
+== Plataformas Soportadas ==
+SLURM fue originariamente escrito para Linux, pero las últimas versiones soportan muchos otros Sistemas operativos:
+AIX
+BSD - FreeBSD, NetBSD, OpenBSD
+Linux
+Mac OS X
+Solaris
+
+
+== Licencia ==
+SLURM está disponible bajo la GNU General Public License V2.
+
+
+== Commercial support ==
+En 2010, los desarrolladores de SLURM fundaron SchedMD, que provee desarrollo, soporte y servicio de formación.
+
+
+== Referencias ==
+
+Balle, S. M. Balle and D. Palermo Enhancing an Open Source Resource Manager with Multi-Core/Multi-threaded Support, Job Scheduling Strategies for Parallel Processing, 2007.
+Jette, M. and M. Grondona, SLURM: Simple Linux Utility for Resource Management Proceedings of ClusterWorld Conference and Expo, San Jose, California, June 2003.
+Layton, Jeffrey B. Caos NSA and Perceus: All-in-one Cluster Software Stack Linux Magazine,5 February 2009.
+Yoo, A., M. Jette, and M. Grondona, SLURM: Simple Linux Utility for Resource Management, Job Scheduling Strategies for Parallel Processing, volume 2862 of Lecture Notes in Computer Science, pages 44–60, Springer-Verlag, 2003.
+
+
+== Enlaces externos ==
+Página principal de SLURM

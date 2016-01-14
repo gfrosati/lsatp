@@ -1,0 +1,17 @@
+El Kuhn poker es una forma simplificada de poker desarrollado por Harold W. Kuhn. Se trata de un juego de suma cero de dos jugadores. El mazo incluye sólo tres cartas de juego, por ejemplo, un Rey, Reina y As. Se reparte una carta a cada jugador, entonces el primer jugador debe apostar o pasar, a continuación, el segundo jugador puede apostar o pasar. Si un jugador decide apostar el jugador contrario debe apostar también ("call") con el fin de permanecer en la ronda. Después de que ambos jugadores pasan o apuestan el jugador con la carta más alta gana el bote de las apuestas. Kuhn demostró que hay muchas teorías de estrategias óptimas para el primer jugador en este juego, pero sólo una para el segundo jugador, y que, cuando se juega de manera óptima, el primer jugador debe esperar a perder a un ritmo de -1/18 por mano.
+En términos de poker más convencionales:
+Cada jugador apuesta una unidad.
+Cada jugador recibe una de las tres cartas, y el tercero se deja de lado sin ser visto.
+Un jugador puede comprobar o levantar 1.
+Si el jugador uno comprueba entonces el jugador dos puede pasar o subir la apuesta en una unidad.
+Si el jugador dos comprueba hay un enfrentamiento por el bote de 2.
+Si el jugador dos sube la apuesta entonces el jugador se puede salir del juego o pedir que se iguale la apuesta.
+Si el jugador se dobla entonces el jugador dos se lleva el bote de 3.
+
+Si el jugador uno llama se muestran las cartas para la olla de 4.
+Si el jugador se plantea entonces el jugador dos pueden retirarse o igualar.
+Si el jugador dos pliegues entonces el jugador se toma el bote de 3.
+Si el jugador dos llamadas se muestran las cartas para la olla de 4.
+
+
+== Referencias ==

@@ -1,0 +1,21 @@
+El término seguridad funcional se refiere a la parte de la seguridad global de un sistema consistente en que sus componentes o subsistemas eléctricos, electrónicos y programables con implicaciones en materia de seguridad respondan de forma adecuada ante cualquier estímulo externo, incluyendo errores humanos, fallos de hardware o cambios en su entorno.
+Con la complejidad de los sistemas electrónicos aumenta también el número de posibles errores. Por ello, la serie de normas IEC 61508 establece el uso de diversos métodos para evitar errores sistemáticos (de especificación, implementación, etc.) y para la recuperación segura ante averías y fallos de funcionamiento (a menudo debidos a fenómenos físicos o un manejo inadecuado). El objetivo último es minimizar el riesgo de lesiones.
+La seguridad eléctrica, así como la protección ante incendios y radiológica, entre otros, no se engloban dentro de la seguridad funcional.
+En la industria del automóvil, la seguridad funcional del sistema electrónico es vital. Por ello, la electrónica de los vehículos necesita ser certificada según el estándar ISO 26262, una adaptación del IEC 61508 cuyo objetivo es asegurar que se cumplen todas las regulaciones relevantes.
+
+
+== Bibliografía ==
+Smith, David J.; Simpson, Kennth G. L. (2004). Functional Safety. A Straightforward Guide to Applying IEC 61508 and Related Standards (en inglés). Ámsterdam: Elsevier / Butterworth-Heinemann. ISBN 0-7506-6269-7. 
+Löw, Peter; Pabst, Roland; Petry, Erwin (2010). Funktionale Sicherheit in der Praxis. Anwendung von DIN EN 61508 und ISO/DIS 26262 bei der Entwicklung von Serienprodukten (en alemán). Heidelberg: dpunkt Verlag. ISBN 978-3-89864-570-6. 
+
+
+== Véase también ==
+IEC 61508
+ALARP
+HAZID
+Safety Integrity Level
+ISO 26262
+
+
+== Enlaces externos ==
+Seguridad funcional en la página de el IEC (en inglés)

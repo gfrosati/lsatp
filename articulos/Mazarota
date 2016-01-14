@@ -1,0 +1,4 @@
+Mazarotas es como se conoce en fundición y metalurgia a los depósitos de metal fundido que se colocan en los sitios del molde (rebosando por encima) que son críticos (es decir, que tienden a generar rechupes) y aportan material para evitarlos.
+Es posible calcular con relativa precisión la posición de estas mazarotas mediante tablas, después se calculará el volumen de la mazarota por medio del cálculo del tst, el cálculo del módulo, o directamente con la ecuación de Chvorinov.
+El módulo (Mc) de una sección es la relación entre su volumen (V) y su superficie de enfriamiento (S): Mc=V/S
+Las mazarotas se eliminarán después del desmolde por medio de tenazas o limado.

@@ -1,0 +1,44 @@
+El mecanizado electroquímico es un proceso en el que el material se elimina por disolución anódica del mismo en una corriente rápida de electrolito. Se trata básicamente de un proceso desgalvanoplástico en el que la herramienta es el cátodo y la pieza es el ánodo, por lo que ambos han de ser conductores eléctricas, encargándose el electrolito de arrastrar los lodos hasta un filtro de decantación.
+
+
+== Proceso ==
+El proceso es: la herramienta se conecta al cátodo y se la hace avanzar hacia la pieza a una velocidad constante adaptada a la velocidad de disolución de los electrodos, manteniendo un intersticio de 0,07 a 0,75 mm entre ambos. Ese intersticio evita el cortocircuito entre los electrodos y a través de él circula la corriente de electrolito que arrastra los residuos de la descomposición del metal de la pieza.
+
+
+== Características ==
+Las características de los elementos y parámetros son:
+
+Herramienta: se construye en cobre principalmente, aunque también se emplea el latón, el acero inoxidable, el grafito recubierto de cobre para evitar su erosión, y las aleaciones wolframio-cobre que tienen muy buena resistencia al efecto de las chispas. La herramienta permanece inerte frente a las reacciones químicas primarias que se producen por lo que no se desgasta, si bien en la realidad se producen una serie de reacciones secundarias que provocan una lenta degradación de la misma.
+Electrolito: son soluciones altamente conductoras, de sales inorgánicas en agua, fundamentalmente NaCl, Kcl, NaNO3, trabajando a temperaturas de 30-50 ºC, con velocidades de flujo de la corriente de 15 a 60 m/s, y con presiones de 15 bares.
+Pieza: el material de la pieza ha de ser conductor. Generalmente se emplea este proceso para el mecanizado de metales de gran dureza, obteniéndose una superficie libre de tensiones residuales y sin alteración de la estructura cristalográfica. Además, las piezas quedan libres de rebabas no requiriendo de operaciones posteriores de acabado.
+Parámetros del proceso: características principales de los parámetros del proceso.
+Tensión: continua, de 6 a 35 V
+Intensidad: de 10 a 10.000 A
+Densidad de corriente: de 2,3 a 3,1 A/mm2
+VEM: valores habituales son de 1,5 a 2,0 cm3/min/1.000 A
+Velocidad de penetración: hasta más de 2,5 mm/min en aleaciones duras
+
+
+== Aplicaciones ==
+En cuanto a las aplicaciones, se emplea en el mecanizado de materiales muy duros, en los casos en que se necesite una superficie libre de tensiones residuales o cuando las características geométricas de la pieza lo exijan. Se pueden conseguir tolerancias de ±0,025 mm en trabajos muy finos de precisión dimensional.
+
+
+== Variantes ==
+Variantes del proceso de mecanizado electroquímico (MEQ)
+
+Existen muchas variantes del mecanizado electroquímico, algunas de ellas son:
+Pulido electroquímico: es el mismo proceso que el MEQ pero sin avance. Con velocidades de electrolito y densidades de corriente menores con lo que se generan superficies de acabado muy fino, con valores de Ra del orden de 0,25 a 0,30 µm.
+Taladro electroquímico: se emplea para producir agujeros de diámetro muy pequeño, para lo que se emplean voltajes elevados y electrolitos ácidos. La herramienta es una boquilla de vidrio estirado con electrodo interior, siendo el intersticio de 0,03 a 0,06 mm. Presenta la ventaja de que se pueden mecanizar simultáneamente múltiples agujeros. En materiales como el Ni y el Co se pueden obtener agujeros de 0,1 a 0,75 mm de diámetro.
+Rectificado electroquímico: en este caso el electrodo es una muela cuyo abrasivo son gránulos de diamante natural en bruto, siendo el aglomerante un metal. La misión del abrasivo es aislar las partes metálicas de los electrodos manteniendo el intersticio, barrer los residuos y arrancar viruta si la muela se pone en contacto con la pieza. Este proceso se aplica casi con exclusividad al afilado de herramientas de metal duro.
+Desbarbado electroquímico: la pieza a desbarbar se introduce en un tambor rotatorio aislado eléctricamente que contiene dos electrodos de corriente, añadiéndose al electrolito unas esferas de grafito que se cargan por introducción gracias a los electrodos, con lo que adquieren un potencial eléctrico suficiente de un lado a otro del intersticio esfera-pieza para provocar el mecanizado electroquímico. Como la densidad de corriente en los salientes de las rebabas es mayor que en las superficies lisas de la pieza, las primeras se eliminan preferentemente, produciéndose un pequeño cambio dimensional en la pieza.
+
+
+== Bibliografía ==
+Tecnología mecánica: procesos de conformado con arranque de viruta y soldadura de metales.(publicación UJI)
+
+
+== Enlaces externos ==
+Mecanizado Electroquímico WEb Buenas Tareas
+Libro Electrónico
+Lista de Empresas
+Otro Ebook

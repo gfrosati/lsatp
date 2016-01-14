@@ -1,0 +1,48 @@
+TZ Database o la IANA Time Zone Database, también llamada zoneinfo Database, es una compilación de información sobre los horarios en el mundo realizada en forma cooperativa, realizada en primera intención para su uso por sistemas operativos o programas de computación. A veces es nombrada como la Olson Database en honor a su fundador Arthur David Olson.
+Su característica más reconocible es la convención de nomenclatura uniforme diseñada por Paul Eggert para las zonas de tiempo, como «America/New_York», «America/Paraguay/Asuncion», «Europa/Madrid». La base de datos intenta registrar todos los cambios en zonas horarias, sus ajustes verano/invierno e inclusive las correcciones de segundos astronómicas desde 1970, año utilizado como referencia para el formato de tiempo por el sistema operativo UNIX.
+
+
+== Mapa ==
+
+
+== Historia ==
+Los orígenes del proyecto se remontan a 1986. La base de datos del proyecto, así como parte de su código fuente es de dominio público. Permanentemente se publican nuevas ediciones de la base de datos con las correcciones y agregados necesarios.
+
+
+== Significado de la zona horaria ==
+Dentro de la base de datos de información de zonas, una zona de tiempo es cualquier región o subregión nacional, donde los relojes locales están normalizados desde 1970. Esta definición se refiere en primer lugar a zonas geográficas que han tenido hora local normalizada. Esto es diferente de las definiciones de huso horario basadas en meridianos. Por lo tanto, cada una de las zonas de tiempo definidas en la base de datos puede diferir con respecto a la hora UTC; normalmente contienen tanto el horario estándar y el horario de verano en la misma zona. A veces el número de horas de diferencia puede ser mayor a 1, dependiendo de la historia de la región.
+Para cada zona horaria que tiene variaciones, por lo general horario verano e invierno, la base de datos zoneinfo registra el momento exacto de la transición. El formato también puede adaptarse a los cambios en las fechas y los tiempos de la transición.
+
+
+== Formatos de archivo ==
+La base de datos zoneinfo se publica como un conjunto de archivos de texto que lista las normas y las transiciones de zona en un formato legible. Para su uso, estos archivos de texto se compilan en un conjunto de plataforma independiente de los archivos binarios y uno por la zona horaria. El código fuente de referencia incluye tanto un compilador llamado zic (compilador de información de la zona), así como el código para leer los archivos y utilizarlos en la API estándar como localtime () y mktime ().
+
+
+== Mantenimiento ==
+El código de referencia zoneinfo y base de datos es mantenida por un grupo de voluntarios. Arthur David Olson realizó la mayoría de los cambios en el código, y Paul Eggert los de la base de datos. Los cambios propuestos son enviados a la lista de correo TZ, que es la puerta de enlace para el grupo de noticias comp.time.tz. Los archivos de código fuente se distribuyen a través del servidor FTP elsie.nci.nih.gov. Normalmente, estos archivos son adoptados por un distribuidor de software como Debian, compilados, y entonces la fuente y los binarios se empaquetan como parte de esa distribución. Los usuarios finales puede confiar en los procedimientos de actualización de su distribución de software, que puede implicar un cierto retraso, u obtener directamente de la fuente ftp://elsie.nci.nih.gov/pub/ y generar los archivos binarios ellos mismos.
+
+
+== Uso en sistemas operativos y software aplicativo ==
+La base de datos zoneinfo se utiliza para el tratamiento de zona horaria y las conversiones en muchos sistemas informáticos, tales como:
+Sistemas Operativos derivados de BSD , incluyendo FreeBSD, NetBSD, OpenBSD, DragonFly BSD y Mac OS X;
+La biblioteca de C de GNU y de los sistemas que la utilizan,: la mayoría de las distribuciones de Linux, BeOS, Nexenta OS, y Cygwin;
+El entorno de ejecución Java desde la versión 1.4 (2002);
+OpenVMS;
+Versiones de PHP 5.1.0 desde (2005);
+PostgreSQL desde la versión 8,0 (2005);
+Sistemas operativos derivados de System V Release 4, como Solaris y UnixWare;
+Otros sistemas Unix, incluyendo Tru64, y UNICOS / mp (también IRIX, aún se mantiene, pero ya no se entrega).
+Los identificadores de zona horaria Olson también son utilizados por el común de Unicode Locale Data Repository (CLDR).
+
+
+== Referencias ==
+"tz mailing list"; archives of these messages are available at <ftp://elsie.nci.nih.gov/pub/tzarchive.gz>.
+"Sources for Time Zone and Daylight Saving Time Data" http://www.twinsun.com/tz/tz-link.htm
+
+
+== Referencias externas ==
+The zoneinfo home page
+The tz mailing list archive
+Current tz source and data files
+Lists of tz-zones by tz-group
+Olson Database converted to Windows Standard Format

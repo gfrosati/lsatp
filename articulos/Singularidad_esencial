@@ -1,0 +1,25 @@
+En análisis complejo una singularidad esencial es singularidad «severa» en la que en su entorno la función experimenta un comportamiento extremo. Básicamente, la categoría de singularidades esenciales es un conjunto de singularidades especialmente inmanejables. Son, por definición, aquellas singularidades que no entran en el conjunto de singularidad evitable o polo.
+
+
+== Descripción formalEditar ==
+Sea un conjunto abierto U en el plano complejo C. Sea a un elemento de U, y f : U \ {a} → C una función meromorfa. El punto a se denomina singularidad esencial de la función f si la singularidad no es ni un polo ni evitable.
+Por ejemplo, la función exponencial f(z) = e1/z posee una singularidad esencial en z = 0.
+
+
+== Descripciones alternativasEditar ==
+Sea a un número complejo, supongamos que f(z) no está definida en a pero es una función analítica en un entorno U del plano complejo, tal que cada entorno abierto de a posee intersección no vacía con U. Si ambos
+   y      existen, entonces a es una singularidad evitable de f y 1/f.
+Si
+   existe pero      no existe, entonces a es un cero de f y un polo de 1/f.
+Análogamente si
+   no existe pero      existe, entonces a es un polo de f y un cero de 1/f.
+Si no se cumple que
+   ni      existen, entonces a es un singularidad esencial de f y 1/f.
+Otro modo de caracterizar singularidades esenciales es mediante un desarrollo en serie de Laurent en torno al punto a; si este desarrollo posee infinitos términos de potencias de orden negativo entonces a es una singularidad esencial.
+El comportamiento de funciones meromorfas en torno a singularidades esenciales viene descrito por el teorema de Weierstrass-Casorati y más fuertemente por el gran teorema de Picard. El último de éstos establece que en cualquier entorno de una singularidad esencial a, la función f toma todos los posibles valores, excepto quizá uno, un número infinito de veces.
+
+
+== ReferenciasEditar ==
+Weisstein, Eric W. «Essential Singularity». En Weisstein, Eric W. MathWorld (en inglés). Wolfram Research. 
+Lars V. Ahlfors; Complex Analysis, McGraw-Hill, 1979
+Rajendra Kumar Jain, S. R. K. Iyengar; Advanced Engineering Mathematics. Page 920. Alpha Science International, Limited, 2004. ISBN 1842651854

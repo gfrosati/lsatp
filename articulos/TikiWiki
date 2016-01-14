@@ -1,0 +1,27 @@
+Tiki CMS/Groupware o TikiWiki es un sistema de gestión de contenidos de índole colaborativa (CMS/Groupware) fácil de configurar y personalizar, diseñado para crear portales, sitios comunitarios, intranets y aplicaciones web en general.
+TikiWiki no sólo es un gestor de documentos e imágenes, también es una herramienta para la elaboración colaborativa de cualquier material escrito.
+Su principal funcionalidad es un wiki. Dispone de un gran número de funcionalidades que amplían sus posibilidades del trabajo colectivo: listas de correo, mensajería interna, blogs o bitácoras, edición de artículos, FAQ, encuestas, chat, directorio para enlaces, boletines, calendario...
+El formato web Tikiwiki es un potente software con capacidad para alojar usuarios en masa o en cifras de millones de usuarios, contiene un editor de texto avanzado, como el editor web WYSIWYG, y configuración para archivos multimedia de imagen, animación, flash, audio y video. El menú en ésta web posee una configuración editable de forma que el webmaster puede cambiar algunos menús de versiones anteriores por versiones nuevas y actualizadas que son más modernas y de mayor atractivo para la web Tikiwiki, como por ejemplo los editores de temas (themes or templates -en inglés-) o apariencia de la web CSS, para ésto el webmaster deberá configurar una cuenta ftp, así como la base de datos y debe ser compatible con dicho software.
+Es una aplicación adaptable a un gran tipo de finalidades (p.e. para documentación de proyectos en intranets o como una herramienta para la educación).
+Utiliza PHP, ADOdb y Smarty, y funciona bajo cualquier sistema operativo.
+Algunas de sus características principales:
+Código de salida XHTML válido
+Uso de CSS para los temas
+Gestión de permisos para usuarios y grupos
+Utiliza PEAR::DB para acceso de bases de datos
+Soporte multilenguaje
+Se basa en plantillas usando Smarty
+Sistema de caché para páginas internas e imágenes
+Motor de búsqueda integrado
+Su licencia es GPL/LGPL
+TikiWiki está desarrollado por voluntarios.
+
+
+== Enlaces externos ==
+Sitio web oficial de TikiWiki
+http://sobreatico.net/tiki-index.php?page=TikiWiki
+TikiDav [1]
+
+
+=== Implementaciones productivas de TikiWiki ===
+Base de conocimiento de Epidata Consulting

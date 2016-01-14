@@ -1,0 +1,12 @@
+Triron II, (nombre oficial 2430HX) era una versión del chipset de Intel para el procesador Triton, con todas las características de la 82430FX (Triton I), además de soporte para ECC, con paridad RAM, dos vías SMP, USB, PCI y actual para mejoras de velocidad.
+Se compone de un 82439HX TXC, northbridge y una parte PIIX3, el southbridge.
+
+
+== Véase también ==
+Anexo:Chipsets Intel
+
+
+== Referencias ==
+Intel 430HX ("Triton II"), PC Guide, accessed August 20, 2007.
+Intel 430FX ("Triton"), PC Guide, accessed August 20, 2007.
+Summary of P5 chipsets, comp.sys.intel, September 1996.

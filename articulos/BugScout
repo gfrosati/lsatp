@@ -1,0 +1,3 @@
+bugScout es un software dedicado al análisis estático de software, desarrollado por la empresa española Buguroo Offensive Security. Su primera versión fue lanzada al mercado en 2010.
+La herramienta analiza código fuente de varios lenguajes, indexando las vulnerabilidades detectadas de manera jerárquica gracias al empleo de una taxonomía abierta. La base de dicha forma de organizar las vulnerabilidades es la Common Weakness Enumeration.
+bugScout está disponible en dos versiones: SaaS, en la nube; y Appliance, instalándola en el equipo del cliente.

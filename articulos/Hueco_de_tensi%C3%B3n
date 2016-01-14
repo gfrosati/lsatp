@@ -1,0 +1,44 @@
+El hueco de tensión es una reducción brusca de la tensión de alimentación a un valor situado entre el 90 y el 1% de la tensión declarada, seguida del restablecimiento de la tensión después de un corto período de tiempo. Por convenio, un hueco de tensión tiene una duración de entre 10 ms (medio ciclo a 50 Hz) y 1 minuto. Los huecos de tensión se pueden dar en una, dos o tres fases.
+
+
+== Clasificación ==
+Los huecos de tensión se pueden clasificar en función de distitos parámetros:
+
+
+=== Profundidad y duración ===
+Profundidad: La profundidad o amplitud de un hueco de tensión, se define como:
+
+Donde  es la tensión de alimentación declarada y  es la tensión residual (valor mínimo de tensión alcanzado durante el hueco ). En función de la profundidad, se suelen clasificar los huecos de tensión en cuatro grupos:
+Huecos de entre el 10% y 30% de Uc.
+Huecos de entre el 30% y 60% de Uc.
+Huecos de entre el 60% y 99% de Uc.
+Huecos de profundidad <=99% de Uc.
+Duración: La duración de un hueco de tensión es el tiempo durante el cual el valor eficaz de la tensión es inferior al 90% de la tensión declarada. En función de la duración tenemos:
+Huecos de entre 1/2 ciclo-100ms
+Huecos de entre 100ms-500ms
+Huecos de entre 500ms-1s
+Huecos de entre 1s-3s
+Huecos de entre 3s-20s
+Huecos de entre 20s-60s
+
+
+=== Simetría o asimetría ===
+Simétricos: Cuando el valor eficaz de la tensión disminuye en todas las fases en la misma proporción, y el desfase entre ellas se mantiene en 120º. Son simétricos los huecos provocados por cortocircuitos trifásicos, arranque de un motor de potencia o las sobrecargas producidas por cargas trifásicas.
+Asimétricos: Cuando la disminución del valor eficaz de la tensión no es igual para las tres fases y/o el desfase entre ellas no es de 120º. Son asimétricos los huecos provocados por faltas fase-tierra, fase-fase, fase-fase-tierra, conexión de transformadores de potencia, o sobrecargas por cargas monofásicas o no simétricas.
+
+
+=== Forma de la onda ===
+Hueco rectangular
+Hueco trapezoidal
+Hueco triangular
+Hueco circular
+
+
+== Enlaces externos ==
+Perturbaciones en la onda de tensión: huecos y sobretensiones. GabrielOrdóñez Plata (PDF)
+Protección eléctrica de la tecnología de la información] (PPT)
+ Reglamento de Baja Tensión (Uruguay). Capítulo CAPÍTULO XXVII. Perturbaciones (PDF)
+ Procedimiento de Operación en España: P.O. 12.3 Requisitos de respuesta frente a huecos de tensión de las instalaciones eólicas (PDF) gestionado por (REE).
+
+
+== Referencias ==

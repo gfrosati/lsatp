@@ -1,0 +1,15 @@
+El control óptimo es una técnica matemática usada para resolver problemas de optimización en sistemas que evolucionan en el tiempo y que son susceptibles de ser influenciados por fuerzas externas. Pueden ser sistemas que evolucionan en el tiempo el cuerpo humano y el sistema económico. Una vez que el problema ha sido resuelto el control óptimo nos da una senda de comportamiento para las variables de control, es decir, nos indica qué acciones se deben seguir para poder llevar a la totalidad del sistema de un estado inicial a uno final de forma óptima.
+
+
+== Historia ==
+El desarrollo de la teoría del control óptimo se inició en la década de los cincuenta gracias al esfuerzo de los científicos rusos y norteamericanos por explorar el sistema solar. El problema que resolver era el de llevar un vehículo espacial de algún punto en la tierra a algún otro en el espacio en tiempo mínimo y consumiendo la menor cantidad de combustible posible. Es decir, de lo que se trataba era de encontrar trayectorias óptimas en espacios tridimensionales. Como se puede ver, la solución de dicho problema no podía encontrarse aplicando las técnicas de optimización tradicionales que sólo nos dan valores de la variable independiente para los que una función dada alcanza un punto máximo o mínimo, ya sea local o global.
+El cálculo de variaciones es el nombre dado a la optimización de integrales y tiene su origen en el problema isoperimétrico o de la braquistocrona.
+
+
+== Condiciones necesarias y suficientes ==
+
+
+== Bibliografía ==
+Pinch, Enid R.(1995), Optimal Control and the Calculus of Variations, Oxford University Press, Nueva York.
+Para algunas de sus aplicaciones a la Economía véase también:
+Cerdá Tena, Emilio (2001), Optimización dinámica, Prentice Hall, Madrid.

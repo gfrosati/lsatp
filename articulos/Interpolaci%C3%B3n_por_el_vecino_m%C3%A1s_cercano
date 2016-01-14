@@ -1,0 +1,7 @@
+La interpolación por el vecino más cercano (también conocido como interpolación proximal o, en algunos contextos, muestreo de punto) es un método simple de interpolación multivariable en una o más dimensiones.
+La interpolación es el problema de aproximar el valor de una función para un no-dado el punto en el espacio cuando se administra el valor de esa función en puntos alrededor (vecinos) de ese punto. El algoritmo del vecino más cercano selecciona el valor del punto más cercano y no tiene en cuenta los valores de puntos vecinos, produciendo un interpolante constante por trozos. El algoritmo es muy simple de implementar y comúnmente se usa (generalmente junto con el mipmapping) en renderizado en 3D en tiempo real para seleccionar los valores de color de una superficie con textura.
+
+
+== Véase también ==
+Interpolación
+Redondeo

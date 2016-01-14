@@ -1,0 +1,35 @@
+CakePHP es un framework para el desarrollo aplicaciones web escrito en PHP, creado sobre los conceptos de Ruby on Rails.
+
+
+== Historia ==
+CakePHP empezó en 2005, cuando Ruby On Rails estaba ganando popularidad y utiliza muchos de sus conceptos. Desde entonces la comunidad creció y generó muchos subproyectos.
+
+
+== Características ==
+CakePHP o pastelPHP es un framework o marco de trabajo que facilita el desarrollo de aplicaciones web, utilizando el patrón de diseño MVC(Modelo Vista Controlador). Es de código abierto y se distribuye bajo licencia MIT.
+Al igual que Ruby On Rails, CakePHP facilita al usuario la interacción con la base de datos mediante el uso de ActiveRecord. Además hace uso del patrón Modelo Vista Controlador.
+Compatible con PHP4 y PHP5
+CRUD de la base de datos integrado
+URLs amigables
+Sistema de plantillas rápido y flexible
+Ayudas para AJAX, Javascript, HTML, forms y más
+Trabaja en cualquier subdirectorio del sitio
+Validación integrada
+Scaffolding de las aplicaciones
+Access Control Lists
+Sintetización de datos
+Componentes de seguridad y sesión
+
+
+== Estado del proyecto ==
+La última versión estable de CakePHP es la 3.0.4
+
+
+== Enlaces externos ==
+Sitio oficial
+Bakery
+Manuales oficiales en Castellano
+planetcakephp.org en Castellano
+Grupo de usuarios hispano-hablantes en Google (nuevo grupo)
+Grupo de usuarios en Google (en inglés)
+Plugin para generación automática de panel de administración

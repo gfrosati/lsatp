@@ -1,0 +1,41 @@
+El Reparto de espectro (inglés: Spectrum Pooling) es una técnica basada en OFDMA que permite el acceso público a bandas de frecuencias privadas creando reservas comunes de espectro. Fue propuesta por Timo A. Weiss i Fiedrich K. Jondral como mejora de la Radio cognitiva. Se encuentra en fase de investigación y desarrollo y, en consecuencia, presenta algunos problemas.
+A medida que avanzan la tecnología y las telecomunicaciones, crece la demanda de recursos que utilizan. Durante una campaña de 3G en el año 2000, la UMTS consideró necesario un replanteamiento nuevo de las antiguas licencias del espectro. La gran demanda de frecuencias de las nuevas aplicaciones wireless y la limitación del espectro promueve la necesidad de investigar nuevas formas de aprovechar las bandas libres. La idea que sigue la línea de investigación se basa en el uso esporádico de las amplias zonas del espectro, es decir, hay una gran concentración de señales en pequeños márgenes y el resto de frecuencias se usan en una proporción ínfima.
+
+
+== Funcionamiento ==
+El Reparto del espectro permite acceso público en el uso de frecuencias ya licenciadas. La idea es fusionar en una reserva común diferentes rangos de frecuencias de diferentes aplicaciones y a partir de aquí, los usuarios pueden alquilar temporalmente ciertos recursos frecuenciales que los auténticos propietarios no usan. Eso es posible sin modificar el sistema del propietario. Con este sistema se consigue un mayor rendimiento del rango frecuencial (gracias al acceso público) y los propietarios consiguen pequeños ingresos por prestar recursos que apenas utilizan.
+
+
+== Principios Básicos ==
+El objetivo básico es conseguir que el sistema a alquilar sea mucho más flexible respecto la forma espectral de la señal transmitida para lograr rellenar los vacíos frecuenciales desaprovechados por los propietarios. El método más eficiente es la modulación OFDM. Su principio básico es convertir un flujo de datos en serie de alta velocidad en subflujos de velocidad inferior en paralelo. Este paralelismo minimiza la interferencia inter simbólica y el uso de OFDM presenta dos ventajas clave:
+Es posible la coexistencia entre alquilado y propietario con una interferencia mutua mínima.
+El uso de la FFT no añade coste extra.
+
+
+== Objetivos en la Banda base ==
+No se debe confundir el Reparto del espectro como un competidor del 2G y 3G, sino como un complemento en zonas de alta concentración de uso de frecuencias.
+
+
+=== Detección de Bandas accesibles ===
+Detectar a que frecuencias puede acceder el usuario publico es vital, ya que la fiabilidad del sistema está relacionada a la interferencia adicional cuando se permite el acceso público. Se asume, por una banda, que los protocolos del sistema alquilado deben garantir que durante el periodo de detección, el resto de usuarios están en silencio. Así, en el aire solo queda potencia espectral emitida por los sistemas privados. Por otra banda, se asume que en el peor caso, no hay una línea directa entre transmisor del usuario público y receptor del usuario alquilado. Con estas condiciones y aplicando el Teorema del límite central se garantiza la más alta probabilidad de detección dada una probabilidad de error (falsa alarma). Es necesario garantizar un 99.9% de probabilidad de detección, en caso contrario, el usuario propietario de un rango de frecuencias no querría compartir su espectro. Tomando más aproximaciones y mejores terminales móviles, es posible lograr esa probabilidad con un error de falsa alarma inferior al 1%.
+
+
+== Objetivos a la capa MAC ==
+La capa MAC del sistema alquilado no necesita saber la constelación del propietario. Basta con el número de subportadoras disponibles para poder transmitir. Durante el proceso de transferencia de voz o datos entre usuario público y sistema alquilado usado, se pueden observar comportamientos similares al multicamino en móviles. A corto plazo, fluctuaciones rápidas y fuertes y, a largo plazo, variación lenta de la tasa de llegada de propietarios.
+
+
+=== Algoritmos de transferencia ===
+Si el ancho de banda disponible decae por debajo de un umbral, se dificulta la transmisión correctamente debido a que todos los recursos se destinan a la señalización del overhead y se puede llegar a perder la conexión. Este problema se puede evitar con un cambio de frecuencia a tiempo, es decir, el terminal público cambia la reserva de donde alquilar los recursos por una nueva reserva de frecuencias antes de que la inicial se sobrecargue. Se puede producir un efecto ping-pong entre dos reservas que se puede corregir con un bucle de histéresis, de manera que se prevea que en la nueva reserva haya disponible más ancho de banda que en la reserva actual más un valor de histéresis.
+
+
+=== Algoritmos de planificación ===
+Una de las funciones de la capa MAC afectada por el Reparto del espectro es la Quality of Service. Es necesario distribuir el ancho de banda disponible entre los terminales móviles y el punto de acceso. Se planifica sobre la base de un sistema de prioridades donde la alta prioridad corresponde a aplicaciones de video y la baja prioridad a correo electrónico o FTP. Pese a la cantidad de algoritmos conocidos por aplicaciones wireless, ninguno se ha probado sobre un sistema de Reparto del espectro. Sobre este aspecto aún se investiga.
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+Efficient Signaling
+A necessity for Spectrum Pooling
+Spectral Efficiency of Spectrum-Pooling Systems

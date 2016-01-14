@@ -1,0 +1,26 @@
+El Proyecto del Plegado del Proteoma Humano, en inglés Human Proteome Folding Project (HPF), es un esfuerzo colaborativo entre la Universidad de Nueva York (laboratorio Bonneau), el Instituto de Biología de Sistemas (Institute for Systems Biology, ISB) de Washington, y la Universidad de Washington (laboratorio Baker), dedicado a la investigación de la forma que adoptan las proteínas humanas, y que utiliza el software Rosetta desarrollado por Rosetta Commons).
+El proyecto está actualmente en Fase 2, y corriendo exclusivamente en la World Community Grid. La Fase 1 corrió sobre dos redes de computación distribuida: la World Community Grid (una iniciativa filantrópica de IBM), y sobre el grid.org de la compañía United Devices.
+
+
+== Situación actual del proyecto ==
+La Fase 1 del Proyecto del Plegado del Proteoma Humano utilizó el software Rosetta v4.2x sobre el genoma humano y otros 89 genomas más, comenzando en noviembre de 2004 y terminando en julio de 2006. En la Fase 2 (HPF2) se utiliza el software Rosetta v4.8x en alta resolución (modo refinamiento atómico completo), concentrándose en los biomarcadores del cáncer (proteínas cuya presencia se incrementa sustancialmente en tejidos cancerosos), proteínas humanas y malaria.
+
+
+== Publicaciones ==
+Malmström, Lars; Riffle, Michael; Strauss, Charlie E. M.; Chivian, Dylan; Davis, Trisha N.; Baker, David; Baker, D (2007), «Superfamily Assignments for the Yeast Proteome through Integration of Structure Prediction with the Gene Ontology», PLoS Biology 5 (4): e76, doi:10.1371/journal.pbio.0050076, PMID 17373854, PMC 1828141, http://biology.plosjournals.org/perlserv/?request=get-document&doi=10.1371/journal.pbio.0050076&ct=1 
+
+
+== Véase también ==
+BOINC
+Folding@home
+Foldit
+Anexo:Proyectos que usan BOINC
+Rosetta@home
+World Community Grid
+
+
+== Enlaces externos ==
+Human Proteome Folding en el ISB
+Página HPF en WCG
+Página HPF en grid.org
+Actualizaciones de HPF por el Dr. Bonneau

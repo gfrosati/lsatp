@@ -1,0 +1,148 @@
+Se denomina Gráficos existenciales (en inglés: existential graphs) al sistema lógico y de notación creado por el lógico y filósofo norteamericano Charles Sanders Peirce. El sistema comprende tanto una notación gráfica original de proposiciones lógicas como también un sistema de cálculo lógico, es decir, un sistema formal de reglas de inferencia en el cual a partir de enunciados originales y reglas de transformación se generan nuevos enunciados derivados de los primeros.
+
+
+== Introducción ==
+En la óptica de Peirce, el estilo algebraico de notación del cálculo de predicados de primer orden, totalmente nuevo en su época y que él mismo había contribuido a desarrollar,  era desde un punto de vista filosófico insuficiente por cuanto el significado de los símbolos utilizados en sus fórmulas resultaba de meras convenciones.
+Peirce dirigió así sus esfuerzos a encontrar un sistema de notación en el que los signos empleados acarreen literalmente su significado con ellos mismos:
+
+Peirce quiere símbolos que no sólo sean comprendidos convencionalmente [...], pero que se vistan con el significado en sus mangas, por decirlo así.
+
+Como ya lo había adelantado en su teoría de signos, pretendía elaborar un sistema iconográfico de símbolos tales que estos "se parezcan" a los objetos y relaciones mentados por los mismos. 
+Pierce consagró gran parte de sus esfuerzos a elaborar un sistema iconográfico que deseaba intuitivo y fácil de aprender. Luego de una tentativa fallida, los "gráficos entitativos" (inglés: Entitative graphs), un sistema coherente de gráficos existenciales salió a la luz en 1896. Pero no tuvo influencia la historia de la lógica ni como sistema de notación ni como sistema de cálculo. Ello se debe a la escasez y a la poca inteligibilidad de los textos publicados por Peirce al respecto.  Por otra parte, la notación sobre la base de fórmulas lineares de uso entre los especialistas era un instrumento de más fácil utilización y estaba muy difundida.  Todo ello contribuyó a que, los gráficos existenciales fueron poco citados.  y que hayan sido considerados como un sistema de notación de escasa practicidad. 
+Recién a partir 1963 se llegó a una mejor compresión del sistema gracias a los trabajos de Don D. Roberts y J. Jay Zeman, donde fue sistemáticamente analizado y representado. Modernamente juegan un rol práctico en la aplicación desarrollada en 1976 por John F. Sowa conocida como gráficos conceptuales (conceptual graphs) que son utilizados en informática para la representación del conocimiento. Debido al creciente interés en la lógica gráfica, renació un cierto interés por los gráficos existenciales  y surgieron tentativas tendientes a reemplazar las reglas de inferencia de Pierce por otras más intuitivas. 
+El sistema completo de gráficos existenciales debía integrarse con tres sub-sistemas:
+los gráficos alfa, sistema de pura lógica proposicional
+los gráficos beta, extensión del anterior, abarca el cálculo de predicados de primer orden
+los gráficos gamma, que debería haber comprendido las lógicas de orden superior y la lógica modal
+El sub-sistema de gráficos gamma no fue completado por Pierce. Tampoco fue analizado de manera exhaustiva ulteriormente. A partir de 1903 Peirce desarrolló un sistema asimismo inconcluso que denominó "gráficos existenciales coloreados" (en inglés: Tinctured Existential Graphs). El objetivo del mismo era de subsumir los sub-sistemas anteriores incrementando su potencia semántica y maleabilidad.
+Desde el punto de vista del cálculo proposicional y del cálculo de predicados de primer orden, se demostró que los sistema de cálculo alfa y beta son a la vez consistentes y completos. Esto quiere decir por una parte, que todas las expresiones que pueden derivarse de los mismos son válidas y, por otra parte, que la totalidad de las proposiciones y predicados válidos de ambos sistemas pueden a su vez derivarse bajo la forma de gráficos alfa y beta. 
+Peirce justificó la denominación "Gráficos existenciales" sosteniendo que el más simple de los gráficos beta, a la vez bien formado y portador de sentido, lleva consigo una proposición de existencia.  Peirce utilizó esta denominación recién a partir de fines de 1897,  Previamente había utilizado las denominaciones "gráficos lógicos positivos" (positive logical graphs) o simplemente "sistema de diagramas lógicos".
+El presenta artículo trata a continuación de los gráficos alfa y beta, que son las partes más completas y que fueron históricamente objeto mayores análisis. Puede obtenerse información adicional en las obras referenciadas en la lista bibliográfica.
+
+
+== Gráficos Alfa ==
+
+
+=== Notación de los gráficos alfa ===
+
+Las proposiciones atómicas, es decir aquellas que no pueden descomponerse en proposiciones más elementales, son representadas al igual que en la lógica proposicional por letras. Por ejemplo, la afirmación "llueve" puede representarse por la letra "P". La conjunción lógica de varias proposiciones (atómicas o no), se representa escribiendo simplemente sus símbolos uno a continuación del otro: para afirmar que dos proposiciones P y Q son verdaderas, se escribe simplemente "PQ".
+La negación lógica se expresa envolviendo la expresión atómica o compuesta que se quiere negar con una línea cerrada. No existe ninguna exigencia en cuanto a la forma de tal trazado, pero por costumbre se utiliza un círculo o un óvalo. Peirce denomina dicho símbolo cut que puede traducirse como corte o recorte. La idea gráfico-semática subyacente apunta al hecho de que con el mismo se aislan gráficamente las proposiciones "recortadas" del resto de la hoja de escritura, "la hoja de las aserciones". Por defecto, las proposiciones que se encuentran sobre esta son verdaderas. El "cut" asume así la función de "recortar" las proposiciones negadas del "universo" de lo verdadero.
+Para representar una implicación, es decir, que la proposición P es una condición suficiente para la validez de Q, se utiliza una estructura que se lee "P enrolla Q" (P scrolls Q). La proposición Q (la proposición condicional) se encuentra al interior de un "recorte" y conjuntamente con la proposición P (el condicionante) yacen al interior de otro "recorte" exterior común. (Ver gráfico) Esta estructura se presenta en los gráficos existenciales como una forma autónoma, pero con el cabal conocimiento de que cada "recorte" significa negación y de que la escritura de las proposiciones una a continuación de la otra representa la conjunción lógica de las mismas. Es fácil advertir que la negación del conjunto ¬(P ∧ ¬Q) es en la lógica proposicional en un todo equivalente a P→Q. En terminos gráficos, lo que se "recorta" de la hoja de aserción es precisamente la afirmación simultánea de la validez de P y la de la falsedad Q.
+La disyunción lógica se representa con la conjunción de las proposiciones disyuntas, cada una de ellas "recortadas" y el este conjunto a su vez al interior de un "recorte" más grande. También se advierte fácilmente que esto es la representación de la fórmula ¬(¬P ∧ ¬Q), en la lógica proposicional equivalente de P ∨ Q. El significado gráfico apunta a que la disyunción "recorta" de la hoja de aserciones la posibilidad que P y Q sean simultáneamente falsos.
+Combinando adecuadamente los "recortes" (negación) y la escritura en secuencia (conjunción) puede obtenerse el comportamiento de todos los otros operadores de la lógica proposicional bivalente. De tal manera, los gráficos alfa tienen plena eficacia en tanto que sistema de representación de aquella.
+Cuando se escriben proposiciones bajo la forma de gráficos alfa con sistemas de tratamiento de texto (o con viejas máquinas de escribir), se suele representar el "recorte" con la puesta entre paréntesis. En lugar de trazar un círculo u óvalo alrededor de la proposición P se escribe en este caso simplemente (P). Así, la implicación "P enrolla Q" se representa en esta convención de escritura (P(Q)). Por razones tipográficas se emplea tal convención en el presente artículo
+
+
+=== Reglas de inferencia de los gráficos alfa ===
+Para formular estas reglas, es necesario definir el concepto de "nivel" (level) de una proposición (atómica o compuesta): es la cantidad de "recortes" que rodean directa o indirectamente una proposición determinada. Por ejemplo, en la expresión (P(Q)), el nivel de P y aquel de (Q) es 1, ya que ambas tienen solo un corte exterior a ellas. En cambio el nivel de Q es 2, ya que Q se encuentra rodeada inmediatamente por un recorte y este a su vez envuelto por un recorte exterior. Hecha esta observación, las reglas de inferencia pueden formularse como sigue: 
+Recepción (o aceptación)
+La regla de recepción permite asentar con valor de premisa una proposición arbitraria y a partir de la misma derivar conclusiones. Si se quiere desarrollar un argumento que comprenda más de una premisa, se las escriben una a continuación de las otras, lo que significa que debe tomarse la proposición compuesta en su conjunto.
+R1 – Regla de borrado ("Rule of Erasure")
+Toda proposición que se encuentre en un nivel par, puede borrarse sin ser reemplazada. Con esta regla, se puede por ejemplo a partir de (P(Q)), inferir válidamente (P()) , porque Q se encuentra en nivel 2 (par). En cambio, no podría borrarse P puesto que se encuentra en 1 (impar).
+R2 – Regla de inserción ("Rule of Insertion")
+En todo nivel impar pueden insertarse proposiciones arbitrariamente. Por ejemplo, a partir de (P(Q)) se puede derivar (PR(Q)), puesto que R se inserta en nivel 1, impar.
+R3 – Regla de iteración ("Rule of Iteration")
+Cualquier proposición parte de una proposición compuesta, puede repetirse en el nivel donde se encuentra o en un nivel más profundo (con valor numérico más elevado), no así al interior de ella misma. Por ejemplo a partir de (P(Q)) puede derivarse (P(Q)P) por repetición de P en el mismo primer nivel o bien derivar (P(QP)) iterando P en nivel 2, nivel más profundo. Asimismo, iterando (Q), podría derivarse (P(Q)(Q)). Por el contrario, no sería válido repetir (Q) al interior de ella misma para obtener (P(Q(Q))). Esto está excluido por la restricción de repetir una proposición al interior de ella misma.
+R4 – Regla de des-iteración ("Rule of Deiteration")
+Cuando una proposición X tiene una estructura tal, que formalmente pudo haber sido derivada de una proposición Y mediante la aplicación de R3 (la regla de iteración), se puede a su vez partiendo de X derivar Y. Para ello no es necesario que X haya sido efectivamente derivada previamente de Y por medio de R3. Es lícito por ejemplo partiendo de (P(Q)(Q)) derivar (P(Q)), por cuanto por medio de R3 podría haberse derivado (P(Q)(Q))a partir de (P(Q)).
+R5 – Regla del doble recorte ("Rule of the Double Cut")
+Pueden añadirse y eliminarse recortes dobles a discreción, tanto respecto de proposiciones existentes o por sí mismos. Es lícito por ejemplo partiendo de PQ derivar P((Q)), o bien ((P))Q o bien ((PQ)) como así también PQ(()) o P(())Q.
+
+
+== Gráficos Beta ==
+Los gráficos Beta constituyen el sub-sistema de cálculo de predicados de primer orden. Extiende el sub-sistema alfa introduciendo el concepto de la "línea de identidad" (line of identity) y generaliza las reglas de inferencia de aquel.
+Las expresiones atómicas de los gráficos Beta no son proposiciones tales que "llueve" o "Peirce murió pobre", sino predicados o letras que los representan (habitualmente F, G, H...). En la óptica del cálculo de predicados de primer orden, un predicado es una secuencia de palabras en la que se encuentran uno o más lugares blancos claramente especificados y que se transforman en proposiciones si se insertan nombres propios en los blancos. Así, por ejemplo, la expresión "__murió pobre" es un predicado por cuanto, si en el blanco se inserta el nombre propio "Peirce" se obtiene la proposición, "Peirce murió pobre". Asimismo, la secuencia „_1 es más rico que _2“ es un predicado, porque si se completan los blancos con los nombres propios Sócrates y Platón, se obtiene la expresión "Sócrates es más rico que Platón", que es una proposición.
+
+
+=== Sistema de notación de los gráficos Beta ===
+El instrumento fundamental de los gráficos beta es la "línea de identidad", una línea de trazo grueso sin forma determinada. Si un extremo de la línea de identidad desemboca en el blanco de un predicado, quiere decir que existe por lo menos un sujeto a quien ese predicado refiere. Así, para indicar que el predicado "_es un hombre" concierne por lo menos a un individuo o, en otras palabras, que existe al menos un hombre, se traza una línea de identidad que desemboca en el blanco de la expresión "__es un hombre".
+
+Si se ligan con una misma línea de identidad dos o más blancos (pertenecientes o no al mismo predicado) se expresa que existe por lo menos un individuo que completa válidamente los blancos del o los predicados pertinentes. Por ejemplo, en el gráfico beta siguiente la línea de identidad expresa que tanto el predicado "__es americano" como el predicado "__murió pobre" tienen un sujeto, es decir, que existe al menos un americano que murió pobre.
+
+El ejemplo que sigue debe diferenciarse netamente del precedente:
+
+En este caso se trata de dos gráficos Beta independientes a su vez relacionados por una conjunción del subsistema alfa. El gráfico superior expresa que al menos un individuo es referido por el predicado "_es americano", es decir, existe al menos un americano. El gráfico inferior expresa que de al menos un individuo puede decirse que "murió pobre". En otras palabras, existe alguien que murió pobre. Dos gráficos beta uno a continuación de otro significan según la sintaxis "alfa" la conjunción lógica de los mismos. El conjunto significa que existe al menos un americano y existe al menos un individuo que murió pobre, pero no quiere decir que el individuo referido por el primer predicado sea el mismo individuo mentado por el segundo.
+De manera análoga, combinando adecuadamente la línea de identidad con los instrumentos de cálculo proposicional de los gráficos alfa, se pueden formular casi todos las expresiones del cálculo de predicados de primer orden.
+Un ejemplo fácil es la negación de proposiciones existenciales. En el ejemplo siguiente, la afirmación de que "existen hombres" se niega (gráficamente se la "recorta") envolviéndola al interior de un óvalo. Se expresa así, que no es el caso que existen hombres, o en lenguaje corriente: no existe ningún hombre.
+
+En el siguiente ejemplo, la línea de identidad continúa al exterior del "recorte"
+
+Aquí tenemos la unión de dos gráficos: una línea de identidad vacía exterior que significa "algo existe" y una línea de identidad al interior de un recorte que expresa que no es el caso que exista al menos un individuo que cumpla el predicado "es un hombre". La unión de ambas líneas en el preciso punto en el que intersecan el recorte expresa la existencia de dos individuos opuestos: "existe algo" y "ese algo que existe no es un hombre". En lenguaje corriente: existen entidades que no son hombres.
+Igualmente pude ligarse una línea de identidad que se encuentra al interior de un recorte con una exterior que por su parte está enganchada a un predicado. El gráfico siguiente ejemplfica tal constelación. Considerado en sí mismo; el recorte expresa: no es el caso que exista un individuo que muera pobre y, considerado aisladamente, la expresión exterior expresa que existe al menos un individuo que es americano. Como ambas expresiones están conectadas por una línea de identidad, la estructura total expresa la identidad de ambos individuos, significando que existe al menos un americano que no murió pobre.
+
+Una proposición general del tipo "todos los cuervos son azules" se expresa negando la expresión "existe al menos un cuervo que no es azul". En efecto, negar la existencia de cuervos no azules es equivalente a afirmar que todos los cuervos son azules.
+
+Una línea de identidad intersecada por un recorte expresa la no identidad de los individuos referidos por los predicados conectados por la línea de identidad. Así, el ejemplo siguiente expresa que existe el menos un cuervo y que existe al menos algo de color azul que no es el cuervo (ambos objetos no son idénticos).
+
+Análogamente, el ejemplo siguiente expresa que existen al menos dos cuervos: "existe un cuervo" y "existe (asimismo) otro cuervo, que no es idéntico al primero"
+
+
+=== Reglas de inferencia de los gráficos beta ===
+Sin añadir nuevas reglas de inferencia, el sistema beta adapta para el cálculo de predicados las reglas del sistema alfa. A continuación se presenta tal reformulación:
+R1 – Regla de borrado ("Rule of Erasure")
+Cualquier expresión como así también cualquier parte de una línea de identidad que se encuentre en un nivel par, puede ser eliminada sin substitución alguna.
+
+R2 – Regla de inserción ("Rule of Insertion")
+En un nivel impar puede insertarse cualquier proposición. Asimismo, dos o más extremidades no conectadas de una línea de identidad pueden ser conectadas arbitrariamente al interior de un nivel impar.
+
+R3 – Regla de iteración ("Rule of Iteration")
+Cualquier proposición que fuere un componente de una proposición compuesta, puede repetirse en el mismo nivel o en un nivel más profundo pero no al interior de ella misma. Respecto las líneas de identidad, son válidas las iteraciones siguientes:
+
+En una línea de identidad ya existente puede insertarse en todo momento una línea de identidad adicional con extremos vacíos, es decir una línea de identidad que no enganche en ningún blanco de predicado ni en ninguna otra línea de identidad. La línea de identidad así insertada no puede intersecar ni tocar ningún recorte.
+Cualquier línea de identidad con terminaciones sueltas puede extenderse de tal manera que el nuevo extremo yazca en el mismo nivel o en un nivel más profundo.
+La interación de una proposición y la iteración de una línea de identidad pueden ser combinadas conjuntamente de tal forma que la extremidad libre de la línea iterada se conecte con la proposición iterada.
+
+R4 – Regla de desiteración ("Rule of Deiteration")
+Cuando desde el punto de vista formal una proposición X tiene una estructura tal que hubiera permitido una derivación de una proposición Y mediante la utilización de la regla R3, es lícito derivar válidamente Y de X. No es necesario que X se haya derivado efectivamente de Y previamente.
+R5 – Regla del doble recorte ("Rule of the Double Cut")
+Recortes dobles pueden insertarse o eliminarse arbitrariamente, tanto alrededor de proposiciones existentes como por sí mismos. Recortes dobles puden asimismo insertarse de tal manera que se intersequen con líneas de identidad, pero en tal caso las líneas de identidad afectadas deben ser intersecadas siempre por ambos recortes insertados.
+
+
+=== Ejemplos adicionales ===
+
+
+== Notas ==
+
+
+== Bibliografía ==
+
+
+=== Bibliografía básica ===
+Charles Hartshorne, Paul Weiss (Hge.): The Collected Papers of C. S. Peirce, Cambridge: Harvard 1931–35 (Nachdruck von Band 3 und Band 4: Harvard University Press 1987, ISBN 0-674-13801-5) – En especial páginas 320–470 y 530–572 del volúmen IV. Pueden consultarse en línea:
+„Symbolic Logic“ und „Existential Graphs“ (CP 4.372–417)
+„On Existential Graphs, Euler’s Diagrams, and Logical Algebra“ und „The Gamma Part of Existential Graphs“ (CP 4.418–529)
+„Prolegomena to an Apology for Pragmaticism“ (CP 4.530–572)
+
+
+=== Bibliografía secundaria ===
+
+
+==== Monografías ====
+Don D. Roberts: The Existential Graphs of Charles S. Peirce, The Hague: Mouton 1973 (=Approaches to Semiotics 27) – (La obra introductoria standard a los gráficos existenciales en inglés)
+Sun-Joo Shin: The Iconic Logic of Peirce’s Graphs, Cambridge, Massachusetts: MIT Press, Bradford 2002, ISBN 0-262-19470-8 – jüngste Monographie zum Thema
+J. Jay Zeman: The Graphical Logic of C. S. Peirce, Chicago: 1964 (Dissertation), disponible en línea en el sitio [1] −presentación genial, fuertemente formalizada que entre otras cosas demuestra la completitud y validez de los sistemas de gráficos alfa y beta
+
+
+==== Artículos ====
+Eric M. Hammer: Semantics for Existential Graphs, Journal of Philosophical Logic, Volume 27, Issue 5 (Oktober 1998), Seite 489–503
+Dennis Higgins, Bram Van Heuveln, Elizabeth Hatfield, Deborah Kilpatrick, Lut Wong: "A Java implementation for Peirce’s existential graphs," Journal of Computing Sciences in Colleges, Volume 16 Issue 3, März 2001, disponible en línea (pago) en [2] – es ina implementación Java que ofrece asimismo una introducción compacta a los gráficos alfa.
+Richard B. White: "Peirce’s Alpha Graphs: The Completeness of Propositional Logic and the Fast Simplification of Truth Functions," Transactions of the Charles S. Peirce Society, Volúmen 20, Nro. 4, 1984, pag.351–361
+
+
+== Fuentes ==
+Traducción libre del artículo destacado correspondiente de la Wikipedia en alemán y bibliografía citada.
+
+
+== Véase también ==
+Lenguaje formalizado
+Cálculo
+Cálculo lógico
+Tabla de valores de verdad
+
+
+== Enlaces externos ==
+Lógica de Peirce en la Stanford Encyclopedia of Philosophy
+Existential Graphs MS 514 by Charles Sanders Peirce with commentary by John F. Sowa (en inglés)
+Peirce Edition Project (en inglés)
+Peirce-Beweisbauer – Applet Java para pruebas interactivas con el sistema de los gráficos Alfa.
+Existential Graphs – Otro Applet Java para pruebas interactivas]

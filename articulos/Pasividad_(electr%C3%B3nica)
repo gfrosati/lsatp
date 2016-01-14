@@ -1,0 +1,13 @@
+La pasividad o un componente pasivo es una característica de ingeniería de sistemas, más comúnmente utilizada en ingeniería electrónica y sistemas de control. Un componente pasivo, según el campo, puede ser un componente que consume (pero no produce) energía, o un componente que es incapaz de poder tener ganancia. Un componente que no es pasivo se considera un componente activo. Un circuito electrónico integrado formado por componentes pasivos se denomina circuito pasivo, y tiene las mismas propiedades que un componente pasivo.
+
+
+== Véase también ==
+Componente electrónico
+
+
+== Bibliografía ==
+Khalil, Hassan (2001). Nonlinear Systems (3rd Edition). Prentice Hall. ISBN 0130673897. - Very readable introductory discussion on passivity in control systems.
+Chua, Leon; Desoer, Charles; Kuh, Ernest (1987). Linear and Nonlinear Circuitos. McGraw-Hill Companies. ISBN 0070108986.  - Good collection of passive stability theorems, but restricted to memoryless one - puertos. Readable and formal.
+Desoer, Charles; Kuh, Ernest (1969). Basic Circuit Theory. McGraw-Hill Education. ISBN 0070851832.  - Somewhat less readable than Chua, and more limited in scope and formality of theorems.
+Cruz, Jose; Van Valkenberg, ME (1974). Signals in Linear Circuitos. Houghton Mifflin. ISBN 0395169712.  - Gives a definition of passivity for multiport (in contrast to the above), but the overall discussion of passivity is quite limited.
+Wyatt, JL; Chua, LO; gannett, J.; Göknar, IC; Green, D. (1978). Foundations of Nonlinear Network Theory, Parte I: Passivity. Memorandum UCB/ERL M78/76, Electronics Research Laboratory, University of California, Berkeley.

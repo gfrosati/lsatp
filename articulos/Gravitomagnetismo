@@ -1,0 +1,38 @@
+Se llama gravitomagnetismo el estudio de los efectos ocasionados por la inducción gravitatoria, que es la gravedad producida por el movimiento del cuerpo que crea el campo gravitatorio.
+En relatividad existe una equivalencia entre la masa y la energía. Al igual que la masa produce gravedad, también la energía la debe de producir. En particular, la energía cinética o de movimiento tiene masa y por tanto gravedad. Por esta razón, la Tierra a consecuencia de su movimiento de rotación diaria produce una fuerza gravitomagnética sobre cuerpos que se encuentren cercanos.
+Los efectos gravitomagnéticos son muy débiles, ya que la constante que los caracteriza es G/c2, donde G es la constante de gravitación universal y c es la velocidad de la luz en el vacío. Por esto se encuentran tantas dificultades para idear experimentos que detecten el gravitomagnetismo.
+Existe un efecto parecido denominado gravitoelectricidad, que también es una inducción gravitatoria, pero al contrario del gravitomagnetismo que actúa sólo sobre cuerpos en movimiento, la gravitoelectricidad actúa sobre todos los cuerpos, estén o no en movimiento.
+
+
+== Ecuaciones gravitomagnéticas ==
+El estudio de la gravedad corresponde a la teoría general de la relatividad cuyas ecuaciones son muy complejas y difíciles de resolver dado su carácter no lineal. No obstante, en la inmensa mayoría de las situaciones físicas el campo gravitatorio es muy débil y las ecuaciones de la gravedad se pueden simplificar considerablemente. Es más, es posible expresar las ecuaciones de campo con dos vectores, llamados gravitoeléctrico y gravitomagnético, obteniéndose unas ecuaciones muy parecidas a las ecuaciones de Maxwell del electromagnetismo.
+donde:
+Eg es el campo gravitoeléctrico;
+E es el campo eléctrico;
+Bg es el campo gravitomagnético;
+B es el campo magnético;
+ρg es la densidad de masa;
+ρ es la densidad de carga:
+Jg es la densidad de corriente de masa (Jg = ρgvρ), donde vρ es la velocidad del flujo de masa que genera el campo gravitoelectromagnético;
+J es densidad de corriente eléctrica;
+G es la constante gravitacional;
+ε0 es la permitividad del vacío;
+c es la velocidad de la luz en el vacío.
+La fuerza de origen gravitomagnético que actúa sobre una partícula que lleva una velocidad u es parecida a la fuerza de Lorentz del electromagnetismo:
+
+Hay cierta arbitrariedad en la definición de los campos gravitoelectromagnéticos (Eg y Bg) . En la anterior tabla se ha seguido el criterio adecuado para conseguir que las ecuaciones de campo gravitoelectromagnético tengan el mayor parecido con las de campo electromagnético. Con esta elección la fuerza gravitomagnética aparece con un coeficiente numérico del que está desprovisto la fuerza de Lorentz.
+El parecido entre las ecuaciones del gravitoelectromagnetismo y las de Maxwell puede ser engañoso, y hay que ser cautelosos en extender esta similitud. Las ecuaciones del gravitoelectromangetismo no son válidas para una variación general de los campos respecto al tiempo. Estas ecuaciones sólo consideran parte de los términos gravitoeléctricos, por lo que no da una completa descripción del movimiento de una partícula. En particular, de las anteriores ecuaciones gravitoelectromagnéticas no se puede derivar la precesión de Einstein del perihelio de Mercurio. Aunque la fuerza gravitomagnética es idéntica a la magnética (salvo un coeficiente numérico), la fuerza gravitoeléctrica no es la misma que la fuerza eléctrica, ya que contiene otros términos de los que está desprovisto la eléctrica. 
+
+
+== Detección del gravitomagnetismo ==
+Se han ideado numerosos experimentos para la detección del gravitomagnetismo, encontrando todos ellos la dificultad derivada de la debilidad del fenómeno. En la mayoría de los experimentos propuestos se trata de medir el campo gravitomagnético producido por la Tierra con su rotación diaria, como es el caso del experimento GP-B que pretende medir la precesión ocasinado por el gravitomagnetismo terrestre sobre giróscopos orbitando la Tierra. 
+Otro experimento que se está desarrollando, el denominado GP-C, consiste en detectar la ligera diferencia de tiempo que registrarían dos relojes atómicos que viajarían en satélites describiendo iguales órbitas alrededor de la Tierra pero en sentidos contrarios. 
+La luz interacciona con el gravitomagnetismo. Un fenómeno de este tipo es la ligerísima deflexión que experimentan los rayos luminosos que pasan por las cercanías de un astro rotando, que se añadiría al conocido efecto einsteniano producido por la gravedad estática. 
+Un efecto que se deduce de la teoría gravitomagnética es una interacción entre la rotación de un astro y la helicidad de la luz que viaja por sus cercanías, a consecuencia se deberían detectar comportamientos diferentes según el sentido de la polarización de la luz (diferencias de velocidad, deflexión y frecuencia). 
+Un experimento que parece realizable para la detección del gravitomagnetismo, consiste en medir la rotación del plano de vibración de un péndulo ocasionado por la acción de la gravedad producida por el movimiento de rotación terrestre. Para evitar que este fenómeno quede enmascarado por el efecto Foucault, se debería realizar en el polo sur (o en el norte), donde se anula el efecto clásico, persistiendo el gravitomagnético. 
+El gravitomagnetismo también afecta a las partículas elementales. En este sentido un experimento sería medir la diferencia de peso de una partícula en el campo gravitomagnético de la Tierra que debe diferir según el sentido de su spin.
+La fuerza gravitomagnética puede ser entendida como una débil perturbación que actúa sobre los satélites, entre los que se incluiría la Luna, y que originaría una modificación de sus parámetros orbitales. 
+El experimento de Michelson-Morley, el efecto Sagnac o el efecto Shapiro pueden ser utilizados para la detección del gravitomagnetismo terrestre.   
+
+
+== Referencias ==

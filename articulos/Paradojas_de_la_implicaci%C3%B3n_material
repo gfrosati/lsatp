@@ -1,0 +1,42 @@
+Las paradojas de la implicación material son un conjunto de fórmulas de la lógica proposicional, reconocidas como verdades lógicas, pero que golpean al sentido común como cuestionables, o incluso absurdas. Algunas de estas son:
+
+Para entender mejor lo paradójico de estas fórmulas, podemos considerar algunos ejemplos en el lenguaje natural. Según la lógica clásica, todas estas oraciones son verdades lógicas:
+Si la Luna está hecha de queso, entonces 2 + 2 = 4.
+Si 2 + 2 = 5, entonces el Sol es verde.
+Si la Tierra es plana y no es plana, entonces yo puedo volar.
+Si la Luna está hecha de queso, entonces la Tierra es plana o no es plana.
+Como todas estas oraciones parecen tan absurdas, muchos lógicos y filósofos han afirmado que se comete un error al admitirlas como verdades lógicas. En general se piensa que dicho error reside en la interpretación veritativo-funcional del condicional «si..., entonces...», y por lo tanto se han propuesto varias alternativas, entre ellas el condicional estricto, y los esfuerzos de la lógica relevante.
+Según algunos autores, varios de los problemas de la filosofía de la ciencia se deben al uso del condicional material «si..., entonces...» para dar cuenta la noción de implicación. Por otra parte, la introducción del condicional material ha llevado a grandes avances en lógica y matemática.
+
+
+== Entendiendo las paradojas ==
+En el lenguaje natural, la expresión "si..., entonces..." se usa frecuentemente para hablar de una relación causal. Sin embargo, en la lógica proposicional se la piensa más bien como una relación lógica. El problema proviene de que la interpretación veritativo-funcional del condicional no parece dar cuenta del uso que se le da en el lenguaje ordinario, pues la interpretación del condicional nos dice que si el antecedente es falso, el valor del condicional es verdadero, o que si antecedente y consecuente son falsos, el valor del condicional es verdadero.
+Todo esto responde a que en la lógica, el sentido de las tablas de verdad es tomar en cuenta todos los posibles estados del mundo. Por ejemplo, en la proposición «llueve y hace calor», los estados posibles del mundo son cuatro: que llueva y haga calor, que llueva y no haga calor, que no llueva y haga calor, o que ni llueva ni haga calor.
+De manera, que el valor del condicional se rige, en el lenguaje lógico, por estructuras lógicas que no se relacionan necesariamente con la realidad, sino que parten de lo que podría pasar en el mundo al cual se refiere la proposición.
+Por eso, en lógica son válidos esquemas como los que se citan a continuación, que son ejemplos de las llamadas paradojas del condicional material:
+
+Para ejemplificar lo que ocurre, consideremos las fórmulas (1) y (2). Lo que (1) dice es que una proposición verdadera será implicada por cualquier proposición. Es decir, si A es verdadera, entonces B (una proposición cualquiera) implica A.
+En cuanto a (2), lo que dice es que la negación de una proposición verdadera implicará cualquier otra. Es decir, si A es verdadera, entonces la negación de A implica B (una proposición cualquiera).
+Ahora bien, qué pasaría si sustiyéramos «A» por «2 + 2 = 4» y «B» por «el Sol es verde». Teniendo en cuenta que «2 + 2 = 4» es verdadero, de (1) y (2), podemos obtener inferencias como las siguientes:
+Si la luna es verde, entonces 2 + 2 = 4.
+Si 2 + 2 ≠ 4, entonces el Sol es verde.
+Pero estas dos oraciones entran en conflicto con la idea de implicación que se da en el discurso ordinario, y son ejemplos paradigmáticos de estas paradojas. Por esta razón, se ha dicho que el condicional clásico es paradójico y, en consecuencia, también lo es la propia lógica clásica.
+En un artículo en 1961 Rolf Eberle, David Kaplan y Richard Montague explotan las célebres paradojas de la implicación material para demostrar que, a grandes rasgos, por lo mismo que se explica un hecho cualquiera se puede explicar cualquier otro hecho (entrando en debate con Carl Hempel y Oppenheim que afirmaban un modelo nomológico-deductivo para la explicación científica). En el mismo número de esa revista David Kaplan en un célebre artículo publicó una solución satisfactoria del problema, que podía ser resuelto por una serie de argucias técnicas.
+
+
+== Propuestas de solución ==
+Cuando consideramos una oración como «si llueve y no llueve, entonces puedo volar», parece que lo que esta oración tiene de paradójico es que la conclusión, «puedo volar», no tiene nada que ver con las premisas. Para solucionar este tipo de paradojas sin abandonar la interpretación veritativo-funcional del condicional, la lógica relevante propone que se agregue la exigencia de que para que una inferencia sea válida, las fórmulas atómicas que aparecen en la conclusión deben aparecer todas al menos una vez entre las premisas. Esta sugerencia, aunque parece razonable, conlleva algunos problemas. Por ejemplo, la regla de inferencia clásica (véase Deducción natural) según la cual de «A» se puede inferir «A o B» deja de ser válida.
+
+
+== Véase también ==
+Implicación
+Condicional estricto
+Lógica relevante
+Tabla de valores de verdad
+
+
+== Notas y referencias ==
+
+
+== Enlaces externos ==
+Peter Suber: Paradoxes of Material Implication

@@ -1,0 +1,23 @@
+En resistencia de materiales la heladicidad de un material poroso se define como la capacidad del mismo para resistir ciclos sucesivos de congelamiento / descongelamiento al estar totalmente impregnado con agua.
+Un material poroso como por ejemplo la cerámica, es capaz de absorber por capilaridad una gran cantidad de agua, que a baja temperatura se congela dentro de la red capilar del material. El agua en estado sólido ocupa un mayor volumen que el agua en estado líquido, por lo que al congelarse genera tensiones importantes en el interior del material que pueden llegar a fracturarlo.
+Un único ciclo de congelamiento puede bastar para agrietar o exfoliar un material frágil, pero un gran número de ciclos sucesivos de congelamiento y descongelamiento provocan un efecto de fatiga de materiales que finalmente terminan por deteriorarlo.
+Para evitar este efecto o cuando menos aumentar la heladicidad de un determinado material cerámico, se lo suele someter a un proceso de hidrofugado, tratándolo con substancias tales como las siliconas, que saturan la red capilar impidiendo o dificultando la absorción de grandes cantidades de agua.
+
+
+== Normas de calidad ==
+Si un material cerámico no es capaz de tolerar la fatiga causada por ciclos de congelamiento / descongelamiento, no debe ser utilizado en zonas donde es frecuente un clima con temperaturas bajo cero.
+Existen una serie de normas de calidad que certifican la resistencia al congelamiento de un determinado material cerámico. Por ej:
+EN 202 Passed - Certifica que el material ha sobrevivido a un ensayo consistente en 50 ciclos de congelamiento / descongelamiento con una temperatura mínima de (-5) ºC y luego rápidamente calentado a +5 ºC.
+ISO 10545-12 Passed - Idénticas condiciones a las del ensayo anterior, pero el material debe sobrevivir a 100 ciclos de congelamiento / descongelamiento.
+ASTM C1026 Resistant - Certifica que el material de ensayo ha sobrevivido a 15 ciclos con temperaturas de -18 ºC y luego rápidamente calentado hasta una temperatura de entre 10 a 16 ºC.
+
+
+== Implementación del ensayo ==
+Se puede demostrar el fenómeno con un ladrillo cerámico previamente sumergido en agua que será sometido a 25 ciclos de hielo-deshielo.
+Método Manual: Se emplea un arcón congelador y los ciclos de hielo-deshielo se adaptan al horario de los laboratorios, es decir, 18 horas de congelación y 6 horas de deshielo.
+Método Automático: Se emplea una cámara frigorífica automática con ciclos reducidos, es decir, 4 horas de congelación y 2 horas de deshielo.
+
+
+== Referencias ==
+resistencia de tejas cerámicas
+heladicidad de ladrillos hidrofugados

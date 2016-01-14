@@ -1,0 +1,52 @@
+El puerto de juegos (game port) es la conexión tradicional para los dispositivos de control de videojuegos en las arquitecturas x86 de los PC's. El puerto de juegos se integra, de manera frecuente, en una Entrada/Salida del ordenador o de la tarjeta de sonido (sea ISA o PCI), o como un puerto integrado más de algunas placas base.
+
+
+== Características ==
+
+
+=== Interfaz analógica ===
+Durante los primeros pasos de la informática popularizada y las videoconsolas, a diferencia de otros conectores (y controladores) para joysticks, el puerto de juegos era íntegramente analógico con algún tipo de conversor analógico-digital para interpretar los movimientos del joystick. Pronto, los manuales de IBM PC describían la capacidad de este puerto para conectarle dos palancas (ejes) analógicas. Esta aproximación permitía una mejor simulación en los videojuegos, especialmente en los simuladores de vuelo.
+En el siguiente esquema se detalla el significado de cada uno de los pines del puerto de juegos. A la derecha de la misma aparecen en la parte superior el conector hembra (ordenador) y abajo el conector macho (periférico):
+
+
+=== Adquisición y programación ===
+Mientras que otros estándares para joysticks (como los joysticks de ATARI o NES) son muy sencillos para los programadores, el puerto de juegos requiere una programación cuidadosa y una rutina de interrupción software con los tiempos precisos y exactos para leer una entrada. Esto, por supuesto, es la clave que explica que leer por el puerto de juegos es una operación más costosa en cuanto a ciclos de CPU, comparándola con la lectura en sistemas digitales (TTL).
+
+
+=== Circuitos ===
+La implementación típica de un puerto de juegos emplea un condensador y un simple comparador de tensión, que constituyen un tipo de conversor analógico digital de rampa. Éste debe ser encuestado periódicamente y reiniciado en momentos muy concretos para leer una entrada, algo que necesita realizarse varias veces (generalmente en torno a 30) por segundo para conseguir una entrada sensible. La frecuencia de adquisición actual depende de la resistividad interna del joystick, el ruido, la velocidad de la CPU y el total de las constantes de tiempo de los circuitos RC de los joysticks.
+
+
+=== Otras características relevantes ===
+Su naturaleza analógica ha sido la causa de muchos de los problemas de los joysticks, como, por ejemplo, la necesidad de recalibración de cualquier tipo de joystick (obligatoria desde que los controladores de juegos no generan las mismas cantidades de tensión cada vez). Además, todas las clases de controladores de juegos sufren las consecuencias del ruido eléctrico.
+El procedimiento de calibración es todavía necesario. En sistemas operativos modernos, como Windows XP, este proceso consiste en mover el joystick en todos sus ejes con el fin de medir los valores máximos de cada eje (si el joystick emplea señales analógicas se usa un potenciómetro, y si por el contrario, genera señales digitales se mide usando interruptores eléctricos). Los joystick USB no requieren de calibración previa, en general.
+En los tiempos de DOS, cada juego que quisiese acceder al puerto de juegos tenía que realizar su propia calibración; frecuentemente, se llevaba a cabo cuando el juego se iniciaba. Algunas rutinas de calibración (pobremente programadas) fallaban en esta tarea haciendo que algunos joysticks no se pudiesen usar con algunos juegos.
+
+
+== Extensiones de las capacidades del puerto de juegos ==
+Algunos joysticks para el puerto de juegos tienen más de 4 botones (6 u 8, por ejemplo). Pero requerirán un driver especial para trabajar correctamente, ya que el puerto de juegos no ofrece soporte hardware para más de 4 botones diferentes.
+Esto puede ser superado usando cualquiera de los pines que normalmente no se emplean o cambiando los circuitos de los joysticks (y el software correspondiente) para leer un código de estado de 4 bits de los cuatro botones de entrada, consiguiendo hasta 16 combinaciones de botones diferentes (no obstante podemos tener algunas limitaciones como que algunos botones no podrían mantenerse apretados), o una combinación de ambas técnicas.
+Los joysticks más sofisticados, como el Sidewinder de Microsoft, cuentan con una corriente de datos multiplexados a través de las cuatro entradas estándares de botones y, a veces, también gracias a los pines no usados. De esta forma, consiguen un soporte total para un mayor número de botones (por ejemplo 16 ó 20) y otras características especiales como vibración o múltiples joysticks en un sólo puerto (mecanismo daisychaining).
+La desventaja obvia en este aspecto es la necesidad de drivers específicos para interpretar la entrada del joystick, con lo que se aumenta el consumo de tiempo de procesamiento y la dependencia del sistema operativo. Dicho joystick no podría ser usado sin este driver especial.
+Algunos entusiastas del mundo del hardware y DIY (Do It Yourself - Házlo Tú Mismo) han encontrado mecanismos para conectar una amplia variedad de dispositivos de entrada al puerto de juegos e incluso han ideado otras aplicaciones para este puerto como la medida de voltaje, la adquisición de datos, etc.
+
+
+== Historia ==
+El puerto de juegos original fue inicialmente diseñado por IBM. Permitía cuatro ejes analógicos y cuatro botones en un mismo puerto. Además, soportaba dos joysticks o cuatro paddles (palancas) conectadas mediante un cable "Y-splitter" (aunque no funcionaba esta estructura en algunos puertos de juegos/MIDI de las tarjetas de sonido).
+Algunas implementaciones pobre del puerto de juegos (generalmente las incluídas en viejas placas base y tarjetas de Entrada/Salida) no soportaban completamente los 4 ejes o los 4 botones, haciendo posible el uso de simples joysticks con 2 ejes y 2 botones.
+El puerto de juegos de 15 pines, el cual también puede hacer de puerto MIDI, ha sido eliminado de alguno de los nuevos ordenadores personales, a favor del puerto USB. Aun así, hoy en día, todavía existen placas base que siguen incluyendo este puerto (permitiendo su configuración como puerto de juegos o como puerto MIDI mediante su BIOS). Además, determinados fabricantes venden adaptadores para conectar viejos joysticks al puerto USB.
+
+
+== Conectores MIDI ==
+
+El puerto de juegos emplea conectores DA-15 (también llamados, de forma incorrecta, DB-15), y generalmente se emplea también para instrumentos MIDI. Para usar un puerto de juegos con un instrumento musical MIDI se necesita un cable (poco común) con un conector macho y uno hembra DA-15 y dos conectores macho DIN 5-pines. Los drivers y el hardware para las capacidades MIDI del puerto de juegos se centran en torno al estándar de interfaz MIDI Roland MPU-401 (solo en modo UART), y soportan la mayor parte de las aplicaciones MPU-401 para Windows y DOS. El diseño oficial para un adaptador MIDI para el puerto de juegos puede ser consultado en el siguiente enlace.
+
+
+== Otros tipos de conectores para controladores de juegos ==
+Anteriormente, el puerto de juegos intentó ser reemplazado por otros interfaces como el puerto paralelo, el puerto serie o PS/2 con muy poco éxito. Hasta la introducción del estándar Bus Serie Universal (USB), el cual está sustituyendo al puerto de juegos. Aunque USB permite mejor soporte plug-and-play ("conectar y funcionar"), el puerto de juegos todavía sigue siendo una elección popular para joysticks y gamepads analógicos ya que los controladores basados en el puerto de juegos son en general más baratos que los basados en USB.
+
+
+== Véase también ==
+MIDI
+S/PDIF
+PC 99

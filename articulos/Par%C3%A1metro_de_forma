@@ -1,0 +1,29 @@
+En teoría de la probabilidad y estadística, un parámetro de forma es un tipo de parámetro de una familia de distribuciones de probabilidad.
+
+
+== Definición ==
+Un parámetro de forma es cualquier parámetro de una familia de distribuciones de probabilidad que no es un parámetro de localización ni de escala (o una función de ellos). Dicho parámetro debería afectar la forma de la distribución más allá de correrla o escalarla.
+
+
+== Ejemplos ==
+Una lista incompleta de familias de distribuciones continuas de probabilidad que tienen parámetros de forma es:
+Distribución beta
+Distribución de Erlang
+Distribución Gamma
+Distribución de Pareto
+Distribución de Weibull
+Las siguientes funciones de distribución continuas no tienen parámetro de forma: es decir, ésta queda fijada por su localización y escala. Por consiguiente, su asimetría y curtosis son constantes, dado que estos parámetros no dependen de la localización y la escala.
+Distribución exponencial
+Distribución de Cauchy
+Distribución logística
+Distribución normal
+Distribución uniforme continua
+
+
+== Véase también ==
+Asimetría
+Curtosis
+
+
+== Referencias ==
+↑ Everitt B.S. (2002) Cambridge Dictionary of Statistics. 2nd Edition. CUP. ISBN 0-521-81099-X

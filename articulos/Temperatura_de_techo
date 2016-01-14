@@ -1,0 +1,24 @@
+La temperatura de techo o temperatura techo () es una medida de la tendencia de los polímeros a revertirse hacia sus monómeros. Cuando un polímero está a su temperatura de techo, las tasas de polimerización y despolimerización del polímero son iguales. Generalmente, la temperatura de techo de un polímero dado está correlacionada con el impedimento estérico de los monómeros del polímero. Los polímeros con altas temperaturas de techo son ocasionalmente útiles de manera comercial.
+
+
+== Termodinámica de la polimerización ==
+A temperatura constante, la reversibilidad de la polimerización puede ser determinada utilizando la ecuación de energía de Gibbs:
+
+donde  es el cambio de entropía durante la polimerización. El cambio de entalpía durante la polimerización, , es conocido también como el calor de polimerización, el cual es definido por
+
+donde  y  denotan las energías de activación para la polimerización y la despolimerización, respectivamente.
+La entropía es la medida de aleatoriedad o caos. Un sistema tiene una entropía más baja cuando hay pocos objetos en el sistema, y una entropía más alta cuando hay muchos objetos en el sistema. Debido a que el proceso de despolimerización involucra un polímero siendo roto en sus monómeros, la despolimerización incrementa la entropía. En la ecuación de energía libre de Gibbs, el término de entropía es negativo. La entalpía conduce las polimerizaciones. A bajas temperaturas, el término de entalpía es mayor que el término , lo que permite que ocurra la polimerización. A la temperatura de techo, el término de entalpía y de entropía son iguales. Por encima de la temperatura de techo, la tasa de despolimerización es mayor que la tasa de polimerización, lo cual inhibe la formación del polímero dado. La temperatura de techo puede ser definida por
+
+
+== Equilibrio monómero-polímero ==
+A la temperatura de techo, siempre habrá exceso de monómeros en el polímero debido al equilibrio entre la polimerización y la despolimerización. Los polímeros derivados de simples monómeros de vinilo tienen temperaturas de techo tan altas que solo una cantidad minúscula de monómeros permanece en el polímero a temperaturas ordinarias. La situación del α-metilestireno, PhC(Me)=CH2, es una excepción a esta tendencia. Su temperatura de techo es alrededor de 66 °C. El impedimento estérico es significativo en en polímeros derivados del α-metilestireno debido a que los grupos fenilo y metilo están enlazados al mismo átomo de carbono. Estos efectos estéricos en combinación con la estabilidad del radical bencílico terciario α-metilestiril dan al α-metilestireno su relativamente baja temperatura de techo. Cuando un polímero tiene una muy alta temperatura de techo, se degrada mediante reacciones de escisión de enlace (clivaje) en vez de despolimerización. Un efecto similar explica la relativamente baja temperatura de techo para el poliisobutileno.
+
+
+== Temperaturas de techo de monómeros comunes ==
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+Esta obra deriva de la traducción de Ceiling temperature de Wikipedia en inglés, concretamente de esta versión, publicada por sus editores bajo la Licencia de documentación libre de GNU y la Licencia Creative Commons Atribución-CompartirIgual 3.0 Unported.

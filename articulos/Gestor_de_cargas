@@ -1,0 +1,60 @@
+Para regular la recarga de los vehículos eléctricos en España, el Gobierno creó la figura del Gestor de Cargas, empresa dedicada a crear puntos de recarga y a su gestión. En el BOE de 23/5/11 la figura del Gestor de Cargas quedó regulada de la siguiente manera: Los Gestores de Cargas del sistema son aquellas sociedades mercantiles del Sector Eléctrico, que, siendo consumidores, están habilitados para la reventa de energía eléctrica para servicios de recarga energética para vehículos eléctricos. Las principales funciones y derechos de un Gestor de Cargas son los siguientes:
+a) Actuar como agentes del mercado en el mercado de producción de electricidad.
+b) Acceder a las redes de transporte y distribución en los términos previstos en la normativa.
+c) Facturar y cobrar la energía entregada en la reventa para servicios de recarga energética para vehículos eléctricos.
+
+
+== ALCANCE DE LOS DERECHOS DEL GESTOR DE CARGAS ==
+El legislador le concede estos derechos al Gestor de Cargas con objeto de estimular la creación de este tipo de empresas y conseguir mediante la competencia que haya muchos puestos de carga para vehículos eléctricos en todo el país, así como un precio barato para la electricidad consumida. Ambas cuestiones son fundamentales para fomentar el desarrollo del coche eléctrico en España. Vamos a ver el alcance de cada una de las mencionadas funciones:
+
+
+=== Actuar como agentes del mercado ===
+El Gestor de Cargas puede comprar la electricidad en el mercado diario al por mayor de España (OMIE), conocido popularmente como “pool”. Esto significa que puede conseguir un precio barato y variable a lo largo de las horas del día. En el año 2013 el precio media horario del pool fue de 5,2 c€/Kwh
+
+
+=== Acceder a las redes de transporte y distribución ===
+Un Gestor de Carga puede utilizar las redes de distribución existentes y colocar puestos de recarga en los lugares que desee, como pueden ser junto a la vía pública, dentro de un centro comercial, un parking público etc. La empresa distribuidora de la zona no puede negarle la acometida ni el suministro. Esto es muy importante para garantizar que habrá libre competencia y el sector de la recarga de los coches eléctricos no estará controlado por las grandes compañías eléctricas.
+
+
+=== Facturar y cobrar la energía entregada en la reventa ===
+De acuerdo con dicha legislación, los gestores de carga son los únicos consumidores que están habilitados para revender electricidad. Esto hace que la figura del gestor de carga sea de una importancia fundamental en el desarrollo exitoso de la infraestructura de recarga para el vehículo eléctrico, ocupando un papel similar conceptualmente al de operador de telefonía móvil. El precio de venta de la corriente eléctrica para recargas de coches eléctricos es libre. Entre los 5,2 c€/Kwh que resultó de media en el pool en 2013 y los 17 c€/kwh a los que se vendió a una vivienda media en España hay un margen muy grande. Si en este sector se crea una verdadera competencia, la recarga de un coche eléctrico será barata y este será el mayor estímulo para que una persona cambie su coche de gasoil o gasolina por uno eléctrico.
+Los Gestores de Carga son además los actores de la movilidad eléctrica que, en última instancia, se van a encargar de ofrecer servicios de carga en entornos públicos, ya sea por medio de iniciativas públicas o privadas, resolviendo además cuestiones fundamentales como son la tarificación, la localización y reserva previa de estaciones de carga y el uso de redes en itinerancia
+
+
+== Tipos de carga según su duración ==
+Para ver la importancia de estas empresas vamos a describir los tipos de carga que se podrán dar en el futuro, según la duración de dicha carga. Elegimos este factor porque según el tiempo que dure la carga de un coche eléctrico varían las exigencias de potencia y la complejidad de las instalaciones que se piden a la estación de carga. Vamos a suponer que se trata de recargar un coche con una batería de 25 Kwh de capacidad, que es la más extendida actualmente y que permite una autonomía aproximada de 160 Km.
+
+
+=== 1.- Carga en entorno doméstico (entre 6 y 8 h.) ===
+La mayoría de las recargas se realizarán en el entorno doméstico, con una toma de corriente de 16 A, capaz de proporcionar una potencia de 3,6 Kw con la tensión de 220 V., que es la tensión normal de cualquier vivienda en España. El coche se recargará totalmente en un plazo entre 6 y 8 horas.
+
+
+=== 2.- Carga en centro públicos (sobre 2 h) ===
+En los centros públicos como aparcamientos, centros comerciales, etc., se instalarán estaciones de carga capaces de recargar el 100% de la batería en un periodo de 2 h. o menos. Para ello la estación de carga tendrá que estar diseñada para una potencia de 22 Kw aproximadamente y para funcionar con corriente alterna a una intensidad de 32 A.
+
+
+=== 3.-Carga rápida ===
+Se denomina así cuando se carga el 100 % de la batería del coche en menos de 20 minutos. Se pueden describir escalones según los tiempos de carga que se necesiten sean 20 minutos, 10 minutos y 2 minutos.
+
+
+==== Carga rápida en 20 minutos ====
+El estado actual de la tecnología de las baterías de algunos vehículos japoneses como el Nissan Leaf o el Mitsubishi I-Miev, permiten tiempos de carga de 20 minutos para una autonomía de 100 km (el 80% de la batería del vehículo). Esto se consigue por medio de sistemas de carga de corriente continua denominadas CHAdeMO (“charge de move”, carga para moverse), para lo que es necesaria la instalación de equipos capaces de rectificar la corriente alterna proveniente de la red, e inyectarla directamente en la batería del vehículo, siguiendo las consignas marcadas por éste. Actualmente se encuentran instalados más de 1.400 equipos a nivel mundial, de los cuales 1.100 se encuentran en Japón y unos 200 en Europa. La potencia pico suministrada por este tipo de cargadores alcanza los 62,5 kW, y por ello plantea una serie de retos significativos para su integración en la red de baja tensión.
+
+
+==== Carga rápida en 10 minutos ====
+La compañía norteamericana Tesla fabrica ya unos supercargadores de 135 Kw de potencia. Esto permite cargar el 80% de la batería de un coche normal en 10 minutos. Este cargador se puede instalar en garajes, centros comerciales, etc., y debido a su elevada potencia necesita conectarse a la red de baja tensión en trifásica. Se pueden ver en detalle en el web de la compañía
+
+
+==== Carga rápida en 2 minutos ====
+Aunque ahora mismo no es posible, las empresas de investigación trabajan para conseguir bajar los tiempos de carga de una batería eléctrica hasta 2 minutos. El principal problema es que una batería se recalienta y baja su ciclo de vida si se le somete a cargas muy grandes. Cuando esto se haya conseguido, se necesitará un punto de carga capaz de suministrar una potencia de 600 Kw para conseguir cargar la batería al 80% en 2 minutos.
+Estos puntos de carga rápida serán por tanto centros específicos, posiblemente denominados “electroneras”, sin otra actividad más que la recarga de coches eléctricos como lo son hoy la mayoría de las gasolineras para coches convencionales.
+
+
+== AUMENTO DE POTENCIA EN EL FUTURO ==
+Todas estas potencias se verán incrementadas a medida que aumente la autonomía del coche eléctrico, para conseguir así mantener los tiempos de carga. Por ejemplo, cuando la autonomía de un coche eléctrico alcance los 300 Km., las potencias anteriores serán las siguientes (suponemos que una capacidad de la batería de 50 Kwh)
+-Carga en el entorno doméstico: Se necesitará una potencia de 7,2 Kw para cargar el coche en un plazo entre 6 y 8 h.
+-Carga en centros públicos: se necesitará una potencia de 44 Kw para cargar el coche en un plazo alrededor de 2 h.
+-Carga rápida: se necesitará una potencia de 125 Kw para cargar el 80% de la batería en 20 minutos, y una potencia de 250 Kw para hacerlo en 10 minutos. Se necesitará asimismo una potencia de 1.200 Kw para cargar la batería en 2 minutos. Además, si en una “electrolinera” hay varios coches cargando a la vez, se necesitará una potencia de varios Mw. Esto planteará la necesidad de instalar nuevas líneas eléctricas de alta tensión para las “electrolineras” que se construyan, con lo cual se concluye que la actividad de un Gestor de Cargas aumentará en complejidad y necesitará inversiones muy altas.
+
+
+== NOTAS Y REFERENCIAS ==

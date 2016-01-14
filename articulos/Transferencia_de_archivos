@@ -1,0 +1,28 @@
+La transferencia de archivos, es un "protocolo de" o "protocolo para la" “transferencia de archivos”, es decir, es una convención o una norma que controla o permite la transferencia de archivos entre dos o más computadoras o usuarios.
+La diferencia con un protocolo de propósito general de comunicación, es que los protocolos de transferencia de archivos no están diseñados para enviar datos arbitrarios o facilitar la comunicación asíncrona, como sesiones de Telnet. Su objetivo únicamente es enviar la secuencia de bits almacenado como una sola unidad en un sistema de ficheros, además de todos los metadatos, como el nombre del archivo, el tamaño del archivo, fecha y hora.
+En Informática, la “transferencia de archivos” es un término genérico para referirse al acto de transmisión de ficheros a través de una red de computadoras. Si bien el término suele estar ligado al Protocolo de Transferencia de Archivos (File Transfer Protocol, FTP), hay muchas formas de transferir archivos a través de una red.
+Los servidores que proporcionan un servicio de transferencia de archivos a menudo son llamados servidores de archivos.
+
+
+== Tipos ==
+Existen dos tipos de transferencias de archivos:
+Transferencia de archivos «Pull-based»: el receptor inicia una solicitud de transmisión de ficheros.
+Transferencia de archivos «Push-based»: el emisor inicia una solicitud de transmisión de ficheros.
+
+
+== Niveles en los cuales puede tener lugar ==
+La transferencia de archivos puede tener lugar sobre una variedad de niveles:
+Transferencias de archivos transparentes a través sistemas de archivos de red.
+Transferencia de archivos explícitas desde servicios de transferencia de archivos dedicados, como FTP o HTTP.
+Transferencia de archivos distribuidas entre redes punto a punto.
+Transferencia de archivos en los sistemas de mensajería instantánea.
+Transferencia de archivos entre computadoras y dispositivos periféricos.
+Transferencia de archivos sobre vínculos directos módem o serie (null modem), como XMODEM, YMODEM y ZMODEM.
+
+
+== Referencias ==
+Alcantud, Marin (1999). Teleformación. Universitat de València. p. 236. ISBN 8437033314. 
+
+
+== Enlaces externos ==
+Esta obra deriva de la traducción de File transfer de Wikipedia en inglés, publicada por sus editores bajo la Licencia de documentación libre de GNU y la Licencia Creative Commons Atribución-CompartirIgual 3.0 Unported.

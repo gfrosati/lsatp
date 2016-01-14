@@ -1,0 +1,67 @@
+La percepción de quórum o autoinducción (en inglés, quorum sensing) es un mecanismo de regulación de la expresión genética en respuesta a la densidad de población celular. Las células involucradas producen y excretan sustancias, llamadas autoinductores, que sirven de señal química para inducir la expresión genética colectiva. Es una forma de comunicación celular, bien como paracrina (cuando ocurre en un organismo pluricelular, donde actuarían como hormonas), bien como feromona (cuando actúa sobre individuos distintos).
+Las bacterias Gram-positivas y Gram-negativas usan los circuitos de comunicación de la percepción de quórum para regular una gran variedad de actividades fisiológicas. Estos procesos incluyen simbiosis, virulencia, competencia, conjugación, producción de antibióticos, motilidad, esporulación y formación de biopelículas. En general, las bacterias Gram-negativas usan acil-homoserina lactonas como inductores, mientras que las bacterias Gram-positivas se valen de oligopéptidos procesados.
+Este fenómeno es el responsable de que un conjunto de células independientes, bajo la generación de señales extracelulares, desarrolle comportamientos sociales coordinados. Entra dentro de los fenómenos de la multicelularidad, al igual que el patrón de la formación de colonias o la formación de cuerpos fructíferos en las mixobacterias.
+Es en células procariotas donde más se ha estudiado; no obstante, se ha encontrado también en células eucariotas, y no sólo en organismos unicelulares, sino también en pluricelulares, ya que incluso hay ejemplos de este comportamiento descritos en células del ser humano.
+
+
+== Mecanismo de funcionamiento ==
+
+Una aproximación al mecanismo de funcionamiento es el siguiente: las células detectan la concentración de las denominadas señales químicas autoinductoras, llamadas así porque incluso pueden actuar sobre la célula que las liberó. Esto les da información acerca de la densidad de células en el ambiente: cuanto mayor sea la población, mayor será la concentración de estas señales. Cuando se alcanza una concentración umbral, esto indica que la población ha llegado al quorum y se empiezan a expresar una serie de genes, lo que desata acciones poblacionales concertadas, como ataques a organismos al que hospedan (Salmonella) o liberación de tóxicos que matan a peces de los cuales se alimentan posteriormente (Pfiesteria).
+
+
+=== Causa del fenómeno ===
+Si la producción y posterior liberación de una sustancia, como por ejemplo una enzima, es realizada por unas solas pocas células, la concentración de la misma alcanzada en el medio puede resultar ineficaz. Gracias al quorum sensing esta sustancia no se liberará hasta que no se alcance una determinada población de células. Al hacerlo en ese momento, la concentración obtenida sí será la adecuada para que la sustancia pueda ejercer su función.
+En el caso de un microorganismo patógeno, este fenómeno le permite alcanzar un nivel de población lo suficientemente elevado como para que, llegado el momento de producir los factores de virulencia tras alcanzar el quorum, pueda contrarrestar las defensas del huésped e invadir otras regiones de ese organismo con mayor probabilidad.
+Por ello, el quorum sensing juega un importante papel a la hora de que se produzcan relaciones simbióticas o parasitarias entre un microorganismo y su huésped.
+
+
+== Percepción de quórum en bacterias gramnegativas ==
+
+El fenómeno de la percepción de quórum se descubrió en bacterias gramnegativas, y es en ellas en las que más se ha estudiado. El primer sistema de percepción de quórum descrito es el de la bacteria bioluminiscente marina Vibrio fischeri, considerado el paradigma de la percepción de quórum de la mayoría de las bacterias gramnegativas. V. fischeri coloniza los órganos emisores de luz del calamar Euprymna scalopes, donde se multiplica y alcanza una elevada densidad de población, lo que induce la expresión de los genes de su luminiscencia. Dicha expresión ocurre en forma coordinada. El calamar aprovecha la luz que le proporciona la bacteria para ocultar su propia sombra en las aguas someras y evitar así a sus predadores.
+Normalmente, las moléculas sensoras de las que se valen estas bacterias son las acil-homoserina-lactonas (acil-HSL), compuestas por un grupo acilo de 4 a 14 átomos de carbono unido por un enlace amida a una homoserina lactona. En el tercer carbono del grupo acilo puede haber un grupo cetona o un grupo hidroxilo.
+
+
+=== Funcionamiento ===
+El mecanismo de acción habitual de las acil-HSL es el siguiente: estas moléculas difunden al interior de la célula diana y, cuando están en concentración suficiente, se unen a unos receptores especiales provocando un cambio en su conformación. El complejo entre la sustancia y el receptor se une a sitios específicos del ADN y ello conduce a que se transcriban determinados genes y se produzcan las proteínas quorum-dependientes.
+Entre los genes que se transcriben, en ocasiones están los responsables de la producción de las acil-HSL. Ello lleva a que se genere una mayor cantidad de estas moléculas sensoras y el efecto se amplifique.
+
+
+=== Ejemplos ===
+Una de las bacterias en las que más se ha estudiado la percepción de quórum es Pseudomonas aeruginosa. Se sabe que, en esta bacteria, este fenómeno regula la síntesis y liberación de factores de virulencia. También interviene en la inducción y formación de biopelículas maduras, lo que juega un papel importante en la fibrosis quística.
+Algunos de los otros muchos ejemplos que se han estudiado del quorum sensing en bacterias gramnegativas son los siguientes:
+Procesos conjugativos encaminados a la transferencia de material genético por Agrobacterium tumefaciens.
+Síntesis de antibióticos por Erwinia carotovora y Pseudomonas aureofaciens.
+Generación de bioluminiscencia por Vibrio fischeri.
+
+
+== Percepción de quórum en bacterias grampositivas ==
+En las bacterias grampositivas la señal autoinductora que interviene es normalmente un oligopéptido, y no las acil-HSL.
+
+
+=== Funcionamiento ===
+Las bacterias grampositivas realizan una secreción activa del oligopéptido maduro al medio extracelular mediante un transportador de péptidos asociado a la membrana. Sin embargo, se han descrito dos mecanismos de detección del péptido de señal. En el “mecanismo extracelular”, la feromona interactúa con una histidina-cinasa que forma parte de un sistema de regulación de dos componentes asociada a la membrana del microorganismo. La activación de la histidina-cinasa inicia una cascada de fosforilación que finalmente induce la actividad del regulador de respuesta asociado. En el caso de la “ruta intracelular”, el péptido de señal es introducido dentro de la célula de manera activa mediante un transportador de oligopéptidos. Una vez dentro de la célula, el péptido activa el regulador asociado, el cual modula la expresión de diversos genes.
+
+
+=== Ejemplos ===
+Se han encontrado ejemplos de este fenómeno en:
+Ruta extracelular:
+- La síntesis de factores de virulencia, como numerosas toxinas, por Staphylococcus aureus.
+- La estimulación de la esporulación por Bacillus subtilis.
+Ruta intracelular:
+- Inducción de la competencia natural por Streptococcus thermophilus.
+- La conjugación por Enterococcus faecalis.
+- Regulación de la virulencia por Streptococcus agalactiae.
+
+
+== Referencias ==
+
+
+== Bibliografía ==
+Lansing M. Prescott, John P. Harley y Donald A. Klein (2004). «Quorum sensing y poblaciones microbianas». Microbiología (Quinta edición) (pp. 141-142). España: McGraw-Hill-Interamericana de España. ISBN 84-486-0525-X. 
+Varios autores (2004). Quorum sensing: El lenguaje de las bacterias. Zaragoza: Acribia Editorial. ISBN 978-84-200-1046-5. 
+
+
+== Enlaces externos ==
+The quorum sensing site Web sobre el quorum sensing de la Universidad de Nottingham (en inglés)
+Comunicación entre bacterias (Artículo en formato PDF de Maritrini Colón-González y Jorge Membrillo-Hernández, de la Universidad Nacional Autónoma de México)
+Científicos norteamericanos descubren como manipular el quórum sensing que regula las infecciones

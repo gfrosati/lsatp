@@ -1,0 +1,47 @@
+En computación el antipatrón de diseño magic pushbutton ocurre en el desarrollo de interfaces gráficas, cuando el programador construye primero la interfaz gráfica y luego las llamadas a la lógica de negocio se realizan en los huecos, generalmente representados como métodos de acción de los elementos de la interfaz.
+Los problemas con este antipatrón son:
+El código asociado a cada botón crece de manera inmanejable, parte de la lógica del negocio termina implantada dentro de la interfaz.
+Se dificultan los cambios en la interfaz usuario o el agregar una nueva interfaz a las ya existentes.
+Se dificulta la organización de las pruebas unitarias de la aplicación.
+
+
+== Ejemplo (en Borland Delphi) ==
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  reg:TRegistry;
+begin
+  reg:=TRegistry.Create;
+  try
+    reg.RootKey:=HKey_Current_User;
+    if reg.OpenKey('\Mi\Empresa', true) then
+    begin
+      reg.WriteString('Filename',edit1.text);
+    end;
+  finally
+    reg.Free;
+  end;
+end;
+
+Una mejor manera de trabajar es el colocar la lógica del negocio (en este ejemplo, el manejo del archivo) en una clase perteneciente a la lógica del negocio que será llamada desde la interfaz.
+
+type
+ TPreferences = class
+ private
+   FFilename: string;
+   procedure SetFilename(const Value: string);
+ public
+   property Filename:string read FFilename write SetFilename;
+   procedure Load;
+   procedure Save;
+ end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+  Preferences.Save;
+end;
+
+procedure TForm1.Edit1Change(Sender: TObject);
+begin
+  Preferences.Filename:=edit1.text;
+end;

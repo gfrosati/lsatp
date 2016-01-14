@@ -1,0 +1,66 @@
+Emmabuntüs es una Distribución GNU/Linux derivada de Ubuntu y diseñada para facilitar el reacondicionamiento de computadores donados a comunidades Emaús.
+Emmabuntüs es una contracción de Emaús y Ubuntu.
+A partir de mayo 2013 ya no se usa la versión 10.04 LTS de Ubuntu. El colectivo Emmabuntüs decidió crear una nueva versión llamada Emmabuntüs 2 que usa la versión LTS 12.04 Xubuntu y se mantendrá hasta abril de 2015.
+
+
+== Características ==
+Emmabuntüs 2 se puede instalar, en su totalidad, sin conexión a Internet, ya que todos los paquetes requeridos están incluidos dentro de la imagen ISO. La imagen ISO incluye paquetes para varios idiomas y codecs no libres opcionales que el usuario puede elegir si instalar o no.
+Se requiere un gigabyte de memoria RAM para la sesión en el modo live de Emmabuntüs 2, sin embargo, la instalación completa está preparada para ejecutarse en máquinas con al menos 512 MB de RAM. El uso de memoria en el arranque es de aproximadamente 180 megabytes.
+El script de instalación realiza automáticamente algunos pasos de instalación (nombre de usuario, contraseña predefinida). Y le permite elegir si desea o no instalar el software que no es libre, ya sea para desinstalar idiomas no utilizados para reducir actualizaciones, o si hay que añadir el entorno de escritorio LXDE.
+Emmabuntüs 2 incluye extensiones de control parental para navegadores.
+Hay tres tipos de paneles (Dock) para simplificar el acceso para el software y se definen por el tipo de usuario (niños, principiantes y "todos").
+Emmabuntüs 2 incluye el software OOo4Kids que requiere un procedimiento de instalación especial.
+El Corrector ortográfico LanguageTool se instala como una extensión de LibreOffice.
+
+
+== Entorno de escritorio ==
+El entorno de escritorio Xfce está configurado con Cairo-Dock. LXDE también está incluido. Por tanto, es posible cerrar sesión del escritorio XFCE y abrir una con el escritorio LXDE.
+
+
+== Aplicaciones ==
+Hay mucha variedad de aplicaciones con el fin de que los diferentes tipos de usuario se sientan a gusto. He aquí algunos ejemplos:
+Firefox y Chromium con las extensiones: Flash Player, Adblock Plus, Startpage, Ghostery
+Lectores de E-mail: Mozilla Thunderbird, Evolution
+Mensajería instantánea: Pidgin, Skype, Ekiga
+Herramientas de transferencia: FileZilla, Wammu, Transmission
+Oficina: AbiWord, Gnumeric, LibreOffice, OOo4Kids, Kiwix, Calibre, Scribus
+Audio: Rhythmbox, Audacious Media Player, Audacity, Clementine, PulseAudio, Sound Juicer
+Vídeo: Kaffeine, VLC media player, Totem, Cheese, MythTV, Kdenlive
+Foto: Shotwell, GThumb, F-Spot, Picasa, DigiKam, GIMP, Inkscape
+Grabación de CD y DVD: Brasero, K3b, Xfburn
+Ocio: HomeBank, GRAMPS, Stellarium, Celestia, PlayOnLinux, SuperTux, SuperTuxKart, TuxGuitar, WarMUX
+Educación: GCompris, Tux Paint, TuxMath,
+Utilidades: VirtualBox, Wine, CUPS
+Herramientas de mantenimiento: GParted, TeamViewer
+
+
+== ¿Por qué y cómo trabajar con las comunidades Emaús? ==
+
+Los fondos de Emaús provienen de la caridad y la venta de artículos donados por particulares.
+En las grandes ciudades, pueden recibir varias toneladas de equipo de cómputo cada año. Algunos se venden por peso, chatarra electrónica, pero todavía están en condiciones de funcionamiento. Las unidades de disco duro pueden contener software propietario siempre que respeten la Licencia del usuario final y también los datos de carácter personal.
+Para poder vender estos equipos deben ser retirados el sistema operativo propietario y los datos personales. La instalación de un sistema operativo libre que contiene los controlador de dispositivo, sonido y la pantalla, y también una gran variedad de software libre útil y de uso general es una buena manera de rehabilitar el equipo. El formateo de la unidad de disco duro que hace que sea imposible acceder a los datos previamente grabados.
+La instalación del sistema operativo se puede hacer en menos de una hora sin una conexión a internet en los talleres de reacondicionamiento. Cairo-Dock ha sido elegido para proporcionar acceso a las tareas básicas del usuario principiante.
+Este reacondicionamiento y esta venta:
+proporciona recursos a las organizaciones humanitarias
+permite a las personas con pocos recursos para la compra de equipos con una gran cantidad de aplicaciones de Software libre.
+permite reutilizar hardware y ahorra los recursos del planeta
+
+
+== Versiones publicadas ==
+
+
+== Véase también ==
+ Portal:GNU/Linux. Contenido relacionado con GNU/Linux.
+Anexo:Distribuciones Linux
+EdulibreOs
+HandyLinux
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+ Wikimedia Commons alberga contenido multimedia sobre Emmabuntüs. Commons
+Sitio web oficial
+Entrada en Distrowatch
+Emmabuntüs 2-12.04, un Ubuntu fácil de usar con XFCE, Wine y Virtualbox

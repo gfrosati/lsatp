@@ -1,0 +1,70 @@
+La cromatografía de intercambio iónico (o cromatografía iónica) es un proceso que permite la separación de iones y moléculas polares basado en las propiedades de carga de las moléculas. Puede ser usada en casi cualquier tipo de molécula cargada, incluyendo grandes proteínas, pequeños nucleótidos y aminoácidos. La solución que debe inyectarse es usualmente llamada "muestra" y los componentes separados individualmente son llamados analitos. Es usada a menudo en purificación de proteínas, análisis de agua o control de calidad.
+
+
+== HistoriaEditar ==
+
+Los métodos iónicos han sido utilizados desde 1850, cuando H. Thompson y J. T. Way, investigadores de Inglaterra, trataron diversas arcillas con sulfato de amonio o carbonato en solución para extraer el amoníaco y liberar calcio. En 1927, la primera columna de zeolita mineral fue utilizada para eliminar iones de calcio y magnesio que interferían en la solución, para determinar el contenido de sulfato de agua. La versión moderna de la IEC se desarrolló durante la época de la guerra del Proyecto Manhattan. Era necesaria una técnica para separar y concentrar los elementos radiactivos necesarios para hacer la bomba atómica. Los investigadores eligieron absorbentes que pudieran cerrarse sobre elementos transuránidos cargados, y que pudieran ser eliminados diferencialmente. Últimamente, una vez desclasificado, estas técnicas pueden utilizar nuevas resinas IE para desarrollar los sistemas que se utilizan a menudo hoy en día para la purificación específica de productos biológicos y de sustancias inorgánicas. A principios de los '70, la cromatografía iónica, fue desarrollada por Hamish Small y sus compañeros de trabajo en Dow Chemical Company como un novedoso método de IEC utilizables en el análisis automatizado. CI utiliza resinas iónicas más débiles para su fase estacionaria y una nueva neutralización de stripper, o supresor de la columna para eliminar los iones quitados que se depositan en el fondo. Es una poderosa técnica para determinar bajas concentraciones de iones y es especialmente útil en estudios sobre el medio ambiente y la calidad del agua, entre otras aplicaciones.
+La tecnología de Dow Chemical fue adquirida por Durrum Instrument Corp. (fabricante del Durrum D-500), que luego formó una unidad de negocios separada para sus nuevos productos CI, llamada Dionex (Dow Ion Exchange). Dionex Corporation fuer incorporada en 1980 en Sunnyvale, California, y dirigida por A. Blaine Bowman, que adquirió los activos de Dionex.
+
+
+== PrincipiosEditar ==
+
+La cromatografía de intercambio iónico conserva los analitos basandóse en las interacciones de Coulomb. La fase estacionaria muestra en la superficie grupos funcionales iónicos (R-X) que interactúan con iones de carga opuesta del analito.
+Este tipo de cromatografía se subdivide a su vez en dos técnicas. La cromatografía de intercambio catiónico y la cromatografía de intercambio aniónico:
+La cromatografía de intercambio catiónico retiene catiónes cargados positivamente debido a que la fase estacionaria muestra un grupo funcional cargado negativamente, como podría ser un ácido fosfórico.
+
+La cromatografía de intercambio aniónico retiene aniónes usando grupos funcionales cargados positivamente, como un catión de amonio cuaternario.
+
+R-X+ es el analito presente en la columna, C+ es el catión, A- es el anion, M+ es la muestra y B+ es el ion de la muestra.
+Un dato a tener en cuenta es que tanto la fuerza iónica de los C+ como la de los A- en la fase móvil se puede ajustar para cambiar la posición de equilibrio, cambiando de este modo el tiempo de retención.
+El cromatograma de iones que se muestra en esta sección corresponde a uno típico obtenido con una columna de intercambio aniónico.
+
+
+== Separación de proteínasEditar ==
+
+Las proteínas tienen numerosos grupos funcionales que tienen tanto cargas positivas como negativas. La cromatografía de intercambio iónico separa las proteínas de acuerdo a su carga neta, la cual depende de la composición de la fase móvil. Ajustando el pH o la concentración de iones de la fase móvil, varias moléculas de proteína pueden ser separadas. Por ejemplo, si la proteína tiene una carga neta positiva con un pH de 7, entonces puede unirse a una columna cargada negativamente, mientras que una proteína con carga negativa no lo podría hacer. También podría eliminarse cambiando el pH para que la carga neta de la proteína sea negativa.
+La elución por el cambio de la fuerza iónica en la fase móvil tiene un efecto más sutil, funciona como si iones de la fase móvil interactuarán con los iones inmovilizados en preferencia sobre estos en la fase estacionaria. Estos "escuda" la fase estacionaria de la proteína (y viceversa), y permite que la proteína pueda ser eludida al no estar unida al fase estacionaria.
+
+
+== Técnica típicaEditar ==
+
+Una muestra es introducida, de forma manual o con autosampler dentro de un ciclo de muestras de volumen conocido. Una solución acuosa tamponada conocida como fase móvil lleva la muestra del ciclo de muestras a la columna de cromatografía que contiene un analito en fase estacionaria. Este analito es típicamente una resina o matriz de gel que consiste en agarosa o celulosa unidos mediante enlace covalente a grupos funcionales cargados como puede ser una resina de intercambio catiónico. Los analitos objetivo (aniones o cationes) son conservados en la fase estacionaria pero pueden ser eliminados incrementando la concentración de especies de similar carga que pueden desplazar los iones analitos de la fase estacionaria. Por ejemplo, en la cromatografía de intercambio catiónico, los analitos cargados positivamente pueden ser desplazados agregando iones de sodio cargados positivamente.
+Los analitos de interés pueden entonces ser detectados de varias maneras, típicamente por conductividad o por absorción de luz UV o Visible.
+Para controlar un sistema de Cromatografía de Iones (CI), usualmente es necesario un Sistema de Datos Cromatográficos (Chromatography Data System, CDS). Además de los sistemas CI, algunos de estos CDS también pueden controlar sistemas de cromatografía de gases (GC) y Cromatografía líquida de alta eficacia (high performance liquid chromatography, HPLC).
+
+
+== UsosEditar ==
+
+
+=== Utilidad clínicaEditar ===
+La Cromatografía de intercambio iónico se emplea para medir los niveles de Hemoglobina glucosilada (HbA1c), porfirinas y para purificación de agua y producción de agua desionizada en pequeñas cantidades.
+
+
+=== Aplicaciones industrialesEditar ===
+La Cromatografía de intercambio iónico permite el testeado cuantitativo de los electrolitos y aditivos patentados de los baños de electrochapado. Esto supone un avance en las pruebas de testeado cualitativo del electrochapado o en pruebas menos precisas de testeo de UV. En estas tanto los iones, como los catalizadores, como los abrillantadores, como los aceleradores pueden ser medidos.
+
+
+== NotasEditar ==
+
+
+== BibliografíaEditar ==
+Ion Chromatography de Hamish Small ISBN 0-306-43290-0
+Handbook of Ion Chromatography de Joachim Weiss, Dionex Corporation, ISBN 978-3-527-28701-7
+Ion Chromatography de James S. Fritz and Douglas T. Gjerde, ISBN 3-527-29914-9
+Ion Chromatography (Journal of Chromatography Library) de P.R. Haddad and P.E. Jackson, ISBN 0-444-88232-4
+
+
+== Véase tambiénEditar ==
+ Wikimedia Commons alberga contenido multimedia sobre Cromatografía de intercambio iónicoCommons.
+portal:química
+Punto isoeléctrico (pI)
+Resina de intercambio catiónico
+Cromatografía
+Cromatografía líquida de alta eficacia
+
+
+== Enlaces externosEditar ==
+Cation exchange diagram (SVG)
+Cation exchange diagram (PDF)
+Anion exchange diagram (SVG)
+Anion exchange diagram (PDF)

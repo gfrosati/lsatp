@@ -1,0 +1,61 @@
+True Audio (abreviado TTA) es un códec de audio simple sin pérdidas en tiempo real gratis. Está basado en pronóstico de filtros adaptativos los cuales han mostrado resultados satisfactorios comparados con la mayoría de los análogos modernos. TTA ofrece niveles de compresión elevados, manteniendo la rapidez de operación.
+
+
+== Descripción ==
+Algoritmo de codificación y decodificación a tiempo real.
+Hasta un 30 % de compresión sin pérdidas.
+Alta velocitad de operación y utilización mínima del sistema.
+Compilado y ejecutado en diferentes sistemas operativos.
+Código fuente y software libres.
+Soporte hardware.
+El códec de audio TTA realiza una compresión multicanal de 8, 16 y 24 bits de datos de archivos de audio WAV. Según el tipo de música que comprimimos tendremos coeficientes de compresión alrededor del 30 %-70 %. Permite almacenar hasta 20 Cd's de audio en un DVD-R (aprox. 4GB) manteniendo la calidad de audio original.
+
+
+== Formato ==
+El formato de datos del True audio códec tiene una estructura sencilla.
+
+
+=== Cabecera ===
+El archivo de cabecera contiene el identificador del formato seguido de dos bloques de datos. El primer bloque contiene los datos necesarios para recuperar la señal original (número de canales, bits por muestra, etc.) y el segundo bloque contiene una tabla de punteros. Este bloque debe tener el mismo número de punteros que de muestras por trama. Cada puntero utiliza 4 bytes y contiene la longitud en bytes de la muestra a la que apunta. Cada bloque de datos acaba con un CRC de 32 bits (Algoritmo de control de errores).
+Las muestras comprimidas de cada canal se guardan secuencialmente, tal y como se hace en el formato PCM.
+
+
+=== Trama ===
+La duración de una muestra en TTA se ha fijado en un segundo aproximadamente. Así pues, cada trama de una secuencia tiene el mismo número de muestras, excepto la última trama.
+
+
+== Teoría de compresión ==
+Es difícil comprimir datos de entrada arbitrarias, como es el caso del audio, sin tener ninguna pérdida. Para obtener un alto nivel de compresión para datos de audio se tendrá que utilizar un algoritmo donde se cuente con los datos más característicos del archivo de datos. El códec TTA se utilitza para la compresión de audio sin pérdidas de 8, 16 ó 24 bits de datos multicanales que se guardaran en archivos WAV .
+Casi todos los compresores de datos sin pérdidas utilizan variantes del algoritmo Lempel-Ziv. Pero este no da buenos resultados para la compresión de datos multimedia. En estos tipos de algoritmos no se tiene en cuenta la gran dependencia entre muestras vecinas que tienen los archivos de audio, también es difícil encontrar muestras de la señal repetidas en audio y, por lo tanto, la relación de compresión será baja. Así pues, lo que se hace para datos multimedia es añadir dos etapas preliminares: una etapa de decorrelación intra-canal y otra de pronóstico de modelación de la señal.
+El compresor de audio TTA, como los compresores de audio sin pérdidas, incluye cuatro etapas. Después de la descomposición por bloques, los datos pasan a ser analizados por la decorrelación intra-canal. Una vez hecho, las muestras pasan a la etapa de predicción de la señal donde se ultiliza métodos lineales de predicción (LPC). A continuación, la diferencia entre la señal original y la señal pronóstico se transfiere al codificador de entropía.
+
+
+=== Descomposición de la señal por bloques ===
+El tamaño óptimo de los bloques depende del algoritmo escogido. Generalmente, la reducción del tamaño del bloque contribuye a aumentar la cantidad de tramas cabecera, lo que hace que se reduzca el nivel de compresión. Para la compresión de datos de audio TTA se utilizan tramas con una duración aproximada de 1 segundo.
+
+
+=== Decorrelación intra-canal ===
+Los datos de entrada multicanal utilizan la decorrelación intra-canal. Esta decorrelación consiste, por ejemplo, si tenemos dos canales de entrada, estos se transforman en dos canales diferentes: el canal diferencia y el canal media. Estos seguirían las siguientes formulas:
+diferencia=primero-segundo (canal) media= (primero+segundo)/2
+Pero, para evitar pérdidas de datos, el TTA utiliza las siguientes formulas para estos nuevos canales:
+diferencia=primero-segundo media= (primero+diferencia)/2
+Para arxivos de audio multicanal con buena correlación entre canales vecinos, este procedimiento ayuda a ampliar la tasa de compresión.
+
+
+=== Pronóstico de la señal ===
+El objectivo clave para modelar el compresor TTA es minimizar la diferencia entre la señal obtenida del compresor y la señal original (error o residuo). El método que se ha utilitzado para construir el compresor es el que modela con filtros adaptativos. Este método utiliza filtros IIR donde los parámetros van cambiando durante los procesos de trabajo según las características de la señal. El TTA se diferencia un poco del algoritmo general de este tipo de filtros. Tiene un primer nivel donde se utilitza un predictor de nivel cero. Así la señal error será la siguiente:
+
+Donde k es próximo a 0
+Y la etapa final de filtrage se compone de un sistema de filtros de ancho de banda variable. Esta técnica es la más eficiente para la precisión de predicción y la velocidad del proceso.
+
+
+=== Codificación entrópica ===
+La codificación entrópica sirve para eliminar la redundancia que pueda haber en la señal obtenida e[n]. Este proceso es importante porque nos permitirá comprimir los datos con una mayor tasa. Es importante recalcar que, dado que estamos en codificación sin pérdidas, no hay pérdida de información en este proceso.
+
+
+== El Proyecto ==
+El proyecto TTA provee:
+Formato de archivo simple y gratis.
+Plugins para los reproductores más populares.
+Filtros DirectShow TTA.
+Conjunto de bibliotecas de desarrollo C/C++ para TTA.

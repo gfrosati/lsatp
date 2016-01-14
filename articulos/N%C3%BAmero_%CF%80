@@ -1,0 +1,433 @@
+π (pi) es la relación entre la longitud de una circunferencia y su diámetro, en geometría euclidiana. Es un número irracional y una de las constantes matemáticas más importantes. Se emplea frecuentemente en matemáticas, física e ingeniería. El valor numérico de π, truncado a sus primeras cifras, es el siguiente:
+
+El valor de π se ha obtenido con diversas aproximaciones a lo largo de la historia, siendo una de las constantes matemáticas que más aparece en las ecuaciones de la física, junto con el número e. Cabe destacar que el cociente entre la longitud de cualquier circunferencia y la de su diámetro no es constante en geometrías no euclídeas.
+
+
+== El nombre πEditar ==
+
+La notación con la letra griega π proviene de la inicial de las palabras de origen griego περιφέρεια 'periferia' y περίμετρον 'perímetro' de un círculo, notación que fue utilizada primero por William Oughtred (1574-1660) y cuyo uso fue propuesto por el matemático galés William Jones (1675-1749); aunque fue el matemático Leonhard Euler, con su obra Introducción al cálculo infinitesimal, de 1748, quien la popularizó. Fue conocida anteriormente como constante de Ludolph (en honor al matemático Ludolph van Ceulen) o como constante de Arquímedes (que no se debe confundir con el número de Arquímedes). Jones plantea el nombre y símbolo de este número, en 1706 y Euler empieza a difundirlo, en 1736.
+Arquímedes lo calculó con la aproximación de  < π < , tal como consignó en su obra "Medición del círculo", ciertamente con otra notación.
+
+
+== Historia del cálculo del valor πEditar ==
+La búsqueda del mayor número de decimales del número π ha supuesto un esfuerzo constante de numerosos científicos a lo largo de la historia. Algunas aproximaciones históricas de π son las siguientes.
+
+
+=== Antiguo EgiptoEditar ===
+
+El valor aproximado de π en las antiguas culturas se remonta a la época del escriba egipcio Ahmes en el año 1800 a. C., descrito en el papiro Rhind, donde se emplea un valor aproximado de π afirmando que el área de un círculo es similar a la de un cuadrado cuyo lado es igual al diámetro del círculo disminuido en 1/9; es decir, igual a 8/9 del diámetro. En notación moderna:
+
+Entre los ocho documentos matemáticos hallados de la antigua cultura egipcia, en dos se habla de círculos. Uno es el papiro Rhind y el otro es el papiro de Moscú. Sólo en el primero se habla del valor aproximado del número π. El investigador Otto Neugebauer, en un anexo de su libro The Exact Sciences in Antiquity, describe un método inspirado en los problemas del papiro de Ahmes para averiguar el valor de π, mediante la aproximación del área de un cuadrado de lado 8, a la de un círculo de diámetro 8.
+
+
+=== MesopotamiaEditar ===
+Hacia el 1900-1600 a. C., algunos matemáticos mesopotámicos empleaban, en el cálculo de segmentos, valores de  igual a 3, alcanzando en algunos casos valores más aproximados, como el de:
+
+
+=== Referencias bíblicasEditar ===
+Una de las referencias indirectas más antiguas del valor aproximado de π se puede encontrar en un versículo de la Biblia:
+
+«Hizo fundir asimismo un mar de diez codos de un lado al otro, perfectamente redondo. Tenía cinco codos de altura y a su alrededor un cordón de treinta codos».
+
+Una cita similar se puede encontrar en Segundo Libro de las Crónicas. En él aparece en una lista de requerimientos para la construcción del Gran Templo de Salomón, construido sobre el 950 a. C.:
+
+«También hizo un mar de metal fundido, el cual tenía diez codos de un borde al otro, enteramente redondo; su altura era de cinco codos, y un cordón de treinta codos de largo lo ceñía alrededor».
+
+Ambas citas dan 3 como valor de π lo que supone una notable pérdida de precisión respecto de las anteriores estimaciones egipcia y mesopotámica.
+
+
+=== Antigüedad clásicaEditar ===
+El matemático griego Arquímedes (siglo III a. C.) fue capaz de determinar el valor de π entre el intervalo comprendido por 3 10/71, como valor mínimo, y 3 1/7, como valor máximo. Con esta aproximación de Arquímedes se obtiene un valor con un error que oscila entre 0,024% y 0,040% sobre el valor real. El método usado por Arquímedes era muy simple y consistía en circunscribir e inscribir polígonos regulares de n-lados en circunferencias y calcular el perímetro de dichos polígonos. Arquímedes empezó con hexágonos circunscritos e inscritos, y fue doblando el número de lados hasta llegar a polígonos de 96 lados.
+Alrededor del año 20 d. C., el arquitecto e ingeniero romano Vitruvio calcula π como el valor fraccionario 25/8 midiendo la distancia recorrida en una revolución por una rueda de diámetro conocido.
+En el siglo II, Claudio Ptolomeo proporciona un valor fraccionario por aproximaciones:
+
+
+=== Matemática chinaEditar ===
+El cálculo de pi fue una atracción para los matemáticos expertos de todas las culturas. Hacia 120, el astrónomo chino Zhang Heng (78-139) fue uno de los primeros en usar la aproximación , que dedujo de la razón entre el volumen de un cubo y la respectiva esfera inscrita. Un siglo después, el astrónomo Wang Fang lo estimó en 142/45 (3,155555), aunque se desconoce el método empleado. Pocos años después, hacia 263, el matemático Liu Hui fue el primero en sugerir que 3,14 era una buena aproximación, usando un polígono de 96 o 192 lados. Posteriormente estimó π como 3,14159 empleando un polígono de 3072 lados. 
+A finales del siglo V, el matemático y astrónomo chino Zu Chongzhi calculó el valor de π en 3,1415926, al que llamó «valor por defecto», y 3,1415927, «valor por exceso», y dio dos aproximaciones racionales de π, 22/7 y 355/113, muy conocidas ambas, siendo la última aproximación tan buena y precisa que no fue igualada hasta más de nueve siglos después, en el siglo XV.
+
+
+=== Matemática indiaEditar ===
+Usando un polígono regular inscrito de 384 lados, a finales del siglo V el matemático indio Aryabhata estimó el valor en 3,1416. A mediados del siglo VII, estimando incorrecta la aproximación de Aryabhata, Brahmagupta calcula π como , cálculo mucho menos preciso que el de su predecesor. Hacia 1400 Madhava obtiene una aproximación exacta hasta 11 dígitos (3,14159265359), siendo el primero en emplear series para realizar la estimación.
+
+
+=== Matemática islámicaEditar ===
+En el siglo IX Al-Jwarizmi, en su Álgebra (Hisab al yabr ua al muqabala), hace notar que el hombre práctico usa 22/7 como valor de π, el geómetra usa 3, y el astrónomo 3,1416. En el siglo XV, el matemático persa Ghiyath al-Kashi fue capaz de calcular el valor aproximado de π con nueve dígitos, empleando una base numérica sexagesimal, lo que equivale a una aproximación de 16 dígitos decimales: 2π = 6,2831853071795865.
+
+
+=== Renacimiento europeoEditar ===
+
+A partir del siglo XII, con el uso de cifras arábigas en los cálculos, se facilitó mucho la posibilidad de obtener mejores cálculos para π. El matemático Fibonacci (1170-1250), en su Practica Geometriae, amplifica el método de Arquímedes, proporcionando un intervalo más estrecho. Algunos matemáticos del siglo XVII, como Viète, usaron polígonos de hasta 393.216 lados para aproximarse con buena precisión a 3,141592653. En 1593 el flamenco Adriaan van Roomen (Adrianus Romanus) obtiene una precisión de 16 dígitos decimales usando el método de Arquímedes.
+
+
+=== Época moderna (precomputacional)Editar ===
+En 1610 el matemático Ludolph van Ceulen calculó los 35 primeros decimales de π. Se dice que estaba tan orgulloso de esta hazaña que lo mandó grabar en su lápida. Los libros de matemática alemanes durante muchos años denominaron a π como número ludolfiano. En 1665 Isaac Newton desarrolla la serie
+
+Con  obtuvo una serie para:
+
+El matemático inglés John Wallis desarrolló en 1655 la conocida serie Producto de Wallis:
+
+En 1699, a sugerencia de Edmond Halley, el matemático inglés Abraham Sharp (1651-1742) calculó pi con una precisión de 71 dígitos decimales usando la serie de Gregory:
+
+Con  se obtiene una serie para:
+
+Para alcanzar la precisión obtenida, debió usar alrededor de trescientos términos en la serie. En 1720 el francés Thomas de Lagny utilizó el mismo método para obtener una aproximación de 127 dígitos (solo los primeros 112 eran correctos).
+Leibniz calculó de una forma más complicada en 1682 la siguiente serie matemática que lleva su nombre:
+.
+El inglés William Oughtred fue el primero que empleó la letra griega π como símbolo del cociente entre las longitudes de una circunferencia y su diámetro. Fue en el año 1706 cuando el galés William Jones afirmó: «3,14159 andc. = π» y propuso usar siempre el símbolo π, y fue Leonhard Euler el que al adoptarlo en 1737 lo convirtió en la notación habitual que se usa hasta nuestros días.
+El matemático japonés Takebe empezó a calcular el número π en el año 1722, con el mismo método expuesto por Arquímedes, y fue ampliando el número de lados para polígonos circunscritos e inscritos hasta llegar a 1.024 lados. Este ingente trabajo consiguió que se determinara π con 41 decimales.
+En 1789 el matemático de origen esloveno Jurij Vega, mediante la fórmula de John Machin, descubierta en 1706, fue el primero en averiguar los primeros 140 decimales de π, de los cuales 126 eran correctos; este récord se mantuvo durante 52 años, hasta que en 1841 William Rutherford calculó 208 decimales, de los cuales 152 eran correctos.
+El matemático aficionado de origen inglés William Shanks trabajó, durante 20 años, en hallar los guarismos de π, habiendo obtenido 707 decimales en 1873. En el año 1944, D. F. Ferguson encontró un error en en el quingentésimo vigésimo octavo guarismo decimal (528º) de la serie de Shanks, a partir del cual todos los dígitos subsiguientes eran erróneos. En 1947, Ferguson recalculó π con 808 decimales con la ayuda de una calculadora mecánica.[cita requerida]
+Algunas aproximaciones históricas de valores de π, anteriores a la época computacional, se muestran en la siguiente tabla:
+
+
+=== Época moderna (computacional)Editar ===
+Desde el diseño de la primera computadora se empezaron a desarrollar programas para el cálculo del número π con la mayor cantidad de cifras posible. De esta forma, en 1949 un ENIAC fue capaz de romper todos los récords, obteniendo 2037 cifras decimales en 70 horas. Poco a poco fueron surgiendo ordenadores que batían récords y, de esta forma, pocos años después (1954) un NORAC llegó a 3092 cifras. Durante casi toda la década de los años 1960 los IBM fueron batiendo récords, hasta que un IBM 7030 pudo llegar en 1966 a 250.000 cifras decimales (en 8 h y 23 min). Durante esta época se probaban las nuevas computadoras con algoritmos para la generación de series de números procedentes de π.
+En la década de 2000, los ordenadores son capaces de obtener números que poseen una inmensa cantidad de decimales. En 2009 se hallaron más de dos billones y medio de decimales de pi mediante el uso de una supercomputadora T2K Tsukuba System, compuesta por 640 computadoras de alto rendimiento, que juntas consiguen velocidades de procesamiento de 95 teraflops. Lo obtuvieron en 73 horas y 36 minutos.
+
+En la época computacional del cálculo de π las cifras se han disparado, no sólo debido a la potencia de cálculo que estas máquinas son capaces de generar, sino también por el prestigio que conlleva para el constructor de la máquina cuando su marca aparece en la lista de los récords.
+
+
+== Características matemáticasEditar ==
+
+
+=== Definiciones y caracterizacionesEditar ===
+Euclides fue el primero en demostrar que la relación entre una circunferencia y su diámetro es una cantidad constante. No obstante, existen diversas definiciones del número , pero las más común es:
+ es la razón entre la longitud de cualquier circunferencia y la de su diámetro.
+Además  es:
+El área de un círculo unitario (de radio que tiene longitud 1, en el plano geométrico usual o plano euclídeo).
+El menor número real  positivo tal que .
+También es posible definir analíticamente ; dos definiciones son posibles:
+La ecuación sobre los números complejos  admite una infinidad de soluciones reales positivas, la más pequeña de las cuales es precisamente  (véase identidad de Euler).
+La ecuación diferencial  con las condiciones de contorno  para la que existe solución única, garantizada por el teorema de Picard-Lindelöf, es un función analítica (la función trigonométrica ) cuya raíz positiva más pequeña es precisamente .
+A través de una integral definida se obtiene el valor de π/4. Se integra la función f(x) = 1/ ( 1 + x2) de 0 a 1.
+Todos los ensayos estadísticos realizados sobre la sucesión de los dígitos decimales de pi han corroborado su carácter aleatorio. No hay orden ni regularidad, hay varias series de 7777 y la chocante 999999, hay apariciones que confunden o agradan a los intuicionistas.
+
+
+=== Número irracional y trascendenteEditar ===
+
+Se trata de un número irracional, lo que significa que no puede expresarse como fracción de dos números enteros, como demostró Johann Heinrich Lambert en 1761 (o 1767). También es un número trascendente, es decir, que no es la raíz de ningún polinomio de coeficientes enteros. En el siglo XIX el matemático alemán Ferdinand Lindemann demostró este hecho, cerrando con ello definitivamente la permanente y ardua investigación acerca del problema de la cuadratura del círculo indicando que no tiene solución.
+También se sabe que π tampoco es un número de Liouville (Mahler, 1953), es decir, no sólo es trascendental sino que no puede ser aproximado por una secuencia de racionales "rápidamente convergente" (Stoneham 1970[cita requerida]).
+
+
+=== Las primeras cincuenta cifras decimalesEditar ===
+A pesar de tratarse de un número irracional continúa siendo averiguada la máxima cantidad posible de decimales. Los cincuenta primeros son:
+
+Para ver secuencias mayores de este número consúltese las referencias (5·1012 decimales), así como Las primeras diez mil cifras decimales A00796 y OEIS.
+En ciencia e ingeniería, esta constante puede emplearse, la mayoría de las veces, con una precisión de sólo una docena de decimales. Con cincuenta decimales se podría describir con precisión la curvatura del Universo con un error más pequeño que el tamaño de un protón.
+
+
+== Fórmulas que contienen el número πEditar ==
+
+
+=== En geometríaEditar ===
+Longitud de la circunferencia de radio r: C = 2 π r
+Áreas de secciones cónicas:
+Área del círculo de radio r: A = π r²
+Área interior de la elipse con semiejes a y b: A = π ab
+Áreas de cuerpos de revolución:
+Área del cilindro: 2 π r (r+h)
+Área del cono: π r² + π r g
+Área de la esfera: 4 π r²
+Volúmenes de cuerpos de revolución:
+Volumen de la esfera de radio r: V = (4/3) π r³
+Volumen de un cilindro recto de radio r y altura h: V = π r² h
+Volumen de un cono recto de radio r y altura h: V = π r² h / 3
+Ecuaciones expresadas en radianes:
+Ángulos: 180 grados son equivalentes a π radianes.
+El volumen del toro conlleva π al cuadrado
+
+
+=== En cálculoEditar ===
+Área limitada por la astroide: (3/8) π a2
+Área de la región comprendida por el eje X y un arco de la cicloide: 3 π a2
+Área encerrada por la cardioide: (3/2) π a2
+Área de la región entre el eje polar y las dos primeras vueltas de la espiral de Arquímedes r = aα es 8π3 a2
+Área entre la curva de Agnesi y la asíntota es S = πa2.
+Cisoide
+Estrofoide
+Caracol de Pascal. El área usando esta curva y cualquiera de las anteriores lleva en la fórmula el valor de pi
+
+
+=== En probabilidadEditar ===
+La probabilidad de que dos enteros positivos escogidos al azar sean primos entre sí es: 6/π²
+Si se eligen al azar dos números positivos menores que 1, la probabilidad de que junto con el número 1 puedan ser los lados de un triángulo obtusángulo es: (π-2)/4
+El número medio de formas de escribir un entero positivo como suma de dos cuadrados perfectos es π/4 (el orden es relevante).
+Aguja de Buffon: si lanzamos al azar una aguja de longitud L sobre una superficie en la que hay dibujadas líneas paralelas separadas una distancia D, la probabilidad de que la aguja corte a una línea es: 2L/Dπ
+
+
+=== En análisis matemáticoEditar ===
+Fórmula de Leibniz:
+
+Producto de Wallis:
+
+Euler:
+
+Identidad de Euler
+
+Área bajo la campana de Gauss:
+
+Fórmula de Stirling:
+
+Problema de Basilea, resuelto por Euler en 1735:
+
+Euler:
+
+Además, π tiene varias representaciones como fracciones continuas:
+
+También como desarrollo en series:
+
+Formas de representación aproximada a 
+
+Método de Montecarlo
+En un círculo de radio r inscrito en un cuadrado de lado 2r (2 veces el radio), el área del círculo es πr² y la del cuadrado (2r)². De esto se deduce que la relación de área entre el cuadrado y el círculo de π/4.
+
+Fórmula de Srinivāsa Rāmānujan demostrada en 1985 por Jonathan y Peter Borwein, descubierta en 1910. Es muy eficaz porque aporta 8 decimales a cada iteración:
+
+
+== Cómputos de πEditar ==
+
+
+=== Pi y los números primosEditar ===
+Utilizando el inverso del producto de Euler para la función zeta de Riemann y para el valor del argumento igual a 2 se obtiene:
+
+donde pn es el n-ésimo número primo. Euler fue el primero en hallar este valor de la función zeta (empleando la expresión de sumatoria) y resolviendo así el famoso Problema de Basilea.
+
+
+=== Fórmula de MachinEditar ===
+Una forma exacta de poder calcular π en términos de tangentes inversas de fracciones unitarias es la fórmula de Machin, descubierta en 1706:
+
+Muchos matemáticos emplearon esta fórmula para averiguar dígitos por encima de la centena (por ejemplo, el ya citado Shanks, que con esta fórmula calculó 707 posiciones decimales de π).
+
+
+=== Métodos eficientesEditar ===
+Los primeros millones de dígitos de π y 1/π se pueden consultar en Proyecto Gutenberg (véase enlaces externos). Uno de los records más recientes fue alcanzado en diciembre de 2002 por Yasumasa Kanada de la Universidad de Tokio, fijando el número pi con 1.241.100.000.000 dígitos; se necesitaron unas 602 horas con un superordenador de 64 nodos Hitachi SR8000 con una memoria de un terabyte capaz de llevar a cabo 2 billones de operaciones por segundo, más de seis veces el record previo (206 mil millones de dígitos). Para ello se emplearon las siguientes fórmulas modificadas de Machin:
+K. Takano (1982).
+
+F. C. W. Störmer (1896).
+
+Estas aproximaciones proporcionaron una cantidad tan ingente de dígitos que puede decirse que ya no es útil sino para comprobar el funcionamiento de los superordenadores. La limitación no está en la computación sino en la memoria necesaria para almacenar una cadena con una cantidad tan grande de números.
+
+
+== Aproximaciones geométricas a πEditar ==
+Es posible obtener una aproximación al valor de π de forma geométrica. De hecho, ya los griegos intentaron obtener sin éxito una solución exacta al problema del valor de π mediante el empleo de regla y compás. El problema griego conocido como cuadratura del círculo o, lo que es lo mismo, obtener un cuadrado de área igual al área de un círculo cualquiera, lleva implícito el cálculo del valor exacto de π.
+Una vez demostrado que era imposible la obtención de π mediante el uso de regla y compás, se desarrollaron varios métodos aproximados. Dos de las soluciones aproximadas más elegantes son las debidas a Kochanski (usando regla y compás) y la de Mascheroni (empleando únicamente un compás).
+
+
+=== Método de KochanskiEditar ===
+
+Se dibuja una circunferencia de radio R. Se inscribe el triángulo equilátero OEG. Se traza una recta paralela al segmento EG que pase por A, prolongándola hasta que corte al segmento OE, obteniendo D. Desde el punto D y sobre ese segmento se transporta 3 veces el radio de la circunferencia y se obtiene el punto C. El segmento BC es aproximadamente la mitad de la longitud de la circunferencia.
+Demostración (suponiendo R = 1)
+
+Sustituyendo en la primera fórmula:
+
+
+=== Método de MascheroniEditar ===
+
+Método desarrollado por Lorenzo Mascheroni: se dibuja una circunferencia de radio R y se inscribe un hexágono regular. El punto D es la intersección de dos arcos de circunferencia: BD con centro en A', y CD con centro en A. Obtenemos el punto E como intersección del arco DE, con centro en B, y la circunferencia. El segmento AE es un cuarto de la longitud de la circunferencia, aproximadamente.
+Demostración (suponiendo R = 1)
+ 
+ 
+Por el teorema de Ptolomeo, en el cuadrilátero ABEB'
+
+
+== Uso en matemática y cienciaEditar ==
+π es ubicuo en matemática; aparece incluso en lugares que carecen de una conexión directa con los círculos de la geometría euclídea.
+
+
+=== Geometría y trigonometríaEditar ===
+Para cualquier círculo de radio r y diámetro d = 2r, la longitud de la circunferencia es πd y el área del círculo es πr2. Además, π aparece en fórmulas para áreas y volúmenes de muchas otras figuras geométricas relacionadas con la circunferencia, como elipses, esferas, conos, y toroides. π aparece en integrales definidas que describen la circunferencia, área o volumen de figuras generadas por circunferencias y círculos. En el caso básico, la mitad del área de un círculo unitario es:
+
+y la mitad de la longitud de la circunferencia unitaria es:
+
+Se puede integrar formas más complejas como sólidos de revolución.
+De la definición de las funciones trigonométricas desde el círculo unitario se llega a que el seno y el coseno tienen período 2π. Lo que significa, para todo x y enteros n, sin(x) = sin(x + 2πn) y cos(x) = cos(x + 2πn). Porque sin(0) = 0, sin(2πn) = 0 para todos los enteros n. Además, el ángulo 180° es igual a π radianes. En otras palabras 1° = (π/180) radianes.
+En la matemática moderna, π es a menudo definido usando funciones trigonométricas, por ejemplo como el menor entero positivo x para el cual sinx = 0, para evitar dependencias innecesarias de las sutilezas de la geometría euclidiana y la integración. Equivalentemente, π puede ser definido usando funciones trigonométricas inversas, por ejemplo como π = 2 arccos(0) o π = 4 arctan(1). Expandir funciones trigonométricas inversas como series de potencias es la manera más fácil de obtener series infinitas para π.
+
+
+=== Variable complejaEditar ===
+
+La frecuente aparición de π en análisis complejo puede estar relacionada con el comportamiento de la función exponencial de una variable compleja, descrito por la fórmula de Euler
+
+donde i es la unidad imaginaria que satisface la ecuación  y e ≈ 2.71828 es el número de Euler. Esta fórmula implica que las potencias imaginarias de e describen rotaciones un círculo unitario en el plano complejo; estas rotaciones tienen un período de 360º = 2π. En particular, la rotación de 180º φ = π resulta en la notable identidad de Euler
+
+Hay n diferentes raíces n-ésimas de la unidad
+
+
+=== Cálculo superiorEditar ===
+La integral de Gauss
+
+Una consecuencia es que el resultado de la división entre la función gamma de un semientero (la mitad de un número impar) y √π es un número racional.
+
+
+=== FísicaEditar ===
+Aunque no es una constante física, π aparece rutinariamente en ecuaciones que describen los principios fundamentales del Universo, Debido en gran parte a su relación con la naturaleza del círculo y, correspondientemente, con el sistema de coordenadas esféricas. Usando unidades como las unidades de Planck se puede eliminar a veces a π de las fórmulas.
+La constante cosmológica:
+
+Principio de incertidumbre de Heisenberg:
+
+Ecuación del campo de Einstein de la relatividad general:
+
+Ley de Coulomb para la fuerza eléctrica:
+
+Permeabilidad magnética del vacío:
+
+Tercera ley de Kepler:
+
+
+=== Probabilidad y estadísticaEditar ===
+En probabilidad y estadística, hay muchas distribuciones cuyas fórmulas contienen a π, incluyendo:
+la función de densidad de probabilidad para la distribución normal con media μ y desviación estándar σ, que depende de la integral gaussiana:
+
+la función de densidad de probabilidad para la distribución de Cauchy (estándar):
+
+Nótese que para todas las funciones de densidad de probabilidad se cumple que, entonces las fórmulas anteriores pueden usarse para producir otras fórmulas integrales para π.
+
+El problema de la aguja de Buffon es llamado en ocasiones como una aproximación empírica de π. Se trata de lanzar una aguja de longitud l repetidamente sobre una superficie en la que se han trazado rectas paralelas distanciadas entre sí, en t unidades, de manera uniforme (con t > l de forma que la aguja no pueda tocar dos rectas). Si la aguja se lanza n veces y x de esas cae cruzando una línea, entonces se puede aproximar π usando el Método de Montecarlo, lanzándola gran cantidad de veces:   
+
+Aunque este resultado es matemáticamente impecable, no puede usarse más que para determinar unos cuantos dígitos de π experimentalmente. Para conseguirse sólo tres dígitos correctos (incluyendo el "3" inicial) requiere de millones de lanzamientos, y el número de lanzamientos crece exponencialmente con el número de dígitos deseados. Además, cualquier error en la medida de las longitudes l y t se transfiere directamente como un error en la aproximación de π. Por ejemplo, una diferencia de un simple átomo en una aguja de 10 centímetros podría acarrear errores en el noveno dígito del resultado. En la práctica, incertidumbres en la determinación de si la aguja en realidad cruza una línea que parece estar solo tocándola lleva el límite de precisión alcanzable a mucho menos de 9 dígitos.
+
+
+== CuriosidadesEditar ==
+
+
+=== Reglas mnemotécnicasEditar ===
+Es muy frecuente emplear poemas como regla mnemotécnica para poder recordar las primeras cifras del número pi.
+Una forma de memorizar los 20 primeros dígitos es con este poema, sólo hay que contar las letras de cada palabra:
+
+Soy y seré a todos definible
+mi nombre tengo que daros
+cociente diametral siempre inmedible
+soy de los redondos aros
+
+Otra versión, que permite enumerar los 27 primeros dígitos, es la siguiente:
+"¿Qué? ¿Y cómo π reúne infinidad de cifras? ¡Tiene que haber períodos repetidos! Tampoco comprendo que de una cantidad poco sabida se afirme algo así, tan atrevido!" Nótese que para el segundo 1 (3,14159...) se utiliza la letra griega π.
+
+Un tercer poema:
+
+Voy a amar a solas, deprimido
+no sabrán jamás que sueño hallarte,
+perímetro difícil, escondido
+que en mis neuronas late...
+Oscuro el camino para ver
+los secretos que tú ocultas
+¿hallarlos podré?...
+
+Otra regla, que permite recordar las primeras 32 cifras:
+"Soy π, lema y razón ingeniosa de hombre sabio, que serie preciosa valorando, enunció magistral. Por su ley singular, bien medido el grande orbe por fin reducido fue al sistema ordinario usual." (del autor Rafael Nieto París ) Aquí también se utiliza la letra griega π para el primer 1.
+
+Otra forma, que permite recordar las primeras 14 cifras:
+"How I want a drink, alcoholic of course, after the heavy lectures involving quantum mechanics!
+Existen cuentos amplios que son capaces de hacer memorizar una gran cantidad de dígitos, tal es el titulado "Cadaeic Cadenza", escrito en 1996 por el matemático Michael Keith y que ofrece la posibilidad de memorizar los primeros 3.834 dígitos. De esta forma, tomando "A" como 1, "B" como 2, "C" como 3, etc., el nombre de la historia saca los dígitos de pi, como "Cadaeic" es la primera palabra de 7 dígitos de pi:
+
+C a d a e i c 3.1 4 1 5 9 3
+
+Es de resaltar que en cada idioma existen diferentes reglas mnemotécnicas (se aconseja visitar cada Wikipedia para descubrir el arte empleado en cada idioma).
+
+
+=== Aparición en mediosEditar ===
+En el año 1998 aparece una película del director Darren Aronofsky denominada Pi sobre un matemático que cree que el mundo se representa por números.
+Alfred Hitchcock en su film Cortina rasgada hace aparecer el símbolo π como una organización de espionaje.
+En La Película The Net, Aparece en la parte inferior derecho de una página de conciertos y música, de un programa llamado The Mozart Ghost, Aparentemente es solo un adorno, pero cuando se presiona CRTL+ALT+Click en π, se accede a la interfaz de datos de el Guardián de la Puerta, un Programa de los Pretorianos, Que pedía un Usuario y un Password.
+En la serie de dibujos The Simpsons, en el episodio "Bye Bye Nerdie", el Professor Frink grita, a voz en cuello, que "¡π es igual a tres!", para atraer la atención de un auditorio compuesto por científicos. Cuando todos se dan vuelta para mirarlo, pide disculpas por haberse visto obligado a semejante sacrilegio.
+En la serie Futurama aparecen diferentes referencias a π, tales como 'aceite π en 1', y 'compre en πkea'.
+La novela Contacto de Carl Sagan —sobre la que luego se filmó la película homónima— toma a π (aunque no en base decimal) como un número que esconde la esencia misma del universo.
+
+
+=== Otras curiosidadesEditar ===
+
+El método de Arquímedes no fue superado en casi dos mil años a pesar de los grandes avances realizados en su evaluación numérica.
+El valor de Pi usado por Posidonio (135-51 a.C.) debió ser correcto en varias cifras decimales. El valor que obtuvo para la circunferencia de la tierra fue adoptado tres siglos más tarde por el astrónomo alejandrino Claudio Ptolomeo y mucho después por Cristobal Colón, entre muchos otros.
+El día 22 de julio (22/7) es el día dedicado a la aproximación de π.
+El 14 de marzo (3/14 en formato de fecha de Estados Unidos) se marca también como el día pi en el que los fans de este número lo celebran con diferentes actuaciones. Curiosamente es el cumpleaños de Einstein.
+355/113 (~3.1415929) se menciona a veces como una simulación ¡cuasi-perfecta!
+John Squire (de la banda The Stone Roses) menciona π en una canción escrita para su segunda banda The Seahorses denominada "Something Tells Me". La canción acaba con una letra como: "What's the secret of life? It's 3.14159265, yeah yeah!!".
+El primer millón de cifras de π y su inversa 1/π se puede consultar en el Proyecto Gutenberg o en este enlace.
+La numeración de las versiones del programa de tratamiento de texto TeX de Donald Knuth se realiza según los dígitos de π. La versión del año 2002 se etiquetó con 3.141592
+Se emplea este número en la serie de señales enviadas por la tierra con el objeto de ser identificados por una civilización inteligente extraterrestre.
+La probabilidad de que dos enteros positivos escogidos al azar sean primos entre si es .
+Existen programas en internet que buscan tu número de teléfono en las 50.000.000 primeras cifras de π.
+En algunos lenguajes de programación se pueden averiguar tantos dígitos como se desee con simplemente emplear expresiones como: RealDigits[ N[ Pi, 105]] en «Mathematica».
+En el año 2002 el japonés Akira Haraguchi rompió el record mundial recitando durante 13 horas 83.431 dígitos del número pi sin parar, doblando el anterior record en posesión del también japonés Hiroyuki Goto. El 4 de octubre de 2006, a la 1:30 de la madrugada, y tras 16 horas y media, Haraguchi volvió a romper su propio record recitando 100.000 dígitos del número pi, realizando una parada cada dos horas de 10 minutos para tomar aire.
+El máximo número de dígitos de π necesario para buscar cualquier secuencia de día-mes-año con cuatro dígitos en la expansión decimal de pi es 60.872.
+Existe una canción de Kate Bush llamada "Pi" en la cual se recitan más de veinte dígitos decimales del número.
+En Argentina, el número telefónico móvil para emergencias en estaciones de trenes y subterráneos es ∗31416.
+El valor principal de la expresión  es un número real y está dado por
+
+Existe un vehículo Mazda 3 modificado, al que se le añadieron 27 cifras de π, después del 3.
+Srinivasa Ramanujan publicó una solución aproximada, con regla y compás, a la cuadratura del círculo en 1913 en la que obtuvo un segmento aproximadamente igual a :
+
+Los hebreos consideran al número pi como "el número de Dios". En la película Pi: Fe en el Caos los estudiantes de la Torá consideran los 216 (6x6x6) primeros decimales como representación del verdadero nombre de Dios. En la Biblia (hebrea y cristiana) el nombre de Dios aparece en el capítulo 3 y versículo 14 del Libro del Éxodo (Éxodo 3,14).
+
+
+=== Días de Aproximación a PiEditar ===
+
+Según determinadas coincidencias numéricas, los Días de Aproximación a Pi son:
+14 de marzo (3/14 en formato de fecha inglés)
+26 de abril
+22 de julio (22/7 que es una aproximación de pi)
+10 de noviembre (es el 314º día del calendario gregoriano)
+21 de diciembre (es el día 355, en referencia a la aproximación 355/113)
+
+
+=== Canción de πEditar ===
+
+Soy π, lema y razón ingeniosa de hombre sabio,
+Qué serie preciosa valorando, enunció su amor hacia ti.
+A los 7 continentes comunicaría
+Mi cariño y amor hacia ti
+El mundo entero recorrería
+Solo para verte sonreír
+Lobos y perros aullarían
+Al verme junto a ti
+Y para siempre mi vida
+Estaría muy feliz
+¿Y cómo reúno infinidad de amor?
+Tiene que haber tiempo y espacio
+Mas mi amor es infinito
+Y nunca te dejaré ir
+Los océanos yo nadaría,
+En la Antártida viviría,
+De la selva me alimentaria
+Con tal de verte a ti
+Soy π, lema y razón ingeniosa de hombre sabio,
+Qué serie preciosa valorando, enunció su amor hacia ti.
+Todo lo haría por ti
+Nada ni nadie sabe cómo yo te amo y te amo sin fin
+Si los granos de arena
+Y las estrellas contaras
+Tendrías una idea
+Del amor que tengo por ti
+
+
+== Cuestiones abiertas sobre πEditar ==
+Cada uno de los dígitos decimales 0, 1, 2, 3, 4, 5, 6, 7, 8 y 9, ¿tiene una aparición infinita en los decimales de π?
+La denominada cuestión de Brouwer: en la expansión decimal de π, ¿existe alguna posición donde exista una sucesión de mil ceros consecutivos?
+¿Es π simplemente normal en base 10? Es decir, ¿tiene cada uno de los diez dígitos del sistema decimal la misma probabilidad de aparición en una expansión decimal?
+No se sabe si π+e, π/e, ln(π) son irracionales. Se sabe que no son raíces de polinomios de grado inferior a nueve y con coeficientes enteros del orden 109. 
+
+
+== Véase tambiénEditar ==
+Cuadratura del círculo
+Día de pi
+Lista de constantes matemáticas
+Número e
+Número irracional
+Número trascendente
+Tau (2π)
+
+
+== ReferenciasEditar ==
+
+
+== Enlaces externosEditar ==
+ Wikimedia Commons alberga contenido multimedia sobre Número π. Commons
+ Wikiquote alberga frases célebres de o sobre Número π. Wikiquote
+Número Pi con 10.000 decimales.
+Historia del cálculo de Pi y algoritmos utilizados.
+Rodríguez del Río, Roberto (2008) El número Pi: de la Geometría al Cálculo Numérico.
+Historia de Pi, en astroseti.org
+Club de Amigos de Pi
+Para buscar cualquier número entre las primeras 200.000.000 de cifras de Pi
+Programa para el cálculo de π y de otro gran número de constantes (en inglés)
+Lista con los valores calculados con autores y valores (en inglés)

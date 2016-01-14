@@ -1,0 +1,25 @@
+Kademlia es un protocolo de la capa de aplicación diseñado para redes P2P descentralizadas. Especifica la estructura de la red, regula la comunicación entre nodos y el intercambio de información. Los nodos se comunican entre sí usando el protocolo sin conexión UDP (ver modelo OSI). Con Kademlia se crea una nueva red virtual sobre una red LAN/WAN existente, como Internet, en la cual cada nodo de la red es identificado por un número (ID del Nodo).
+Como Kademlia es un protocolo que no requiere servidores, desaparece el cuello de botella que se creaba con la necesidad de estos. En vez de conectarse a un servidor, se conecta a un cliente (con una dirección IP y puerto conocidos), que sea compatible con el protocolo Kademlia. Esto se llama Bootstrapping.
+Cuando se busca, cada cliente actúa como un pequeño servidor y se le da la responsabilidad de ciertas palabras clave o fuentes. Esto añade complejidad al encontrar fuentes, ya que no existe un servidor central al que preguntar, pero a cambio se propagará la consulta a través de la red.
+
+
+== ¿Es Kademlia lo mismo que Overnet o Kad?Editar ==
+No, Kademlia es un protocolo y Overnet y Kad son redes. Overnet fue una variante del protocolo Kademlia y era la red nativa sin servidores del desaparecido programa eDonkey, mientras que Kad usa otra variante distinta y es la red nativa sin servidores de los clientes *Mule. Aun así, ambas redes usan esencialmente el mismo protocolo (Kademlia), pero diferentes variantes, incompatibles entre sí. El cliente MLDonkey es compatible con ambas. El protocolo Kademlia es un desarrollo abierto y público.
+
+
+== Programas compatibles con el protocoloEditar ==
+eMule y algunos de sus mods
+MLDonkey
+aMule
+Lphant
+
+
+== Véase tambiénEditar ==
+P2M
+Descarga directa
+Gestor de descargas
+Webcaché
+Edonkey
+
+
+== ReferenciasEditar ==

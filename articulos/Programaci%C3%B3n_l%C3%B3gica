@@ -1,0 +1,78 @@
+La programación lógica es un tipo de paradigmas de programación dentro del paradigma de programación declarativa. El resto de los subparadigmas de programación dentro de la programación declarativa son: programación funcional, programación con restricciones, programas DSL (de dominio específico) e híbridos. La programación funcional se basa en el concepto de función (que no es más que una evolución de los predicados), de corte más matemático. La programación lógica gira en torno al concepto de predicado, o relación entre elementos.
+
+
+== Motivación ==
+Históricamente, los ordenadores se han programado utilizando lenguajes muy cercanos a las peculiaridades de la propia máquina: operaciones aritméticas simples, instrucciones de acceso a memoria, etc. Un programa escrito de esta manera puede ocultar totalmente su propósito a la comprensión de un ser humano, incluso uno entrenado. Hoy día, estos lenguajes pertenecientes al paradigma de la Programación imperativa han evolucionado de manera que ya no son tan crípticos.
+En cambio, la lógica matemática es la manera más sencilla, para el intelecto humano, de expresar formalmente problemas complejos y de resolverlos mediante la aplicación de reglas, hipótesis y teoremas. De ahí que el concepto de "programación lógica" resulte atractivo en diversos campos donde la programación tradicional es un fracaso.
+
+
+== Campos de aplicación ==
+La programación lógica encuentra su hábitat natural en aplicaciones de inteligencia artificial o relacionadas: Sistemas expertos, donde un sistema de información imita las recomendaciones de un experto sobre algún dominio de conocimiento.
+Demostración automática de teoremas, donde un programa genera nuevos teoremas sobre una teoría existente.
+Reconocimiento de lenguaje natural, donde un programa es capaz de comprender (con limitaciones) la información contenida en una expresión lingüística humana.
+La programación lógica también se utiliza en aplicaciones más "mundanas" pero de manera muy limitada, ya que la programación tradicional es más adecuada a tareas de propósito general.
+
+
+== Fundamentos ==
+La mayoría de los lenguajes de programación lógica se basan en la teoría lógica de primer orden, aunque también incorporan algunos comportamientos de orden superior como la lógica difusa. En este sentido, destacan los lenguajes funcionales, ya que se basan en el cálculo lambda, que es la única teoría lógica de orden superior que es demostradamente computable (hasta el momento).
+
+
+== En qué consiste (ejemplo) ==
+La programación lógica permite formalizar hechos del mundo real, por ejemplo:
+
+  las aves vuelan
+  los pingüinos no vuelan
+  "pichurri" es un ave
+  "sandokan" es un perro
+  "alegría" es un ave
+  
+
+y también reglas o restricciones:
+
+   una mascota vuela si es un ave y no es un pingüino
+
+Ante dicho "programa" es posible establecer hipótesis que no son más que preguntas o incógnitas, por ejemplo:
+
+   ¿ "pichurri" vuela ?
+   ¿ qué mascotas vuelan ?....
+
+Gracias a que la lógica de primer orden es computable, el ordenador será capaz de verificar la hipótesis, es decir, responder a las incógnitas:
+
+   Es cierto que "pichurri" vuela.
+   "pichurri" y "alegría" vuelan. 
+
+Obsérvese que el programa lógico no solamente es capaz de responder si una determinada hipótesis es verdadera o falsa. También es capaz de determinar que valores de la incógnita hacen cierta la hipótesis.
+Este ejemplo es claramente académico. Sin embargo, consideremos el siguiente ejemplo: el sistema de control de semáforos de una ciudad.
+El estado de cada uno de los semáforos (verde, rojo o ámbar) constituye los hechos del mundo real. El programa en sí consiste en unas pocas reglas de sentido común: determinados semáforos no pueden permanecer simultáneamente en verde, un semáforo solamente puede transitar de verde a ámbar y de ámbar a rojo, etc. La hipótesis es el estado en el que deberían estar cada uno de los semáforos en el siguiente instante de tiempo.
+Éste es un ejemplo imposible de resolver mediante programación tradicional, ya que la lógica subyacente al comportamiento de los semáforos en su conjunto queda enmascarada por simples órdenes imperativas del tipo "cambiar color de tal o cual semáforo".
+
+
+== Lenguajes ==
+El lenguaje de programación lógica por excelencia es Prolog, que cuenta con diversas variantes. La más importante es la programación lógica con restricciones (véase artículo sobre programación con restricciones), que posibilita la resolución de ecuaciones lineales además de la demostración de hipótesis.
+
+
+== Bibliografía ==
+Las siguientes referencias bibliográficas corresponden a literatura en inglés:
+Foundations of Logic Programming, J.W. Lloyd, Springer-Verlag, 1991.
+Essentials of Logic Programming, C. Hogger, Clarendon Press, Oxford, 1990.
+Logic for Computer Science: Foundations of Automatic Theorem Proving, J.H. Gallier, John Wiley and Sons, 1987.
+Logic programming as classical inference, Eric A. Martin, Show more. Journal of Applied Logic
+Volume 13, Issue 3, September 2015, Pages 316–369
+http://www.sciencedirect.com.pbidi.unam.mx:8080/science/article/pii/S1570868315000555
+Existen pocas referencias a literatura en castellano:
+Lógica Informática, J. Cuena, Editorial Alianza, 1985.
+Programación Lógica. Teoría y Práctica, P. Julián, M. Alpuente, Pearson Prentice Hall, 2007.
+Este último sea posiblemente el mejor libro de programación lógica en español, ya que también contiene las bases de lógica matemática.
+
+
+== Véase también ==
+Paradigma de programación.
+Programación con restricciones.
+Programación funcional.
+Lógica matemática.
+
+
+== Enlaces externos ==
+CLIP group, Universidad Politécnica de Madrid.
+Logic Programming Virtual Library entry (en inglés).
+Association for Logic Programming (ALP) (en inglés).

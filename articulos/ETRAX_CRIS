@@ -1,0 +1,73 @@
+ETRAX CRIS es una serie de microprocesadores diseñados y fabricados por Axis Communications para su uso en sistemas embebidos desde 1993[1]. El nombre es un acrónimo en inglés de las características del chip: Ethernet, Token Ring, AXis - Code Reduced Instruction Set. El soporte Token ring ha sido eliminado de los últimos modelos por quedar obsoleto.
+
+
+== Algunos tipos de chipsEditar ==
+
+
+=== TGA-1Editar ===
+Desarrollado en 1986, funcionaba como transceptor para la arquitectura AS-400
+
+
+=== CGA-1Editar ===
+El CGA-1 fue simplemente una mejora del TGA-1.
+
+
+=== ETRAX-1Editar ===
+Apareció en 1993 y presentaba controladores para redes Ethernet de 10 megabits y redes Token Ring, hecho recogido en el nuevo nombre ETRAX.
+
+
+=== ETRAX-4Editar ===
+El ETRAX-4 apreció como mejora de los modelos ETRAX-1, ETRAX-2 y ETRAX-3 anteriores, además de un nuevo controlador SCSI.
+
+
+=== ETRAX 100Editar ===
+El ETRAX 100 presentó un controlador Ethernet 10/100 MBit (de ahí el nombre), junto con soporte ATA y Wide SCSI.
+
+
+=== ETRAX 100LXEditar ===
+En 2000, al diseño del ETRAX 100LX se añadió una MMU, así como soporte USB y SDRAM. Asimismo se mejoró el rendimiento del procesador hasta las 100 MIPS. A diferencia de los dispositivos sin MMU, es capaz de ejecutar el núcleo Linux sin modificaciones en el código de manejo de memoria de Linux.
+Presenta:
+Un núcleo RISC de 32 bits
+Controlador Ethernet 10/100
+4 puertos serie asíncronos
+2 puertos serie síncronos
+2 puertos USB
+2 puertos paralelos
+4 puertos ATA (IDE)
+2 puertos Narrow SCSI (o 1 puerto Wide)
+Soporte para SDRAM, Flash, EEPROM y SRAM
+
+
+=== ETRAX 100LX MCMEditar ===
+Este sistema de chip único es un ETRAX 100LX al que se han añadido memoria flash, algo más de SDRAM y un PHYceiver Ethernet. Se comercializaron dos versiones: el ETRAX 100LX MCM 2+8 (2 MB flash, 8 MB SDRAM) y el ETRAX MCM 4-16 (4 MB flash, 16 MB SDRAM).
+
+
+=== ETRAX FSEditar ===
+Diseñado en 2005 y con pleno soporte para Linux 2.6, presenta:
+Un procesador RISC de 32 bits capaz de trabajar a 200 MIPS, con 5 etapas de segmentación.
+Dos controladores Ethernet 10/100.
+128 kilobytes de RAM integrados.
+Un procesador de E/S microprogramable con soporte para PC-Card, CardBus, PCI, USB FS/HS, SCSI y ATA.
+
+
+== Herramientas de desarrolloEditar ==
+
+
+=== SoftwareEditar ===
+Axis proporciona un compilador basado en Linux que puede ser descargado de su página web [2] junto con un gran abanico de aplicaciones de muestra. También se encuentran disponibleas imágenes precompiladas.
+
+
+=== HardwareEditar ===
+Varios fabricantes de hardware ofrecen 'placas de desarrollador': un circuito impreso con un chip ETRAX y todos los puertos de E/S necesarios para desarrollar (o incluso extender) aplicaciones:
+Placa de desarrollador AXIS 82
+Embedded Linux PC de ipcas
+Placa FOX de ACME Systems
+Cámaras inteligentes Elphel
+Linux embebido Free2move
+Unidad de control industrial DSP&FPGA
+Sistemas de control remoto BBDevice
+
+
+== Enlaces externosEditar ==
+http://developer.axis.com
+http://www.acmesystems.it/?id=14 Entornos de desarrollo, how-tos y aplicaciones de muestra

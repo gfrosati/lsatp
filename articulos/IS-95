@@ -1,0 +1,56 @@
+IS-95 (de Interim Standard 95, o "estándar interno 95") es un estándar de telefonía móvil celular basado en tecnología CDMA. También conocido por su denominación comercial cdmaOne, fue desarrollado por la compañía norteamericana Qualcomm.
+IS-95 es un estándar de segunda generación, diseñado para transmitir voz, señalización de llamadas y datos en forma limitada.
+A diferencia de otros estándares de segunda generación (como GSM), cdmaONE emplea el método de multiplexación CDMA por el que todas las estaciones transmiten en la misma banda de frecuencias. La separación entre usuarios se realiza usando códigos ortogonales que se eliminan al ser multiplicados entre sí. Las secuencias binarias se recuperan en el móvil únicamente usando el mísmo código que se usó en la estación base.
+IS-95 compite con tecnologías como IS-136 (llamada popularmente TDMA por su método de multiplexado) o GSM. En la actualidad ha sido reemplazada por el de tercera generación CDMA2000.
+Esta tecnología fue usada en los Estados Unidos, Sur Korea, Canadá, México, la India, Israel, Nueva Zelanda, Sri Lanka, Venezuela, Brasil, Argentina y China.
+
+
+== Definición e historia de IS-95/cdmaONE ==
+En marzo de 1992, la TIA estableció el subcomité TR 45.5 con la finalidad de desarrollar un estándar de telefonía celular digital con espectro extendido. En julio de 1993, la TIA aprobó el estándar CDMA IS-95. Los sistemas IS-95 dividen el espectro en portadoras de 1.25 MHz.
+Uno de los aspectos únicos de IS-95 es que a pesar de que existe un número fijo de llamadas telefónicas que pueden manipularse por parte de un proveedor de servicios de telefonía (carrier), este no es un número fijo. La capacidad del sistema dependerá de muchos factores. Cada dispositivo que utiliza IS-95 está programado con un pseudocódigo único, el cual se usa para extender una señal de baja potencia sobre un espectro de frecuencias amplio. La estación base utiliza el mismo código en forma invertida (los ceros son unos y los unos son ceros) para desextender y reconstruir la señal original. Los otros códigos permanecen extendidos, indistinguibles del ruido de fondo. A CDMA en general se le caracteriza por su alta capacidad y celdas de radio pequeño, que emplea espectro extendido y un esquema de codificación especial y, lo mejor de todo es muy eficiente en potencia.
+
+
+== Información sobre paquetes ==
+Las redes basadas en IS-95 están construidas con protocolos basados en IP (Internet protocol; protocolo de Internet). En otro tipo de redes, añadir equipo que soporte paquetes de datos y requiera también equipo terminal que lo soporte. El estándar cdmaOne ya incorpora en sus terminales los protocolos TCP/IP(Protocolo de control de transmision/Protocolo de Internet) y PPP(Protocolo punto a punto).
+
+
+== Seguridad y privacidad ==
+
+La técnica de espectro extendido se utiliza bastante en aplicaciones militares, donde la seguridad de las conversaciones y protección de los datos son cuestiones importantísimas. En un ambiente de negocios también son vitales los aspectos de seguridad y privacidad. Diseñado con alrededor de 4.4 trillones de códigos, IS-95 virtualmente elimina la clonación de dispositivos y es muy difícil capturar y descifrar una señal.
+
+
+== Control del nivel de potencia ==
+El control de la potencia es otro beneficio de los sistemas de IS-95. Empleando técnicas de procesado de señales, corrección de errores, etc., IS-95 supera el problema de la potencia con una serie de ciclos de retroalimentación. Con un control automático de la ganancia en los terminales y una supervisión constante del nivel de señal a ruido y tasas de error en la radio base, los picos en el nivel de potencia se regulan con un complejo de circuitos electrónicos que ajusta la potencia a una razón de 800 veces por segundo. Esto repercute en el ajuste dinámico del tamaño de las celdas.
+En una celda congestionada, la potencia de los terminales se elevaría creando una interferencia mutua. En el margen, las transmisiones de alta potencia inundarían las celdas vecinas donde éstas podrían ser tomadas por la radio base adyacente. En una celda de poca densidad, la potencia es tan baja que la celda se reduce efectivamente, transmitiendo sin interferencia hacia las celdas vecinas y mejorando el desempeño de las mismas. Este tipo de ajuste dinámico en el tamaño de las celdas es imposible en TDMA, pues en esta las celdas adyacentes utilizan diferentes frecuencias. Se ha comprobado en diversos estudios que IS-95 es cientos de veces más eficiente en potencia que TDMA.[cita requerida]
+
+
+== Bajo consumo de potencia y baterías más duraderas en las terminales ==
+Debido al sistema de retroalimentación de IS-95, que mantiene la potencia al más bajo nivel permisible, los terminales consumen menos potencia y son más pequeños, además de que las baterías de IS-95 duran más tiempo que las de TDMA.[cita requerida]
+
+
+== Amplia cobertura con pocas celdas ==
+La señal de espectro extendido de IS-95 provee gran cobertura en la industria inalámbrica, por lo que permite a los operadores la instalación de menos celdas para cubrir una área más extensa. Pocas celdas significan para los operadores mucho ahorro en infraestructura de radio-bases. Dependiendo de la carga del sistema y de la interferencia, la reducción de celdas es 50 por ciento menor en IS-95 que en sistemas como GSM (sistema global para comunicaciones móviles), basado en TDMA.[cita requerida] Es preciso notar que la reducción de celdas solo es valida para operadores que empezaron desde un principio con IS-95. Operadores que utilizan sistemas analógicos o basados en otras tecnologías deberán redistribuir las celdas IS-95 en las celdas ya existentes.
+
+
+== Pocas llamadas caídas ==
+La transferencia de celdas handoff de IS-95, método para transferir llamadas entre celdas, reduce inteligentemente el riesgo de interrumpirlas durante una transferencia. El proceso conocido como transferencia suave o transparente Soft-Handover entre celdas conduce a pocas llamadas caídas, ya que dos o tres celdas siempre monitorean la llamada. La transferencia entre celdas es transparente a los usuarios debido a que como, estos utilizan el mismo espectro, es más fácil moverse de una celda a otra sin que el suscriptor lo advierta.
+
+
+== Ancho de banda en demanda ==
+El canal de 1,25 MHz de IS-95 provee un recurso común a las terminales en un sistema de acuerdo con sus propias necesidades, como voz, fax datos u otras aplicaciones. En un tiempo dado, la porción de este ancho de banda que no utilice un terminal estará disponible para otro usuario. Debido a que CDMA utiliza una porción grande de espectro repartida entre varios usuarios, provee flexibilidad en el ancho de banda para permitir servicios en demanda. Bajo TDMA, donde los canales son fijos y pequeños, esto no es posible. En forma general está comprobado que IS-95 es de tres a seis veces más eficiente en ancho de banda que TDMA.[cita requerida]
+
+
+== Países que emplean o emplearon IS-95 ==
+Estados Unidos Sprint Nextel Corporation, Verizon Wireless
+México Iusacell, Unefón
+Venezuela Movilnet, Movistar
+Ecuador CNT Móvil, Movistar (apagón CDMA en Ecuador se llevó a cabo en el 2013)
+Guatemala movistar, Claro (ex-PCS Digital, a punto de extinguirse)
+Perú Movistar(mayormente para corporativos y RPM)
+República Dominicana Claro, Tricom, Centennial
+Brasil Vivo
+Australia Telstra
+Japón AuKDDI
+Korea LG TeleCom
+Chile Claro (cambiando a GSM)
+Argentina CTI Móvil, ahora Claro Argentina. En 2008 terminó de migrar a todos sus clientes hacia GSM.

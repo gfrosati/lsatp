@@ -1,0 +1,23 @@
+BAC, o cromosoma artificial bacteriano, es un Vector de clonación usado para clonar fragmentos de ADN (de 100 a 300 kb de tamaño; media de 150 kb) en Escherichia coli, basado en el plásmido factor-F encontrado de modo natural en la bacteria E. coli.
+Es uno de los tipos de vectores de clonación conocidos como "vectores de alta capacidad", que incluye cósmidos, BACs, PACs y YACs (cromosoma artificial de levadura), por contraposición con plásmidos, vectores derivadores de fago lambda, fagémidos y fásmidos, que son de baja capacidad.
+Los BACs son muy utilizados como vectores de clonación para la construcción de genotecas genómicas, como en el Proyecto Genoma Humano. Su gran utilización se debe a su notable capacidad, su gran estabilidad y su bajo porcentaje de quimerismo.
+Dado el gran tamaño de los BAC recombinantes las estrategias de introducción más eficientes han sido mediante electroporación.
+Un BAC típico consta de:
+OriS: origen de replicación del factor F
+repE: control de la replicación del plásmido
+parA, B, C: control de la replicación
+CMr: cloranfenicol acetil-transferasa (CAT) (gen de resistencia a cloranfenicol)
+LacZ’: con un polilinker en su interior. Se usa para el ensayo de alfa-complementación.
+
+
+== Procedimiento de clonación ==
+a) Se corta el vector con HindIII para linealizarlo.
+b) Se desfosforilan los extremos 5’ del vector para evitar autoligación.
+c) Se digiere nuestra muestra con HindIII o compatible. Se seleccionan los fragmentos según su tamaño por electroforesis y se purifican.
+d) Llevamos a cabo la reacción de ligación.
+e) Transferencia de los vectores a una célula por electroporación.
+f) Selección de los clones en un medio con cloranfenicol y X-gal (son positivos los que sobreviven en cloranfenicol y carecen de actividad beta-galactosidasa.
+
+
+== Enlaces externos ==
+Biblioteca BAC

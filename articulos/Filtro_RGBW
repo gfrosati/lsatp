@@ -1,0 +1,35 @@
+Los filtros RGBW son una evolución del mosaico del filtro de Bayer (RGB). Consiste en un tipo de mosaico creado a partir de pixeles pancromáticos que permiten reducir la información que no podemos asimilar mediante el ojo.
+
+
+== Introducción ==
+Las nuevas técnicas de tratamiento de imágenes proporcionan el mismo brillo con la mitad de potencia. Se pueden conseguir ahorros de hasta un 50% para que no proporcione más información de la que el ojo puede absorber ni de la que el cerebro puede asimilar. Para mejorar la eficiencia de las pantallas, se han creado patrones RGBW que minimizan la inutilidad de algunos píxeles. Las pantallas con filtro de patrón de color RGBW requieren aproximadamente la mitad de potencia que una pantalla analógica RGB.
+
+La eficiencia del formato RGBW resulta por dos factores. Primeramente, mucha parte de la imagen se acerca a un color neutral que puede ser reproducido usando subpíxeles blancos. Además, los subpíxeles blancos en una pantalla RGBW son más eficientes por la ausencia de filtros de color.
+
+
+== Definición ==
+Se trata de una modificación aparentemente insignificante, que mejora el rendimiento de la pantalla. Añadiendo un subpixel blanco para formar un píxel RGBW prescindimos de uno de los cuatro filtros de color. De esta manera estimulamos la eficiencia. Hay desarrollados más de un patrón para adoptar este enfoque con diferentes arquitecturas de sensores y aplicaciones. Por ejemplo, diferentes patrones pueden tener diferentes niveles de procesado de imagen asociados a ellos.
+
+Los nuevos diseños usan píxeles pancromáticos. Una ventaja es que los píxeles pancromáticos son más sensibles ya que detectan todas las longitudes de onda de la luz visible. Cuando nos referimos a la luminancia, el sistema visual humano tiene una capacidad de resolución mejor que la percepción del color y con estos nuevos diseños tenemos esta ventaja. Podemos observar más rangos de gris y veremos diferentes colores. Es un sistema logarítmico y esta es la razón por la cual observamos diferentes rangos de brillo. En términos de luminancia y crominancia podemos observar esta característica. En el diseño original de la máscara de Bayer los píxeles verdes se usan para cubrir la información de luminancia de la imagen. Con este método, usamos píxeles pancromáticos, los cuales son más sensibles que los píxeles verdes.
+
+En realidad, si utilizamos píxeles pancromáticos, no obtenemos una imagen más detallada. El detalle de la imagen proviene del canal de luminancia de la imagen. Con máscara de Bayer, la mitad de los píxeles son verdes y se usan para la luminancia. Con este nuevo diseño, la mitad de los píxeles de las celdas son pancromáticos y se usan para la luminancia, por tanto, obtenemos el mismo número de información de luminancia, pero incrementamos la sensibilidad. La información de color proviene de una vía similar. Con la máscara de Bayer solo obtenemos dos canales de croma (R-G & B-G) y con este nuevo diseño obtenemos tres.
+Este nuevo diseño nos proporciona las mejoras más grandes en situaciones donde queremos más sensibilidad de luz. En situaciones con baja luz, este nuevo diseño produce mucho menos ruido de color que la máscara de Bayer. También observamos mejoras con imágenes donde hay objetos con movimiento, donde con la nueva tecnología obtenemos unos contornos mucho más definidos.
+
+
+=== Lista de formaciones de filtros RGBW ===
+
+
+=== Formaciones ===
+El filtro de Bayer tiene un patrón de 2x2 muy justo. Por tanto, para cada píxel rojo, no estas nunca a más de dos píxeles alrededor de otro píxel rojo. Uno de los nuevos patrones nos proporciona un par de píxeles rojos, un par de verdes, otro par de píxeles verdes y un par de azules.
+
+
+== Alternativas ==
+Para llegar a aproximarse a una pantalla RGBW, anteriormente lo hicieron simplemente intercambiando uno de los dos subpixeles verdes por uno de blanco en cada píxel de un patrón Bayer. Lo que ahora se está haciendo es cambiar las dimensiones de los subpixeles haciéndolos más estrechos y más altos.
+Aun así, hay mucha ineficiencia al hecho de utilizar cuatro subpixeles en vez de tres. Para solucionar esto, se han encontrado maneras de mostrar un píxel como la mediana de solo dos subpixeles (dos terceras partes respecto del patrón RGB), y se hace utilizando algoritmos para crear píxeles virtuales.
+Básicamente, el algoritmo engaña al ojo. Define el margen de un objeto en una imagen con subpixeles rojos, verdes y blancos, y añade la barra que se corresponde al subpixel azul fuera del margen, en la parte del ojo donde no se puede distinguir la localización exacta de los bits azules. Estos trucos proporcionan imágenes muy frescas con un buen color.
+Otro truco realza el color de un píxel indirectamente. La finalidad es minimizar el número de subpixeles de color necesarios para mostrar una imagen haciendo que cada uno de ellos trabaje el máximo posible para resolver la imagen. Disponemos de una gran libertad para hacer-lo. Por ejemplo, para realzar un píxel rojo en un fondo gris, podemos añadir una barra de blanco –aumentando la luminancia del rojo- y al mismo tiempo disminuyendo la del azul y el verde. El ojo percibe esta reducción de azul y verde como un realzamiento del rojo.
+
+
+== Enlaces externos ==
+Información sobre los filtros RGBW (en inglés)
+Información de nuevos filtros de kodak (en inglés)

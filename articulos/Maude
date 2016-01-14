@@ -1,0 +1,184 @@
+Maude es un lenguaje de programación para especificaciones formales mediante el uso de términos algebraicos. Se trata de un lenguaje interpretado que permite la verificación de propiedades y transformaciones sobre modelos y que permite ejecutar la especificación como si fuera un prototipo.
+
+
+== Introducción ==
+Maude soporta de una manera sistemática y eficiente la reflexión lógica. Esto le permite ser un lenguaje extremadamente potente y ampliable, a la vez que lo hace capaz de soportar un álgebra de operaciones de composición de módulos extensible. Algunas de sus aplicaciones más interesantes son las de metalenguaje, en las cuales Maude es usado para crear entornos ejecutables para distintas lógicas, demostraciones de teoremas, lenguajes y modelos de computación. Este lenguaje puede modelar casi todo, cualquier cosa que se pueda describir mediante el lenguaje humano, se puede expresar con instrucciones Maude. Puede llegar a ser extremadamente abstracto. Su diseño permite tanta flexibilidad que la sintaxis puede parecer en principio poco comprensible. Sin embargo, y a pesar de sus muchas ventajas, Maude no deja de ser un lenguaje declarativo, y como tal también tiene sus inconvenientes. Con lenguaje declarativo nos referimos a todos aquellos lenguajes de programación que basan su forma de funcionar en el pensamiento humano, esto es, en las Matemáticas, en lugar de en el comportamiento del computador. De ahí que Maude se base principalmente en el álgebra y en la especificación de ecuaciones. Pues bien, como los demás lenguajes de este tipo, son tremendamente elegantes y claros a la hora de realizar cualquier especificación, además de soportar técnicas de desarrollo muy avanzadas (como ya hemos comentado) y existir aplicaciones variadas y de gran interés. Por otro lado y como contraposición a lo anterior, las implementaciones en lenguajes declarativos suelen ser ineficientes, y es por esto que no están muy extendidas actualmente para el desarrollo de aplicaciones.
+
+
+== ¿Por qué Maude? ==
+Maude está desarrollado para resolver diferentes conjuntos de problemas que en lenguajes imperativos como C, Java o Perl pueden volverse tareas muy arduas de realizar. Es una herramienta de razonamiento formal que puede ayudar al programador a verificar que las cosas son “como deben ser” y que muestra por qué no lo son si éste es el caso. En otras palabras, Maude permite definir formalmente lo que se quiere expresar para algún concepto en una manera muy abstracta (sin importar la estructura interna o implementación), pero que se puede describir como está pensado para que sea igual con respecto a esta teoría abstracta (ecuaciones o postulados matemáticos).
+Esto es bastante útil para validar protocolos de seguridad y códigos importantes. El sistema Maude ha demostrado imperfecciones en protocolos de criptografía solamente especificando lo que el sistema puede hacer y descubriendo situaciones no deseadas (como estados o términos a los que no debería ser posible llegar). A través de este sistema se puede mostrar que la definición tratada por él contiene fallos, no sintácticos sino que permiten llegar a situaciones indeseables que suceden, aunque sean difíciles de predecir a simple vista.
+Maude puede ser usado para buscar estados no deseados en nuestra definición y para tratar de garantizar que no es posible llegar a dichos estados. Maude es un software libre de gran potencia declarativa, del que se pueden encontrar buenos tutoriales disponibles online (al menos, en inglés)
+
+
+== Core Maude ==
+Llamamos Core Maude al intérprete de Maude implementado en C++ y que provee toda la funcionalidad básica del lenguaje.
+
+
+=== Sintaxis básica ===
+Los elementos sintácticos básicos son los identificadores, usados para poner nombre a módulos, tipos y operadores. Las unidades básicas de especificación y programación son los módulos. Existen tres tipos de módulos: los módulos funcionales, los módulos de sistema y los orientados a objetos. Lo primero que una especificación necesita es declarar los tipos (denominados sorts) de los datos definidos y las correspondientes operaciones. Los sorts están parcialmente relacionados mediante relaciones de subtipo (subsort) definiéndose un orden parcial. Esto significa que es posible establecer una correspondencia entre dos tipos que a priori parecen distintos. Por ejemplo, pongámonos en el caso de estar definiendo un módulo que representará una lista de enteros. Para tal caso, dispondríamos de una estructura como la siguiente:
+
+    fmod LISTA-ENTEROS is  
+    protecting INT . ***con esta línea indicamos el uso del modulo de Enteros
+    sorts ListaEntNV ListaEnt .
+    subsort ListaEntNV < ListaEnt .
+    ***resto de especificación
+    endfm
+
+Como podemos observar hemos definido tanto el tipo ListaEntNV como ListaEnt. Posteriormente los hemos relacionado con el símbolo “<”. Esto implica que ListaEntNV va a ser un subtipo de ListaEnt, es decir, va a tomar un subconjunto de los valores que puede adquirir éste.
+Este caso en concreto es muy usado ya que representa que ListaEntNV es una lista que debe estar compuesta por al menos un elemento.
+La lógica en la que se basa Maude es la lógica ecuacional de pertenencia. En esta lógica los tipos se agrupan en clases de equivalencia llamados kinds. Para este propósito, dos tipos se consideran equivalentes si pertenecen al mismo componente conexo. En Maude los tipos están definidos por el usuario mientras que los "kinds" son implícitamente asociados con componentes conexos de tipos y son considerados como "supertipos de error". Esto puede verse algo más claro en el siguiente ejemplo:
+
+    op _ - _ : Nat Nat → Nat .
+
+A priori, esta operación no parece que presente ningún problema. Pero, ¿qué ocurriría si el segundo operando fuera mayor que el primero?:
+
+    4-7=¿?
+
+El resultado no estaría definido ya que estamos usando una operación entre el sort Nat, que no admitiría valores negativos. Una posible solución sería definir la operación como un valor del kind Nat, es decir:
+
+    op _-_ : Nat Nat → [Nat] .
+
+Con esto estamos especificando que bajo determinada situación (en este caso que el segundo operando sea mayor que el primero) se va a devolver un valor del kind, representado por corchetes.
+A esto se le conoce como ampliación de recorrido. Otra manera de asegurarnos que nuestra operación va a devolvernos un valor del tipo válido es mediante la llamada reducción de dominio, que consiste en hacer que el término que pueda plantearnos problemas cumpla una determinada condición. A este tipo de operaciones se les denomina parciales.
+Maude está compuesto principalmente por términos, operaciones y ecuaciones que describen el comportamiento de dichas operaciones, siendo los términos variables o aplicaciones de un operador a dichas variables. Las variables se declaran restringiéndose a un determinado dominio de un tipo o “kind”.
+
+
+=== Módulos funcionales ===
+Los módulos funcionales definen tipos de dato y operaciones sobre ellos en forma de teorías ecuacionales. Los tipos de datos consisten en elementos que pueden ser nombrados por términos base. Dos términos denotan el mismo elemento si y sólo si pertenecen a la misma clase de equivalencia; esto viene determinado por las ecuaciones.
+La semántica de un módulo funcional es su álgebra inicial. En los módulos funcionales, una aplicación repetida de ecuaciones como reglas de simplificación eventualmente alcanza un término al cual no se le pueden aplicar más ecuaciones, y el resultado, llamado forma canónica, es el mismo independientemente del orden en el que se hayan aplicado las reglas.
+Para reducir un término hasta su forma canónica se usa la instrucción:
+
+    red TérminoAReducir.
+
+Un módulo funcional se declara usando las siguientes palabras claves:
+
+    fmod <NombreDelMódulo> is
+         <DeclaracionesYDefiniciones>
+    endfm
+
+En Maude, la definición de una operación (como ya vimos en el ejemplo anterior) empieza por la palabra reservada op, seguida del nombre de la operación, dos puntos, la lista de tipo de los parámetros separados por espacios en blanco, el símbolo ->, el tipo del resultado y un punto. Todas las operaciones tienen que devolver un valor y sólo uno, pero no es necesario que tenga parámetros. Los operadores constantes se definen como aquellos que no tienen ningún argumento.
+También permite la sobrecarga de operaciones, es decir, se pueden definir varias operaciones con el mismo nombre, pero con una lista distinta de parámetros.
+Además los operadores pueden tener atributos que proveen información adicional sobre el operador: semántica, sintáctica, etc. Se declaran entre [...], después del tipo devuelto y antes del punto de fin de línea. Los más importantes son:
+
+    • assoc (asociatividad).
+    • comm (conmutatividad).
+    • idem (idempotencia).
+    • id: <Término> (identidad, con el correspondiente término para el elemento de identidad).
+    • iter (iterador, permite definir operadores unarios con un carácter de iterador).
+    • ctor (constructor, a partir de ellos obtenemos todos los valores del tipo).
+
+La propiedad de conmutatividad es en este caso muy útil ya que en muchas ocasiones nos ahorra definir algunas ecuaciones. Esto es:
+
+    fmod NAT is
+         sort Nat .
+         op cero : → Nat .[ctor]
+         op suc : Nat → Nat .[ctor]
+         op sum : Nat Nat → Nat .[comm]
+         vars A B :Nat .
+         eq : sum (cero, A)=A .
+         eq : sum (suc(A),B)=suc (sum(A, B)) .
+    endf
+
+Esta podría ser una posible especificación de los Naturales. Si no hubiéramos especificado entre corchetes que la operación sum es conmutativa, habría que incluir más ecuaciones para describir el comportamiento de dicha operación.
+
+
+=== Módulos de sistema ===
+Un módulo de sistema en Maude especifica una teoría de reescritura. Una teoría de reescritura tienen tipos, kinds y operadores, y puede tener tres tipos de definiciones: ecuaciones, axiomas de pertenencia y reglas.
+Un módulo de sistema se declara usando las siguientes palabras claves:
+
+    mod <NombreDelMódulo> is
+         <DeclaracionesYDefiniciones>
+    endm
+
+
+=== Importación de módulos ===
+Cada módulo de sistemas o funcional puede importar otros módulos como submódulos.Esto consiste básicamente en “avisar” al programa de que vamos a usar unos tipos u operaciones definidas en otro sitio. En Maude puede ser importado de tres maneras diferentes:
+Protecting: importar un módulo en modo protecting significa que no se le añade basura (definir nuevos términos irreducibles a los tipos definidos en el módulo importado) y confusión (agregar reglas de reducción que hacen que términos que eran distintos ahora no lo sean) cuando es importado.
+Extending: permite la adición de basura pero no de confusión.
+Including: permite la adición de basura o de confusión.
+La orden de importación la escribiremos justo debajo de la declaración del nombre del módulo que estamos definiendo, es decir, de la sentencia fmod <Nombre del módulo> is, y la cerraremos como siempre por un espacio en blanco seguido por un punto.
+
+
+=== Corrección de una especificación ===
+Para que la especificación de una operación sea sintácticamente correcta ha de cumplir tres condiciones:
+tiene que ser confluente (si hay varias reducciones posibles se ha de llegar siempre al mismo término canónico),
+completa (todo término básico no canónico se ha de poder reducir), y
+libre de reducciones infinitas (no deben existir secuencias de reducciones de longitud infinita).
+La corrección semántica requiere una correspondencia entre el funcionamiento de las operaciones especificadas y las propiedades del álgebra modelo deseada.
+
+
+=== Operaciones generadoras ===
+Las funciones generadoras se marcan con el atributo [ctor]. Un término es canónico si sólo incluye operaciones generadoras. Si todos los términos canónicos representan elementos distintos, el conjunto de generadores es libre. Si el conjunto de generadores no es libre necesitamos ecuaciones impurificadoras, que establecen la equivalencia de términos canónicas.
+Especificación de los naturales en Maude:
+
+    fmod NATURAL is
+         sort Natural .
+         *** generadores
+         op 0 : -> Natural [ctor] .
+         op suc : Natural -> Natural [ctor iter] .
+         *** constructores
+         op _+_ : Natural Natural -> Natural [comm assoc id: 0] .
+         op _*_ : Natural Natural -> Natural [comm assoc] .
+         *** variables
+         vars M N : Natural .
+         *** ecuaciones
+         eq suc (M) + suc (N) = suc (suc(M + N)) .
+         eq 0 * N = 0 .
+         eq suc (M) * N = (M * N) + N .
+    endfm
+
+Especificación de los números complejos en Maude:
+
+    fmod COMPLEJOS is
+         including INT .
+         sort complejo .
+         *** generadores
+         op <_;_> : Int Int -> Complejo [ctor] .
+         *** constructores
+         op _+_ : Complejo Complejo -> Complejo .
+         op _-_ : Complejo Complejo -> Complejo .
+         *** variables
+         vars A B C D : Int .
+         *** ecuaciones
+         eq < A ; B > + < C ; D > = < A + B ; C + D > .
+         eq < A ; B > - < C ; D > = < A - B ; C - D > .
+    endfm
+
+
+== Full Maude ==
+Es una extensión, escrito en el mismo lenguaje, que dota a Maude de un potente y extensible álgebra de módulo en el cual los módulos de Maude pueden ser combinados conjuntamente para construir módulos más complejos. Los módulos pueden ser parametrizados y pueden ser instanciados usando los views (vistas). Los parámetros son teorías especificando los requerimientos semánticos para una correcta instanciación. Las teorías mismas pueden ser parametrizadas. Los módulos de Core Maude también pueden ser introducidos en Full Maude.
+
+
+=== Programación parametrizada ===
+Los bloques básicos de esta programación parametrizada son: módulos parametrizados, teorías y vistas:
+Teorías: se usan para declarar interfaces de módulo, o sea la sintaxis y propiedades semánticas que tienen que ser satisfechas por los parámetros actuales usados en una instanciación. Se declaran mediante las palabras claves fth...endfth. Todas ellas pueden tener tipos, subtipos, operadores, variables, axiomas de partencia, ecuaciones y pueden importar otras teorías o módulos.
+Vistas: las usamos para especificar como un módulo destinado tiene que satisfacer una teoría fuerte. En general, hay muchas maneras mediante las cuales tales requerimientos pueden ser satisfechos; puede haber diferentes vistas, cada una especificando una interpretación particular de la teoría fuente en el destino. Cada declaración de vista tiene asociado un conjunto de obligaciones, para cada axioma en la teoría fuente tiene que haber un caso en el que la traducción del axioma por la vista es true en el destino. Se declara mediante view...endv
+Módulos parametrizados: es la instanciación de un módulo usando como parámetro una vista sobre una teoría.
+Teoría TRIV (predefinida en Maude)
+
+   fth TRIV is
+       sort Elt .
+   endfth
+
+Vista de los naturales sobre la teoría TRIV
+
+   view VNat from TRIV to NAT is
+       sort Elt to Nat
+   endv
+
+
+== Véase también ==
+Árboles AVL
+Árbol rojo-negro
+Árbol (estructura de datos)
+Montículo (informática)
+Cola (estructura de datos)
+Pila (estructura de datos)
+
+
+== Enlaces externos ==
+Página oficial de Maude
+Proyecto MOMENT, Maude para Windows
+Depurador declarativo para Maude
+Tutorial en español

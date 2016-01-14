@@ -1,0 +1,62 @@
+Un secador de pelo es un dispositivo electromecánico diseñado para expulsar aire caliente o frío sobre el pelo húmedo o mojado, acelerando la evaporación del agua para secar el cabello. Desde las primeras décadas del siglo XX también existen como pequeños electrodomésticos.
+
+
+== Historia ==
+La primera máquina eléctrica para secar el cabello apareció en Francia en 1890, dentro del salón de su creador, Alexandre Godefoy. En realidad, era una aspiradora adaptada para invertir su resultado. La bomba de aire de la aspiradora crea un vacío que absorbe el polvo, y el movimiento del motor calienta los gases de su interior. Godefoy quitó el tubo de la entrada y lo colocó en la salida de aire caliente. Había nacido el secador eléctrico.
+Los primeros secadores de pelo portátiles fueron desarrollados en 1920 en Racine, Wisconsin por las compañías Universal Motor Company y Hamilton Beach. La idea nació de la conjunción de la descarga de aire caliente utilizada en la aspiradora (inventada unos años antes) con el motor de la licuadora (también desarrollada en Racine). Estos primeros secadores eran voluminosos, pesados y despedían poca cantidad de aire, pero en vista de sus resultados enseguida ganaron popularidad entre los consumidores.
+Entre los años 1900 y 1940 se introdujeron las primeras novedades, como mandos para regular la temperatura y la velocidad del aire, los que popularizaron aún más el artefacto.
+El secador portátil (llamado popularmente secador de pistola) se transformó en el más popular entre la población, presentando algunas variedades como el secador plegable (utilizado para viajes).
+En el sector profesional hay diferentes compañías que producen secadores con un motor de larga duración y mayor potencia para garantizar una vida útil de acuerdo a las exigencias del rubro. También está el secador de casco que, gracias a su mayor potencia y mejor distribución del aire, permite la realización de moldeados más modernos, los que son utilizados, mayormente, en salones de belleza y peluquerías
+
+
+== Análisis funcional/técnico ==
+
+
+=== Alimentación ===
+El secador de pelo funciona por medio de corriente alterna suministrada por un enchufe doméstico.
+Transporte: La corriente es conducida, por medio de cables de cobre obtenidos mediante estirado y aislados del exterior por plásticos generalmente PVC, hacia el interior del secador por un orificio, destinado a tal propósito, que “agujerea” la carcasa.
+
+
+=== La carcasa ===
+La carcasa se hace mediante un proceso de moldeo denominado: inyección. Este usa plástico fundido en concreto ABS. Se usa dicho proceso para obtener piezas precisas y en cantidades industriales debido a su bajo coste de producción y también por la gran variedad de diseños. La parte anterior y posterior de la carcasa se mantienen unidas por medio de unos tornillos.
+
+
+=== El condensador ===
+Una vez en el interior los cables se separan y se introducen en una regleta que distribuye la fase y el neutro a un condensador. El condensador tiene por función compensar la reactiva, es decir, al alimentar un motor la corriente pasa por una bobina que rodea un imán dispuesto sobre un eje móvil. La corriente continua hace rotar el imán. Pero cuando esta rota a su vez genera una pequeña cantidad de electricidad y que, sin el condensador, volvería al cableado eléctrico de la vivienda produciendo interferencias en otros dispositivos electrónicos tales como el televisor o la radio. Evitarlo se conoce como compensar la reactiva.
+
+
+=== El conmutador ===
+Hasta ahora hemos supuesto que el conmutador estaba abierto ya que de no ser así la corriente no habría llegado tan lejos. Bien, el conmutador tiene como misión el abrir o cerrar el paso a la corriente y además dirigirla por unos cables u otros.
+Puente de diodos: En este modelo en concreto no cabe la posibilidad de dirigir la corriente, por lo tanto esta se dirigiría al puente de diodos que tienen por empresa la de transformar la corriente alterna en continua.
+Mencionar también que en la gran mayoría de modelos de secadores sí que disponen de la opción de regular la velocidad mediante el conmutador por lo tanto este dirige la corriente hacia uno de los puentes de diodos de los cuales uno de los dos o tres efectúa una resistencia variando por consecuente la velocidad, la temperatura o ambos.
+
+
+=== El motor ===
+A partir de aquí la corriente eléctrica pasa del puente de diodos a alimentar el motor.
+El motor en funcionamiento hace rotar una hélice con seis aspas, de paso normal, es decir, que giran, visto desde frente, en sentido contrario a las agujas de un reloj. Estas se hacen de plástico.
+La forma de las hélices esta estratégicamente pensada para coger el aire exterior mediante las palas de las aspas y debido a la rotación expulsarlo hacia el interior. Cambiando la posición de las hélices o el sentido de giro del motor se conseguiría el resultado inverso. Si las hélices careciesen de curvatura el aire se mantendría estático. La hélice está hecha de plástico moldeado por inyección.
+
+
+=== La resistencia ===
+En este modelo la resistencia y el motor se activan temporalmente. La electricidad circula a través de la resistencia hecha de nicromo que reposa encima de mica (se explica posteriormente). Este es una aleación de níquel y cromo que está compuesta de un 80 % y 20 % respectivamente. Es de color gris y resistente a la corrosión, con un punto de fusión cercano a los 1400 °C. Por su gran resistividad y su difícil oxidación a altas temperaturas, es el material que mejor se adapta a las necesidades del secador.
+Debido a la gran resistividad cuando la electricidad circula por la resistencia se genera el calor necesario para calentar el aire, que circula por el conducto conducido por la carcasa.
+
+
+=== La mica ===
+Es un aislante eléctrico y térmico de origen mineral. Físicamente tiene aspecto de finas láminas translúcidas y flexibles que rodean el tubo haciendo de intermediario entre este y la resistencia. Este material en las zonas donde se encuentra no se puede sustituir por metal ya que este si es conductor de la electricidad y del calor. Y se fundiría el secador.
+
+
+=== El bimetal ===
+El bimetal es una lámina metálica (a simple vista no se distingue) en la que hay dos metales diferentes unido el uno al otro de manera industrial. Ambos metales tienen coeficientes de dilatación diferentes por lo tanto a partir de una determinada temperatura se produce la dilatación de una, quedando la otra sin cambios de forma, provocando que ambas se doblen para compensar la diferencia de longitudes. De esta manera se corta el contacto y deja de suministrarse electricidad al secador, una vez terminado el aumento de tensión que es el que hace subir la temperatura del bimetal, por encima de su límite, los valores retornan a la normalidad. El metal que se había dilatado se contrae y el bimetal vuelve a su posición inicial retomando el contacto.
+Si se produjera un aumento de tensión y este dispositivo estuviese ausente, el aparato analizado podría quemarse por un sobrecalentamiento del motor o resistencia.
+
+
+== Referencias ==
+
+
+== Bibliografía ==
+Charles Panati (1988), Las cosas nuestras de cada día, Colección Dolce vita. Barcelona: Ediciones B. ISBN 84-406-0387-8.
+
+
+== Enlaces externos ==
+El secador de pelo en Icarito

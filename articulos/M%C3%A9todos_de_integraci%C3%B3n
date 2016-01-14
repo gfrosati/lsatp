@@ -1,0 +1,241 @@
+Se entiende por métodos de integración cualquiera de las diferentes técnicas elementales usadas para calcular una antiderivada o integral indefinida de una función.
+Así, dada una función f(x), los métodos de integración son técnicas cuyo uso (usualmente combinado) permite encontrar una función F(x) tal que
+
+,
+
+lo cual, por el teorema fundamental del cálculo equivale a hallar una función F(x) tal que f(x) es su derivada:
+
+.
+
+
+== Generalidades ==
+El problema de resolver una integral indefinida o buscar una primitiva es mucho más complicado que el problema de calcular la derivada de una función. De hecho, no existe un algoritmo determinista que permita expresar la primitiva de una función elemental, es más, la primitiva de muchas funciones elementales de hecho no es ninguna función elemental. Por ejemplo, no existe ninguna función elemental F(x) que sea tal que:
+
+Si se consideran grupos de funciones elementales de un cierto tipo (polinómicas, fracciones racionales, trigonométricas, etc.) entonces el problema de encontrar la primitiva puede resolverse con problemas elementales llamados métodos de integración como los tratados a continuación.
+
+
+=== Integración directa ===
+En ocasiones es posible aplicar la relación dada por el teorema fundamental del cálculo de forma directa. Esto es, si se conoce de antemano una función cuya derivada sea igual a f(x) (ya sea por disponer de una tabla de integrales o por haberse calculado previamente), entonces tal función es el resultado de la antiderivada. La integración directa requiere confeccionar una tabla de funciones y sus antiderivadas o funciones primitivas.
+Ejemplo
+Calcular la integral indefinida .
+En una tabla de derivadas se puede comprobar que la derivada de  es . Por tanto: 
+Ejemplo
+Calcular la integral indefinida.
+Una fórmula estándar sobre derivadas establece que  para x>0. De este modo, se podría responder que la solución al problema es , pero hay que tener en cuenta que la fórmula sólo es válida para valores positivos de x. La restricción es muy razonable, ya que la función  no está definida para valores reales negativos o 0. Sin embargo, para valores negativos también existe una integral indefinida de , que es . Para incluir ambos casos, se dice que la solución es .
+Este último ejemplo muestra que es muy importante saber en qué intervalo son válidas las fórmulas encontradas en las tablas de integrales.
+
+
+=== Funciones analíticas ===
+El problema de integración es trivial si se consideran funciones analíticas y se admite como primitivas potencias de series formales ya que:
+
+
+== Método de integración por sustitución ==
+El método de integración por sustitución o por cambio de variable se basa en realizar un reemplazo de variables adecuado que permita convertir el integrando en algo sencillo con una integral o antiderivada simple. En muchos casos, donde las integrales no son triviales, se puede llevar a una integral de tabla para encontrar fácilmente su primitiva. Este método realiza lo opuesto a la regla de la cadena en la derivación.
+
+
+=== Ejemplo #1 ===
+Suponiendo que la integral a resolver es:
+
+En la integral se reemplaza  con :
+
+(1)
+
+Ahora se necesita sustituir también  para que la integral quede sólo en función de :
+Se tiene que  por tanto derivando se obtiene . A continuación se despeja  y se agrega donde corresponde en (1):
+
+Simplificando:
+
+Hay que considerar si la sustitución fue útil y por tanto se llegó a una forma mejor, o por el contrario empeoró las cosas. Luego de adquirir práctica en esta operación, se puede realizar mentalmente. En este caso quedó de una manera más sencilla dado que la primitiva del coseno es el seno.
+Como último paso antes de aplicar la regla de Barrow con la primitiva, hay que modificar los límites de integración. Sustituyendo x por el límite de integración, se obtiene uno nuevo. En este caso, como se hizo  :
+
+ (límite inferior)
+ (límite superior)
+
+Tras realizar esta operación con ambos límites la integral queda de una forma final:
+
+
+=== Ejemplo #2 ===
+Suponiendo ahora que la integral a resolver es:
+
+Cuando las integrales son de tipo racional e involucra funciones trigonométricas, dígase:  y  la sustitución conveniente resulta ser  :
+
+, 
+Entonces (por Teorema de la suma y la resta)
+por otra parte  o 
+la integral queda después de dicha sustitución:
+
+
+== Método de integración por partes ==
+El método de integración por partes es el que resulta de aplicar el siguiente teorema:
+
+Eligiendo adecuadamente los valores de  y , puede simplificarse mucho la resolución de la integral.
+
+.
+
+Desde un punto de vista didáctico se recomienda escoger la función u de acuerdo con el orden:[cita requerida]
+Trigonométrica Inversa
+Logarítmica
+Algebraica o polinómica
+Trigonométrica
+Exponencial.
+Otra recomendación sería cambiar el orden de trigonométrica y exponencial. Si seguimos esta otra recomendación podemos usar la regla mnemotécnia ALPES, asignándole el puesto de u de acuerdo con el orden de aparición:
+Arcoseno(y cualquier trigonométrica inversa)
+Logarítmica
+Polinómica
+Exponencial
+Seno/coseno(y cualquier trigonométrica)
+
+
+== Método de integración por cambio de variables ==
+El cambio de variables es uno de los métodos más usados en la integración. Permite expresar la integral inicial mediante un nuevo integrando y un nuevo dominio siendo la integral equivalente a la primera. Para integrales simples de una sola variable si  es la variable original y  es una función invertible, se tiene:
+
+
+== Integrales de funciones trigonométricas ==
+
+Con carácter general un cambio que resulta muchas veces útil expresar las potencias funciones trigonométricas mediante funciones de ángulos múltiples, eso puede lograrse gracias a las siguientes identidades:
+
+Por ejemplo las dos fórmulas anteriores permiten substituir potencias complejas de la función coseno por el coseno de ángulos múltiplo:
+
+
+=== Integral que contiene potencias de senos y cosenos ===
+
+En general, se intenta escribir un integrando en el que intervienen potencias de seno y coseno en una forma donde se tiene sólo un factor seno (y el resto de la expresión en términos de coseno) o sólo un factor coseno (y el resto de la expresión en términos de seno).
+La identidad      permite convertir de una parte a otra entre potencias pares de seno y coseno.
+
+Existen 3 casos:
+
+
+==== Cuando n es impar ====
+Cuando , podemos apartar un factor del seno y sustituirlo por la identidad  para poder expresar los factores restantes en términos del coseno:
+
+Al tener el integral de esta forma se puede resolver por medio de sustitución haciendo , . Como en la expresión no tenemos un  multiplicamos ambos lados por  y nos queda la expresión  que ya podemos sustituir:
+
+
+==== Cuando m es impar ====
+Cuando , podemos de la misma manera apartar un factor de coseno y emplear  para poder expresar los factores restantes en términos del :
+
+al hacer  y  tendríamos
+
+
+==== Cuando m y n son pares ====
+Cuando dichas potencias son pares a la vez  y , podemos aplicar las identidades de la mitad de ángulo:
+
+algunas veces es útil usar la identidad:
+
+sería igual a:
+
+
+==== Ejemplo #1 ====
+
+Solución Lo primero que tenemos que ver es que la potencia impar la tiene la función seno, esto nos hace notar que estamos en el primer caso que describimos arriba, entonces aplicamos el algoritmo,
+
+Sustituyendo  , tenemos  luego:
+
+
+=== Integrales que contiene potencias de tangentes y secantes ===
+Se puede usar una estrategia similar a la anterior.
+Puesto que:
+
+, se puede separar un factor  y convertir la potencia restante (par) de la secante en una expresión relacionada con la tangente por medio de la identidad .
+
+O bien, puesto que:
+
+, se puede separar un factor  y convertir la potencia restante (par) de tangente a secante.
+
+Existen 3 casos:
+
+
+==== Cuando n es par ====
+ separar un factor de  y utilice  para lograr expresar los factores restantes en términos de :
+
+de esta manera podemos hacer  y  y el integral quedaría así:
+
+
+==== Cuando m es impar ====
+ apartar un factor de  y emplear  para poder expresar los factores que restan en términos de :
+
+de esta manera se puede hacer  y , con lo que queda
+
+
+==== La tangente tiene potencia par ====
+
+
+==== La Secante tiene potencia impar ====
+En este caso se procede a integrar por partes.
+
+
+==== Ninguno de los anteriores ====
+Al no encontrar la forma de ninguno de los pasos anteriores, se traslada a  y , recordando que:
+
+Para otros casos, las directrices no son tan claras. Podría ser necesario usar identidades, integración por partes y, ocasionalmente, un poco de inventiva.
+
+A veces será necesario poder integrar  por medio de la fórmula establecida:
+
+Se necesitará también la integral indefinida de la secante:
+
+Esta última se podría comprobar mediante la derivación de lado derecho, o como sigue:
+Primero se mutiplican numerador y denominador por  :
+
+Si se sustituye , después , también, la integral se convierte en:
+
+Así, se tiene:
+
+NOTA: Para integrales que contienen cosecantes y cotangentes, la estrategia es análoga a la del par secantes-tangentes. Recordar la identidad:
+
+
+=== Reducción a funciones racionales ===
+Si el integrando puede expresar como una función racional de funciones trigonométicas:
+
+(*)
+
+Entonces el cambio:
+
+permite reescribir la integral (*) como:
+
+Que resulta ser una función racional, y por tanto, de integración mecánica.
+
+
+== Integrales de funciones racionales ==
+
+Dada una función racional expresable como el cociente de dos polinomios:
+
+Si el denominador es un polinómico mónico  con k raíces diferentes, entonces admitirá la siguiente factorización en términos de polinomio irreducibles:
+
+Si  entonces la función racional puede escribirse como combinación lineal de fracciones racionales de las formas:
+
+Por lo que la integral de la función  es una combinación lineal de funciones de la forma:
+
+Obsérvese que lo anterior implica que las funciones racionales constituyen un cuerpo algebraico que es cerrado bajo la derivación, pero no bajo la integración.
+
+
+== Integración numérica ==
+
+La integración numérica comprende una amplia gama de algoritmos para calcular el valor numérico de una integral definida. A efectos prácticos se usa cuando no se conoce un método analítico de integración o la función primitiva resulta tan complicada que para una aplicación práctica resulta más útil buscar directamente su valor numérico. El término cuadratura numérica (a menudo abreviado a cuadratura) es más o menos sinónimo de integración numérica, especialmente si se aplica a integrales de una dimensión a pesar de que para el caso de dos o más dimensiones (integral múltiple) también se utiliza.
+
+
+== Referencias ==
+
+
+=== Notas ===
+
+Los métodos de integración son útiles para personas que estudian ingeniería, ya que con las integrales se encuentran soluciones ante cualquier situación dada, puesto que son manejadas en aplicaciones de área, en los campos de ingeniería, otra parte primordial del estudio de estos métodos, es al análisis de todo tipo de integral sin importar su grado de dificultad, puesto que cada una de ellas lleva su propio análisis, inclusive puede llevar varios tipos de soluciones, que las cuales buscaríamos entre todas ellas, las más fácil de manejar y con esta su respectiva solución.
+
+
+=== Bibliografía ===
+Apostol, Tom M. (1967), Calculus, Vol. 1: One-Variable Calculus with an Introduction to Linear Algebra (2nd edición), Wiley, ISBN 978-0-471-00005-1 
+Fourier, Jean Baptiste Joseph (1822), Théorie analytique de la chaleur, Chez Firmin Didot, père et fils, p. §231, http://books.google.com/books?id=TDQJAAAAIAAJ 
+Available in translation as Fourier, Joseph (1878), The analytical theory of heat, Freeman, Alexander (trans.), Cambridge University Press, pp. 200–201, http://www.archive.org/details/analyticaltheory00fourrich 
+Leibniz, Gottfried Wilhelm (1899), Gerhardt, Karl Immanuel, ed., Der Briefwechsel von Gottfried Wilhelm Leibniz mit Mathematikern. Erster Band, Berlin: Mayer & Müller, http://name.umdl.umich.edu/AAX2762.0001.001 
+Rudin, Walter (1987), «Chapter 1: Abstract Integration», Real and Complex Analysis (International edición), McGraw-Hill, ISBN 978-0-07-100276-9 
+
+
+=== Enlaces externos ===
+Integrales resueltas usando usando técnicas de integración en wikimatematica.org
+
+
+=== Videos ===
+Área bajo la curva con sumatorias
+Cálculo del área con subintervalos
+Integración por Partes
+Integración por Sustitución Simple
+Integración por Sustitución Trigonométrica

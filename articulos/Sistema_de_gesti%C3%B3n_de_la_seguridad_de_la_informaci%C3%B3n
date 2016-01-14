@@ -1,0 +1,47 @@
+Un sistema de gestión de la seguridad de la información (SGSI) (en inglés: information security management system, ISMS) es, como el nombre lo sugiere, un conjunto de políticas de administración de la información. El término es utilizado principalmente por la ISO/IEC 27001, aunque no es la única normativa que utiliza este término o concepto.
+Un SGSI es para una organización el diseño, implantación, mantenimiento de un conjunto de procesos para gestionar eficientemente la accesibilidad de la información, buscando asegurar la confidencialidad, integridad y disponibilidad de los activos de información minimizando a la vez los riesgos de seguridad de la información.
+Como todo proceso de gestión, un SGSI debe seguir siendo eficiente durante un largo tiempo adaptándose a los cambios internos de la organización así como los externos del entorno.
+
+
+== PDCA ==
+
+La ISO/IEC 27001 por lo tanto incorpora el típico Plan-Do-Check-Act (PDCA) que significa "Planificar-Hacer-Controlar-Actuar" siendo este un enfoque de mejora continua:
+Plan (planificar): es una fase de diseño del SGSI, realizando la evaluación de riesgos de seguridad de la información y la selección de controles adecuados .
+Do (hacer): es una fase que envuelve la implantación y operación de los controles.
+Check (controlar): es una fase que tiene como objetivo revisar y evaluar el desempeño (eficiencia y eficacia) del SGSI.
+Act (actuar): en esta fase se realizan cambios cuando sea necesario para llevar de vuelta el SGSI a máximo rendimiento.
+SGSI es descrito por la ISO/IEC 27001 y ISO/IEC 27002 y relaciona los estándares publicados por la International Organization for Standardization (ISO) y la International Electrotechnical Commission (IEC). JJO también define normas estandarizadas de distintos SGSI.
+
+
+== Otros SGSI ==
+TLLJO, este SGSI permite un mayor control sobre el sistema a un precio moderadamente reducido
+SOGP es otro SGSI que compite en el mercado es el llamado "Information Security Forum's Standard of Good Practice" (SOGP). Este SGSI es más una best practice (buena práctica), basado en las experiencias del Foro de la seguridad de la información (ISF).
+ISM3: Information Security Management Maturity Model (ISM3) (conocida como ISM-cubed o ISM3) está construido en estándares como ITIL, ISO 20000, ISO 9001, CMM, ISO/IEC 27001, e información general de conceptos de seguridad de los gobiernos ISM3 puede ser usado como plantilla para un ISO 9001 compliant. Mientras que la ISO/IEC 27001 está basada en controles. ISM3 está basada en procesos e incluye métricas de proceso.
+
+
+== Otros marcos de trabajo ==
+En el caso de ITIL (sobre todo la v.3) tiene muchos puntos de contacto respecto a cuestiones de seguridad.
+PRINCE2 es otro marco de trabajo de buenas prácticas, en este caso relacionadas con la gestión de proyectos, siendo ésta, ampliamente utilizada.
+
+
+== Véase también ==
+Ley Orgánica de Protección de Datos de Carácter Personal de España
+Seguridad de la información
+PDCA
+ISO/IEC 27000-series
+ISO/IEC 27001
+ISO/IEC 27002
+ISO 9001
+
+
+== Enlaces externos ==
+Áudea Expertos en SGSI Consultoría, auditotía y formación en SGSI
+Curso Impantador, Curso Lead Auditor, Curso Auditoría de SGSI Cursos TIC Seguridad
+British Standards Institution BSI, información en Español
+Information Security Forum (ISF) (en inglés)
+ITIL Security (en inglés)
+Information Security Management Maturity Model (ISM3) (en inglés)
+www.iso27000.es - www.iso27001.es: Portal con información en español sobre la serie 27000 y los sistemas de gestión de seguridad de la información.
+www.iso27002.es Wiki en español sobre los controles en los sistemas de gestión de seguridad de la información.
+Guia SGSI de INTECO-CERT VideoGuia en español, de INTECO_CERT sobre los sistemas de gestión de seguridad de la información.
+[http://www.inmunosuite.com Suite que automatiza cabalmente todos los requisitos de la norms ISO 27001.

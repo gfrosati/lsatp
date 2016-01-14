@@ -1,0 +1,62 @@
+En bioquímica, ligasa (del latín lig(āre) “juntar”, “unir”) son aquellas enzimas que catalizan la unión de dos moléculas a partir de la formación de enlaces covalentes acompañado por la hidrolisis del ATP.
+
+
+== Nomenclatura ==
+El nombre común de las enzimas ligasa también incluyen la ligasa de ADN, una enzima usada comúnmente en laboratorios de biología molecular para unir fragmentos de ADN. Otros nombres comunes para llamar a las ligasas son: sintetasa, porque es usada para sintetizar nuevas moléculas, o carboxilasa cuando son usadas para añadir dióxido de carbono a una molécula.
+
+
+== Clasificación ==
+Las ligasas son clasificadas en seis subclases con un sistema EC-número bajo la categorización de EC 6.-.-.-. El segundo dígito define la naturaleza exacta del enlace:
+EC 6.1, incluye ligasas usadas para formar uniones oxígeno-carbono.
+EC 6.1.1 Ligasas forman aminoacil-ARNt y compuestos relacionados.
+EC 6.1.2 Ligasas ácido-alcohol (sintasas éster).
+
+EC 6.2, ligasa usadas para formar uniones carbono-azufre.
+EC 6.2.1 Ligasas ácido-tiol.
+
+EC 6.3, incluye ligasas usadas para crear uniones carbono-nitrógeno.
+EC 6.3.1 Ácido-amoniaco (o amina) ligasas (sintasas amida).
+EC 6.3.2 Ligasas ácido-aminoácidos (péptido sintasas).
+EC 6.3.3 Ciclo-ligasas.
+EC 6.3.4 Otras ligasas carbono-nitrógeno.
+EC 6.3.5 Carbono-nitrógeno ligasas con glutamina como amido-N-donador.
+
+EC 6.4, abarca ligasas que forman uniones carbono-carbono.
+EC 6.5, incluye ligasa que forman ésteres fosfóricos.
+EC 6.6, ligasa usadas como unión nitrógeno-metal.
+EC 6.6.1 Formando complejos de coordinación.
+
+
+== ADN ligasas ==
+
+Uno de los grupos más importantes dentro de la clasificación de las ligasas son la ADN ligasa. La unión de las ADN ligasas está formada por dos cadenas de ADN que se forman usando un diéster fosfórico. Por lo que la ADN ligasas se encuentra dentro de la clasificación EC 6.5.
+Las ADN ligasas fueron descubiertas en 1967 por los laboratorios de Gellert, Lehman, Richardson y Hurwitz esto represento un evento importante en la biología molecular. Estas son importantes para la replicación y reparación del ADN en todo el organismo. Las ligasas fueron esenciales para el desarrollo de clonación molecular y en varias ramificaciones posteriores de la biotecnología del ADN. La deficiencia genética de las ADN ligasas en humanos ha sido relacionada a varios síndromes clínicos caracterizados por inmunodeficiencia, sensibilidad a la radiación y anormalidades de desarrollo. Dentro de esta clasificación encontramos la ADN ligasa (ATP) y la ADN ligasa (NAD+) las cuales se encuentran registradas y aceptadas por el Comité de Nomenclatura de la Unión Internacional de Bioquímica y Biología Molecular (NC-IUBMB) por sus siglas en inglés.
+
+
+=== ADN ligasa (ATP) ===
+Cataliza la formación de un fosfodiéster en el lugar de un rompimiento de un ADN monocatenario dúplex. En cierta medida, el ARN también puede actuar como sustrato.
+Reacción: ATP + (desoxirribonucleótidos)n + (desoxirribonucleótidos)m = AMP + difosfato + (desoxirribonucleótidos)n+m
+
+
+=== ADN ligasa (NAD+) ===
+Tiene la misma acción que la ADN ligasa (ATP) de catalizar la formación de un fosfodiéster solo que en la reacción se utiliza NAD+ en lugar de ATP.
+Reacción: NAD+ + (desoxirribonucleótidos)n + (desoxirribonucleótidos)m = AMP + nicotinamida nucleótido + (desoxirribonucleótidos)n+m
+
+
+== ARN ligasas ==
+Pertenecen al grupo de las ligasas y su función es la de formar enlaces fosforo-éster. Dentro de esta clasificación encontramos a la ARN ligasa (ATP).
+
+
+=== ARN ligasa (ATP) ===
+Convierte el ARN lineal a una forma circular por transferencia de la 5'-fosfato a la terminal 3'-hidroxi.
+Reacción: ATP + (ribonucleótido)n + (ribonucleótido)m = AMP + difosfato + (ribonucleótido)n+m
+
+
+== Ejemplos ==
+Piruvato carboxilasa
+Aminoacil ARNt sintetasa
+
+
+== Referencias ==
+
+EC 6. Ligases del Departamento de Química de Queen Mary, University of London

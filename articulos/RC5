@@ -1,0 +1,26 @@
+RC5 es una unidad de cifrado por bloques notable por su simplicidad. Diseñada por Ronald Rivest en 1994, RC son las siglas en inglés de "Cifrado de Rivest". El candidato para AES, RC6, estaba basado en RC5.
+
+
+== Descripción ==
+A diferencia de muchos esquemas, RC5 tiene tamaño variable de bloques (32, 64 o 128 bits), con tamaño de clave (entre 0 y 2040 bits) y número de vueltas (entre 0 y 255). La combinación sugerida originalmente era: bloques de 64 bits, claves de 128 bits y 12 vueltas.
+Una característica importante de RC5 es el uso de rotaciones dependientes de los datos; uno de los objetivos de RC5 era promover el estudio y evaluación de dichas operaciones como primitivas de criptografía. RC5 también contiene algunas unidades de sumas modulares y de Puertas O-exclusivo (XOR). La estructura general del algoritmo es una red tipo Feistel. Las rutinas de cifrado y descifrado pueden ser especificadas en pocas líneas de código, pero la programación de claves es más complicada. La simplicidad del algoritmo junto con la novedad de las rotaciones dependientes de los datos han hecho de RC5 un objeto de estudio atractivo para los criptoanalistas.
+
+
+== Criptoanálisis ==
+RC5 12-vueltas (con bloques de 64 bits) está sujeto a un ataque diferencial usando 244 textos escogidos (Biryukov y Kushilevitz, 1998). Se recomienda utilizar entre 18 y 20 vueltas.
+La empresa RSA Security, que posee la patente de los algoritmos (patente #5,724,428 USA), ofrece una serie de premios de 10.000 dólares para quienes logren descifrar textos cifrados con RC5. Se han obtenido hasta ahora resultados mediante la programación distribuida, para claves de 56 y 64 bits. Actualmente (febrero de 2010) se trabaja en romper cifrados con claves de 72 bits.
+Véase también: Madryga
+
+
+== Referencias ==
+Biryukov A. and Kushilevitz E. (1998). Improved Cryptanalysis of RC5. EUROCRYPT 1998.
+Rivest, R. L. (1998). Block Encryption Algorithm with Data Dependent Rotation. Patent No. 5,724,428 issued 3rd March 1998.
+Rivest, R. L. (1994). The RC5 Encryption Algorithm. In the Proceedings of the Second International Workshop on Fast Software Encryption (FSE) 1994, p86–96 (PDF).
+Rivest, R. L, "Block Encryption Algorithm With Data Dependent Rotation", US patent #5,724,428, issued on 3 March 1998.
+
+
+== Enlaces externos ==
+SCAN's entry for the cipher
+RSA Laboratories FAQ — What are RC5 and RC6?
+Helger Lipmaa's links on RC5
+RSA's patent via Google.

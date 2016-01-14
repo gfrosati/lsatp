@@ -1,0 +1,132 @@
+En el ámbito de la teoría de la información la entropía, también llamada entropía de la información y entropía de Shannon (en honor a Claude E. Shannon), mide la incertidumbre de una fuente de información.
+La entropía también se puede considerar como la cantidad de información promedio que contienen los símbolos usados. Los símbolos con menor probabilidad son los que aportan mayor información; por ejemplo, si se considera como sistema de símbolos a las palabras en un texto, palabras frecuentes como "que", "el", "a" aportan poca información, mientras que palabras menos frecuentes como "corren", "niño", "perro" aportan más información. Si de un texto dado borramos un "que", seguramente no afectará a la comprensión y se sobreentenderá, no siendo así si borramos la palabra "niño" del mismo texto original. Cuando todos los símbolos son igualmente probables (distribución de probabilidad plana), todos aportan información relevante y la entropía es máxima.
+El concepto entropía es usado en termodinámica, mecánica estadística y teoría de la información. En todos los casos la entropía se concibe como una "medida del desorden" o la "peculiaridad de ciertas combinaciones". La entropía puede ser considerada como una medida de la incertidumbre y de la información necesarias para, en cualquier proceso, poder acotar, reducir o eliminar la incertidumbre. Resulta que el concepto de información y el de entropía están básicamente relacionados entre sí, aunque se necesitaron años de desarrollo de la mecánica estadística y de la teoría de la información antes de que esto fuera percibido.
+
+
+== Relación con la entropía termodinámica ==
+La entropía de la teoría de la información está estrechamente relacionada con la entropía termodinámica. En la termodinámica se estudia un sistema de partículas cuyos estados X (usualmente posición y velocidad) tienen una cierta distribución de probabilidad, pudiendo ocupar varios microestados posibles (equivalentes a los símbolos en la teoría de la información). La entropía termodinámica es igual a la entropía de la teoría de la información de esa distribución (medida usando el logaritmo neperiano) multiplicada por la constante de Boltzmann k, la cual permite pasar de nats (unidad semejante al bit) a J/K. Cuando todos los microestados son igualmente probables, la entropía termodinámica toma la forma k log(N). En un sistema aislado, la interacción entre las partículas tiende a aumentar su dispersión, afectando sus posiciones y sus velocidades, lo que causa que la entropía de la distribución aumente con el tiempo hasta llegar a un cierto máximo (cuando el mismo sistema es lo más homogéneo y desorganizado posible); lo que es denominado segunda ley de la termodinámica. La diferencia entre la cantidad de entropía que tiene un sistema y el máximo que puede llegar a tener se denomina neguentropía, y representa la cantidad de organización interna que tiene el sistema. A partir de esta última se puede definir la energía libre de Gibbs, que indica la energía que puede liberar el sistema al aumentar la entropía hasta su máximo y puede ser transformada en trabajo (energía mecánica útil) usando una máquina ideal de Carnot. Cuando un sistema recibe un flujo de calor, las velocidades de las partículas aumentan, lo que dispersa la distribución y hace aumentar la entropía. Así, el flujo de calor produce un flujo de entropía en la misma dirección.
+
+
+== Concepto intuitivo ==
+
+El concepto básico de entropía en teoría de la información tiene mucho que ver con la incertidumbre que existe en cualquier experimento o señal aleatoria. Es también la cantidad de "ruido" o "desorden" que contiene o libera un sistema. De esta forma, podremos hablar de la cantidad de información que lleva una señal.
+Como ejemplo, consideremos algún texto escrito en español, codificado como una cadena de letras, espacios y signos de puntuación (nuestra señal será una cadena de caracteres). Ya que, estadísticamente, algunos caracteres no son muy comunes (por ejemplo, 'w'), mientras otros sí lo son (como la 'a'), la cadena de caracteres no será tan "aleatoria" como podría llegar a ser. Obviamente, no podemos predecir con exactitud cuál será el siguiente carácter en la cadena, y eso la haría aparentemente aleatoria. Pero es la entropía la encargada de medir precisamente esa aleatoriedad, y fue presentada por Shannon en su artículo de 1948, A Mathematical Theory of Communication ("Una teoría matemática de la comunicación", en inglés).
+Shannon ofrece una definición de entropía que satisface las siguientes afirmaciones:
+La medida de información debe ser proporcional (lineal continua). Es decir, el cambio pequeño en una de las probabilidades de aparición de uno de los elementos de la señal debe cambiar poco la entropía.
+Si todos los elementos de la señal son equiprobables a la hora de aparecer, entonces la entropía será máxima.
+Ejemplos de máxima entropía: Suponiendo que estamos a la espera de un texto, por ejemplo un cable con un mensaje. En dicho cable sólo se reciben las letras en minúscula de la a hasta la z, entonces si el mensaje que nos llega es "qalmnbphijcdgketrsfuvxyzwño" el cual posee una longitud de 27 caracteres, se puede decir que este mensaje llega a nosotros con la máxima entropía (o desorden posible); ya que es poco probable que se pueda pronosticar la entrada de caracteres, pues estos no se repiten ni están ordenados en una forma predecible.
+
+
+== Definición formal ==
+Supongamos que un evento (variable aleatoria) tiene un grado de indeterminación inicial igual a  (i.e. existen  estados posibles) y supongamos todos los estados equiprobables. Entonces la probabilidad de que se dé una de esas combinaciones será . Luego podemos representar la expresión  como:
+
+Si ahora cada uno de los  estados tiene una probabilidad , entonces la entropía vendrá dada por la suma ponderada de la cantidad de información:
+
+Por lo tanto, la entropía de un mensaje , denotado por , es el valor medio ponderado de la cantidad de información de los diversos estados del mensaje:
+
+que representa una medida de la incertidumbre media acerca de una variable aleatoria y por tanto de la cantidad de información.
+Nota 1: Obsérvese que se usa el logaritmo en base 2 porque se considera que la información se va a representar mediante código binario (se quiere representar con bits). Si para representar la información se usaran valores en una base  entonces sería conveniente utilizar el logaritmo en base .
+Nota 2: Obsérvese que es una cantidad adimensional, es decir no lleva unidad.
+
+
+=== Ejemplos ===
+La entropía de un mensaje M de longitud 1 carácter que utiliza el conjunto de caracteres ASCII, suponiendo una equiprobabilidad en los 256 caracteres ASCII, será:
+
+Supongamos que el número de estados de un mensaje es igual a 3, M1, M2 y M3 donde la probabilidad de M1 es 50%, la de M2 25% y la de M3 25%. Por tanto la entropía de la información es:
+
+
+=== Información mutua ===
+La entropía puede verse como caso especial de la información mutua. La información mutua de dos variables aleatorias, denotado por I(X;Y), es una cantidad que mide la dependencia mutua de las dos variables; es decir, mide la reducción de la incertidumbre (entropía) de una variable aleatoria, X, debido al conocimiento del valor de otra variable aleatoria, Y. De la definición podemos concluir que si X e Y son iguales, entonces I(X;X)=H(X).
+
+
+== Propiedades ==
+La entropía tiene las siguiente propiedades:
+La entropía es no negativa. Esto es evidente ya que al ser  una probabilidad entonces . Por tanto podemos decir que  y por tanto 
+ Es decir, la entropía H está acotada superiormente (cuando es máxima) y no supone pérdida de información.
+Dado un proceso con posibles resultados {A1,..,An} con probabilidades relativas p1,...,pn, la función  es máxima en el caso de que . El resultado es intuitivo ya que tenemos la mayor incertidumbre del mensaje, cuando los valores posibles de la variable son equiprobables
+Dado un proceso con posibles resultados {A1,..,An} con probabilidades relativas p1,...,pn, la función  es nula en el caso de que  para todo i, excepto para una clase, tal que: . De forma intuitiva podemos pensar que cuando uno o más estados tienen una probabilidad alta, disminuye significativamente la entropía porque, como es lógico, existe una menor incertidumbre respecto al mensaje que se recibirá.
+
+
+== Codificador óptimo ==
+Un codificador óptimo es aquel que utiliza el mínimo número de bits para codificar un mensaje. Un codificador óptimo usará códigos cortos para codificar mensajes frecuentes y dejará los códigos de mayor longitud para aquellos mensajes que sean menos frecuentes. De esta forma se optimiza el rendimiento del canal o zona de almacenamiento y el sistema es eficiente en términos del número de bits para representar el mensaje.
+Por ejemplo, el código Morse se aprovecha de este principio para optimizar el número de caracteres a transmitir a partir del estudio de las letras más frecuentes del alfabeto inglés. El código Morse no es un codificador óptimo pero sí asigna a las letras más frecuente código más cortos. Otro ejemplo sería el algoritmo de Huffman de codificación que sirve para compactar información. Este método se basa en el codificador óptimo. Para ello lo primero que hace es recorrer toda la información para encontrar la frecuencia de los caracteres y luego a partir de esta información busca el codificador óptimo por medio de árboles binarios. Algunas técnicas de compresión como LZW o deflación no usan probabilidades de los símbolos aislados, sino que usan las probabilidades conjuntas de pequeñas secuencias de símbolos para codificar el mensaje, por lo que pueden lograr un nivel de compresión mayor.
+Podemos construir un codificador óptimo basándonos en la entropía de una variable aleatoria de información X. En efecto, la entropía nos da el número medio de bits (si usamos logaritmos de base 2) necesarios para codificar el mensaje a través de un codificador óptimo y por tanto nos determina el límite máximo al que se puede comprimir un mensaje usando un enfoque símbolo a símbolo sin ninguna pérdida de información (demostrado analíticamente por Shannon), el límite de compresión (en bits) es igual a la entropía multiplicada por el largo del mensaje. Reescribiendo la ecuación de cálculo de la entropía llegamos a que:
+
+Por lo tanto, la información (que se encuentra definida en bits, dado que la base del logaritmo es 2) que aporta un determinado valor o símbolo  de una variable aleatoria discreta  se define como:
+
+Esta expresión representa el número necesario de bits para codificar el mensaje x en el codificador óptimo y por tanto la entropía también se puede considerar como una medida de la información promedio contenida en cada símbolo del mensaje.
+
+
+=== Ejemplo ===
+Supongamos que el número de estados de un mensaje es igual a 3 M1, M2 y M3 donde la probabilidad de M1 es 50%, la de M2 25% y la de M3 25%.
+Para M1 tenemos que 
+Para M2 tenemos que 
+Para M3 tenemos que 
+Por tanto en el codificador óptimo para transmitir M1 hará falta un bit y para M2 y M3 será necesario contar con dos bits. Por ejemplo podríamos codificar M1 con "0", M2 con "10" y M3 con "11". Usando este convenio para codificar el mensaje M1M2M1M1M3M1M2M3 usaríamos "010001101011" y por tanto 12 bits. El valor de la entropía sería:
+
+Por tanto el codificador óptimo necesita de media 1,5 bits para codificar cualquier valor de X.
+
+
+== Entropía condicional ==
+Véase también artículo dedicado: Entropía condicional
+Supongamos que en vez de tener una única variable aleatoria X, existe otra variable Y dependientes entre sí, es decir el conocimiento de una (por ejemplo Y) entrega información sobre la otra (por ejemplo X). Desde el punto de vista de la entropía de la información podemos decir que la información de Y disminuirá la incertidumbre de X. Por tanto podemos decir que la entropía de X será condicional a Y. y por tanto:
+
+Como por el teorema de Bayes tenemos que p(x,y)=p(y)p(x|y) donde p(x|y) es la probabilidad de que se dé un estado de X conocida Y, podemos decir:
+
+
+=== Aplicación en criptoanálisis ===
+El concepto de entropía condicional es muy interesante en el campo del criptoanálisis. Proporciona una herramienta para evaluar el grado de seguridad de los sistemas. Por ejemplo para un sistema de cifrado hay dos entropías condicionales interesantes: Supongamos
+Un mensaje M1 es sometido a un proceso de cifrado usando la clave K1 obteniendo E(K1,M1)=C1.
+ representan la probabilidad condicional de la clave K dado el criptograma recibido C. A veces también se denota por 
+ representan la probabilidad condicional del mensaje M dado el criptograma recibido C. A veces también se denota por 
+Entonces:
+Podemos calcular la entropía del conocimiento de la clave una vez conocido el texto cifrado, y por tanto medir la equivocación del mensaje (en inglés message equivocation), , también denotada por , mediante la fórmula:
+
+La primera igualdad es por la definición de la entropía condicional y la segunda por aplicación del teorema de Bayes.
+Observar que si  significa que se podrá romper el cifrado pues ya no hay incertidumbre. Esta anulación nos introduce en el concepto de distancia de unicidad.
+Podemos calcular la entropía del conocimiento del mensaje una vez conocido el texto cifrado, y por tanto medir la equivocación de la clave (en inglés key equivocation), , también denotada por , mediante la fórmula:
+
+La primera igualdad es por la definición de la entropía condicional y la segunda por aplicación del teorema de Bayes.
+
+
+=== Ejemplo ===
+Supongamos una variable X con cuatro estados:  todos equiprobables y por tanto . Existe además otra variable Y con tres estados;  con probabilidades  y . Se conocen además las siguientes dependecias:
+Si  entonces los posibles valores de x son 
+Si  entonces los posibles valores de x son 
+Si  entonces los posibles valores de x son 
+Aplicando las fórmulas tenemos:
+
+En este caso el conocimiento de la dependencia de X respecto Y reduce la entropía de X de 2 a 1,5.
+
+
+== Entropía de un proceso estocástico ==
+ Un proceso estocástico  es una secuencia indexada de variables aleatorias. En general, puede haber dependencias entre las variables aleatorias. Para estudiar la probabilidad de cierto conjunto de valores se suele adoptar el siguiente convenio:
+
+Sea  un proceso estocástico de n variables aleatorias, y sea  el conjunto de la posibles combinaciones de valores de . Se define la entropía del proceso estocástico, también llamada entropía del n-grama y denotado por , como:
+
+
+=== Ratio de entropía ===
+Véase también artículo dedicado: Ratio de entropía
+ La ratio de entropía de una secuencia de n variables aleatorias (proceso estocástico) caracteriza la tasa de crecimiento de la entropía de la secuencia con el crecimiento de n.
+La ratio de entropía de un proceso estocástico  viene definida por la ecuación:
+
+siempre que dicho límite exista.
+
+
+== Referencias ==
+
+
+=== Bibliografía ===
+Jorge Ramió Aguirre, Aplicaciones criptográficas. Libro guía de la asignatura de Seguridad Informática. Escuela Universitaria de Informática. Universidad Politécnica de Madrid. Enero 1998.
+
+
+== Véase también ==
+Entropía cruzada
+Perplejidad
+Capacidad de canal
+Neguentropía o Sintropía Antónimo de entropía
+
+
+== Enlaces externos ==
+Una Teoría Matemática de la Comunicación (en inglés)
+Calculadora de la entropía de Shannon (en inglés)

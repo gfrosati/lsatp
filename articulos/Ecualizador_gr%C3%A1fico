@@ -1,0 +1,40 @@
+Un ecualizador gráfico es un dispositivo que procesa señales de audio y nos permite dividir esta señal en diferentes bandas de frecuencia, pudiendo alterar la ganancia de cada banda de forma independiente. Su nombre viene dado por la disposición de los potenciómetros deslizables, colocados de forma que permite visualizar la compensación realizada. Normalmente es utilizado en audio profesional, para adaptar el sistema de altavoces respecto a la respuesta en frecuencia deseada en cada aplicación.
+Dependiendo de la marca y modelo cuenta con una cantidad determinada de bandas de frecuencia. El más común es el de octava, cuenta con 10 puntos de control ya que el ancho de banda audible tiene 10 bandas de frecuencia: 30 Hz, 60 Hz, 125 Hz, 250 Hz, 500 Hz, 1kHz, 2 KHz, 4 KHz, 8 KHz y 16 KHz. Normalmente cuentan con varios canales con controles totalmente independientes.
+Se compone de diferentes filtros pasa banda, variando los valores de los condensadores, para filtrar la banda de frecuencia deseada. Estos filtros se combinan con los potenciómetros que controlan la ganancia de cada banda.
+
+
+== Controles ==
+Potenciómetros de ganancia: control del nivel de ganancia de cada banda de frecuencia. En general permiten reforzar o atenuar la señal original entre 6 y 25 dB.
+Bypass: interruptor que permite comparar la señal ecualizada, con la señal original.
+Ganancia de salida: Potenciómetro que permite reforzar o atenuar las salida del dispositivo.
+
+
+== Características técnicas ==
+Tipo de filtro: nos da el ancho de banda (Q) de cada filtro y un % de precisión en el centro de la banda.
+Número de bandas de frecuencia
+Respuesta en frecuencia, espectro de frecuencias que reproduce el dispositivo.
+Impedancia de entrada
+Impedancia de salida
+Máximo nivel de entrada: nivel máximo de entrada sin distorsión.
+Máximo nivel de salida: nivel máximo de salida sin distorsión.
+Relación señal/ruido
+Distorsión armónica total
+
+
+== Marcas más relevantes ==
+Klark Teknik
+TC Electronic
+BSS
+Sabine
+DBX
+
+
+== Véase también ==
+Filtro electrónico
+Factor de calidad
+Ecualizador paramétrico
+
+
+== Enlaces externos ==
+Discriminar las frecuencias de EQ con el oído
+Filtro paso banda

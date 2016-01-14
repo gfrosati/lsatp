@@ -1,0 +1,15 @@
+IBM Bluemix es un entorno de plataforma como servicio desarrollado por IBM. Soporta varios lenguajes de programación y servicios así como la metodología de desarrollo DevOps de forma integrada para crear, ejecutar, desplegar y gestionar aplicaciones en la nube. Bluemix está basado en la tecnología abierta de Cloud Foundry y corre sobre la infraestructura de SoftLayer. Bluemix soporta Java, Node.js, Go, PHP, Python, Ruby Sinatra, Ruby on Rails y puede ser extendido a otros lenguajes tales como Scala mediante el uso de 'buildpacks'.   
+Bluemix fue desarrollado por un equipo localizado en diversas partes del mundo, tardando solo 18 meses desde el concepto inicial hasta llegar a estar disponible al público. Se anunció como beta pública en febrero de 2014 y fue abierto al público en junio. En el momento de su anuncio, Bluemix era uno de los despliegues de Cloud Foundry más grandes del mundo.
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+Bluemix, http://bluemix.net/ .
+Comunidad de desarrolladores de Bluemix, https://developer.ibm.com/bluemix .
+Comunidad de desarrolladores de Bluemix en España, https://www.ibm.com/developerworks/community/groups/service/html/communityview?communityUuid=e4b149c1-b695-4de1-9671-538da8d1fb5f .
+Blog de Bluemix, https://developer.ibm.com/bluemix/blog/ .
+Bluemix en Twitter, https://twitter.com/IBMBluemix .
+Bluemix en facebook, https://www.facebook.com/ibmbluemix .
+Bring your buildpack, https://www.ng.bluemix.net/docs/#starters/byob.html .

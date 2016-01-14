@@ -1,0 +1,36 @@
+Sea  un espacio topológico.
+ será un subespacio de  es un espacio topológico para la topología inducida por  en , llamada topología del subespacio, topología inducida, topología relativa o topología traza.
+
+
+== Definición ==
+Con  definido arriba, definimos la topología del subespacio, , sobre  como
+.
+Es decir, un subconjunto de S es abierto si es intersección de S con algún abierto de X.
+
+
+== Ejemplo ==
+En la recta real, , con su topología habitual ...
+La topología del subespacio de , subespacio de , es la topología discreta.
+
+
+== Propiedades ==
+Todo conjunto cerrado es la intersección de S con un conjunto cerrado de X.
+Las siguientes afirmaciones son equivalentes:
+i) S es un subespacio abierto de X.
+ii) Un subespacio de S es abierto en S.
+iii) El subespacio de S es abierto en X.
+Las siguientes afirmaciones son equivalentes:
+i) S es un subespacio cerrado de X.
+ii) Un subespacio de S es cerrado en S.
+iii) El subespacio de S es cerrado en X.
+ es una base para  es una base para el subespacio .
+La topología inducida por un espacio métrico a un subconjunto por la restricción de la métrica del espacio a ese subconjunto es la topología inducida del subespacio para ese subconjunto.
+
+
+== Véase también ==
+la noción dual espacio cociente
+
+
+== Referencias ==
+Bourbaki, Nicolas, Elements of Mathematics: General Topology, Addison-Wesley (1966)
+Willard, Stephen. General Topology, Dover Publications (2004) ISBN 0-486-43479-6

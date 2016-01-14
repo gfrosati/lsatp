@@ -1,0 +1,20 @@
+Autoconf es una herramienta informática para crear shell scripts que configuren automáticamente el código fuente de un software para adaptarlo a diversos sistemas tipo UNIX. Dichos scripts creados por Autoconf son independientes de él cuando se ejecutan en el sistema en el que se quiere usar.
+Junto con otras herramientas como Automake, Autoheader o Libtool, Autoconf forma el GNU build system.
+
+
+== Véase también ==
+GNU build system
+pkg-config
+CMake
+
+
+== Enlaces externos ==
+Web de GNU Autoconf
+Colección de macros para GNU Autoconf
+El Libro de la Cabra (The Goat Book en inglés). También conocido como el Autobook
+Tutorial "Learning Autoconf and Automake" por Eleftherios Gkioulekas
+Learning the GNU development tools, en Sourceforge
+Información sobre Autoconf de Murray Cumming:*uno *dos.
+Web de Autotoolset
+El "Tutorial de Autotools" de Alexandre Duret-Lutz presenta Autoconf, Automake, Libtool, y Gettext.
+Guía de Autotools

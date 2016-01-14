@@ -1,0 +1,108 @@
+Google ha sido objeto de frecuentes cuestionamientos en relación a su funcionamiento, a su política comercial, y a sus enfoques respecto de la privacidad de datos y de los derechos de autor, lo que con frecuencia se ha recogido en los medios de comunicación y se ha planteado en estrados judiciales.    El presente artículo reagrupa las principales críticas y controversias que hasta la fecha se han concretado en relación a la citada sociedad especializada en las búsquedas en Internet, y también exitosa en otros rubros como por ejemplo la publicidad online y la cartografía satelital.  
+
+
+== Derechos de autor ==
+Cierto número de asociaciones, basándose en la Digital Millennium Copyright Act (disposición estadounidense relativa a las violaciones de los derechos de autor), exigieron que Google retirase de los informes de búsquedas que proporcionaba a sus clientes, las copias parciales de textos presentes en otros sitios y en infracción o posible infracción, especialmente en sitios digitales de actualidad. Y de conformidad a lo solicitado, Google incluyó solamente en sus propios informes, enlaces hacia los sitios de textos controvertidos.
+Diversas reclamaciones fueron interpuestas respecto de Google por causa de una posible violación de los derechos de autor, especialmente en lo relativo a uno de sus componentes: Google Web Cache (respaldo en duplicado usado para indizar las informaciones textuales y así facilitar las búsquedas, y usado también cuando las páginas originales no están disponibles). De todas maneras, Google utiliza un mecanismo de gestión de requerimientos del usuario para el cual la copia en cache está desactivada. Pero además, Google propuso otro mecanismo de salvaguarda, el archivo robot.txt, que permite a los webmasters efectuar una demanda explícita para excluir del sistema de búsquedas de Google a una parte o la totalidad de un determinado sitio digital.
+Por otra parte, la corte de Nevada (Estados Unidos), al juzgar los casos,Field v. Google y Parker v. Google  concluyó que este sistema de memoria cache no constituía una violación de los derechos de autor, tal como se los describe en la ley americana.
+En junio de 2004, Google Watch reveló los detalles del contrato entre la Universidad de Míchigan y Google, respecto de la creación de copias digitales de diferentes obras de la biblioteca de ese centro universitario. Este contrato sin duda estaba relacionado con el sistema 'Google Book Search', orientado a digitalizar una enorme cantidad de libros, y a la vez permitiendo el uso de una herramienta de búsqueda basada en texto dentro de ese enorme acervo documentario.   
+La base del argumento respecto de una posible violación de los derechos de autor, en este caso radicaba en que el material en cuestión era difundido adosado a anuncios publicitarios. De todas formas y a través de este contrato, Google creó un precedente en cuanto a la publicación, a gran escala, de copias digitalizadas de obras protegidas, y sin el correspondiente y explícito permiso de los propietarios de los derechos. Pero además y en forma insistente, Google defendía una y otra vez que este proceder estaba en perfecto acuerdo con la jurisprudencia y las leyes de derechos de autor aplicables a los libros.
+Según el contrato firmado entre Google y la Universidad de Michigan, Google solamente proporcionaría al contratante (investigadores, docentes), resúmenes o copias parciales y segmentadas de los contenidos de las obras aún con derechos de autor vigente. El contrato así establecido se acomoda bien al llamado Fair use (una excepción en la ley americana de derechos autorales, que permite reproducir partes de obras aún protegidas, siempre y cuando el material correspondiente se lo use con fines didácticos y/o académicos).
+En resumen, Google ha recibido una serie de críticas respecto de que vulnera sistemáticamente los derechos de autor, y también ha enfrentado unos cuanto juicios sobre esta cuestión, perdiendo algunos, y ganando otros.
+
+
+== Protección de la vida privada ==
+
+Daniel Brandt, un crítico que no le pierde pisada a las acciones de Google, descubrió en 2002 que Google creaba un cookie para cada ordenador, lo que podría ser utilizado para seguir la historia de búsquedas de un determinado usuario; el citado también descubrió que este cookie expiraba en el año 2038.
+À partir del año 2007, los cookies de Google expiran al cabo de dos años, pero en el caso citado el contador de tiempo era reinicializado cada vez que se utilizaba el sitio de Google. Ya que no hay ninguna prueba que Google reenvía informaciones al FBI o a la NSA, el interrogante que se plantea, según Brant, es que lo que Google acumula respecto de las búsquedas de los distintos usuarios por este procedimiento, simplemente es demasiado interesante y con posibilidades de seguimiento de actividades que se correspondan con un determinado perfil, como para que hayan pasado desapercibidos para las agencias especializadas del gobierno.
+Cierto es señalar que Google solicitó a la NSA de proteger su infraestructura y al respecto tiene firmado un contrato con esa agencia. Pero esta circunstancia, lejos de descartar sospechas las incrementa.
+En respuesta, Google declaró que las cookies eran necesarias para conservar las preferencias de los usuarios entre dos consultas consecutivas, para así poder ofrecer un mejor servicio, y por tanto, el plazo de espiración que era utilizado no se alejaba de lo que era relativamente normal.
+Los críticos de Google remarcaron los peligros y las consecuencias derivados de esta forma de trabajo, respecto ciertamente de la vida privada de los usuarios, peligros y consecuencias que se incrementaban al usarse un sistema centralizado de consultas sin duda muy popular, lo que implicaba una cantidad enorme de consultas. Por otra parte y de acuerdo con la ley estadounidense relativa al copyright, en determinadas condiciones Google podría ser forzado a entregar todas estas informaciones al gobierno de Estados Unidos, o a cualquier otro gobierno de un país donde el sitio Google fuera accesible.
+Además, algunas personas piensan que el servicio de mensajería de Google llamado Gmail va más lejos que el simple envío de mensajes. Por ejemplo, hay cierto número de internautas sin cuenta en Gmail, y que por tanto no aceptaron los términos del contrato Gmail, y sin embargo, estos internautas de todas maneras podrían ver analizados sus mensajes por parte de Google sin su permiso, en aquellos casos que esos envíos se realicen a cuentas Gmail. En respuesta a estas acusaciones, Google declaró que los correos entrantes o salientes que involucran a Gmail, jamás son leídos por nadie, a excepción de los propietarios de las respectivas cuentas; el propio sistema informático de gestión del correo que es utilizado por Google, solamente analiza los mensajes para mejorar la pertinencia de la publicidad que se presenta junto a las listas de correos recibidos o emitidos, y/o junto a los contenidos de los mismos
+Chris Hoofnagle, entonces director asociado del centro de información sobre la protección de la vida privada digital, con sede en Washington DC, advirtió que « los tribunales poco a poco se convierten en garantes de datos numéricos sensibles, y hoy día hay más riesgo que Google… pase a ser una seria amenaza a la protección de la vida privada».
+A principios del 2005, el departamento de Justicia de Estados Unidos inició un recurso ante la corte federal, para forzar a Google conformarse a aceptar la obligación de solamente retener « las palabras clave usadas al iniciar una solicitud al sistema de búsquedas de Google, y ello solamente durante una semana (excluyendo las informaciones que permitirían identificar a la persona que planteó esas palabras)».
+Google se opuso firmemente a esta limitación, en relación a la cuestión de las informaciones confidenciales de los usuarios.
+En mars 2006, la cour de justice statua partiellement en faveur de Google, reconnaissant l'implication en termes de respect de la vie privée du stockage des mots de recherche.
+Dans un rapport de 2007, Privacy International classa Google comme « hostile à la protection de la vie privée», qui est le plus bas niveau dans le classement de ce rapport, faisant ainsi de Google la seule société de cette liste à atteindre ce niveau.
+Google formó parte del programa estadounidense "Global command and control system-joint" (GCCS-J") así como del programa estadounidense de vigilancia electrónica PRISM elaborado por la NSA, según las revelaciones concretadas en junio de 2013 por Edward Snowden.
+
+
+=== Unión Europea ===
+Au sein de l'Union européenne, la commission chargée de la protection des données a écrit à Google lui demandant de justifier sa politique de conservation des données des recherches sur Internet à partir de son site et ce, pour une durée supérieure à deux ans. Ce courrier demande si Google a "rempli tous les pré-requis" des lois européennes relatives à la protection des données. L'investigation de l'Union européenne est toujours en cours (au 24 mai 2007). Le 1Plantilla:Er juin, Google admit que ses règles concernant la protection des données personnelles étaient vagues.
+
+
+=== Noruega ===
+L'inspection norvégienne -data- (la Norvège n'est pas un État membre de l'Union européenne) s'est penchée sur les pratiques de Google (et d'autres) et a statué que la période de 18 à 24 mois de rétention d'informations proposée par Google était trop longue.
+
+
+=== Francia ===
+En France, en juin 2013, la Commission nationale de l'informatique et des libertés (CNIL) a exigé de Google de se mettre en règle concernant les manquements en termes de respect de la vie privée des internautes. Cette mise en demeure fait suite à une concertation entre plusieurs pays européens (Allemagne, Espagne, France, Italie, Pays-Bas et Royaume-Uni) qui, dès octobre 2012, avaient demandé à Google de respecter les directives européennes en matière d’informatique et de libertés.
+La CNIL reprochait notamment à Google de ne pas informer correctement ses utilisateurs sur l’utilisation qui est faite de leurs informations. La commission a demandé à Google plus de transparence sur l’utilisation des renseignements collectés et a réclamé que les utilisateurs aient la possibilité de choisir s’ils veulent communiquer ou pas leurs données.
+Google n’ayant pas respecté la demande de mise en conformité dans le délai imposé par la CNIL de trois mois, cette dernière a lancé une procédure de sanction à l’encontre du géant américain en septembre 2013 ·.
+
+
+== El módulo PageRank ==
+PageRank, le principal système de Google, a été très critiqué. Certains experts, comme Daniel Brandt (fondateur du site Google Watch), le considèrent comme « antidémocratique». Les principaux arguments sont que le système est injustement biaisé en faveur des grands sites Internet, et que les critères pour définir l'importance d'une page ne sont revus par aucun organisme externe. PageRank est un vaste système automatisé qui est impartial dans la mesure où il ne connaît pas de parti pris. Cependant, le système de Google compte quand même sur un certain degré d'intervention humaine (par exemple l'évaluation humaine de PageRank, connu sous le nom de Rater Hub Google), et l'utilisation de noms de sociétés dans Adwords Plantilla:Citation nécessaire. En outre, la suppression de certains sites critiques (par exemple, le site critique sur la Scientologie ) est l'initiative d'êtres humains en accord avec les règles de la société. Il reste cependant difficile à dire si un autre système pourrait définir l'importance d'une page d'une manière à générer moins de critiques que le système PageRank.
+Le système est aussi susceptible de manipulation et de fraude à travers l'utilisation de dummy sites, telle que l'utilisation de bombardement Google ou de référencement abusif (spamdexing).
+En septembre 2007, la Commission australienne sur la concurrence et le consommateur (ACCC) a lancé une double procédure contre Trading Post et Google, incluant les succursales Google Australia et Google Ireland, pour fausse publicité (litt. Tromperie envers le client) en vendant ces classements à des sociétés plutôt que de les classer par pertinence.
+
+
+== Evasión fiscal ==
+À l'instar d'autres géants de l'informatique, depuis 2009, Google est souvent accusé de pratiquer l'évasion fiscale en Europe, notamment en France et au Royaume-Uni ·.
+Pour ce faire le géant des moteurs de recherches pratique le Plantilla:Lien et a ouvert deux holding en Irlande (pays où les taux d'imposition sont très bas ): Google Ireland Holdings et Google Europe, ces deux holding contrôlent Google Ireland, qui gère l'ensemble des activités de Google en Europe, au Moyen-Orient et en Afrique. Les bénéfices générés sur les 3 continents sont ensuite transférés dans le paradis fiscal des Bermudes, en passant au préalable par une autre holding situé aux Pays-Bas. Google n'a pas de siège social aux Bermudes mais une boîte postale tenue par un cabinet spécialisé ·.
+
+
+== Copyright ==
+
+
+=== Litigio con la Agence France-Presse ===
+En mars 2005, l'Agence France-Presse (AFP) poursuivit Google pour 17,5 millions de dollars, alléguant que Google News violait ces droits d'auteur parce que « Google inclut des photographies, des histoires et des titres d'articles de presse de l'AFP sur son site Google News sans permission de l'Agence France-Presse»..." Il fut aussi reproché à Google d'ignorer les injonctions de l'AFP à ce sujet, quoique Google rétorqua à ceci qu'il avait engagé avec l'AFP des démarches en ce sens mais que l'AFP n'avait jamais répondu.
+Il est possible que l'AFP développera de nouvelles accusations au tribunal, qu'elle n'a pour le moment pas rendues publiques, mais à l'heure actuelle, un certain nombre d'experts s'interrogent sur ces accusations car Google n'affiche pas la totalité des articles sur ses propres sites web, et fournit un lien vers l'un de ces 600 clients tel que la chaîne singapourienne NewsAsia (qui probablement en tire des bénéfices en termes de fréquence de consultation de leurs articles et de publicité), et parce que les articles sont disponibles via des fournisseurs de sites Internet attachant peu d'importance aux actions de Google ·.
+On dit aussi que l'AFP a cherché à empêcher une libre utilisation de ses articles, il aurait été alors demandé à ses diffuseurs de mettre en place un système de souscription plutôt que de poursuivre Google. De plus, « en 2002, une cour d'appel fédérale jugea que les sites Internet pouvaient reproduire et recopier les petites images, ou encore réduire des versions éditoriales de photographies sous copyright», de telle manière que Google News, surtout sous l'accusation de reproduction d'images, ne serait plus en infraction. Pourtant, l'AFP rétorqua que le titre et les premières des articles de presse étaient le "cœur" du travail fourni et que par conséquent, leur reproduction constituait un infraction aux lois sur les droits d'auteur.
+Selon Canada Free Press, « Google Inc. est maintenant sur le point de retirer l'ensemble des contenus de l'Agence France-Presse de ses serveurs, bien que le porte-parole de l'AFP confirma que les poursuites continueraient dans l'hypothèse où Google supprimerait les contenus illicites. Il semble que l'objectif de poursuivre Google soit seulement fondé sur la volonté de reconnaître la loi sur les droits d'auteur, plus qu'une volonté d'empêcher Google de reproduire ses contenus.». L'article conclut: « Ceci pourrait être un triste jour pour ceux qui utilisent Internet pour se documenter sur l'actualité si l'AFP sort glorieux de ce combat avec Google. Les poursuites judiciaires de l'AFP, si elles arrivent positivement au bout de la procédure, auront un fort impact sur les nouvelles mises à disposition sur Internet.»Plantilla:Refnec.
+Le 6 avril 2007, l'AFP et Google ont trouvé un accord [4]. Cet accord mit fin à toutes les poursuites en cours. Il permet notamment à Google d'utiliser l'ensemble des articles de l'AFP. Cela représente une grande différence avec les pratiques jusqu'alors utilisées.
+
+
+=== Caso judicial: Perfect 10 ===
+Le 21 février 2006, dans le cadre d'une procédure judiciaire à l'encontre du site en ligne pour adultes Perfect 10, un juge de district a jugé que la fonction de recherche d'image de Google avait violé la loi sur la copie, sans permission, de photographie de femmes nues créées par Perfect 10.
+
+
+=== Caso judicial: Guilde des Auteurs ===
+
+Le 20 septembre 2005, la Guilde des Auteurs (Plantilla:Lien), un groupe qui représente 8000 auteurs américains, mena une action collective en justice auprès de la cour fédérale de Manhattan contre Google à cause de ses reproductions non autorisées et ses copies de livres à travers son programme de bibliothèque Google. La Guilde des Auteurs réclame des dommages et intérêts et une injonction pour empêcher Google à l'avenir de continuer son très ambitieux projet de numérisation. L'issue du procès dépendra de l'interprétation d'une partie de la loi sur les droits d'auteur.
+Beaucoup de commentateurs à travers le monde des droits d'auteur et du numérique ne sont pas surpris par le déroulement de cette affaire. Google a annoncé ses projets en août 2005 de respecter les souhaits de chacun des titulaires d'œuvres qui contacteraient la société pour les informer qu'ils ne souhaitaient pas voir leurs œuvres réutilisées ou numérisées.
+
+
+== Censura ==
+
+Google ha sido señalado como dando apoyo a varios gobiernos en relación a procedimientos de censura en Internet, que a pedido imponía a sus propios contenidos o a sus servicios; el caso más notorio de esta colaboración ha sido con China. Cierto, en determinado momento Google decidió cambiar su política al respecto, por lo cual cerró su sitio.cn promoviendo la migración de sus usuarios hacia el sitio.hk. Pero finalmente evaluó muy positivamente el poder quedarse en territorio chino donde existe un número impresionante de internautas, y debiendo renovar su licencia con el estado chino, decidió reabrir su sitio.cn plegándose a las restrictivas medidas gubernamentales de acceso a contenidos.
+
+
+== Vehículos Google y tomas panorámicas de calles - CNIL ==
+
+
+=== Registro de informaciones Wi-Fi ===
+
+Los vehículos utilizados por Google, son camionetas o automóviles equipados para tomar fotos a 360°, destinadas esas fotos a ser puestas en línea en Google Maps para el servicio Google Street View. Además y desde dichos vehículos, también se registran los nombres de los puntos de acceso WiFi (SSID) y las direcciones MAC de los equipos informáticos desde los que el WIFI es activado (ejemplo: ordenador portable). 
+En un primer momento, Google indicó que ello se hacía únicamente con fines de "verificación", pero lo cierto es que datos confidenciales de ciudadanos franceses fueron interceptados y conservados por la firma estadounidense. La CNIL entonces inició una investigación, y mientras tanto la justicia no se expida al respecto, prohibió a Google de continuar con estos procedimientos.
+En Alemania, en abril de 2013, « la autoridad de protección de datos de Hambourg aplicó a Google una multa de 145 000 € por la colecta no autorizada de datos Wi-Fi a través de sus vehículos Street View».
+En Gran Bretaña, en junio de 2013, « Google mandató la destrucción de datos de Street View en Gran Bretaña»; « Google reconoció en 2010 que los vehículos que deambulaban por las calles por su cuenta, además de tomar fotos, recogían por inadvertencia datos personales transmitidos por wi-fi, como ser incluso contraseñas y direcciones de correo».
+
+
+== Neutralidad de la red ==
+El 4 de agosto de 2010, el New York Times anunció que Google se disponía a firmar un acuerdo con Verizon, otorgando a esa empresa de telecomunicaciones el derecho de permitir a sus clientes de acceder más rápidamente a los servicios de Google, lo que por cierto está en contradicción con lo preconizado por la neutralidad de la red. En reciprocidad y según ese acuerdo, el operador de telecomunicaciones se comprometía a promover los teléfonos con sistema operativo Android. Esta afirmación fue muy rápidamente desmentida por Google, y un poco más tarde también por Verizon.  
+
+
+== Véase también ==
+Google
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+Privacy Group Flunks Google, sitio digital 'eWeek', 12 de julio de 2007.
+« Who's afraid of Google?», sitio digital 'The Economist', 30 de agosto de 2007.
+Las obras protegidas, sitio digital 'Burgundy Translation'.
+Isabel Espín Alba y otros, Propiedad intelectual en el siglo XXI: Nuevos continentes y su incidencia en el derecho de autor, Editorial Reus, enero de 2014, ISBN: 978-84-290-1766-3 (texto en línea).
+Esta obra deriva de la traducción parcial de Critiques de Google de Wikipedia en francés, publicada por sus editores bajo la Licencia de documentación libre de GNU y la Licencia Creative Commons Atribución-CompartirIgual 3.0 Unported.

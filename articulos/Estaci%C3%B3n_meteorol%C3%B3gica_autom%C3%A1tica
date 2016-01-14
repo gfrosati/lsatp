@@ -1,0 +1,56 @@
+Una estación meteorológica automática (EMA) essantiago ama emiliouna versión autónoma automatizada de la tradicional estación meteorológica, preparada tanto para ahorrar labor humana, o realizar mediciones en áreas remotas o inhóspitas. El sistema puede reportar en tiempo real vía sistema Argos, o el Global Telecommunications System, tener enlace de microondas, o salvar los datos para posteriores recuperaciones.
+Muchas EMA tienen
+Termómetro para medir temperatura
+Anemógrafo para medir viento
+Higrógrafo para medir humedad
+Barógrafo para medir presión atmosférica
+Radiógrafo para medir propiedades atmósfera-sol
+Algunas de las eventuales son
+Cielógrafo para medir altura de nubes
+Pluviógrafo para medir lluvia
+Sensor de visibilidad
+Al contrario de las estaciones meteo manuales, las automátics no pueden reportar ni clase ni cantidad de nubes. También, las mediciones de precipitación son un poco problemáticas, especialmente con la caída de nieve, ya que el medidor debe vaciarse por si solo entre observaciones. Con la presente meteorología, todos los fenómenos donde no se toque al sensor, tales como parches de niebla, permanecen inobservados.
+Las primeras EMA se colocaban donde electricidad y líneas de comunicación estaban disponibles. Actualmente, las tecnologías de paneles solares, generador eólico y teléfono celular hacen posible las EMA inalámbricas.
+
+
+=== Tiempos de observación ===
+Históricamente las lecturas se llevaban a cabo por observadores meteorológicos típicamente no pagos y como un deber dentro del trabajo permanente, como sería un cartero. Esas observaciones se tomaban a las 9.00 de cada día, sin tomar la vespertina ni la nocturna. Con el advenimiento de las EMA, esos intervalos de tiempo permanecen para las estaciones manuales, y en las automáticas como parte de una tradición.
+
+
+=== Configuración ===
+La configuración de una EMA puede variar debido al propósito del sistema, pero típicamente consiste en una estructura modular:
+Una caja para intemperie, con el data logger, batería recargable y telemetría (opcional)
+Sensores meteorológicos
+Paneles solares o generador eólico
+Mástil
+
+
+==== Contenedor ====
+El contenedor del equipamiento de una EMA puede ser normalmente de materiales anti-intemperie como fibra de vidrio, ABS, aluminio naval, acero inoxidable.
+El plástico ABS es liviano y barato. Son muy usados en producciones en masa, pero son menos seguros, ni antivandálicos que el de fibra de vidrio o de acero inoxidable.
+La fibra de vidrio es útil para resistir agresiones químicas: corrosión del agua. Este material está a mitad de camino en seguridad, y está sujeto a deterioro de la fibra de vidrio.
+El acero inox es una elección óptima y típicamente viene en 316 s/s o 304 s/s. Es resistente, antivandálico, resistente a químicos/corrosión. Es también caro, más del doble que uno del mismo tamaño de fibra de vidrio.
+
+
+==== Panel solar de la EMA ====
+La fuente de energía de las EMA es usualmente uno o más paneles solares conectados en paralelo con un regulador y una o más baterías recargables. Como regla, la salida solar es para un óptimo de solo 5 h cada día. Y, el ángulo de montaje y la posición son vitales. En el Hemisferio Norte el panel debería montarse mirando al sur, viceversa para el Hemisferio Sur. El ángulo del panel difiere de lugar a otro, pero nunca montarlo con un ángulo de 5º.
+Salida aproximada de un panel solar, a sol pleno, en 12 VCC en batería
+5W = 280 mA/h a 18 V de Vmp
+10W = 560 mA/h a 18 V de Vmp
+20W = 1,1 A/h a 18 V de Vmp
+40W = 2,2 A/h a 18 V de Vmp
+
+
+==== Mástil ====
+Las alturas de los mástiles estándar de las EMA tienen 2, 3, 10 y 30 m. Hay otras medidas disponibles:
+De 2 m: para medir parámetros que afectan al sujeto humano. La altura del mástil se referencia a la altura de la cabeza
+De 3 m: para parámetros que afectan a los cultivos (como trigo, caña de azúcar). La altura del mástil se referencia al canopio del cultivo.
+De 10 m: para parámetros sin interferir con objetos como árboles, construcciones u otras obstrucciones. Típicamente el más importante parámetro meteorológico a esa altura es la velocidad y dirección del viento
+De 30 m: para parámetros sobre distancias estratificadas para modelado de datos. Una aplicación común es tomar medidas de viento, humedad y temperatura a 30, 10, y 2 m. Otros sensores se montan alrededor de los 2 m o más bajo.
+
+
+== Véase también ==
+Sensor de lluvia
+
+
+== Referencias ==

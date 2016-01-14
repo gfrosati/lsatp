@@ -1,0 +1,19 @@
+En teoría de números, se llama número semiperfecto a aquel número natural n que es igual a la suma de algunos de sus divisores propios . Un número que es igual a la suma de todos sus divisores propios recibe el nombre de número perfecto.
+Algunos números semiperfectos son:
+6, 12, 18, 20, 24, 28, 30, 36, 40, ... (sucesión A005835 en OEIS)
+
+
+== Algunas propiedades ==
+Todo múltiplo de un número semiperfecto también es semiperfecto.
+El número semiperfecto impar más pequeño es 945.
+Todo número semiperfecto es abundante o perfecto.
+
+
+== Conjetura de los números semiperfectos ==
+Sea m un número natural mayor que cero, si n es un número semiperfecto que resulta de multiplicar m por un número perfecto y el resultado de este producto dividido entre dos es par, entonces existen por lo menos m formas de expresar el número n mediante la suma de sus divisores propios. Dicho enunciado se conoce como conjetura de los números semiperfectos.
+
+
+== Enlaces externos ==
+Weisstein, Eric W. «Pseudoperfect Number». En Weisstein, Eric W. MathWorld (en inglés). Wolfram Research. 
+
+↑ «Tipos de números». Gaussianos. 13 de diciembre de 2006. Consultado el 20 de julio de 2015.

@@ -1,0 +1,52 @@
+CTI (Computer telephony integration, que puede traducirse como "integración de telefonía informática") se refiere en el contexto empresarial a un sistema informático destinado a la interacción entre una llamada telefónica y un ordenador de manera coordinada. Como los canales de comunicación de las empresas se han extendido más allá del teléfono, englobando actualmente el e-mail, la web (chat), el fax, los SMS, etc., el término CTI se ha ampliado para tomar también a otros canales de comunicación entre la empresa y sus clientes. La tecnología CTI apunta a integrar todos los canales de comunicación de la empresa y las informaciones que ésta recaba sobre sus clientes o potenciales clientes.
+Las interacciones registradas en el CTI pueden ser atendidas automáticamente si existen procesos predefinidos para ello o bien con el soporte manual de un agente, también llamado teleoperador. Los sistemas CTI disponen de funciones adicionales como son identificación de llamadas (quién es el cliente iniciador de la comunicación) o enrutamiento de llamadas (por ejemplo, en función de criterios geográficos o de negocio redirigir la llamada a un agente u otro) que facilitan la trazabilidad de los contactos realizados con los clientes y la automatización de tareas.
+
+
+== Funciones habituales ==
+Las siguientes funciones pueden ser implementadas usando CTI:
+Información sobre la llamada (número origen (ANI), número marcado (DNIS), completado de información sobre el cliente).
+Marcación automática y control informatizado (control de campañas, marcado predictivo, marcado previsualizado).
+Control de posiciones de Call Center: hablando, sonando, conferencias, registro en el sistema, etc.
+Transferencia de llamadas con datos adjuntos (por ejemplo, los datos que ha recibido o rellenado un agente pueden ser pasados a otro agente cuando se le transfiere la llamada).
+Funciones avanzadas como enrutamiento de llamadas, funciones de informes, automatización de procesos, mezcla multicanal (peticiones por teléfono, e-mail y web).
+Control del estado del agente (disponible, trabajo administrativo post-llamada, descanso).
+Monitorización de la calidad del servicio y grabado de llamadas.
+
+
+== Por el tipo de conexión ==
+Conexiones del computador y los teléfonos se pueden dividir en dos categorías:
+
+
+=== Control de llamadas 1st Party (primera parte) ===
+Funciona como si existiera una conexión directa entre el computador del usuario y teléfono. Ejemplos de esto son un módem o un teléfono conectado directamente a la computadora. Normalmente, sólo el equipo asociado con el teléfono puede ser controlado mediante el envío de comandos directamente al teléfono y por lo tanto este tipo de conexión es la más adecuada para aplicaciones de escritorio. El computador por lo general puede controlar todas las funciones del teléfono a discreción del usuario.
+
+
+=== Control de llamadas 3rd Party (terceras partes) ===
+Las interacciones entre un número no determinado de computadores y teléfonos se hacen a través un servidor de telefonía dedicado y de forma coordinada. Consecuentemente, el servidor administra que información y que funciones están disponibles para un usuario. El Computador del usuario generalmente se conecta al servidor de telefonía a través de la red local.
+
+
+== Flujo de eventos CTI ==
+Una aplicación típica CTI gestiona el flujo de que es generado por la centralita de telefonía durante el ciclo de vida de una llamada. Este habitualmente sigue esta secuencia:
+Conexión
+Envío (ring)
+Establecimiento (respuesta)
+Cierre (colgado)
+Fin
+Otros eventos de llamada que pueden ser manejados por una solución típica de CTI son:
+En espera (hold)
+Vuelta de hold
+Conferencia
+Transferencia
+Reenvío
+Las aplicaciones CTI manejan eventos relacionados con las centralitas inteligentes tales como:
+Agente registrado
+Agente disponible
+Agente no disponible
+
+
+== Historia y principales tecnologías CTI ==
+Los orígenes de la tecnología de CTI se pueden enfocar en el instante en que la información comenzó a desplegarse y mostrarse en las pantallas de los computadores de forma simple y automática, también conocido con el término de "screen pop”. Esto permite que los datos obtenidos de los sistemas de telefonía sean usados como datos de entrada para realizar consultas a bases de datos con información de los clientes y proveer esos datos en la pantalla del representante de servicio al cliente de forma instantánea. El efecto fundamental es que el agente con esta información en la pantalla de su terminal antes de hablar con el cliente.
+Esta tecnología comenzó a ganar la adopción generalizada en mercados como América del Norte y los países de Europa Occidental.
+Hubo varios estándares que tuvieron un impacto importante en la "normalización" de la industria, los cuales se encontraban completamente cerrados y eran propiedad de cada proveedor de PBX/ACD. A nivel de software, la interfaz más adoptada por los vendedores es el CSTA estándar, que es aprobada por el organismo de normalización UIT. Otras normas de CTI conocidas en la industria son JTAPI, TSAPI y TAPI: JTAPI, la API de telefonía de Java promovida por Sun; TSAPI, originalmente promovida por AT&T (luego Lucent, y después Avaya) y Novell; Microsoft empujó su propia iniciativa también y de este modo nació TAPI, principalmente con soporte para las aplicaciones de Windows. Todas estas normas requieren que el proveedor de PBX escribirá un controlador específico por lo que al principio el soporte fue muy lento.
+Otros dos jugadores importantes en el desarrollo y crecimiento de esta tecnología fueron Digital Equipment Corporation y Tiger Software (ahora Mondago). Digital Equipment Corporation desarrolló CT Connect que incluye proveedores de abstracción de middleware. Entonces CT Connect fue vendida a Dialogic, que a su vez fue comprada por Intel. Este software CTI, mayormente conocido como CT Connect, se vendió por última vez en 2005 para Envox Worldwide. Tiger Software desarrollo la suite SmartServer que fue enfocado principalmente para permitir que los proveedores de aplicaciones CRM agregaran funcionalidad CTI a sus aplicaciones existentes con un mínimo esfuerzo. Más tarde, y después de cambiar su nombre a Mondago , Tiger Software pasó a producir la aplicación de servidor Go Connect Server, que tiene como objetivo proporcionar a ayudar a otros proveedores de CTI a integrar sus soluciones con una amplio número de sistemas telefónicos.
+En el año 2008, la mayoría de los proveedores de PBX se alinearon con uno o dos de los estándares TAPI, CSTA o TSAPI . Los defensores TSAPI fueron: Avaya, Telrad. Los defensores de CSTA fueron: Siemens (ahora Unify), Aastra, DeTeWe, Toshiba, Panasonic. La mayoría prefirieron TAPI (ver artículo principal acerca TAPI para mayor detalles). Unos vendedores promueven estándares propietarios: Mitel, Broadsoft, Digium y plataformas más en la nube. Tanto CT Connect como Go Connect entregaron una importante herramienta de traducción de capa media, permitiendo que las centrales telefónicas se comuniquen con su protocolo preferido, mientras que las otras aplicación puedan comunicarse usando individualmente su protocolo preferido.

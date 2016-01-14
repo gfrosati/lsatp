@@ -1,0 +1,33 @@
+El motor Zend es un motor de procesamiento para la interpretación y cifrado del código php, desde la versión 4. Desarrollado por Zend Technologies para brindar un equipo de soporte y acelerar la carga de aplicaciones realizadas con php.
+Entre las funciones más importantes que realiza este motor de procesamiento está la posibilidad de cifrar el código fuente de las páginas desarrolladas en php para así luego hacer posible la comercialización de este. Debido a las limitaciones de este sistema en volcar el desarrollo de php a una índole comercial un grupo de gurus hackers desarrolladores en php se dieron a la tarea de crear un algoritmo que descifrara el código generado por el motor, cosa que fue lograda poco después de su lanzamiento.
+
+
+== Historia ==
+Hacia junio de 1998 surgió la versión PHP 3.0 que fue la primera que se parece al PHP que conocemos hoy. Era una completa redefinición ya que consideraban que PHP/FI 2.0 no poseía el poder para aplicaciones comerciales. Se declaró a PHP 3.0 como el sucesor oficial de PHP/FI 2.0, y los desarrollos de PHP/FI 2.0 fueron disminuidos en gran manera.
+
+
+=== Zend Engine 0.5 ===
+Una de las grandes fortalezas de PHP 3.0 ( Zen Engine 0.5, aunque no fue llamado así hasta mucho después) era su fuerte capacidad de expansión. Además de darle a los usuarios una sólida infraestructura para acceder a múltiples bases de datos, protocolos y APIs, sus características de expansión atrajeron a docenas de desarrolladores que agregaron nuevos módulos de expansión.
+
+
+=== Zend Engine 1.0 ===
+A mediados de 1999 fue lanzada la nueva versión de PHP, la 4.0, llamada "Zend Engine", que proviene de los nombres de sus implementadores: Zeev Suraski y Andi Gutmans.
+
+
+=== Zend Engine 2.0 ===
+En el año 2004 aparece PHP 5.0 basado en Zend Engine El Zend Engine surgió como un esfuerzo para mejorar el rendimiento de PHP en las aplicaciones complejas al mismo tiempo que permitía una mayor modularidad. Esto llevó a una re-escritura del 'CORE' de PHP. Se usó como base el PHP 3, ya que este permitía manejar una gran variedad de bases de datos y APIs.
+
+
+==== Manejo de Objetos ====
+Estos objetivos se lograron por medio de la modificación del manejo de los objetos. Cuando un objeto era creado, en las versiones anteriores se manejaba como si fuera un tipo de variable, como una cadena de caracteres o un numérico, de manera que cuando se necesitaba pasar el objeto, éste pasaba completo. El hecho creaba problemas en su manejo, tales como duplicación y destrucción de objetos, además de resultados indeseados en la ejecución del código.
+Esto fue solucionado mediante el uso de objetos a través de handles, una especie de punteros que apuntan al objeto original. La instancia del objeto es en realidad un puntero a la posición de almacenamiento del objeto.
+
+
+==== Otras características ====
+Esto elimina el problema de realizar operaciones complejas para asignar, duplicar o destruir las instancias de los objetos.
+Adicionalmente se agregaron estructuras de control de errores 'try/throw/catch', variables locales y privadas dentro de las clases y Herencia múltiple.
+
+
+== Referencias ==
+
+http://cl.php.net/manual/en/history.php.php

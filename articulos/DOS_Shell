@@ -1,0 +1,15 @@
+DOS Shell es un administrador de archivos que venía incluido en MS-DOS y PC-DOS desde la versión 4.0 hasta la 6.0. Estaba pensado como una alternativa al COMMAND.COM.
+
+
+== Características ==
+DOS Shell tiene características comunes a otros administradores de archivos como copiar, mover y renombrar archivos, así como la posibilidad de "lanzar" aplicaciones con un doble clic. Puede ser ejecutado por el comando "DOSSHELL". Tiene la posibilidad de ajustar colores y estilos. DOS Shell fue uno de los primeros intentos para crear una interfaz gráfica de usuario (GUI) básica, aunque más bien se considera interfaz de texto de usuario (TUI). El Shell era como una versión DOS del Administrador de archivos de Windows.
+DOS Shell también posee un sistema de ayuda, una lista de programas, y un intercambiador de tareas. Tiene la capacidad de mostrar un doble listado de archivos y directorios a la izquierda y derecha de la pantalla. Tiene soporte nativo de ratón, sin embargo, como cualquier otra aplicación de DOS, es necesario un controlador de dispositivo adecuado.
+Una característica destacada es su capacidad de listar todos los archivos del disco duro en una única lista por orden alfabético junto con la ruta de acceso y otros atributos. Esto permite a los usuarios comparar versiones de un archivo en directorios diferentes por sus atributos y encontrar fácilmente archivos duplicados.
+
+
+== Problemas ==
+Hay varias razones por las que DOS Shell dejó de usarse:
+Se requieren al menos 384 KB de memoria convencional del sistema, lo que deja poco espacio para controladores de dispositivo.
+No es multitarea. Sólo puede cambiar entre programas que se ejecutan en memoria, y aun así, el sistema puede ver afectado el rendimiento. Todos los programas en ejecución son guardados en disco hasta que vuelvan a ser invocados, lo que hace muy lento en cambio entre programas.
+No permite copiar y pegar entre aplicaciones en ejecución, lo que hace poco práctico su uso. Windows 3.x permite copiar y pegar entre aplicaciones DOS cuando se ejecuta en un procesador 386 en modo Enhanced.
+Windows 3.x se hizo mucho más popular entre los usuarios de computadoras. Windows es multitarea, más estable, posee una interfaz más agradable, el rendimiento del sistema es mucho más alto, y tiene total acceso a la RAM del sistema.

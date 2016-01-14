@@ -1,0 +1,208 @@
+Trixbox es una distribución del sistema operativo GNU/Linux, basada en CentOS, que tiene la particularidad de ser una central telefónica (PBX) por software basada en la PBX de código abierto Asterisk. Como cualquier central PBX, permite interconectar teléfonos internos de una compañía y conectarlos a la red telefónica convencional (RTB - Red telefónica básica). La versión Trixbox CE es la continuación de Asterisk At Home.
+El paquete trixbox incluye muchas características que antes sólo estaban disponibles en caros sistemas propietarios como creación de extensiones, envío de mensajes de voz a e-mail, llamadas en conferencia, menús de voz interactivos y distribución automática de llamadas.
+Trixbox, al ser un software de código abierto, posee varios beneficios, como es la creación de nuevas funcionalidades. Algo muy importante es que no sólo soporta conexión a la telefonía tradicional, sino que también ofrece servicios VoIP -voz sobre IP-, permitiendo así ahorros muy significativos en el coste de las llamadas internacionales, dado que éstas no son realizadas por la línea telefónica tradicional, sino que utilizan Internet. Los protocolos con los cuales trabaja pueden ser SIP, H.323, IAX, IAX2 y MGCP.
+Trixbox se ejecuta sobre el sistema operativo CentOS y está diseñado para empresas de 2 a 50 empleados.
+
+
+== Componentes principales ==
+Los componentes principales de TrixBox son:
+
+
+=== Linux Centos ===
+Es la distribución Linux que sirve como sistema operativo base, que a su vez está basada en Linux Red Hat Enterprise.
+
+
+=== Asterisk ===
+Es el núcleo de telefonía. Cuando hablamos de Asterisk incluimos también los controladores de Zapata Telephony (zaptel) y la biblioteca para soporte RDSI (libpri). Se entiende entonces como el medio físico ya sea isa/pci/pci-e.
+
+
+=== FreePBX ===
+Es el entorno gráfico que facilita la configuración de Asterisk, no a través de la edición de archivos de texto, sino a través de interfaces web amigables.
+
+
+=== Flash Operator Panel (FOP) ===
+El FOP es una aplicación de monitorización de Asterisk tipo operadora accesible desde la Web.
+
+
+=== Web-MeetMe ===
+Web-MeetMe es una herramienta de control de salas de conferencia para Asterisk. Que permiten interrogar al servidor de conferencia y ver quién está realmente presente en la sala de conferencias. Algunas de las características básicas, tales como enmudecer, desenmudecer e invitar a un miembro se encuentran disponibles.
+
+
+=== A2Billing ===
+A2Billing está utilizado para la terminación y facturación de llamadas. Es una aplicación LAMP (Linux, Apache, MySQL y PHP) bajo la licencia GNU Affero General Public License y es compatible con Asterisk. El software permite la gestión, contabilidad y facturación de productos de telecomunicaciones, tales como los servicios de VoIP y tarjetas de llamadas.
+
+
+=== SugarCRM ===
+SugarCRM es un software que implementa la administración de las relaciones con el cliente (Customer relationship management), permitiendo básicamente facilitar tres procesos en los cuáles se ven involucradas la mayoría de la empresas con sus clientes: marketing, ventas y soporte. Además, sirve para almacenar todos los datos y actividades con el cliente, como reuniones, llamadas, correos, etc.
+
+
+== Ediciones de Trixbox ==
+Trixbox posee dos tipos de versiones:
+
+
+=== 1) TrixBox CE (Community Edition) ===
+Comenzó en el año 2004 como un proyecto popular IP-PBX denominado Asterisk@Home. Desde ese momento se convirtió en la distribución más popular, con más de 65.000 descargas al mes. Dicha versión se caracteriza por dos pilares importantes: su flexibilidad para satisfacer las necesidades de los clientes y, sobre todo, por ser gratuita.
+
+
+==== ¿Por qué utilizar TrixBox CE? ====
+Tal como se dijo anteriormente TrixBox CE es una versión muy flexible, que no solo permite configurar funciones y módulos parametrizables para las necesidades de cada cliente, sino que también es posible acudir a la comunidad de TrixBox para ayudar o ser ayudado. Esta es una de las más grandes y más activas del mundo y sus miembros trabajan entre ellos día a día con el fin de responder consultas, resolver problemas, fallos y en seguir desarrollando la herramienta.
+
+
+==== ¿Quién utiliza TrixBox CE? ====
+Empresas de todo el mundo, desde aquellas que posen muy pocas estaciones de trabajo, hasta medianas compañías que poseen cientos de empleados.
+
+
+=== 2) TrixBox Pro (Versión comercial de pago) ===
+
+Es una solución denominada "hibrid-hosted", que significa que el cliente puede realizar una monitorización 24 horas al día los 7 días de la semana, administrar la central desde cualquier lugar y recibir actualizaciones del software de manera automática. Trixbox Pro es una versión empresarial que se ejecuta sobre tecnologías PBXtra, comercializada desde el 2004 permitiendo enviar/recibir más de 120 millones de llamadas por día. La familia trixbox Pro posee 3 versiones:
+Standard Edition (SE)
+Enterprise Edition (EE)
+Call Center Edition (CCE)
+
+
+== Características y beneficios ==
+
+
+=== 1. Gratis y flexible: ===
+Las 3 versiones poseen las siguientes características:
+Standard Edition (SE) : Gratis.
+Enterprise Edition (EE) y Call Center Edition (CCE) : coste mensual muy bajo o una cuota de por vida.
+
+
+=== 2. Fácil instalación, uso y configuración: ===
+Posee un instalador que hace que la instalación sea sencilla; posee, además, un administrador intuitivo y un panel de control que facilita la instalación, configuración y administración.
+
+
+=== 3. Características avanzadas: ===
+Posee características como contestador automático, integración con el Outlook, voicemail a email, informes, llamadas en conferencia, etc.
+
+
+=== 4. HUD: ===
+El Hud es una herramienta denominada de "todo en uno", que permite a los empleados poder manejar las comunicaciones de la empresa desde su propio escritorio. De esta manera pueden acceder a chats privados, realizar llamadas con hacer un solo clic, realizar transferencia de llamadas, etc.
+
+
+=== 5. Seis idiomas: ===
+El panel de control de trixbox Pro está en 6 idiomas, permitiendo así que cualquier usuario pueda configurar la central: Inglés, Francés, Español, Alemán, Italiano y Portugués.
+
+
+== Principales características ==
+Trixbox es una completísima y poderosa plataforma. Los productos que incluye son:
+trixbox dashboard
+Asterisk (tm) Open Source PBX
+FreePBX herramienta web de administración
+SugarCRM
+Munin (en paquete administrador)
+HUDLite server/admin (en paquete administrador)
+IVRGraph (en paquete administrador)
+phpMyAdmin (en paquete administrador)
+Webmin (en paquete administrador)
+
+
+=== Descripción de las principales características de trixbox Pro ===
+
+
+==== Contestador Automático (IVR): ====
+Una de sus características es la funcionalidad de Contestador-Automático que guía a los que llamen según las opciones predefinidas. Ejemplo: “Presione 1 para comunicarse con soporte” o “Presione 2 para el departamento de ventas”. Esta característica en este producto es muy poderosa y fácil de usar con solo unos clics. Se puede configurar el flujo de las llamadas, configurar respuestas agendadas, redirigir llamadas fuera del lugar de trabajo y algunas opciones más.
+
+
+==== Integración con Outlook: ====
+Llamadas entrantes: cuando el teléfono suena, el identificador de llamadas puede analizar contra los contactos del Outlook y si una coincidencia es encontrada se mostrara una ventana con el nombre de la persona. Hacer llamadas desde su casilla de entrada personal: basta con hacer clic con el botón derecho en el contacto o en un mensaje del contacto para llamarle sin que su esposa se dé cuenta, o novia.
+
+
+==== Buzón de voz: ====
+Ofrece cuatro maneras fáciles de almacenar mensajes: • Presionando un botón en el teléfono. • Marcando remotamente desde cualquier teléfono. • Recibiendo archivos .WAV adjuntos en el mail. • Escuchando a través del panel de control web.
+
+
+==== Mensajes de voz a email: ====
+La posibilidad de recibir mensajes de voz como simples emails. Trixbox viene preconfigurado para enviar a cada empleado un email cuando estos reciban un mensaje de voz. También se puede tener el audio adjunto al email y escucharlo directamente en la bandeja de entrada.
+
+
+==== Scheduler: ====
+Se pueden reproducir diferentes mensajes a las personas que llaman según la hora del día. Configurar un menú totalmente diferente los fines de semana con opciones diferentes que se pueden elegir.
+
+
+==== Teléfonos analógicos e IP: ====
+Es el sistema de teléfonos más flexible del mercado, soportando todos los teléfonos analógicos y numerosos teléfonos IP de marcas como Cisco, Polycom, Aastra, SwissVoice y Snom.
+
+
+==== VoIP: ====
+Trixbox está preparado para VoIP dependiendo del producto que se esté usando, el cual limita la cantidad de teléfonos posibles. Fácilmente se puede conectar trixbox con cualquier proveedor de VoIP (SIP o IAX).
+
+
+==== Panel de control web: ====
+Ofrece una interfaz web fácil de usar. Un panel de administrador que maneja todos los aspectos del trixbox remotamente y un panel de usuario para empleados que les permite manejar sus configuraciones personales (como escuchar sus mensajes de voz, responder llamados mediante un clic, traspaso de llamadas, etc.) desde cualquier parte.
+
+
+==== Reportes y monitorización: ====
+Con esta característica se pueden analizar en tiempo real los registros de llamadas para cualquier extensión usando potentes filtros y parámetros de búsqueda. También provee informes de los gastos que un cliente ha hecho o su registro de llamadas individual. Todos estos informes pueden ser exportados en formato .csv.
+
+
+==== Puentes para conferencias: ====
+Los puentes para conferencias vienen preconfigurados gratuitamente y soportan un número ilimitado de participantes internos y externos.
+
+
+==== Soporte de sucursales: ====
+Desarrollo de servidores de bajo coste en cada sucursal u oficina. Algunas de las opciones de las que se disponen en esta característica:
+Llamadas gratis entre sucursales vía VoIP.
+Traspaso de llamadas a cualquier extensión que esté conectada al servidor.
+
+
+== Códecs que soporta ==
+ADPCM
+G.711 (A-Law & μ-Law)
+G.722
+G.723.1 (pass through)
+G.726
+G.729 (through purchase of a commercial license)
+GSM
+iLBC
+
+
+== Protocolos con los que trabaja ==
+IAX™ (Inter-Asterisk Exchange)
+IAX2™ (Inter-Asterisk Exchange V2)
+H.323
+SIP (Session Initiation Protocol)
+MGCP (Media Gateway Control Protocol)
+SCCP (Cisco® Skinny®)
+Traditional Telephony Interoperability
+FXS
+FXO
+DTMF support
+PRI Protocols
+
+
+== Versiones actuales ==
+
+
+=== trixbox CE ===
+2.8.0.4 (Stable):http://downloads.sourceforge.net/project/asteriskathome/trixbox%20CE/trixbox%202.8/trixbox-2.8.0.4.iso?r=http%3A%2F%2Ffonality.com%2Ftrixbox%2Fdownloads&ts=1305790136&use_mirror=kent
+2.8.0.1 File released: http://downloads.sourceforge.net/project/asteriskathome/trixbox%20CE/trixbox%202.8/trixbox-2.8.0.1.iso
+2.6.2.3 (Stable) - 2 de diciembre de 2008
+2.4 - 27 de diciembre de 2007
+2.3.0.5 - Versión beta
+2.2.8 - Es la versión actual estable
+2.2 - Permite ser ejecutada en una vmware
+
+
+=== trixbox PRO ===
+1.1.1 - del 15 de octubre de 2007
+1.0.0
+
+
+== Referencias ==
+↑ http://asteriskathome.sourceforge.net/
+↑ Página de descargas de trixbox CE
+↑ Página de descargas de trixbox PRO
+
+
+== Véase también ==
+Asterisk
+
+
+== Enlaces externos ==
+Sitio oficial
+Sitio oficial de Trixbox Pro
+Manual de trixbox en español
+Trixbox al descubierto por Alfredo Certain Yance
+Proyecto de Implementación asterisk-access router

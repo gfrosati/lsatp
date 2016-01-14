@@ -1,0 +1,16 @@
+La Defense Data Network (DDN) fue una instancia separada de ARPANET usada por el Departamento de Defensa de los Estados Unidos entre 1983 y 1995 pro sus servicios de Internet. La DDN empezó siendo MILNET, una red formada en 1983, cuando las sedes militares partieron la ARPANET pública. Como una enorme internet privada, DDN proveía de conectividad IP a lo largo de los Estados Unidos y a las bases militares en el extranjero. Durante los años 1980, se expandió en 4 redes militares paralelas, cada una de las cuáles tenía un nivel de seguridad diferente. Estas redes posteriormente pasaron a ser NIPRNET, SIPRNET, y JWICS en los años 1990.
+Las cuatro subredes de DDN fueron:
+Military Network (MILNET) para tráfico Sin Clasificar
+Defense Secure Network One (DSNET 1) para tráfico Secreto
+Defense Secure Network Two (DSNET 2) para tráfico de Alto Secreto
+Defense Secure Network Three (DSNET 3) para tráfico de Alto Secreto e Información Sensible (TS/SCI)
+MILNET y DSNET 1 eran redes para usuarios comunes, similar a la actual Internet, pero DSNET 2 estaba dedicada a soportar el Sistema de control y mando Militar Global (WWMCCS) y DSNET 3 estaba dedicado a apoyar el Sistema de Información para la Inteligencia del Departamento de Inteligencia (DODIIS).
+
+
+== Referencias ==
+↑ Cybertelecom :: Internet History 1983
+
+
+== Véase también ==
+ARPANET
+MILNET

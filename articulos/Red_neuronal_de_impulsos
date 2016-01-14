@@ -1,0 +1,25 @@
+Las redes neuronales de impulsos (en inglés: spiking neural networks) son un tipo de redes neuronales artificiales más realistas que las redes neuronales artificiales clásicas, es decir, procesan la información de una forma más similar a las redes neuronales biológicas.
+
+
+== Introducción ==
+Una diferencia fundamental con respecto a las redes neuronales artificiales clásicas, es que la mayoría de los modelos de neurona de impulsos (spiking neuron) incluyen el concepto de tiempo en la simulación. Las entradas a las neuronas se presentan distribuidas en el tiempo y suelen consistir en una serie de impusos.
+El modelo de neurona de este tipo de redes cuenta con al menos una variable de estado, la cual representa el potencial de membrana de la neurona. Algunos modelos de neurona más complejos, pueden incluir otras variables; como son el estado que cada tipo de sinapsis.
+El efecto de cada impulso de entrada modifica el estado de la neurona y cuando la variable que representa el potencial de membrana alcanza el umbral de disparo, la neurona emite un impulso (evento) de salida. Este modo de funcionar hace que la neurona pueda emitir un impuso de salida debido al efecto que un impulso de entrada produjo en un tiempo anterior. Los impulsos producidos por las neuronas son transmitidos a través de conexiones a otras neuronas. Estas conexiones pueden introducir retardo en la transmisión de los impulsos dependiendo de la complejidad del modelo que se esté simulado.
+Debido a que estas neuronas sólo reciben como entrada impulsos, la única forma de codificar la entrada es mediante el número de impulsos y el tiempo en el que éstos se introducen. Así surgen varios métodos para codificar la información mediante trenes de impulsos.
+Codificación basada en frecuencia: Muchos impulsos y muy cercanos en el tiempo representan valores altos en la variable de entrada, mientras que la ausencia de impulsos o impulsos muy dispersos en el tiempo, representan valores bajos de dicha variable.
+Codificación basada en fase (o en tiempo): Los impulsos codifican la magnitud de la entrada en función de la distancia en tiempo entre impulsos. Por ejemplo se pueden codificar valores de la entrada mediante la diferencia entre el tiempo en que se recibe un impulso en una sinapsis específica (de entrada) y el tiempo en el que se recibió el último impulso por otra sinapsis (de referencia).
+
+
+== Aplicaciones ==
+Este tipo de redes pueden ser aplicadas en el procesamiento de la información de igual forma que se utilizan la redes neuronales clásicas, pero debido a su carácter más realista también pueden ser aplicadas en investigación sobre el funcionamiento de circuitos nerviosos. Partiendo de una hipótesis sobre la topología y funcionamiento de un circuito nervioso presente en la biología, se puede contrastar su salida con la de una red de neuronas de impulsos con las mismas características simulada en el ordenador.
+
+
+== Simuladores ==
+Existen diversas aplicaciones informáticas para simular este tipo de redes neuronales atendiendo a la aplicación que se le pretenda dar a la simulación. De esta forma se pueden clasificar en:
+Aplicaciones para simular redes neuronales presentes en la biología y así estudiar su funcionamiento. Dentro de este grupo entran programas como GENESIS (the GEneral NEural SImulation System) desarrollado en el laboratorio de James M. Bower en Caltech, o Neuron, principalmente desarrollado por Michael Hines, John W. Moore, y Ted Carnevale en la Universidad de Yale y la Universidad de Duke. Este tipo de aplicaciones suelen soportar la simulación de modelos complejos de neurona con un alto grado de detalle, sin embargo las simulaciones de grandes redes suelen consumir bastante tiempo.
+Aplicaciones para simular redes con el propósito de procesar la información y resolver problemas. Dentro de este grupo entran programas como SpikeNET desarrollado por Delorme y Thorpe en colaboración entre el Centre de Recherche Cerveau et Cognition y SpikeNet Technology. Este tipo de programas suelen realizar las simulaciones de forma muy rápida y eficiente pero no permiten simular modelos de neurona muy complejos o realistas.
+Aplicaciones para simular redes con el propósito de procesar la información pero que permiten incluir modelos de neurona complejos. Éstas permiten explotar carácterísticas de neuronas biológicas para realizar funciones concretas y al mismo tiempo permiten estudiar la funcionalidad de estas caracteríscas neuronales. Dentro de este grupo entran programas como EDLUT desarrollado en la Universidad de Granada. Estos programas deben ser eficientes para que permitan realizar simulaciones rápidamente o incluso en tiempo real y al mismo tiempo que permitan realizar simulaciones con el grado de detalle necesario para que sean biológicamente plausibles.
+
+
+== Enlaces externos ==
+Libro Spiking Neuron Models. Single Neurons, Populations, Plasticity por Wulfram Gerstner y Werner M. Kistler (ISBN 0521890799)

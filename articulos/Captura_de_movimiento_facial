@@ -1,0 +1,66 @@
+Captura de Movimiento Facial es el proceso de conversión electrónica de los movimientos cara de una persona en una base de datos digital que utiliza cámaras o escáneres de láser. Esta base de datos puede ser usada para producir animación por computadora para películas, juegos o avatares en tiempo real. Dado que los movimientos de personajes generados por computadora (CG) se derivan de los de personas reales, su uso resulta en una animación más realista y matizada, a diferencia de si se creara la animación manualmente.
+La base de datos de una captura de movimiento facial describe las coordenadas o posiciones relativas de los puntos de referencia en el rostro de un actor. La captura puede ser en dos dimensiones. En ese caso, el proceso de captura a veces es llamado "rastreo de expresión", o en tres dimensiones. La captura en dos dimensiones puede lograrse utilizando una sola cámara y un software de captura de bajo costo como Zign Track de Zign Creations. Esto produce un rastreo menos sofisticado, incapaz de capturar por completo movimientos en tres dimensiones como la rotación de una cabeza. La captura de movimiento en tres dimensiones se realiza utilizando plataformas con múltiples cámaras o con un sistema de marcador láser. Comúnmente estos sistemas son más caros, complicados y consumen más tiempo. Existen dos tecnologías predominantes: sistemas de rastreo con marcador y sin marcador.
+La captura de movimiento facial está relacionada con la captura de movimiento de un cuerpo, pero es más desafiante dado los requerimientos de alta calidad necesarios para detectar y seguir expresiones sutiles, posiblemente de movimientos pequeños de ojos y labios. Dichos movimientos son menores a unos cuantos milímetros y requieren de una mayor resolución y fidelidad, así como diferentes técnicas de filtración que los empleados generalmente en una captura de cuerpo completo. Las restricciones adicionales de una cara también permiten más oportunidades para usar modelos y reglas.
+La captura de expresiones faciales es similar a la de movimiento. Es un proceso en el que se usan métodos visuales o mecánicos para manipular personajes generados por computadora con la aportación de una cara humana, o para reconocer las emociones de un usuario.
+
+
+== Historia ==
+Una de las primeras investigaciones que discuten la animación a partir de la actuación fue publicada por Lance Williams en 1990. El autor lo describe como "un método para adquirir las expresiones de rostros reales, y aplicarlas en caras generadas por computadora."
+
+
+== Tecnologías ==
+
+
+=== Con marcadores ===
+Los sistemas tradicionales basados en marcadores utilizan hasta 350 marcadores en el rostro del actor y rastrean el movimiento del marcador con cámaras de alta resolución. Esto se ha usado en películas como El Expreso Polar y Beowulf para permitir a actores como Tom Hanks manejar las expresiones faciales de distintos personajes. Desafortunadamente esto es relativamente incómodo y hace que las expresiones de los actores se muestren sobre impulsadas una vez que se han suavizado y filtrado. Los sistemas de la siguiente generación como CaptiveMotion utilizan bases de un sistema tradicional basado en marcadores pero con niveles de detalle más altos.
+Actualmente se está utilizando una tecnología de Marcadores LED Activos para manejar animación facial en tiempo real para proveer realimentación al usuario.
+
+
+=== Sin marcadores ===
+Las tecnologías sin marcadores utilizan características del rostro como las fosas nasales, los bordes de los labios, los ojos y las arrugas para después rastrearlas. Esta tecnología se está discutiendo y demostrando en CMU, IBM, Universidad de Manchester (donde mucho de esto se inició con Tim Cootes, Gareth Edwards and Chris Taylor) y otras locaciones, al usar modelos de apariencia activos, análisis de componentes principales, rastreo eigen, modelos de superficie deformables y otras técnicas para rastrear las características faciales deseadas de cuadro a cuadro. Esta tecnología es menos incómoda y permite mayor expresión para el actor.
+Estos acercamientos basados en la visión también tienen la habilidad de rastrear el movimiento de la pupila, párpados, la oclusión de los dientes por los labios y la lengua, que son problemas obvios en la mayoría de las películas de animación por computadora. Las limitaciones típicas de los enfoques basados en la visión son la resolución y la velocidad de los cuadros, ambas situaciones ya están dejando de ser un problema ya que cámaras CMOS de alta velocidad y alta resolución están cada vez más a disponibilidad desde múltiples fuentes.
+La tecnología para el rastreo de caras sin marcadores está relacionada con el encontrado en un sistema de reconocimiento facial, ya que un sistema de reconocimiento puede aplicarse potencialmente de forma secuencial a cada cuadro de un vídeo, esto resulta en el rastreo de una cara. Por ejemplo, el sistema Neven Vision (anteriormente Eyematics, ahora adquirido por Google) permitía rastreo de cara en 2D en tiempo real sin un entrenamiento específico; su sistema también estaba entre los que demostraron mejores resultados en sistemas de reconocimiento facial en el Examen de Vendedores de Reconocimiento Facial (FRVT) del Gobierno de los EUA en 2002. Por otro lado algunos sistemas de reconocimiento no rastrean explícitamente las expresiones o incluso fallan en expresiones no neutrales, por lo tanto no son adecuados para rastreo. A la inversa, sistemas como los modelos de superficie deformables albergan información temporal para desambiguar y obtener resultados más robustos, de ese modo no pueden ser aplicados en una sola fotografía.
+El rastreo facial sin marcadores ha progresado a sistemas comerciales como Image Metrics, que ha sido aplicado en películas como las secuelas de Matrix y El Curioso Caso de Benjamin Button. El último utilizó el sistema de Contorno Mova para capturar un modelo facial deformable, que después fue animado en combinación de rastreo manual y de visión. Avatar fue otra película con uso prominente de captura en actuación aunque mas bien utiliza marcadores pintados en el rostro del actor. Dynamixyz es otro sistema comercial que se utiliza en la actualidad.
+Los sistemas sin marcadores se pueden clasificar de acuerdo a varios criterios de distinción:
+Rastreo en 2D versus 3D.
+Sí es necesario el entrenamiento de una persona en específico u otro tipo de asistencia humana.
+Actuación en tiempo real (que sólo es posible si no se requiere supervisor o entrenamiento).
+Si necesitan una fuente adicional de información como pueden ser patrones proyectados o pintura invisible como la utilizada en el sistema Mova.
+Hasta la fecha, ningún sistema es ideal con respecto a todos estos criterios. Por ejemplo, el sistema Neven Vision era completamente automático y no requería patrones o entrenamiento por persona, pero era 2D. El sistema Face/Off es 3D, automático y en tiempo real pero requiere el uso de patrones proyectados.
+
+
+== Captura de expresión facial ==
+
+
+=== Tecnología ===
+Los métodos basados en vídeo digital son cada vez más preferidos, puesto que los sistemas mecánicos tienden a ser incómodos y difíciles de usar.
+Con el uso de cámaras digitales, la entrada de las expresiones del usuario son procesadas para generar la posición de la cabeza, lo que le permite al software encontrar entonces los ojos, nariz y boca. La cara es inicialmente calibrada con una expresión neutral. Después, a partir de la arquitectura del rostro, cejas, párpados, mejillas y boca pueden ser procesadas como elementos diferenciadores de la expresión neutral. Esto se hace al buscar, por ejemplo, los bordes de los labios y reconocerlos como un único objeto. Es común utilizar marcadores o maquillaje para mejorar el contraste, u otro método que acelere el proceso. Al igual que con el reconocimiento de voz, las mejores técnicas son buenas el 90 por ciento de las ocasiones y requieren una gran cantidad de ajustes a mano o tolerancia a los errores.
+Puesto que los personajes generados por computadora no cuentan con músculos, se utilizan diferentes técnicas para lograr los mismos resultados. Algunos animadores crean huesos u objetos que son controlados por el software de captura para después ponerlos en movimiento. Así, cuando el personaje es compuesto correctamente genera una buena aproximación. Dado que los rostros son muy elásticos, esta técnica frecuentemente se mezcla con otras, ajustando los pesos de manera diferente para reproducir la elasticidad de la piel y otros factores, dependiendo de la expresión buscada.
+
+
+=== Uso ===
+Varias compañías comerciales se encuentran desarrollando productos que han sido utilizados, pero son bastante caros.
+Se espera que esto se volverá un dispositivo de entrada mayor para juegos de computadora una vez que el software esté disponible en un formato accesible, pero el hardware y software aún no existen, a pesar de que las investigaciones realizadas en los últimos 15 años han producido resultados que son casi utilizables.
+
+
+== Véase también ==
+Seguimiento de ojos
+Sistema de reconocimiento facial
+
+
+== Referencias ==
+↑ Performance-Driven Facial Animation, Lance Williams, Computer Graphics, Volume 24, Number 4, August 1990
+↑ AAM Fitting Algorithms from the Carnegie Mellon Robotics Institute
+↑ Real World Real-time Automatic Recognition of Facial Expressions
+↑ Modelling and Search Software ("This document describes how to build, display and use statistical appearance models.")
+↑ Wiskott, Laurenz; J.-M. Fellous, N. kruger, C. von der Malsurg (1997), «Face recognition by elastic bunch graph matching», Lecture Notes in Computer Science (Springer) 1296: 456–463, doi:10.1007/3-540-63460-6_150 
+↑ Borshukov, George; D. Piponi, O. Larsen, J. Lewis, C. Templelaar-Lietz, C. (2003), «Universal Capture - Image-based Facial Animation for "The Matrix Reloaded"», ACM SIGGRAPH 
+↑ Barba,, Eric; Steve Preeg (18 de marzo de 2009), «The Curious Face of Benjamin Button», Presentation at Vancouver ACM Siggraph chapter, 18 March 2009. 
+↑ Weise,, Thibaut; H. Li, L. Van Gool, M. Pauly, (2009), «Face/off: Live Facial Puppetry», ACM Symposium on Computer Animation 
+
+
+== Enlaces externos ==
+Carnegie Mellon University
+Delft University of Technology
+Intel
+Sheffield and Otago

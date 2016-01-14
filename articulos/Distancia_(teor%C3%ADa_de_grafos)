@@ -1,0 +1,13 @@
+En teoría de grafos se denomina distancia entre dos vértices de un grafo al número de vértices mínimo que debe recorrerse para unirlos. La distancia entre dos nodos de un grafo es la longitud del camino más corto (a veces se denomina geodésico ). Si no hubiera conexión alguna entre dos vértices se dice que la distancia es infinita. Las distancias de todos los vértices de un grafo se computan en lo que se denomina matriz de distancias. el concepto se emplea en las mediadas de centralidad de redes.
+
+
+== Aplicaciones ==
+Existen numerosas aplicaciones en la teoría de grafos en las que interviene el concepto de distancia, por ejemplo en el diseño de grandes interiores, tales como los aeropuertos donde el concepto distancia supone el conocimiento del tiempo necesario para llegar a un punto cualesquiera del mismo. Es uno de los conceptos clave en las redes de mundo pequeño.
+
+
+== Véase también ==
+Diámetro
+Matriz de distancias
+
+
+== Referencias ==

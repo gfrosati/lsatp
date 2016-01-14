@@ -1,0 +1,18 @@
+Open Sound Control es un protocolo de comunicaciones que permite comunicar instrumentos de música, computadoras y otros dispositivos multimedia (por ejemplo móviles o PDA's equipados con bluetooth) pensado para compartir información musical en tiempo real sobre una red.
+Aparece como reemplazo del MIDI, siendo muy superior en caracterísitcas y capacidades.
+Características principales del protocolo:
+Ampliable, dinámico. Esquema de nombres simbólicos tipo URL
+Datos numéricos simbólicos y de alta resolución
+Lenguaje de coincidencia de patrones (pattern matching) para especificar múltiples receptores de un único mensaje
+Marcas de tiempo (time tags) de alta resolución.
+Mensajes “empaquetados” para aquellos eventos que deben ocurrir simultáneamente
+Sistema de interrogación para encontrar dinámicamente las capacidades de un servidor OSC y obtener documentación.
+
+Puede ser transportado por varios protocolos, pero comunemente se usa UDP.
+Algunos proyectos conocidos que tienen su implementación: ChucK, CSound, Max/MSP, Pure Data, Reaktor, SuperCollider, Squeak, VVVV. OSC también es usado en el corazón de la API de DSSI.
+
+
+== Enlaces externos ==
+La especificación OSC 1.0.
+Introducción a OSC
+Implementaciones varias

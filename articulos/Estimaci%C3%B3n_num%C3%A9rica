@@ -1,0 +1,12 @@
+La estimación numérica comprende una serie de técnicas de análisis numérico para aproximar el valor numérico de una expresión matemática.
+
+
+== Comparación asintótica de funciones ==
+La comparación asintótica de funciones aparece en la teoría de complejidad computacional y en informática concretamente en diseño de algoritmos más eficientes. Sirve para agrupar diferentes funciones en clases de crecimiento asintótico a medida que crece el valor de una cierta variable y formalizar expresiones del tipo "f crece mucho más rápido que g" (siendo f y g funciones). En muchos problemas el comportamiento de una función sobre los números enteros f(n) el comportamiento para pequeños valores de n es intrascendente pero resulta importante conocer su comportamiento para valores grandes y poder comparar con otras funciones del mismo tipo. Sean f y g dos funciones definidas reales y con valores reales, en esas condiciones se define:
+
+La relación anterior puede verse como una desigualdad "suave" entre las funciones consideradas. De hecho es la relación  es una relación menos restrictiva que el orden estricto , y por eso, resulta más sencillo obtener estimaciones de crecimiento asintótico mediante la desigualdad "suave" que la desigualdad estricta.
+
+
+== Notación O ==
+
+La notación O es una notación algo menos restritictiva y se puede expresar en términos de la relación . Más concretamente:

@@ -1,0 +1,44 @@
+WinAsm Studio es un entorno de desarrollo integrado (IDE, Integrated development environment) para aplicaciones de 32 bits bajo Microsoft Windows y 16 bits bajo DOS, usando Microsoft Macro Assembler MASM y Flat Assembler FASM. Su creador es Antonis Kyprianou (akyprian).
+Fue desarrollado en lenguaje ensamblador, y está optimizado en tamaño y velocidad. Además soporta autocompletado para las funciones de la API de Windows y sus parámetros, lo que facilita el desarrollo rápido de aplicaciones. Es extensible mediante una completa interfaz de plugins, e incluye un poderoso editor visual de resources. Posee una interfaz de usuario multilenguaje, esto significa que puede configurarse para que toda la interfaz gráfica se muestre en el idioma de nuestra preferencia. Ya ha sido traducido a muchos idiomas, y nuevas traducciones son más que bienvenidas.
+WinAsm Studio es 100% gratuito.
+
+
+== Características ==
+Coloreo de sintaxis
+Registros del procesador
+Instrucciones en lenguaje ensamblador
+Directivas propias del ensamblador MASM
+Funciones, estructuras y constantes de la Windows API
+Sintaxis de resource scripts (*.rc)
+Sintaxis de archivo por lotes (*.bat)
+
+Intellisense (autocompletado)
+Parámetros de funciones
+Variables locales
+Constantes de la Windows API
+Archivos de inclusión (*.inc)
+Tipos de variables y miembros de estructuras
+
+Editor visual de resources
+Integración con archivos de ayuda
+Proyectos (formato propietario *.wap)
+Personalización del IDE
+Plantillas de código
+Soporte de extensiones (add-ins)
+
+
+== Ensambladores soportados ==
+MASM
+POASM
+FASM [con add-in]
+
+
+== IDEs alternativos para lenguaje ensamblador ==
+RadASM RadASM Homepage
+Fresh [1]
+AsmEdit
+EasyCode
+
+
+== Enlaces externos ==
+WinAsm Studio

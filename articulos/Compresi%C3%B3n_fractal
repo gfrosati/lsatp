@@ -1,0 +1,80 @@
+La compresión fractal es un método de compresión con pérdida para imágenes digitales, basado en fractales. El método es el más apropiado para texturas e imágenes naturales, basándose en el hecho de que partes de una imagen, a menudo, se parecen a otras partes de la misma imagen. Los algoritmos fractales convierten estas partes en datos matemáticos llamados «códigos fractales» los cuales se usan para recrear la imagen codificada.
+
+
+== Sistema de funciones iteradas ==
+
+Una representación de imagen fractal puede ser descrita matemáticamente como un sistema de funciones iteradas (SFI).
+
+
+=== Para imágenes binarias ===
+Comenzando con la representación de una imagen binaria, donde la imagen puede ser descrita como un subconjunto de . Un SFI es un conjunto de contracciones ƒ1,...,ƒN,
+
+De acuerdo con estas funciones, el SFI describe un conjunto bi-dimensional S como el punto fijo del operador de Hutchinson
+
+Siendo, H un conjunto operador a conjunto, y S el único conjunto que satisface H(S) = S. La idea es construir el SFI de tal forma que el conjunto S es la imagen binaria. El conjunto S puede ser recuperado del SFI mediante el método del punto fijo: para cualquier conjunto inicial compacto no vacío A0, la iteración Ak+1 = H(Ak) converge a S.
+El conjunto S es igual a sí mismo porque H(S) = S implica que S es una unión de copias de sí mismo:
+
+Así que vemos que SFI es una representación fractal de S.
+
+
+=== Extensión a la escala de grises ===
+La representación SFI puede ser extendida a una imagen en escala de grises considerando la gráfica de la imagen como un subconjunto de . Para una imagen en escala de grises u(x,y), considerar el conjunto S = {(x,y,u(x,y))}. Entonces, al igual que el caso binario, S se describe por un SFI utilizando una serie de contracciones ƒ1,...,ƒN, pero en ,
+
+
+=== Codificación ===
+Un problema de la investigación sobre la representación fractal de la imagen es como elegir ƒ1,...,ƒN de tal forma que su punto fijo se aproxime a la imagen de entrada, y cómo hacer esto de forma eficiente. Una simple aproximación para hacer esto es la siguiente:
+Particionar la imagen en bloques Ri de tamaño s×s.
+Para cada Ri, buscar en la imagen para encontrar un bloque Di de tamaño 2s×2s que sea similar a Ri.
+Seleccionar las funciones de mapeo tal que H(Di) = Ri para cada i.
+En el segundo paso, es importante encontrar un bloque similar para que el SFI represente fielmente la imagen de entrada, así que necesitan ser considerados un número suficiente de bloques candidatos para Di. Por otro lado, un larga búsqueda considerando muchos bloques es computacionalmente costoso.
+Este cuello de botella, consistente en buscar bloques similares es la razón por la que la codificación fractal es mucho más lenta que, por ejemplo, la representación de imágenes basadas en la transformada de coseno discreta y en óndula.
+
+
+== Características ==
+Con la compresión fractal, la codificación es extremadamente cara a nivel computacional debido a la búsqueda de similitudes propias. Sin embargo, la decodificación es bastante rápida. Mientras que esta asimetría lo hace poco práctico para aplicaciones en tiempo real, cuando el vídeo es guardado para distribución desde un disco, la compresión fractal llega a ser más competitiva. 
+En ratios de compresión comunes, sobre 50:1, la compresión fractal proporciona resultados similares a algoritmos basados en la transformada de coseno discreta como JPEG.  A ratios de compresión elevados, la compresión fractal puede ofrecer una calidad superior. Para imágenes por satélite, se han utilizado ratios 170:1 con resultados aceptables. La compresión fractal de vídeo en ratios de 25:1 a 244:1 se han realizado en tiempos razonables (2,4 a 66 seg/imagen).
+La eficiencia en la compresión se incrementa con la complejidad de la imagen y la profundidad de color, en comparación a las simples imágenes en escala de grises.
+
+
+=== Independencia de la resolución y escalado fractal ===
+Una característica inherente de la compresión fractal es que las imágenes se vuelven independientes de la resolución tras ser convertidos al código fractal. Esto es así porque el sistema de función iterada en el archivo comprimido se escala indefinidamente. Esta propiedad de escalado es conocida como "escalado fractal".
+
+
+=== Interpolación fractal ===
+La independencia de la resolución de una imagen codificada en fractal puede utilizarse para incrementar la resolución de una imagen. Este proceso se conoce como "interpolación fractal". En la interpolación fractal, una imagen se codifica a código fractal mediante compresión fractal, y posteriormente descomprimida a una resolución superior. El resultado es una imagen en la que los sistemas de función iterada se han usado como interpolantes. La interpolación fractal mantiene muy bien el detalle geométrico en comparación con los métodos de interpolación tradicionales como la Interpolación bilinear y la Interpolación bicúbica.  
+
+
+== Historia ==
+Michael Barnsley inició el desarrollo de la compresión fractal en 1987, y creó varias patentes sobre dicha tecnología. El algoritmo de compresión fractal práctico más ampliamente conocido fue inventado por Barnsley y Alan Sloan. El estudiante de postgrado de Barnsley, Arnaud Jacquin implementó el primer algoritmo automático en 1992.  Todos los métodos se basan en la transformación fractal utilizando el sistema de funciones iteradas. Michael Barnsley y Alan Sloan crearon Iterated Systems Inc. en 1987 donde crearon sobre 20 patentes adicionales relacionadas con la compresión fractal.
+Un gran avance para Iterated Systems Inc. fue el proceso de transformación fractal automático, el cual eliminó la necesidad de intervención humana durante la compresión como era el caso en la experimentación temprana con la tecnología de compresión fractal. En 1992 Iterated Systems Inc. recibió una subvención de 2,1 millones de dólares del gobierno para desarrollar un prototipo de chip para almacenamiento de imágenes digitales y descompresión utilizando tecnología de compresión de imagen mediante transformación fractal.
+La compresión fractal de imagen se ha añadido en varias aplicaciones comerciales: onOne Software, desarrollado bajo licencia de Iterated Systems Inc., Genuine Fractals 5 que es un plugin de Photoshop capaz de grabar archivos en formato comprimido FIF (Fractal Image Format). Hasta la fecha, el uso más exitoso de la compresión fractal de imágenes viene de parte de Microsoft en su enciclopedia multimedia Encarta, también bajo licencia.
+Iterated Systems Inc. proporcionó un codificador shareware (Fractal Imager), un decodificador independiente, un plugin decodificador para Netscape y un paquete de desarrollo para su uso bajo Windows. Como los métodos basados en óndula mejoraron y fueron más fácilmente licenciables por vendedores de software comercial, la adopción del formato FIF no evolucionó.
+Durante la década de 1990, Iterated Systems Inc. y asociados invirtieron considerables recursos para llevar la compresión fractal al vídeo. Mientras que los resultados de la compresión eran prometedores, el hardware de la época carecía de la potencia de procesado necesaria para que la compresión de vídeo fuera práctica. Se requerían hasta 15 horas para comprimir un sólo minuto de vídeo.
+ClearVideo — también conocido como RealVideo (Fractal) — y SoftVideo son los primeros productos de compresión fractal de vídeo. ClearFusion era el plugin de streaming de vídeo de Iterated para navegadores web distribuido gratuitamente. En 1994, SoftVideo fue licenciado a Spectrum Holobyte para usarlo en sus juegos en CD-ROM incluyendo Falcon Gold y "Star Trek: The Next Generation A Final Unity".
+En 1996, Iterated Systems Inc. anunció una alianza con la Corporación Mitsubishi para comercializar ClearVideo a sus clientes japoneses. El decodificador original, ClearVideo 1.2 todavía está soportado por Microsoft en Windows Media Player aunque el codificador ya no está soportado.
+Durante los últimos años, se han publicado numerosas discusiones sobre posibles soluciones para mejorar los algoritmos fractales y el hardware necesario para su codificación.        
+
+
+== Código abierto ==
+Ullrich Hafner creo una librería llamada Fiasco y fue descrita en la revista Linux Journal.
+La librería Netpbm incluye una librería Fiasco.  
+Hay una librería para compresión fractal de vídeo. 
+Hay otro ejemplo de implementación de Femtosoft. 
+
+
+== Véase también ==
+Sistema de funciones iteradas
+Compresión de imagen
+Óndula
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+Compresor de Pulcini y Verrando
+Proyecto de codificación fractal Waterloo
+Keith Howell's 1993 M.Sc. dissertation Fractal Image Compression for Spaceborne Transputers
+My Main Squeeze: Fractal Compression, Nov 1993, Wired.
+Fractal Basics descripción en FileFormat.Info
+Superfractals website dedicada a los fractales por el inventor de la compresión fractal

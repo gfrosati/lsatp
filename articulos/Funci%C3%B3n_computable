@@ -1,0 +1,41 @@
+Las funciones computables son el objeto básico de estudio de la teoría de la computabilidad y son, específicamente, las funciones que pueden ser calculadas por una máquina de Turing.
+
+
+== IntroducciónEditar ==
+Las funciones computables son una formalización de la noción intuitiva de algoritmo y según la Tesis de Church-Turing son exactamente las funciones que pueden ser calculadas con una máquina de cálculo. La noción de la computabilidad de una función puede ser relativizada a un conjunto arbitrario de números naturales A, o equivalentemente a una función arbitraria f de los naturales a los naturales, por medio de máquinas de Turing extendidas con un oráculo por A o f. Tales funciones pueden ser llamadas A-computable o f-computable respectivamente. Antes de la definición precisa de una función computable los matemáticos usaban el término informal efectivamente computable.
+Las funciones computables son usadas para discutir sobre computabilidad sin referirse a ningún modelo de computación concreto, como el de la máquina de Turing o el de la máquina de registros. Los axiomas de Blum pueden ser usados para definir una teoría de complejidad computacional abstracta sobre el conjunto de funciones computables.
+Según la Tesis de Church-Turing, la clase de funciones computables es equivalente a la clase de funciones definidas por funciones recursivas, cálculo lambda, o algoritmos de Markov [1].
+Alternativamente se pueden definir como los algoritmos que pueden ser calculados por una máquina de Turing, una máquina de Post, o una máquina de registros.
+En teoría de la complejidad computacional, el problema de determinar la complejidad de una función computable es conocido como un problema de funciones.
+
+
+== DefiniciónEditar ==
+Una función parcial
+
+se llama parcialmente computable si el gráfico de  es un conjunto recursivamente enumerable. El conjunto de funciones parcialmente computables con un parámetro es normalmente escrito  o  si el número de parámetros puede deducirse del contexto.
+Una función total
+
+se llama computable si el gráfico de  es un conjunto recursivo. El conjunto de funciones totalmente computables con un parámetro normalmente se escribe  o .
+Una función computable  se llama predicado computable si es una función con valor booleano, es decir:
+
+
+== ComentariosEditar ==
+A veces, por razones de claridad, se escribe una función computable como
+
+Se puede fácilmente codificar g en una nueva función
+
+usando una función de pares.
+
+
+== EjemplosEditar ==
+Función constante f : Nk→ N, f(n1,...nk) := n
+Adición f : N2→ N, f(n1,n2) := n1 + n2
+Máximo común divisor
+Identidad de Bézout, una ecuación diofántica lineal.
+
+
+== PropiedadesEditar ==
+El conjunto de las funciones computables es numerable.
+Si f y g son funciones computables entonces f + g, f.g y fog son funciones computables.
+Las funciones computables son definibles aritméticamente.
+Una función con valor booleano f es un predicado computable si y sólo si el lenguaje  es recursivo.

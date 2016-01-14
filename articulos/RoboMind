@@ -1,0 +1,55 @@
+RoboMind es un entorno sencillo de programación educativa con un lenguaje propio de scripts que permite a los principiantes aprender los fundamentos de la ciencia de la computación mediante la programación de un robot simulado. Además de la introducción de técnicas de programación comunes, RoboMind también tiene como objetivo ofrecer conocimientos básicos en robótica e inteligencia artificial. RoboMind está disponible como aplicación independiente para Windows, Linux y Mac OSX. RoboMind fue desarrollado y lanzado por primera vez en 2005 por Arvid Halma, estudiante de la Universidad de Ámsterdam en aquel entonces.
+
+
+== El entorno de simulación ==
+La aplicación se desarrolla en una red cuadriculada y bidimensional en la que un robot se puede desplazar, observar las células colindantes, y marcarlas dejando un rastro de pintura. En el entorno también se pueden incluir balizas que el robot desplaza para despejar u obstruir su camino. y me cai por las escaleras
+
+
+== El lenguaje de scripting ==
+RoboMind ofrece un lenguaje de programación básico que consiste en un conjunto conciso de reglas. Además de los comandos para hacer que el robot realice las instrucciones básicas de movimiento, las estructuras de control pueden ser modificadas por las sentencias condicionales (si-entonces; si-entonces-si no), bucles (while) y las llamadas a procedimientos propios.
+Ejemplo de script para dibujar un cuadrado:
+
+pintarBlanco
+repetir(4) {
+        adelante(2)
+        derecha
+}
+
+Ejemplo de algoritmo recursivo para seguir una línea en el entorno:
+
+seguir
+ 
+procedimiento seguir{
+    si(frenteEsBlanco){
+         adelante(1)                    
+    }
+    otro si(derechaEsBlanco){
+        derecha
+    }
+    otro si(izquierdaEsBlanco){
+        izquierda
+    }
+    otro{
+        fin
+    }
+    seguir
+}
+
+El lenguaje permite la declaración de variables y para hacer un seguimiento del runtime status, se puede modificar el entorno, como marcar células con pintura. Esto demuestra que el robot en su entorno está relacionado directamente con la máquina de Turing 2D. El lenguaje de script está disponible en 24 idiomas: incluyendo alemán, Árabe, chino, español, francés, Griego, Holandés, Inglés, Polaco, Portugués (Brasil), sueco, turco. Todas las instrucciones y palabras clave pueden ser traducidas. Esto lo hace más fácil de aprender para los que no hablan Inglés que la mayoría de otros lenguajes de programación que se ven limitados a la sintaxis de Inglés y alfabetos latinos.
+
+
+== Relación con otros software educativos ==
+RoboMind se podría comparar con el lenguaje de programación Logo, en el que se puede mover una tortuga para crear formas geométricas. La sintaxis de RoboMind sin embargo es diferente y se corresponde más directamente a los principales lenguajes de script, como JavaScript. En RoboMind percibir y cambiar el ambiente son de igual importancia, mientras que Logo se centra más en lo segundo. Esto hace que RoboMind sea más adecuado para demostrar aplicaciones reales. En Logo, por otro lado, los usuarios tienen más libertad para crear efectos visuales.
+Otros lenguajes de programación educativos gratuitos, tales como Alice y el Scratch se centran en el ámbito más amplio de la narración de historias interactivas.
+
+
+== Véase también ==
+Logo (lenguaje de programación)
+Scratch (lenguaje de programación)
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+Official website

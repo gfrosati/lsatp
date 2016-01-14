@@ -1,0 +1,26 @@
+Zekr es una aplicación de escritorio de código abierto del Corán. Es una herramienta de estudio del Corán de plataforma abierta para examinar e investigar sobre el Corán. Zekr es un proyecto basado en el Corán, planeado para ser una aplicación universal, libre y multiplataforma para realizar la mayoría de las referencias al Corán, según la web del proyecto
+Zekr es capaz de tener varios complementos diferentes, paquetes de traducción, temas, recitaciones y paquetes de revelación.
+Desde la versión 0.7.0, es posible buscar a través de diferentes traducciones del Corán, tanto con búsqueda indexada (basada en Lucene), como con la búsqueda básica. Además esta versión introduce la paginación para el texto del Corán.
+Zekr acepta diferentes complementos para hacer la aplicación tan personalizable como sea posible. Actualmente acepta diferentes paquetes de traducción del Corán, de idioma, de orden de revelación, y de tema. Los packs de orden de revelación se utilizan para ordenar los resultados de búsqueda basados en esquemas de orden de revelación diferentes.
+Zekr viene con un instalador NSIS Windows y una aplicación paquete para Mac. Siempre hay un paquete base .tar.gz para máquinas Linux (todas), así como paquetes Debian para distribuciones Linux compatibles con Debian.
+Varias recitaciones y traducciones están disponibles para su descarga aquí.
+
+
+== Referencias ==
+↑ (en inglés) Web de zekr.org
+↑ (en inglés) Lista de complementos de Zekr
+
+
+== Véase también ==
+ Portal:Software libre. Contenido relacionado con Software libre.
+ Portal:Religión. Contenido relacionado con Religión.
+ Portal:Islam. Contenido relacionado con Islam.
+Corpus coránico árabe
+JQuranTree
+
+
+== Enlaces externos ==
+Página de inicio del Zekr
+Zekr en SourceForge
+Grupo de Zekr en Google grupos
+Wiki de Zekr

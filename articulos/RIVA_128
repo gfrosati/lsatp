@@ -1,0 +1,74 @@
+La nVidia RIVA 128 (también conocida como NV3) fue una de las primeras unidades de procesamiento gráfico integrada en tarjetas gráficas de consumo masivo que incorporó aceleración 3D, junto con la ya conocida aceleración 2D y de video.
+El nombre proviene del acrónimo Real-time Interactive Video and Animation Accelerator (acelerador interactivo de video y animación en tiempo real). Ofrecía un rendimiento sin precedentes tanto de 2D y 3D, gracias a que empleaba la aceleración más avanzada de la época mediante Direct3D además de mostrar gran potencia entre las VGA, 2D y rendimiento de video.
+Fue lanzada al mercado por nVidia en 1997, después de la aceleradora gráfica NV1 (de escaso éxito), y se convirtió en el primer producto que hizo ganar a nVidia un amplio reconocimiento. A principios de 1998 lanzó una versión actualizada llamada RIVA 128ZX.
+
+
+== Origen ==
+En 1995 nVidia lanzó la NV1, también conocida como la SGS Thompson STG-2000 Diamond Edge. Fue el primer intento de crear una aceleradora 3D. Permitía procesar tanto 2D como 3D mediante un mapeo de textura cuadrática, una forma de renderizado distinta del poligonal que se popularizó más tarde. La competencia ofrecía tarjetas gráficas a un precio reducido mientras que la NV1 resultaba cara, ya que poseía una tarjeta de sonido integrada y slots para utilizar los mandos de la Sega Saturn. Además, el mapeado de texturas cuadrático no era una característica muy utilizada en juegos. Esto hizo que la compañía nVidia estuviera cerca de quebrar.
+Cuando Microsoft lanzó su primera versión de DirectX en septiembre de 1995, las ventas de nVidia descendieron considerablemente, ya que no era compatible con su esquema de renderizado. En 1997, nVidia lanzó la NV3 (Riva 128), una aceleradora capaz de aprovechar todas las características del DirectX, además de tener soporte para AGP 2X, mientras que las competidoras solo usaban PCI/AGP 1X. Fue la primera tarjeta gráfica que mostraba un rendimiento decente tanto en 2D como 3D. No obstante faltaba un buen soporte para OpenGL.
+
+
+== Arquitectura ==
+Su chip predecesor "NV1" fue diseñado fundamentalmente para un tipo diferente de tecnología de renderizado, llamado mapeado de textura cuadrático, una técnica no soportada por el Direct3D. La aceleradora RIVA 128, sin embargo, fue diseñada para acelerar el procesado en Direct3D en la medida de lo posible. Fue diseñado para renderizar junto con el Direct3D 5 y con la API de OpenGL.
+El acelerador gráfico está compuesto por 3.5 millones de transistores basados en un proceso de fabricación de 350 nm con una frecuencia de reloj de 100 MHz. Posee una única tubería de píxeles (empleada en la rasterización) capaz de procesar 1 pixel por ciclo de reloj cuando se muestrea una textura. Es capaz de procesar píxeles a una tasa de 100 millones por segundo y triángulos de 25 píxeles a 1.5 millones por segundo. Tiene 12 KiB de memoria integrada utilizada para las cachés de pixeles y vértices. El chip está limitado a una profundidad de color de 16 bits cuando se está realizando la aceleración 3D y a 16 bits para el Z-Buffer.
+
+El motor de aceleración 2D de RIVA 128 es de 128 bits de ancho y opera a 100 MHz. En esta configuración “rápido y amplio” (fast and wide, tal como la llama nVidia), la RIVA 128 funciona con mayor eficacia que el resto motores gráficos de la época. Posee también el hardware VESA-compliant SVGA/VGA de 32 bits para la BIOS. La aceleración del video en el chip está optimizada para MPEG-2 pero carece de aceleración completa para este estándar. La imagen final mostrada es redirigida a través de un RAMDAC de 206 MHz. RIVA 128 tiene la ventaja de ser una combinación de chip gráfico para 2D y 3D, no como los chips Voodoo Graphics. Esto implica que la computadora equipada con RIVA 128 no requería una tarjeta 2D por separado para procesar eficazmente los gráficos 2D. También permitió renderizar 3D en una ventana. La posibilidad de construir sistemas utilizando una única tarjeta gráfica y sin perder ninguna característica, convirtió a RIVA 128 en la solución de bajo coste y de alto rendimiento. La tarjeta gráfica RIVA 128 está equipada con 4 MiB de SGRAM, una novedosa tecnología de memorias para la época, que poseía una frecuencia de reloj de 100 Mhz y que se conectaba al procesador gráfico a través de un bus de memoria de 128 bits. Esto permite tener un ancho de banda de memoria de 1.60 gigabytes por segundo. La memoria fue usada en una arquitectura de memoria unificada que compartía toda la RAM entre el framebuffer y el almacenamiento de texturas. El principal beneficio de esto es que, además de ser un diseño dividido como los de Voodoo Graphics y Voodoo2, soportaba resoluciones 3D de 800x600 y 920x720, mayores que la resolución 640x480 de Voodoo. RIVA 128 fue una de las primeras piezas AGP 2X, ofreciendo una mayor perspectiva de marketing por estar en la vanguardia de la tecnología de interfaces. El procesador gráfico fue construido en torno a la especificación AGP de Intel, orientada al chipset 440LX de para Pentium II. nVidia diseñó RIVA 128 con una capacidad de memoria máxima de 4 MiB debido a que era la cantidad óptima en relación al coste-exigencia de las aceleradoras 3D para consumidores. El chip era capaz de almacenar texturas en la memoriaRAM fuera de pantalla, tanto en la configuración PCI como en AGP.
+
+
+== Aceleración 2D, 3D y procesamiento de video ==
+RIVA 128 era capaz de procesar 2D a la vez que 3D como habilidad exclusiva entre las tarjetas de la época, además de un notable procesamiento de video. Para el renderizado 2D posee las siguientes características:
+El motor gráfico de 128 bits a 100 MHz optimizado para un ciclo de operación en la interfaz SGRAM de 128 bits, soportando frecuencias de hasta 1.6 GBytes/s.
+Funciones de aceleración optimizadas en las principales llamadas al GDI.
+Soporte para DirectDraw en Windows95, incluyendo acceso al Direct Frame-buffer (DFB) con combinación de escritura.
+Aceleración de procesamiento de primitivas incluyendo puntos, líneas, formas, primitivas BLT, BLT transparentes, BLT estirados, recorte rectangular y renderización de texto.
+Tuberías optimizadas para múltiples profundidades de color, incluyendo 8,15,24 y 30 bits por pixel.
+El DMA Pusher permite que la tubería de gráficos 2D cargue métodos de renderizado.
+Ejecución de las 256 operaciones de rasterizado en las profundidades de color de 8, 15, 24 y 30 bits.
+Cursor de color hardware de 15 bits.
+Tramado (dithering) hardware del color.
+Búfer múltiple (doble, triple y cuádruple) para animación suave.
+Para la aceleración 3D, la tarjeta posee las siguientes características:
+Procesador de geometrías a 5Gflop en punto flotante.
+Perspectiva mediante true-color mediante iluminación de Gouraud y mapeo de textura.
+Filtro de textura RGBA a 32-bits.
+Combinación alpha para transparencias y texturas translúcidas.
+Filtro de aumento de texturas mediante un filtro bilinear de alta calidad, sin pérdidas de rendimiento.
+Filtro de minimizado de texturas mediante un MIP mapping, sin pérdidas de rendimiento.
+MIP-mapping LOD: el filtro se ajusta dinámicamente según la orientación de la superficie.
+Tamaños de textura desde 4 hasta 2048 texels, tanto en U como en V.
+Las texturas pueden ser paginadas y repetidas en tiempo real para animaciones de texturas.
+Niebla por pixel para efectos atmosféricos.
+La perspectiva corrige los reflejos especulares.
+Búfer múltiple (doble, triple y cuádruple) para animación 3D suave.
+Renderizado repetido para mapeo del entorno y texturizado avanzado.
+Para el procesamiento de video, la tarjeta posee las siguientes características:
+Visualización a 30 frames por segundo, implementando filtro bilinear para videos escalados y compensación por pérdidas de calidad debido a filtros mediante algoritmos de mejora de bordes.
+Soporte avanzado para DirectDraw (DirectVideo) en Windows 95.
+Escalado hardware de video para video conferencias y reproducciones.
+Conversión hardware del espacio de color (YUV 4:2:2 y 4:2:0)
+Filtro Multi-tap en X e Y para mejor calidad de imagen.
+Mejora opcional de bordes para la nitidez del video.
+Claves de color por pixel.
+Múltiples ventanas de video con filtrado y conversión espacial de color hardware.
+Conversión por software de YUV12 (4:2:0) plano a (4:2:2) empaquetado para aceleración MPEG software y para aplicaciones H.261 de video conferencia.
+Reproducción acelerada de los códec estándar de la época incluyendo MPEG-1/2, Indeo y Cinepak.
+
+
+== Calidad de imagen ==
+Al mismo tiempo que se publicó la aceleradora RIVA 128, 3dfx Voodoo Graphics había se había establecido como el punto de referencia con el que se comparaban cualquiera nueva aceleradora. Voodoo fue la primera aceleradora 3D que ofreció un excepcional rendimiento y calidad en el emergente mercado de juegos 3D para PC. RIVA 128 fue menospreciado debido a su baja calidad de renderizado (comparado con Voodoo) y los errores gráficos.
+Con los controladores iniciales, RIVA 128 usó mipmapping por polígonos en lugar de por píxel, a pesar de que por pixel ofrecía mayor calidad pero mayor carga de procesamiento. Esto ocasionó que los diferentes niveles de detalle apareciesen de forma repentina a medida que el jugador se desplazaba y se acercaba a cada polígono, en lugar de la suave y gradual transición del por píxel. nVidia fue eventualmente publicando nuevos drivers que permitían el modo por pixel. Otro problema relacionado con el texturizado fue que la automatización en generación de mipmaps. Mientras esto mejoraba la calidad visual y el rendimiento en juegos sin mipmaps, causó problemas imprevistos debido a que forzaba a los juegos a realizar el renderizado de una forma en la que no estaban programados. El filtro de la NV3 era más brusco que el utilizado en las 3dfx Voodoo Graphics. Pero puesto que no suavizaba las texturas tanto como la Voodoo, añadía cierto ruido de luz a las texturas, debido a la poca fidelidad del algoritmo de filtrado. Hubo también problemas de juntas entre polígonos.
+Mientras que los drivers iniciales presentaban estos problemas de imagen, los siguientes ofrecieron una calidad de imagen equiparable a la de Voodoo Graphics. Además, puesto que RIVA 128 podía renderizar resoluciones mayores de 640x480, la tarjeta podría ofrecer una calidad superior a la Voodoo Graphics. Los drivers finales publicados por RIVA 128 soportaban el mipmapping por pixel, anti-aliasing de toda la escena, y el numerosas opciones ajustables para mejorar la calidad y el rendimiento.
+
+
+== Controladores y API ==
+No solo hubo problemas como los anteriormente citados relacionados con Direct3D, sino que además, la tarjeta carecía de un buen soporte OpenGL. Con RIVA 128, nVidia comenzó su búsqueda para alcanzar la máxima calidad con soporte OpenGL. La mayor desventaja para nVidia fue que muchos de los videojuegos durante la vida de RIVA 128 usaban la API Glide, propiedad de 3dfx. Legalmente, solo las tarjetas 3dfx podían usar la API Glide de 3dfx.
+Al igual que la competidora ATI Rage Pro, RIVA 128 nunca fue capaz de procesar el popular Unreal Engine en modo Direct3D debido a la falta de algunas características hardware. Sin embargo fue capaz de usar el renderizador OpenGL del motor gráfico, aunque desafortunadamente el soporte OpenGL resultaba bastante lento y defectuoso en el Unreal Engine original. El rendimiento en Quake 3 Arena, un juego que usaba un motor gráfico más avanzado que el Unreal Engine 1, fue mejor ya que estaba diseñado para OpenGL. Los drivers finales de RIVA 128 para Windows 9x incluían el driver completo OpenGL. Aunque para que funcionara este driver, Windows tenía que tener el escritorio configurado con un color de 16 bits de profundidad.
+El controlador para RIVA 128 también se incluye en Windows 2000 y XP, pero carece de soporte 3D. Una versión beta del driver que soportaba OpenGL fue filtrada por nVidia pero cancelada después. Actualmente no hay driver de RIVA 128 para Windows 2000 en el sitio web de nVidia. Ni siquiera la beta del controlador así como los que venían en Windows 2000 y XP podían soportar Direct3D.
+
+
+== Rendimiento ==
+RIVA 128 fue una de las primeras tarjetas que combinaban 2D y 3D que podían rivalizar con las de Voodoo Graphics. La capacidad 2D de RIVA 128 era impresionante para la época y compitió con las tarjetas solo 2D de gama alta, tanto en calidad como en rendimiento.
+Tal como se muestra en la gráfica, la aceleradora gráfica se encuentra entre las de más potencia de la época, por encima, tal como se ha explicado anteriormente, de la VooDoo.
+
+
+== Referencias ==

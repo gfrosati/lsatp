@@ -1,0 +1,150 @@
+El cultivo celular es el proceso mediante el que células, ya sean células procariotas o eucariotas, pueden cultivarse en condiciones controladas. En la práctica el término "cultivo celular" se usa normalmente en referencia al cultivo de células aisladas de eucariotas pluricelulares, especialmente células animales. El desarrollo histórico y metodológico del cultivo celular está íntimamente ligado a los péptidos cultivares del cultivo de tejidos y el cultivo de órganos.
+El cultivo de células animales empezó a ser una técnica rutinaria de laboratorio durante los años 50, pero el concepto de mantener líneas de células vivas separadas del tejido de origen fue descubierto en el siglo XIX.
+
+
+== Historia ==
+El fisiólogo inglés Sydney Ringer desarrolló a finales del siglo XIX una solución salina, conocida como solución de Ringer, que contiene cloruro de sodio, potasio, calcio y magnesio, dicha solución es capaz de mantener latiendo el corazón de un animal fuera del cuerpo. En 1885 Wilhelm Roux extrajo una porción de la médula de embrión de pollo y la mantuvo varios días en cultivo en una solución salina tibia, estableciendo el principio de los cultivos tisulares. Ross Granville Harrison, trabajando en la Escuela de Medicina de la Universidad Johns Hopkins y más tarde en la Universidad de Yale, estableció la metodología del cultivo tisular en una serie de trabajos publicados entre 1908 y 1910.
+Las técnicas de cultivo celular avanzaron significativamente en los 40 y 50, como soporte a la investigación en virología. La utilización de cultivos celulares para producir virus permitió preparar virus purificados para ser utilizados en vacunas. La vacuna Salk de la polio fue una de los primeros productos producidos en masa usando técnicas de cultivos celulares. Esta vacuna fue posible gracias a la investigación de John Franklin Enders, Thomas Huckle Weller y Frederick Chapman Robbins, quienes fueron galardonados con el Premio Nobel por el descubrimiento de un método de crecimiento de virus en cultivos celulares de riñón de mono
+
+
+== Conceptos en el cultivo de células de mamífero ==
+
+
+=== Aislamiento de células ===
+Las células pueden ser aisladas de los tejidos para cultivos in vitro de muchas maneras. Las células pueden ser purificadas con facilidad de la sangre, sin embargo sólo los leucocitos son capaces de crecer en cultivo. Las células mononucleares se pueden liberar de los tejidos blandos mediante hidrólisis enzimática con enzimas como la colagenasa, tripsina o pronasa, que degradan la matriz extracelular. Como alternativa se pueden colocar trozos de tejido en medio de crecimiento, y las células que crecen son aptas para el cultivo. Este método es el conocido como cultivo de explantos.
+Las células que se cultivan directamente desde un sujeto se conocen como células primarias. A excepción de algunos derivados de tumores, la mayoría de los cultivos celulares primarios tienen un periodo de vida limitado. Después de un cierto número de divisiones las células entran en el proceso de senescencia y dejan de dividirse, generalmente manteniendo la viabilidad.
+
+
+=== Mantenimiento de células en cultivo ===
+Las células se cultivan y mantienen a una apropiada temperatura y mezcla de gases (habitualmente, 37°C, 5% CO2 y 95% O2) en un incubador celular. Las condiciones de cultivo varían ampliamente para cada tipo celular, y la variación de las condiciones para un tipo celular concreto, puede dar lugar a la expresión de diferentes fenotipos.
+Además de la temperatura y la mezcla de gases, el factor más comúnmente variado en los sistemas de cultivo es el medio de crecimiento para cultivo celular. Las recetas para los medios de crecimiento pueden variar en pH, concentración de glucosa, factores de crecimiento y la presencia de otros componentes nutritivos. Los factores de crecimiento usados para suplementar a los medios derivan a menudo de sangre animal, como el suero bovino. Estos ingredientes derivados de la sangre plantean una potencial contaminación con virus o priones de los productos farmacéuticos derivados. En la actualidad se tiende a minimizar o eliminar el uso de estos ingredientes cuando sea posible. Estrategias alternativas de abastecimiento involucran la sangre de los animales procedentes de países con un riesgo mínimo de encefalopatía espongiforme bovina, como Australia y Nueva Zelanda, y el uso de nutrientes purificada concentrados derivados de suero en lugar de suero animal entero para el cultivo de células.
+Las células pueden crecer en suspensión o de manera adherente. Algunas células viven de forma natural sin adherirse a una superficie, como las que existen en el torrente sanguíneo. Otras necesitan una superficie, como la mayoría de células derivadas de tejidos sólidos. A las células que crecen sin unirse a una superficie se las llama cultivos en suspensión. Algunos cultivos celulares adherentes pueden crecer en plástico para el cultivo de tejidos, que puede estar recubierto con componentes de la matriz extracelular para aumentar sus propiedades de adhesión y proporcionar otras señales necesarias para el crecimiento y diferenciación. Otro tipo de cultivo adherente es el cultivo organotípico que consiste en cultivar las células en un ambiente tridimensional a diferencia de las placas de cultivo bidimensionales. Este tipo de cultivo 3D es bioquímica y fisiológicamente similar al tejido vivo. Sin embargo presenta dificultades técnicas debido a varios factores (por ejemplo: difusión).
+
+
+=== Manipulación de las células en cultivo ===
+Al estar generalmente las células en continua división durante el cultivo, es normal que crezcan hasta ocupar toda el área o volumen disponible. Esto puede generar varios problemas:
+Agotamiento de los nutrientes del medio
+Acumulación de células apoptóticas o necróticas
+Inhibición de la división celular por contacto: los contactos entre células pueden desencadenar un arresto del ciclo celular
+Diferenciación celular promiscua provocada por los contactos intercelulares
+Estos problemas pueden afrontarse mediante métodos de cultivo celular en esterilidad. El objetivo de estos métodos es evitar la contaminación con bacterias o levaduras que competirían por los nutrientes y/o podrían infectar y así eliminar las células. Toda manipulación se lleva a cabo, típicamente, en una campana de flujo laminar para evitar la entrada de microorganismos contaminantes. También pueden añadirse antibióticos al medio de cultivo.
+Entre las manipulaciones más comunes llevadas a cabo en cultivos celulares, se encuentran los cambios de medio, el pase de las células y la transfección.
+
+
+==== Cambios de medio ====
+El objetivo de los cambios de medio es renovar los nutrientes y evitar la acumulación de productos metabólicos potencialmente tóxicos y de células muertas. En el caso de las suspensiones celulares, las células se separan del medio mediante centrifugación y se resuspenden en medio fresco. En los cultivos adherentes, el medio puede eliminarse directamente mediante aspiración y reemplazarse por el fresco.
+
+
+==== Pase de las células ====
+El pase de las células supone transferir un pequeño número de células a un nuevo continente. Las células pueden cultivarse más tiempo si se pasan regularmente, ya que así se evita la senescencia asociada a situaciones prolongadas de alta densidad celular. Con cultivos en suspensión el pase se hace fácilmente, tomando una pequeña cantidad de cultivo que contenga unas pocas células y diluyéndola en un volumen mayor de medio fresco. En cultivos adherentes, las células han de ser inicialmente despegadas; esto se efectúa comúnmente con una mezcla de tripsina y EDTA, aunque actualmente existen otras mezclas de enzimas para esto. Un pequeño número de las células despegadas pueden sembrarse en un nuevo continente.
+
+
+==== Transfección y transducción ====
+
+Otro método común en la manipulación de las células es la introducción de un DNA externo por transfección. Esto se lleva a cabo a menudo para conseguir que las células expresen una proteína de interés. Más recientemente, la transfección de RNA interferentes se han llevado a cabo como mecanismos adecuados para suprimir la expresión de un particular gen.
+El DNA también puede ser introducido en las células usando virus, en métodos llamados transducción, infección o transformación. Los virus, como agentes parásitos, son adecuados para introducir DNA en células, ya que esto forma parte de su ciclo normal de reproducción.
+
+
+=== Líneas celulares humanas establecidas ===
+
+Las líneas celulares originadas a partir de tejido de seres humanos presentan controversias bioéticas, ya que pueden sobrevivir a los organismos parentales y ser utilizadas para el descubrimiento de tratamientos médicos muy lucrativos después del falleciemiento de las personas que las produjeron. Una decisión pionera en este aspecto fue el fallo de la Suprema Corte de California que en 1990 determinó que los pacientes no tienen derechos propietarios sobre las líneas celulares derivadas de órganos retirados con su consentimiento. Se estima que aproximadamente el 20% de las líneas celulares humanas no corresponden al tipo de células que generalmente se asume que son. Esto se debe a que algunas líneas celulares crecen más rápido que otras y pueden contaminar cultivos de otras líneas celulares y, con el tiempo, sobrecrecer y desplazar a las células originales. El contaminante más común es la línea celular HeLa. Este hecho no es significativo cuando se estudian la propiedades generales del metabolismo celular pero es muy importante en la investigación médica enfocada en un tipo específico de células. Los resultados de tales investigaciones contendrán errores, si no están completamente equivocados en sus conclusiones, con posibles consecuencias para los desarrollos terapeúticos basados en ellos. 
+
+
+=== Generación de hibridomas ===
+
+Es posible fusionar células normales con una línea celular inmortalizada. Con este método se produce anticuerpos monoclonales. Brevemente, los linfocito aislados del bazo o médula ósea de un ratón inmunizado se combinan con una línea celular de mieloma inmortalizada (células del linaje B) para producir un hibridoma el cual posee la especificidad de anticuerpos de los linfocito primarios y la inmortalidad de la línea celular de mieloma. Las células de mieloma sin fusionar se seleccionan en un medio de cultivo selectivo (HA o HAT), de esta manera los linfocitos primarios mueren rápidamente y solamente las células fusionadas sobreviven. Los hibridomas productores del anticuerpo deseado se seleccionan a partir de grupos hasta llegar a colonias individuales.
+
+
+== Aplicaciones del cultivo celular ==
+El cultivo masivo de líneas celulares animales es fundamental para la manufactura de vacunas virales y diversos productos biotecnológicos. Los productos biológicos producidos mediante la tecnología del ADN recombinante en cultivo celular incluyen enzimas, hormonas sintéticas, inmunobiológicos (anticuerpos monoclonales, interleucinas, linfoquinas y agentes anticancerígenos). A pesar de que muchas proteínas pueden producirse mediante ADN recombinante en cultivos bacterianos, las proteínas más complejas que son glicosiladas (modificadas mediante el agregado de carbohidratos) deben producirse en células animales. Un ejemplo relevante de tales proteínas complejas es la hormona eritropoyetina. Actualmente, se están realizando investigaciones para producir tales proteínas complejas en células de insectos o de plantas superiores, debido al alto costo que implica producir tales proteínas complejas en células de mamíferos.
+
+
+=== Ventajas y desventajas de los cultivos celulares ===
+Los cultivos celulares tienen una serie de ventajas innegables, pero al mismo tiempo tienen desventajas que hay que tener en consideración. Como ventajas podemos citar:
+- Permiten un control preciso y fino del medio ambiente. En un cultivo se pueden controlar todos los factores del medio: Físico-químicos (pH, temperatura, presión osmótica, niveles de O2, CO2, tensión superficial...), y fisiológicos (hormonas, factores de crecimiento, densidad celular,...)
+- Caracterización y homogeneidad de la muestra. Las células en cultivo de una línea celular, o de una línea continua son homogéneas, con morfología y composición uniformes. Se pueden obtener con facilidad un número elevado de réplicas idénticas, con lo que se supera el grave problema de heterogeneidad de las muestras inherente asociado al uso de animales de experimentación.
+- Economía. Suponen una economía en el uso de reactivos o drogas a estudiar pues al realizarse en volúmenes reducidos, y con un acceso directo de las células a la droga las concentraciones requeridas son mucho más bajas que en el animal completo.
+En cuanto a las desventajas del cultivo celular:
+- Técnica sensible. El crecimiento de las células animales es mucho más lento que el de los contaminantes más habituales (hongos, levaduras, bacterias, micoplasmas...) y además dado que proceden de organismos pluricelulares son incapaces de crecer en ausencia de una compleja mezcla de nutrientes que simula el plasma o el fluido intersticial. Esto supone la necesidad de mantener las condiciones de asepsia en todo momento, lo cual es limitante a nivel tanto del instrumental requerido como del personal calificado para su manipulación.
+- Cantidad y costo. El costo de producción de 1 g de tejido en cultivo es más de 10 veces superior al obtenido en el animal. Asimismo existe una limitación de producción, que es del orden de 10 g de células en un laboratorio normal, y que para ser superior a 100 g requiere instalaciones de tipo industrial.
+- Inestabilidad. Muchas de las líneas celulares continuas son inestables, como consecuencia de la dotación cromosómica aneuploide. La población celular puede variar su composición si alguna de las subpoblaciones celulares es capaz de crecer con una tasa ligeramente superior, es decir podemos encontrar diferencias significativas en la línea celular de una generación a la siguiente. La única manera de evitarlo es emplear líneas estables que se resiembran a partir de un stock congelado cada determinado tiempo, o después de un determinado número de generaciones.
+- La investigación biomédica supone el sacrificio cada año de muchos miles de animales de experimentación. El cultivo celular no puede reemplazar siempre el ensayo "in vivo" pero es una alternativa válida en muchas situaciones.
+
+
+=== Estudios que emplean cultivos celulares ===
+Los estudios que emplean cultivos celulares abarcan gran número de disciplinas y aproximaciones al estudio del fenómeno celular. Son:
+Actividad celular. Estudia los mecanismos implicados en los diferentes procesos intracelulares, como por ej: transcripción de DNA, síntesis de proteínas, metabolismo energético...
+Flujo intracelular. Estudia los movimientos intracelulares de sustancias y señales asociadas a los diferentes procesos fisiológicos, como por ejemplo: ensamblaje y desensamblaje de los diferentes componentes intracelulares, movimientos del RNA: núcleo-citoplasma, movimiento de proteínas.
+Ecología celular. Estudio de las condiciones ambientales responsables del mantenimiento de la funcionalidad celular, de su diferenciación..., como por ej. estudio de las necesidades nutricionales, infecciones, estudio de la transformación celular (inducidad por virus o agentes químicos), cinética de la población celular,...
+Interacciones celulares. Estudia los procesos de inducción embrionaria, cooperación metabólica, inhibición por contacto o por adhesión, interacciones célula-célula.
+Como ejemplo de áreas de investigación fuertemente dependientes de las técnicas de cultivo celular son:
+- Virología: establecimiento de condiciones de cultivo de virus animales y de plantas, producción de vacunas antivirales,...
+- Investigación del cáncer
+- Inmunología
+- Ingeniería de proteínas. Por la producción de proteínas en líneas celulares: interferón, insulina, hormona de crecimiento.
+- Estudios de interacción y señalización celular, en la diferenciación y en el desarrollo.
+- Aplicaciones diagnósticas. Por ejemplo en medicina y farmacología destacan el análisis cromosómico de células crecidas a partir de muestras de amniocentesis, detección de infecciones virales, ensayos de toxicidad,...
+- Aplicaciones médicas: mantenimiento y producción de tejido para trasplantes.
+- Aplicaciones industriales y agronómicas: producción pro reproducción "in vitro" de clones de plantas de interés cormecial.
+Salud ocupacional: Mediante ensayos citogenéticos que permiten detectar daño genético a nivel celular, donde los cultivos de linfocitos de sangre periférica son una herramienta para aplicar ensayos como: Ensayo de Micronucleos(MN), aberraciones cromosómicas (AC), Intercambio de Cromatides Hermanas (ICH, a trabajadores expuestos a algún agente citotóxico.
+
+
+=== Cultivo de tejidos e ingeniería ===
+El cultivo celular es un componente fundamental del cultivo de tejidos y la ingeniería de tejidos, ya que establece los conocimientos básicos del crecimiento y mantenimiento de células ex vivo.
+
+
+=== Vacunas ===
+En la actualidad las vacunas para enfermedades como el polio, sarampión, paperas, rubéola y varicela se producen en cultivos de células de mamíferos. El peligro que representa una posible pandemia de influenza por la cepa H5N1 se están realizando activas investigaciones con el fin de producir dicho virus en cultivos celulares, financiadas por el gobierno de Estados Unidos. En marzo del 2009 se usó esta técnica para producir la primer partida de vacunas (destinadas al testeo) para la influenza H1N1 en El D.F. Entre las ideas novedosas se encuentra el uso de vacunas basadas en ADN recombinante con vectores derivados de adenovirus humanos, causantes del resfrío común,  o el uso de adjuvantes.
+
+
+== Cultivo de células provenientes de organismos no mamíferos ==
+
+
+=== Métodos de cultivo de células de plantas ===
+
+Las células de plantas se crecen normalmente en suspensiones célulares en medio líquido o como cultivo de callos en medio sólido. El cultivo de células de plantas no diferenciadas y callos requiere de un adecuado balance de las hormonas de crecimiento vegetales auxina y citoquinina.
+
+
+=== Métodos de cultivo de bacterias y levaduras ===
+
+Usualmente, las cantidades pequeñas de bacterias y levaduras se crecen en medio sólido que contiene los nutrientes necesarios embebidos en un gel, tal como el Agar-Agar. Mientras que grandes cantidades son crecidas en medio líquido con las células en suspensión.
+
+
+=== Métodos de cultivo de virus ===
+El cultivo de los virus requiere un sustrato de células de mamíferos, plantas, hongos o bacteria como hospedadores para el crecimiento y replicación de los virus. En las condiciones adecuadas se pueden generar virus enteros, virus recombinantes o productos virales en células diferentes a los hospedadores naturales. Dependiendo de la especie del virus y el tipo célular que se utiliza como sustrato, la replicación viral puede resultar en la lisis de la célula hospedadora y la formación de placas de lisis virales.
+
+
+== Líneas celulares comunes ==
+Líneas celulares humanas
+60 líneas de cáncer del Instituto Nacional del Cáncer de Estados Unidos
+Base de datos ESTDAB http://www.ebi.ac.uk/ipd/estdab/directory.html (en inglés)
+HeLa (cáncer cervical)
+Hep-G2 (cáncer de hígado)
+HepaRG (cáncer de hígado)
+DU145 (cáncer de próstata)
+Lncap (cáncer de próstata)
+MCF-7 (cáncer de mama)
+MDA-MB-438 (cáncer de mama)
+PC3 (cáncer de próstata)
+T47D (cáncer de mama)
+THP-1 (leucemia mieloide aguda)
+U87 (glioma)
+SHSY5Y células de neuroblastoma humano, clonadas a partir de mieloma múltiple
+Saos-2 cells (cáncer óseo)
+Líneas celulares de Primates
+Vero (células epiteliales de riñón de mono verde Africano Chlorocebus. Línea celular iniciada en 1962)
+Líneas celulares de tumor de Rata
+GH3 (tumor de hipófisis)
+PC12 (feocromocitoma)
+Líneas celulares de ratón
+MC3T3 (embrionaria craneal)
+Líneas celulares de plantas
+Nicotiana tabaccum cv. BY-2 (mantenida como un cultivo de células en suspensión, sirven como modelo de estudio en células vegetales)
+Líneas celulares de otras especies
+pez cebra células ZF4 y AB9.
+Línea celular de epitelio de riñón canino Madin-Darby (MDCK)
+Células epiteliales de riñón de Xenopus A6.
+
+
+== Referencias ==
+Esta obra deriva de la traducción de cell culture de Wikipedia en inglés, concretamente de esta versión, publicada por sus editores bajo la Licencia de documentación libre de GNU y la Licencia Creative Commons Atribución-CompartirIgual 3.0 Unported.

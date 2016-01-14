@@ -1,0 +1,9 @@
+Conjunto inductivo es como se denomina, en matemática, a un subconjunto de números reales que cumple las siguientes propiedades: existe un primer elemento y si a este lo llamamos e entonces se tiene que:
+i) El número «e» pertenece al conjunto.
+ii) Para todo «k» en el conjunto, el número «k + e» también pertenece al conjunto.
+Un conjunto no inductivo es aquel en el cual no se cumple que un número «n» elemento de un conjunto sumado un otro número «k» elemento del mismo conjunto den como resultado un número «n + k» elemento del conjunto.
+
+
+== Véase también ==
+Inducción matemática
+Demostración por inducción

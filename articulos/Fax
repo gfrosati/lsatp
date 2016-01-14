@@ -1,0 +1,100 @@
+Fax (abreviación de facsímil), a veces llamado telecopia, es la transmisión telefónica de material escaneado impreso (tanto texto como imágenes), normalmente a un número de teléfono conectado a una impresora o a otro dispositivo de salida. El documento original es escaneado con una máquina de fax, que procesa los contenidos (texto o imágenes) como una sola imagen gráfica fija, convirtiéndola en un mapa de bits, la información se transmite como señales eléctricas a través del sistema telefónico. El equipo de fax receptor reconvierte la imagen codificada, y la imprime en papel. Antes del triunfo de la tecnología digital, durante muchas décadas, los datos escaneados se transmitieron como señal analógica.
+
+
+== Trasmisión ==
+
+
+=== Trasmisión por cable ===
+El inventor escocés Alexander Bain trabajó en los dispositivos mecánicos de productos químicos de tipo fax y en 1846 fue capaz de reproducir signos gráficos en experimentos de laboratorio. Recibió la patente de fax por primera vez en 1843. Frederick Bakewell realizó varias mejoras en el diseño de Bain y creó una máquina de fax. El Pantelegraph fue inventado por el físico italiano Giovanni Caselli. Introdujo el primer servicio comercial de fax entre París y Lyon en 1865, unos 11 años antes de la invención del teléfono. 
+En 1881, el inventor inglés Shelford Bidwell construyó el scanning phototelegraph (escáner fototelegráfico) que fue la primera máquina de fax capaz de escanear cualquier original bidimensional manualmente, sin requerir trazar o dibujar. Alrededor de 1900, el físico alemán Arthur Korn inventó la Bildtelegraph, muy extendida en la Europa continental especialmente, pues para transmitir la foto de una persona buscada de París a Londres en 1908, se utilizaba el más distribuido radiofax. Sus principales competidores eran los Bélinograf de Édouard Belin primero, y luego desde 1930 el Hellschreiber, inventado en 1929 por el inventor alemán Rudolf Hell, un pionero en la exploración de la imagen mecánica y la transmisión.
+
+
+=== Transmisión inalámbrica ===
+Como diseñador de la Radio Corporation of America (RCA), en 1924, Richard H. Ranger inventó el fotoradiograma, o radiofax transoceánico, el precursor de las máquinas de fax de hoy en día. Una fotografía del presidente Calvin Coolidge se envió desde Nueva York a Londres el 29 de noviembre de 1924 y se convirtió en la primera foto reproducida por radio facsímile transoceánico. El uso comercial del producto Ranger comenzó dos años después. El Radiofax sigue siendo de uso común hoy en día para la transmisión de mapas del tiempo e información a los buques en el mar. También en 1924, Herbert E. Ives de AT&T envió y reconstruyó el primer fax en color, utilizando separación de colores. Alrededor de, el Finch Facsimile, una máquina altamente desarrollada, fue descrito en detalle en un libro, aunque nunca fue fabricada en grandes cantidades.
+En la década de 1960, el ejército de Estados Unidos transmitió la primera fotografía vía satélite facsímile ("fax") a Puerto Rico desde el Deal Test Site utilizando el satélite Courier 1B.
+
+
+=== Transmisión telefónica ===
+
+1964 fue un año clave en el que Xerox Corporation presentó (y patentó) lo que muchos consideran como la primera versión comercializada de la máquina de fax moderna, bajo el nombre (LDX) o Long Distance Xerography. Este modelo fue sustituido dos años después por una unidad que verdaderamente marca la pauta para las máquinas de fax en los próximos años. Hasta ese momento las máquinas de fax eran muy caras y difíciles de operar. En 1966, Xerox lanzó el Magnafax Telecopier, una máquina de fax pequeña de 46 libras de peso. Esta unidad era mucho más fácil de operar y podía estar conectada a cualquier línea telefónica estándar. Esta máquina era capaz de transmitir un documento de tamaño carta en unos seis minutos. La primera máquina digital de fax digital fue desarrollada por Dacom, que se basa en la tecnología digital de compresión de datos desarrollada originalmente en la Lockheed Corporation para la comunicación por satélite. 
+A fines de 1970, muchas empresas de todo el mundo (pero sobre todo en Japón), entraron en el mercado del fax. Muy poco después una nueva ola de máquinas de fax más compactas, más rápidas y eficientes llegó al mercado. Xerox siguió perfeccionando la máquina de fax años después de su innovadora primera máquina. Pero, en los últimos años se combinaría con el equipo multifunción para crear las máquinas híbridas que tenemos hoy en día que copia, escanea y envía fax. Algunas de las capacidades menos conocidas de las tecnologías fax de Xerox incluye sus servicios Ethernet con capacidad de fax en sus estaciones de trabajo Xerox 8000 en la década de 1980.
+Antes de la introducción de la máquina de fax en todas partes, uno de los primeros es el Exxon Qwip a mediados de 1970, máquinas de fax trabajan por lectura óptica de un documento o dibujo girando sobre un tambor. La luz reflejada, que varía en intensidad según las zonas claras y oscuras del documento, se envía a una fotocélula en la que la corriente en un circuito varía con la cantidad de luz. Esta corriente se utiliza para controlar un generador de tonos (un modulador), la corriente determina la frecuencia del tono producido. Este tono de audio se transmite a continuación, utilizando un acoplador acústico (un altavoz, en este caso) conectado al micrófono de un auricular común del teléfono. En el extremo receptor, un altavoz del auricular se conecta a un acoplador acústico (un micrófono), y un demodulador convierte el tono variable en una corriente variable que controla el movimiento mecánico de una pluma o lápiz para reproducir la imagen en una hoja de papel en blanco en un tambor giratorio idéntico a la misma velocidad. Un par de estas máquinas costosas y voluminosas sólo podría ser proporcionada por las empresas con una gran necesidad de comunicar los dibujos, bocetos de diseño o documentos firmados entre lugares distantes, tales como una oficina y la fábrica. Western Union comenzó un servicio de "Telegrafía Faximil" en el año 1935. Su primer mensaje de costa a costa contiene las imágenes de Mickey Mouse.
+
+
+=== Interfaz de fax y ordenador ===
+En 1985, Dr. Ayaz Asmat, fundador de GammaLink, creó la primera tarjeta de ampliación con capacidad de fax, la GammaFax.
+
+
+== Partes de un fax ==
+Un fax es esencialmente un escáner de imágenes, un módem y una impresora combinados en un aparato especializado. El escáner convierte el documento original en una imagen digital; el módem envía la imagen por la línea telefónica; al otro lado, otro módem lo recibe y lo envía a la impresora, que hace una copia del documento original.
+Los primeros faxes sólo escaneaban en blanco y negro, pero al mejorar la tecnología se pasó a la escala de grises; ahora son más modernos y sofisticados. La llegada de los equipos multifunción incorporó el escáner en color: aunque las imágenes se siguen enviando en grises, pueden enviarse a un ordenador o almacenarse en color en un disco duro local.
+Los primeros faxes utilizaban impresoras térmicas, que requieren un papel específico. Eran muy pocas las máquinas que usaban una impresora de agujas, y aún m
+
+enos las que usaban una impresora láser. La llegada y, sobre todo, el abaratamiento de la impresión por chorro de tinta provocó un boom de faxes de papel normal, que en la mitad de los casos actuaban además como equipos multifunción (desde actuar sólo como impresora o fax/módem del ordenador conectado, a poder controlarse cualquiera de sus partes).
+Unos pocos ordenadores incorporaron en su propia carcasa todo lo necesario para actuar además como máquinas fax. Entre ellos destacan el Ericsson Portable PC y el Canon Navigator.
+En el otro extremo se sitúan los ordenadores que, mediante software y sus periféricos estándar, son capaces de emular un fax, del Grupo 2 al Grupo 4 inclusive. Contra la creencia popular, no es algo privativo de los PC o del sistema operativo Microsoft Windows. Ya los Amstrad PCW y los MSX eran capaces de actuar de esa forma en su tiempo, y en el momento de popularización del módem/fax (un tipo de módem que además de los protocolos de comunicación incorpora el Grupo 2 o superior de fax), programas para los PC (MS-DOS, OS/2, Microsoft Windows y los diferentes sabores de Unix), Apple Macintosh, Atari ST, Commodore Amiga y las estaciones de trabajo de Sun y SGI realizaban esa misma función.
+
+
+== Software emulador de fax ==
+Un ordenador con fax/módem y el software adecuado es capaz de emular el funcionamiento de una máquina de fax. En sistemas operativos multitarea como Microsoft Windows, el programa de recepción de transmisión de fax se hace emulando una impresora a la que se puede imprimir desde cualquier aplicación. La recepción de fax siempre requiere de un programa que se ejecute en segundo plano "escuchando" el módem en espera de una llamada entrante.
+Algunas ventajas de usar este sistema son:
+Los documentos enviados y/o recibidos pueden almacenarse en el disco duro.
+Los documentos pueden exportarse a formatos gráficos estándar y enviarse por correo electrónico.
+Ahorro de papel: los documentos recibidos solo se imprimen si es necesario. Los documentos salientes se imprimen directamente desde un editor de texto.
+Algunos programas emuladores de fax:
+Cheyenne Bitware (DOS y Windows)
+Mighty Fax (Windows)
+Winfax (Windows)
+Hylafax (GNU/Linux y otros Unix)
+[BGFAX] (DOS y Windows)
+
+
+== Grupos de fax ==
+El fax se convirtió en una parte esencial de la micro o hiper empresa, pero la duda era cuál sería la eficiencia del envío y el problema de enviar entre América y Europa, y el tiempo que tardaría en llegar a su destino. Para corregir esta deficiencia el Sector de Normalización de las Telecomunicaciones de la UIT (Unión Internacional de Telecomunicaciones, ITU en sus siglas en inglés) estableció en 1974 una norma mundial, mejor conocida como grupo 1 de fax. Desde entonces se han creado 4 normas o grupos:
+Grupo 1: creado en 1974, se basa en la Recomendación UIT-T T.2. Estos faxes tardan de cuatro a seis minutos en transmitir una página única, con una resolución vertical de 98 líneas por pulgada, a una velocidad de 2.400 bps. Este tipo de faxes es ya obsoleto y no se fabrican más.
+Grupo 2: creado en 1976, se basa en las Recomendaciones UIT-T T.30 y T.3. Estos faxes tardan 3 minutos en transmitir una página única, con una resolución vertical de 100 líneas por pulgada a una velocidad de 9.600 bps. Aunque ya obsoleto y no fabricado más, se siguen empleando estos faxes al ser capaces de comunicarse con los faxes Grupo 3.
+Grupo 3: creado en 1980, se basa en las Recomendaciones UIT-T T.30 y T.4. Tardan entre 6 y 15 segundos en transmitir una sola página (sin incluir el tiempo inicial de sincronizado e identificación de las máquinas), a una velocidad de 14.400 bps. Las resoluciones horizontal y vertical son las del estándar T.4, con varias combinaciones posibles:
+Horizontal: 100 líneas por pulgada
+Vertical: 100 líneas por pulgada
+
+Horizontal: 200 o 204 líneas por pulgada
+Vertical: 100 o 98 líneas por pulgada (Standard)
+Vertical: 200 o 196 líneas por pulgada (Fine)
+Vertical: 400 o 391 (no 392) líneas por pulgada (Superfine)
+
+Horizontal: 300 líneas por pulgada
+Vertical: 300 líneas por pulgada
+
+Horizontal: 400 o 408 líneas por pulgada
+Vertical: 400 o 391 líneas por pulgada
+
+Grupo 4: creado en 1984, se basa en las Recomendaciones UIT-T T.563, T.503, T.521, T.6, T.62, T.70, T.72, T.411 a T.417. Ha sido diseñado para operar a más de 64 kbit/s sobre redes digitales RDSI (Red Digital de Servicios Integrados, en inglés abreviada como ISDN). Su resolución depende de la recomendación T.6, que recoge todas las de la T.4 ampliándolas. Es capaz de recibir faxes provenientes de un fax grupo 3 o 2, aunque la comunicación debe pasar por un puente entre la red analógica y la digital.
+Los teléfonos móviles GSM son también capaces de enviar y recibir faxes. Inicialmente requerían de una tarjeta PCMCIA o de un puerto IrDA para comunicarse con el ordenador, pero muchos equipos actuales son capaces de recibir y visualizar faxes por sí mismos, e incluso de enviar un documento existente como fax. El operador puede requerir un contrato especial para activar estas posibilidades en su red.
+Para obviar los costes en las comunicaciones a larga distancia, se emplea también internet para transmitir los datos. Si el receptor no dispone de conexión a internet, suele ser una máquina conectada a la red telefónica correspondiente (analógica o RDSI) la que se encargue de transmitir el último tramo.
+
+
+== Utilidad ==
+Inicialmente, el fax se usaba exclusivamente en el periodismo; pero su eficiencia y el afán de modernización hicieron que se integrase posteriormente a los negocios. El fax se utiliza para enviar y recibir imágenes de todo tipo. Se le han integrado luego tecnologías nuevas como un disco duro y un reproductor de semitonos, y tempranamente se anexó a un teléfono regular. Japón fue el mayor usuario de esta tecnología, implantando tecnologías de punta a este aparato. El fax ha logrado ampliarse a todas las tecnologías de comunicaciones actuales.
+Aunque en la actualidad el uso del fax disminuye en favor de internet y el correo electrónico, son muchas las compañías que todavía mantienen servicios de fax. Es muy usado en sanidad, finanzas y compañías de seguros (propuestas, partes amistosos de accidentes, facturas, notas a mano de inspectores y peritos...) entre otras.
+Al fax se le concede valor legal. En España, 'Correos' ofrece servicios de fax y además el servicio burofax, por lo que es usado en la formalización y cancelación de contratos, y presenta la ventaja de no ser crackeable.
+
+
+== Evolución del Fax ==
+El sistema de envío y recepción de fax también ha ido adaptándose a la evolución y desarrollo de las nuevas tecnologías de la comunicación. Internet, que ha supuesto una revolución en diferentes ámbitos, desde configurarse como una fuente de intercambio de conocimiento, ideas e información, hasta convertirse en un importante canal de venta, también ha hecho evolucionar el sistema de fax, sin lograr sustituirlo por otros medios de comunicación.
+El fax virtual o fax por Internet se basa en el mismo sistema de transmisión de datos que el fax tradicional, mediante una línea telefónica, pero sustituyendo los aparatos tradicionales de fax por plataformas Web o de correo electrónico, lo que supone una menor distorsión en el envío y recepción, y la digitalización de todos los documentos.
+Este tipo de soluciones de fax virtual tienen enormes ventajas con respecto a los sistemas tradicionales; Primero porque son ecológicas al reducir considerablemente el consumo de papel o tinta y la necesidad de una máquina específica, segundo porque son eficientes al permitir la gestión de archivos electrónicos, tercero porque son móviles al poder gestionar el servicio de fax desde cualquier lugar donde tengas acceso a tu correo electrónico incluido tu teléfono móvil y por cuarto porque son económicas ya que reducen los costes del servicio de fax en un 90% al incluir todo en un pequeño coste mensual, la cuota del número y el servicio de fax.
+Actualmente existe la opción de utilizar el Fax virtual. Este servicio te permite enviar y recibir fax a través de internet sin necesidad de utilizar la "máquina de fax".
+
+
+== Véase también ==
+Fax virtual
+Correo
+Telegrama
+Faxing
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+Breve historia del Fax

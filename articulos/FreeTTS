@@ -1,0 +1,19 @@
+FreeTTS es un sintetizador de voz digital open source escrito completamente en el lenguaje de programación Java. Se basa en Flite. FreeTTS es una implementación de la Java Speech API de Sun.
+FreeTTS soporta marcadores de fin de discurso. Gnopernicus los usa en varios lugares: para saber cuándo el texto debería o no ser interrumpido, para concatenar mejor el habla, y para secuenciar el discurso en voces diferentes. En evaluaciones conducidas por Sun en 2002 en Solaris se mostró que FreeTTS corrió tres veces más deprisa que Flite a la vez.
+
+
+== Véase también ==
+ Portal:Software libre. Contenido relacionado con Software libre.
+Síntesis de voz
+Festival (sistema de texto-a-voz)
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+(en inglés) FreeTTS en SourceForge
+
+
+== Nota ==
+Esta obra deriva de la traducción de FreeTTS de Wikipedia en inglés, publicada por sus editores bajo la Licencia de documentación libre de GNU y la Licencia Creative Commons Atribución-CompartirIgual 3.0 Unported.

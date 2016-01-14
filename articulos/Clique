@@ -1,0 +1,11 @@
+En teoría de grafos, un clique en un grafo no dirigido G es un conjunto de vértices V tal que para todo par de vértices de V, existe una arista que las conecta. En otras palabras, un clique es un subgrafo en que cada vértice está conectado a cada otro vértice del subgrafo, es decir, todos los vértices del subgrafo son adyacentes. Esto equivale a decir que el subgrafo inducido por V es un grafo completo. El tamaño de un clique es el número de vértices que contiene.
+El Problema del clique, que consiste en dado un grafo, decidir si existe en él un clique con un tamaño particular, es NP-completo.
+Lo opuesto de un clique es un conjunto independiente, en el sentido que cada clique corresponde a un conjunto independiente del grafo complemento.
+
+
+== Origen del nombre ==
+El término proviene de la palabra inglesa clique, que define a un grupo de personas que comparten intereses en común. En esta analogía, las personas serían los vértices; las relaciones de interés, las aristas; y el hecho de que todas compartan un mismo interés, el grafo completo, es decir, el clique en si.
+
+
+== Referencias ==
+Weisstein, Eric W. «Clique». En Weisstein, Eric W. MathWorld (en inglés). Wolfram Research.

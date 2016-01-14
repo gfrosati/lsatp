@@ -1,0 +1,5 @@
+MegaTextura, del inglés MegaTexture, es una técnica empleada en el mundo de los gráficos 3D de ordenador para la colocación de texturas en las superficies de los objetos. Básicamente consiste en el uso de una única textura de gran tamaño en vez de repetir a lo largo de un área una textura de pequeño tamaño, eliminando por tanto el efecto repetitivo poco realista. Esta técnica fue utilizada comercialmente en videojuegos por primera vez en el título Enemy Territory: Quake Wars sobre el motor gráfico id Tech 4, y desarrollada por el fundador y director técnico de id Software John Carmack.
+Con ésta técnica se consigue el poder utilizar texturas muy grandes evitando los problemas del límite de memoria gráfica.
+
+
+== Referencias ==

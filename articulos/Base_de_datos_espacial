@@ -1,0 +1,103 @@
+Base de datos espacial (spatial database) es un sistema administrador de bases de datos que maneja datos existentes en un espacio o datos espaciales.
+En este tipo de bases de datos es imprescindible establecer un cuadro de referencia (un SRE, Sistema de Referencia Espacial) para definir la localización y relación entre objetos, ya que los datos tratados en este tipo de bases de datos tienen un valor relativo, no es un valor absoluto. Los sistemas de referencia espacial pueden ser de dos tipos: georreferenciados (aquellos que se establecen sobre la superficie terrestre. Son los que normalmente se utilizan, ya que es un dominio manipulable, perceptible y que sirve de referencia) y no georreferenciados (son sistemas que tienen valor físico, pero que pueden ser útiles en determinadas situaciones).
+La construcción de una base de datos geográfica implica un proceso de abstracción para pasar de la complejidad del mundo real a una representación simplificada que pueda ser procesada por el lenguaje de las computadoras actuales. Este proceso de abstracción tiene diversos niveles y normalmente comienza con la concepción de la estructura de la base de datos, generalmente en capas; en esta fase, y dependiendo de la utilidad que se vaya a dar a la información a compilar, se seleccionan las capas temáticas a incluir.
+La estructuración de la información espacial procedente del mundo real en capas conlleva cierto nivel de dificultad. En primer lugar, la necesidad de abstracción que requieren los computadores implica trabajar con primitivas básicas de dibujo, de tal forma que toda la complejidad de la realidad ha de ser reducida a puntos, líneas o polígonos.
+En segundo lugar, existen relaciones espaciales entre los objetos geográficos que el sistema no puede obviar; la topología, que en realidad es el método matemático-lógico usado para definir las relaciones espaciales entre los objetos geográficos puede llegar a ser muy compleja, ya que son muchos los elementos que interaccionan sobre cada aspecto de la realidad.
+
+
+== Datos espaciales ==
+
+Un modelo de datos geográfico es una abstracción del mundo real que emplea un conjunto de objetos dato, para soportar el despliegue de mapas, consultas, edición y análisis. Los datos geográficos, presentan la información en representaciones subjetivas a través de mapas y símbolos, que representan la geografía como formas geométricas, redes, superficies, ubicaciones e imágenes, a los cuales se les asignan sus respectivos atributos que los definen y describen.
+Un dato espacial es una variable asociada a una localización del espacio. Normalmente se utilizan datos vectoriales, los cuales pueden ser expresados mediante tres tipos de objetos espaciales.
+
+
+=== Puntos ===
+Se encuentran determinados por las coordenadas terrestres medidas por latitud y longitud. Por ejemplo, ciudades, accidentes geográficos puntuales, hitos.
+
+
+=== Líneas ===
+Objetos abiertos que cubren una distancia dada y comunican varios puntos o nodos, aunque debido a la forma esférica de la tierra también se le consideran como arcos. Líneas telefónicas, carreteras y vías de trenes son ejemplos de líneas geográficas.
+
+
+=== Polígonos ===
+Figuras planas conectadas por distintas líneas u objetos cerrados que cubren un área determinada, como por ejemplo países, regiones o lagos.
+De esta forma la información sobre puntos, líneas y polígonos se almacena como una colección de coordenadas (x, y). La ubicación de una característica puntual, pueden describirse con un sólo punto (x, y). Las características lineales, pueden almacenarse como un conjunto de puntos de coordenadas (x, y). Las características poligonales, pueden almacenarse como un circuito cerrado de coordenadas. La otra forma de expresar datos espaciales es mediante rasterización, la cual, a través de una malla que permite asociar datos a una imagen; es decir, se pueden relacionar paquetes de información a los píxeles de una imagen digitalizada.
+Los datos espaciales además se caracterizan por su naturaleza georreferenciada y multidireccional. La primera se refiere que la posición relativa o absoluta de cualquier elemento sobre el espacio contiene información valiosa, pues la localización debe considerarse explícitamente en cualquier análisis. Por multidireccional se entiende a que existen relaciones complejas no lineales, es decir que un elemento cualquiera se relaciona con su vecino y además con regiones lejanas, por lo que la relación entre todos los elementos no es unidireccional. Es decir, todos los elementos se relacionan entre sí, pero existe una relación más profunda entre los elementos más cercanos. Como destacaba Tobler: "todo tiene que ver con todo, pero las cosas cercanas están más relacionadas que las cosas lejanas".
+
+
+== Álgebra ==
+El álgebra utilizada se denomina álgebra ROSE (RObust Spatial Extension) el cual está basada en los tipos de datos espaciales reales (STD - spatial data types), pero en este caso, los objetos no están definidos en el espacio Euclidiano continuo sino que en términos de la malla que discretiza el espacio, esto debido a que los cálculos computacionales son discretos. Los operadores espaciales se definen de la siguiente forma.
+
+
+=== Operadores de selección ===
+
+
+==== Query puntual (PQ) ====
+Dado un punto p, encontrar todos los objetos espaciales O que lo contienen.
+
+PQ(p)={O|p pertenece a O.G ≠ Ø}
+
+
+==== Ry de Rango o región (WQ) ====
+Dado un polígono P de consulta, encuentre todos los objetos O que intersecan P. Cuando P es rectangular, se llama windows query.
+
+WQ(P)={O|O.G ∩ P.G ≠ Ø}
+
+
+==== Agregación espacial ====
+Es una variante de búsqueda por vecino más cercano. Dado un objeto O’, encuentre los objetos o que tiene una mínima distancia de o’.
+
+NNQ(o')={o|para todo o: dist(o'.G,o.G) ≤ dist(o'.G,o.G)}
+
+
+==== Join espacial ====
+Es uno de los más importantes operadores. Cuando dos tablas R y S son unidas basado en un predicado espacial θ, la unión de las tablas es llamada espacial. Una variante de este operador en SIG es la superposición de mapas (map overlay). Este operador combina dos conjuntos de objetos espaciales para formar un nuevo conjunto. Las fronteras de este conjunto son determinadas por los atributos no espaciales asignados por la operación de superposición. Por ejemplo, si la operación asigna un mismo valor de un atributo no espacial a dos objetos vecinos, ellos se juntan o mezclan.
+
+
+== Métodos de acceso espacial ==
+Para evitar la revisión exhaustiva de los datos en una base de datos, se crean índices que reducen el número de elementos a visitar en la base de datos en un procesamiento de consulta. La clásica indexación por B-tree no es aplicable en el caso espacial donde no existe un orden único de los valores de claves. Es por este motivo que existen tres categorías de métodos de acceso espacial, las PAM (Point Access Method), R-Tree, las SAM (Spatial Access Method), los cuales se utilizan de acuerdo al tipo de dato en el que está la base de datos espacial ya sea raster o vectorial.
+Aunque se han creado los benchmarks que comparan diferentes métodos, los resultados no son concluyentes, pero se recomienda utilizar cualquiera de ellos. Un índice R-tree aproxima cada geometría en un único rectángulo que la acota minimizando los espacios llamado MBR (Minimal Bounding Rectangle) y organiza una colección de objetos espaciales en una jerárquica donde las hojas contienen punteros a los datos y los nodos intermedios contienen el rectángulo mínimo que contiene a sus sub-hojas. Todas las hojas aparecen al mismo nivel. Cada entrada a una hoja es una tupla (R,O), donde R es el MBR y O es el objeto. Cada nodo intermedio es un tupla (R,P), donde R es el MBR que contiene los rectángulos hijos apuntados por P.
+
+
+== Lenguajes de consulta espacial ==
+Las bases de datos espaciales no tienen un conjunto de operadores que sirvan como elementos básicos para la evaluación de consultas ya que estas manejan un volumen extremadamente grande de objetos complejos no ordenados en una dimensión. Es por esto que existen algoritmos complejos para evaluar predicados espaciales. Las consultas son realizadas generalmente en SSQL (Spatial SQL), el cual introduce, mediante extensiones, los distintos conceptos del álgebra ROSE dentro del lenguaje SQL estándar, es decir, utiliza las cláusulas SELECT-FROM-WHERE para las tres operaciones en el álgebra relacional (proyección algebraica, producto cartesiano y selección). Las tres categorías fundamentales de consultas en un sistema de información espacial son:
+Consultas exclusivamente de propiedades espaciales. Ejemplo: "Traer todos los pueblos que son cruzados por un río".
+Consultas sobre propiedades no espaciales. Ejemplo: "Cuantas personas viven en Valdivia".
+Consultas que combinan propiedades espaciales con no espaciales. Ej: "Traer todos los vecinos de un cuadra localizada en Los Angeles"
+En el lenguaje SSQL, el ejemplo del segundo punto se escribiría de la siguiente forma.
+SELECT poblacion FROM ciudades WHERE nombre= "Valdivia"
+El otro tipo de consultas, para los datos obtenidos mediante rasterización, es llamado PSQL(Pictoral SQL) donde cada objeto espacial se extiende mediante un atributo loc (localización) el cual es referenciado en la cláusula SELECT para una salida gráfica y una cláusula específica para tratar relaciones espaciales. También se destaca en los lenguajes de modelado de la información espacial a GML que es una estructura para almacenar y compartir datos geográficos. Es una codificación del modelo geométrico de rasgo simple del OGC (Open Geospatial Consortium simple feature) usando XML. Un rasgo geográfico (geographic feature) es definido por el OGC como "una abstracción del fenómeno del mundo real, si éste está asociado con una posición relativa a la Tierra". Por tanto, es posible hacer una representación del mundo real con un conjunto de rasgos. La especificación de un rasgo viene dada por sus propiedades, las que pueden pensarse definidas como un triple (nombre, tipo, valor). Si este rasgo es geográfico entonces la propiedad tendrá un valor geométrico. Por tanto, un rasgo simple del OGC es aquel cuya propiedad geométrica está restringida a una geometría simple en la que sus coordenadas estén definidas en dos dimensiones y en el caso de existir una curva, ésta es sujeta a una interpolación lineal. 2010
+
+
+== Aplicaciones BDE ==
+Normalmente las bases de datos espaciales están asociadas a sistemas SIS (Sistemas de Información Estratégicos) o SIG (Sistemas de Información Geográfica). La información geográfica contiene una referencia territorial explícita como latitud y longitud o una referencia implícita como domicilio o código postal. Las referencias implícitas pueden ser derivadas de referencias explícitas mediante geocodificación. La información geográfica es a su vez el elemento diferenciador de un Sistema de Información Geográfica frente a otro tipo de Sistemas de Información; así, la particular naturaleza de este tipo de información contiene dos vertientes diferentes: por un lado está la vertiente espacial y por otro la vertiente temática de los datos. Mientras otros Sistemas de Información contienen sólo datos alfanuméricos (nombres, direcciones, números de cuenta, etc.), las bases de datos de un SIG integran además la delimitación espacial de cada uno de los objetos geográficos. Las implementaciones de bases de datos espaciales se dividen en tres campos.
+
+
+=== SIG Puros ===
+Son bases de datos espaciales sin ninguna capa intermedia, realizan las operaciones de selección espacial de manera nativa. Son modulares, extensibles y normalmente con una interfaz amigable. Aunque también son capaces de generar una interfaz gráfica amigable para las bases de datos comunes, de tal manera de utilizar datos espaciales ya almacenados en estas tecnologías.
+
+
+=== Ad-hoc ===
+Son sistemas desarrollados para alguna aplicación determinada, que utilizan un sistema de manejo de archivos propio y por ende un sistema de administración de datos propio. Es por eso que no son modulares, ni reutilizables. La ventaja es que son muy eficientes.
+
+
+=== Bases de datos con extensiones para bases de datos espaciales ===
+Son sistemas de bases de datos normales a los cuales se les agrega una capa para el manejo de la geometría y hacer el "traspaso" desde datos comunes a datos espaciales transparente al usuario final.
+
+
+== Véase también ==
+Almacén de datos espacial
+Minería de datos espacial
+Base de datos
+Sistema de Información Geográfica
+
+
+== Referencias ==
+
+Rigaux, P. Scholl, M. Voisard, A (2002) Spatial Databases: With Application to GIS. Academic Press. ISBN 1-55860-588-6
+
+
+== Enlaces externos ==
+Spatial Database and Spatial Data Mining Research Group (en inglés)
+Tutorial de base de datos espaciales (en inglés)
+GIS de PostgreSQL

@@ -1,0 +1,28 @@
+La degradación de datos, también conocida por degradación de bits, descomposición de bits, descomposición de datos o por su equivalente ingles de bit rot, es un término coloquial del mundo digital que se usa para describir ya sea una gradual degradación del medio de almacenaje o la degradación de los programas con el paso del tiempo. Esta última acepción implica que el software puede gastarse u oxidarse como si fuera una herramienta física. Más comúnmente, la degradación de bits se refiere a la degradación física del medio de almacenaje.
+
+
+== Degradación de bits ==
+A menudo se define al bit rot como el evento por el cual las pequeñas cargas eléctricas de un bit de memoria se dispersan, posiblemente alterando el código de un programa.
+El termino "bit rot" también puede ser utilizado para describir el fenómeno de degradación de los datos almacenados en memorias EPROM y memorias flash con el paso de muchos años, o a la degradción de los datos almacenados en CD o DVD u otros tipos de almacenajes a los que accede el consumidor.
+La causa del "bit rot" depende del medio. Las memorias EPROM y flash almacenan datos utilizando cargas eléctricas las cuales pueden lentamente perderse debidas a una imperfecta aislación. El chip en sí no es afectado por esto, de manera que reprogramarlo aproximadamente una vez por década puede evitar la degradación.
+El almacenaje en diskettes y las cintas magnéticas también puede ser afectado por "bit rot" en la medida en que pierde su orientación magnética. En ambientes cálidos y húmedos estos medios están predispuestos a literalmente descomponerse. En los discos ópticos tales como los CD y DVD, la alteración fisicoquímica del material en el cual es almacenado el material puede producir "bit rot". Esto puede atenuarse almacenando los discos en lugares oscuros, frescos y secos. También pueden conseguirse discos de calidad especial para archivos. Las viejas tarjetas perforadas y cintas perforadas también pueden literalmente degradarse.
+El término también suele utilizarse para describir el concepto de que un semiconductor RAM puede ocasionalmente ser alterado por los rayos cósmicos. . Este fenómeno es conocido por anglófonos como "soft error" y no debe ser confundido con el error de software. La traducción más literaria y apropiada de soft error sería "error blando".
+
+
+== Problemas con software ==
+El término “bit rot” es a menudo utilizado para referirse a la descomposición del software no utilizado también llamado software durmiente. O sea que se aplica al código que gradualmente se va transformando en incorrecto debido a cambios en la interface del código activo que es requerido de en medio del código durmiente.
+Un programa puede funcionar correctamente durante años sin problemas y luego comenzar a funcionar mal sin ninguna razón aparente. Los programadores a menudo jocosamente atribuyen esta falla a bit rot. Este efecto puede deberse a fugas de memoria o a otros inaparentes errores de software. A menudo, aunque no hay ningún cambio obvio en el entorno operacional del software, ha ocurrido una sutil diferencia que pone en evidencia un error latente del software. El error en el software también puede originarse en errores humanos que permiten la construcción o el desvío hacia conductas falsamente positivas dentro del código. Algunos sistemas operativos tienden a perder estabilidad cuando se los dejan funcionando por largos períodos, razón por la cual deben de ser reiniciados ocacionalmente para remover errores residentes que se han producido debido a errores de software.
+El termino también es utilizado para describir el enlentecimiento en el desempeño de una PC de uso continuo con el paso del tiempo. Una causa de esto es la instalación de software o de componentes de software que se ejecutan cuando el usuario arranca lo cual produce un notable enlentecimiento en el tiempo de arranque. También, la adición de programas y datos en la computadora puede enlentecer las operaciones y las búsquedas y a veces, cuando los programas son desinstalados no se produce la remoción completa de los mismos. Adicionalmente, la fragmentación puede enlentecer el desempeño. Normalmente, los datos no usados (tales como un archivo de texto conteniendo algunas notas) no dificultan el desempeño de una PC ( con la excepción de software que, por ejemplo, indexa archivos en un disco para hacer la búsqueda de archivos más rápida).
+
+
+== Véase también ==
+Enlace roto
+Preservación digital
+Suma de verificación
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+"Bit rot" en el "Jargon File"

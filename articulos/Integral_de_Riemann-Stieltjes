@@ -1,0 +1,57 @@
+La integral de Riemann-Stieltjes es una extensión del concepto de Integral de Riemann que permite ampliar el potencial de esta herramienta. A diferencia de la integral de Riemann, que depende de una sola función f(x) llamada integrando, la integral de Riemann-Stieltjes depende de dos funciones, el integrando f(x) y una función α(x) llamada integrador.
+Para la integral de Riemann-Stieltjes se utiliza el siguiente símbolo: .
+
+
+== Definición formal de la integral de Riemann-Stieltjes ==
+Sea P={x0, x1 ... xn} una partición de un intervalo [a, b] (con a = x0 < x1 < ... < xn = b). Llamamos suma de Riemann-Stieltjes a una suma de la forma
+
+, con 
+
+Esta suma se simboliza como S(P, f, α). Se dice que f es Riemann-Stieltjes integrable respecto a α en el intervalo [a, b] si existe un número I tal que, para todo número real positivo ε existe una partición Pε que cumple con que para toda partición P más fina que Pε y para cualquier elección de los tk, tenemos |S(P, f, α) - I| < ε.
+La conexión entre la integral de Riemann "estándar" y la integral de Riemann-Stieltjes se produce cuando la función integradora α(x) es la función identidad, es decir, α(x) = x.
+
+
+=== La (*)-integral ===
+Para definir la integral de Riemann utilizamos la norma de una partición, esta definición se puede ampliar a que sea parecida a la de Riemann-Stieltjes, esta integral se llama la (*)-integral (que de hecho esta es la definición que originalmente propuso Stieltjes, y que luego Pollard, propondría la que actualmente usamos, la que está arriba):
+Una función f acotada definida en un intervalo [a, b] se dice que es (*)-integrable con respecto a α en [a, b] si existe un número I en los reales tal que, para todo número real positivo ε existe una δ positiva tal que si P es una partición de [a, b] con ||P|| < δ y S(P, f, α) es cualquier suma de Riemann-Stieltjes entonces |S(P, f, α) - I| < ε.
+El problema con esta definición es que no nos permite derivar todas las propiedades que nos gustaría, específicamente existen funciones que son (*)-integrables con respecto a otra función en los intervalos [a,c] y [c,b], pero que no lo son en [a,b], un ejemplo de tales funciones es el siguiente:
+Sean f y α las siguientes funciones:
+
+Para estas dos funciones sucede lo que se comenta arriba. El problema radica en que los puntos de la partición no los podemos elegir nosotros cuando se utiliza la definición de la (*)-integral.
+
+
+== Propiedades de la integral de Riemann-Stieltjes ==
+Es lineal respecto al integrando y al integrador, es decir, se cumple que:
+
+Al igual que las integrales de Riemann, una integral en un intervalo [a, b] puede separarse en la suma de dos integrales en los intervalos [a, c] y [c, b], con a < c < b:
+
+Existe la propiedad de integración por partes: Si f es integrable respecto a α, entonces α es integrable respecto a f y entre ambas integrales existe la siguiente relación:
+.
+Nótese que ésta propiedad coincide con la fórmula de integración por partes para integrales de Riemann si el integrador α(x) tiene derivada continua α'(x), caso en el que se puede convertir la integral de Riemann-Stieltjes en la integral de Riemann del producto f(x)α'(x).
+
+
+== Transformaciones a una integral de Riemann-Stieltjes ==
+En las integrales de Riemann-Stieltjes, al igual que en las integrales de Riemann, existe la propiedad del cambio de variable. En este caso esta propiedad adopta la siguiente forma:
+
+en que g(x) es una función continua y monótona.
+También puede convertirse una integral de Riemann-Stieltjes en una integral de Riemann si el integrador es una función con derivada continua. En ese caso se cumple que:
+
+
+== Integrales con integrador discontinuo ==
+Uno de los aspectos que demuestra el verdadero potencial de la integral de Riemann-Stieltjes se presenta cuando la función α(x) es una función escalonada como la función parte entera o la función escalón unitario.
+Supongamos que el integrador α(x) es la función definida por partes:
+
+Entonces todos los sumandos de cualquier suma S(P, f, α) son cero excepto en el subintervalo [u, v] de P que tiene a x0 como punto interior. Al obtener el límite de las sumas de Riemann-Stieltjes, se verá que éste tendrá el valor (b-a)f(x0).
+Para funciones escalonadas de cualquier tipo se puede aplicar un razonamiento semejante. Esto nos sirve para expresar una sumatoria de una cierta función como una integral en que el integrador es la función parte entera y = [x], como se ve a continuación:
+
+En efecto, para cualquier suma de Riemann-Stieltjes la diferencia [tk] - [tk-1] tendrá el valor 0 para cualquier intervalo [tk-1; tk] que no contenga un valor entero. Al calcular el valor de la suma límite, se verá que esta diferencia tiene valor 1 para los intervalos "bisecados" por enteros y que el valor que se terminará considerando para f(x) será el que corresponda a un x entero.
+Esto también implica que el valor de una integral de Riemann-Stieltjes puede verse afectado cambiando el valor del integrando en un solo punto; de hecho, esto puede incluso afectar la existencia de la integral, dependiendo de las discontinuidades de f y α. Si ambas son discontinuas en un cierto punto, la integral no existirá.
+
+
+== Aplicaciones ==
+Las integrales de Riemann-Stieltjes permiten describir un conjunto de fenómenos más amplio que las integrales de Riemann normales. Podemos utilizar, por ejemplo, una integral de Riemann-Stieltjes para reemplazar una sumatoria. Asimismo, una integral de línea de una función f(x, y, z) respecto a la longitud de arco de una curva r(t) = x(t)i+ y(t)j + z(t)k con t0 < t < tf es en realidad una integral de Riemann-Stieltjes en que el integrando es la función F(t) = f(x(t),y(t),z(t)) y el integrador es la función s(t) que indica la longitud del arco de curva:
+
+
+== Referencias ==
+Apostol, Tom M. 1960. Análisis Matemático (Mathematical Analysis), trad., ed. Reverté S. A.
+Bartle, Robert G. 1982. Introducción al Análisis Matemático (The Elements of Real Analysis), trad., ed. Limusa S.A.

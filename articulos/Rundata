@@ -1,0 +1,84 @@
+La base de datos unificada nórdica de inscripciones rúnicas (en sueco: Samnordisk runtextdatabas) es un proyecto que comenzó el 1 de enero de 1993 en la universidad de Upsala, Suecia. El objetivo del proyecto es catalogar globalmente todas las inscripciones rúnicas de una forma que sea legible por las máquinas para su investigación futura. La actual edición, publicada el 3 de diciembre de 2008, contiene unas 6500 inscripciones en la base de datos.
+La base de datos del proyecto es de acceso libre vía Internet con un programa cliente, llamado Rundata, que está disponible para los sistemas operativos Windows, Mac y Linux.
+
+
+== Formato de las entradas ==
+Cada entrada de la base de datos consta del texto rúnico original, el tipo de formato que tiene, su localización, la traducción al inglés y sueco, además de información sobre la propia piedra, etc.
+Las piedras se identifican con un código que consta de tres partes:
+La primera parte describe el lugar de origen. Para las inscripciones de Suecia, ésta consiste en un código para la provincia, y para los demás países se pone un código de país (no ISO 3166).
+Códigos de provincias suecas:
+Bo - Bohuslän
+D - Dalecarlia
+G - Gotlandia
+Gs - Gästrikland
+Hs - Hälsingland
+J - Jämtland
+Lp - Lappland
+M - Medelpad
+Nä - Nerike
+Sm - Småland
+Sö - Södermanland
+U - Uppland
+Vg - Västergötland
+Vr - Värmland
+Vs - Västmanland
+Ög - Östergötland
+Öl - Öland
+
+Códigos de país:
+BR - Islas británicas
+DR - Dinamarca
+FR - Islas Feroe
+GR - Groenlandia
+IR - Irlanda
+IS - Islandia
+N - Noruega
+
+La segunda parte del código consiste en un número de serie, correspondiente al número del antiguo método de catalogación de inscripciones rúnicas.
+La tercera parte del código consiste en caracteres que indican la época (protonórdica, época vikinga o Edad Media) y si la inscripción se ha perdido o se ha vuelto a traducir.
+
+# - inscripción perdida, después sustituido por †.
+$ - nueva traducción reciente.
+M - inscripción de la Edad Media posterior al año 1100.
+U - inscripción en protonórdico, es decir anterior al año 800.
+V - inscripción de la época vikinga (entre el 800 y 1100). Generalmente se omite. Así, si la inscripción tampoco lleva M o U, entonces se asume que es de la época vikinga, la más frecuente.
+
+Por ejemplo: U 88 significa que la piedra es de Uppland, que fue catalogada en el puesto 88º y es de la época vikinga. Este sistema tiene su origen en el libro Sveriges runinskrifter (Inscripciones rúnicas de Suecia).
+
+
+== Datación de las inscripciones en Rundata ==
+La mayoría de las piedras son de la época vikinga, pero es un periodo demasiado amplio y variado. Para algunas inscripciones danesas Jacobsen & Moltke dan un subperiodo más preciso. Estos periodos son:
+Helnæs-Gørlev -- anterior al 800 (o 750-900).
+för-Jelling (pre-Jelling) -- alrededor del 900.
+Jelling -- del siglo X hasta el XI.
+efter-Jelling (post-Jelling) -- entre 1000–1050.
+kristen efter-Jelling (Cristiano, post-Jelling) -- 1º mitad siglo XI.
+Muchas de las inscripciones en Rundata también incluyen un campo de subperiodo, llamado Stilgruppering, donde se refiere a las épocas según el estilo de ornamentación de la piedra, como propuso Gräslund. Estos periodos según los estilos de las piedras rúnicas son:
+RAK -- entre 990-1010.
+FP -- entre 1010-1050.
+Pr1 -- entre 1010-1040.
+Pr2 -- entre 1020-1050.
+Pr3 -- entre 1050 - y una generación después (generación framåt).
+Pr4 -- entre 1060-1100.
+Pr5 -- entre 1100-1130.
+
+
+== Obras de referencia originales ==
+Los números de catalogación se refieren a varias obras de referencia de publicaciones de historiadores. Algunas de las más importantes son:
+Gräslund, A-S. (1991). «Runstenar – om ornamentik och datering». TOR 23: 113–140. 
+— (1992). «Runstenar – om ornamentik och datering II». TOR 24: 177–201. 
+Jacobsen, Lis; Erik Moltke (1941-42). Danmarks runeindskrifter. Copenhagen: Ejnar Munksgaards Forlag.  
+Sveriges runinskrifter, varios volúmenes.
+Más información bibliográfica está disponible dentro del programa cliente de Rundata presionando F4.
+
+
+== Véase también ==
+Alfabeto rúnico
+Piedra rúnica
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+Samnordisk runtextdatabas (en sueco)

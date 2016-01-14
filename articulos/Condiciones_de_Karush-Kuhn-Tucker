@@ -1,0 +1,46 @@
+En programación matemática, las condiciones de Karush-Kuhn-Tucker (también conocidas como las condiciones KKT o Kuhn-Tucker) son condiciones necesarias y suficientes para que la solución de un problema de programación matemática sea óptima. Es una generalización del método de los Multiplicadores de Lagrange.
+
+
+== Problema general de optimización ==
+Consideremos el siguiente problema general:
+
+, 
+
+, 
+
+donde  es la función objetivo a minimizar,  son las restricciones de desigualdad y  son las restricciones de igualdad, con  y  el número de restricciones de desigualdad e igualdad, respectivamente.
+Las condiciones necesarias para problemas con restricciones de desigualdad fueron publicadas por primera vez en la tesis de máster de W. Karush, aunque fueron renombradas tras un artículo en una conferencia de Harold W. Kuhn y Albert W. Tucker.
+
+
+== Condiciones necesarias de primer orden ==
+Supongamos que la función objetivo, por ejemplo, a minimizar, es  y las funciones de restricción son  y . Además, supongamos que son continuamente diferenciables en el punto . Si  es un mínimo local, entonces existe constantes ,  y  tales que
+
+
+== Condiciones de regularidad (o cualificación de las restricciones) ==
+En la condición necesaria anterior, el multiplicador dual  puede ser igual a cero. Este caso se denomina degenerado o anormal. La condición necesaria no tiene en cuenta las propiedades de la función sino la geometría de las restricciones.
+Existen una serie de condiciones de regularidad que aseguran que la solución no es degenerada (es decir ). Estas incluyen:
+Cualificación de la restricción de independencia lineal (CRIL): los gradientes de las restricciones activas de desigualdad y los gradientes de las restricciones de igualdad son linealmente independientes en .
+Cualificación de la restricción de Mangasarian-Fromowitz (CRMF): los gradientes de las restricciones activas de desigualdad y los gradientes de las restricciones de igualdad son linealmente independientes positivos en .
+Cualificación de la restricción de rango constante (CRRC): para cada subconjunto de las restricciones activas de desigualdad y los gradientes de las restricciones de igualdad, el rango en el entorno de  es constante.
+Cualificación de la restricción de dependencia lineal constante positiva (DLCP): para cada subconjunto de restricciones activas de desigualdad y de gradientes de las restricciones de igualdad, si es linealmente dependiente positivo en  entonces es linealmente dependiente positivo en el entorno de . ( es linealmente dependiente positivo si existe  distintos de cero tal que )
+Condición de Slater: para un problema únicamente con restricciones de desigualdad, existe un punto  tal que  para todo 
+Puede verse que CRIL=>CRMF=>DLCP, CRIL=>CRRC=>DLCP, aunque CRMF no es equivalente a CRRC. En la práctica, se prefiere cualificación de restricciones más débiles ya que proporcionan condiciones de optimalidad más fuertes.
+
+
+== Condiciones suficientes ==
+Séa  la función objetivo y las funciones de restricción  sean funciones convexas y  sean las funciones de afinidad, y séa un punto . si existen constantes  y  tales que
+
+entonces el punto  es un mínimo global.
+
+
+== Referencias ==
+Notas
+
+Bibliografía
+Avriel, Mordecai (2003). Nonlinear Programming: Analysis and Methods. Dover Publishing. ISBN 0-486-43227-0.
+R. Andreani, J. M. Martínez, M. L. Schuverdt, On the relation between constant positive linear dependence condition and quasinormality constraint qualification. Journal of optimization theory and applications, vol. 125, no2, pp. 473-485 (2005).
+
+
+== Véase también ==
+Teorema de Karush Kuhn Tucker aplicado a un Problema de Programación No Lineal
+El artículo de A. Kuhn y W. Tucker (en inglés)

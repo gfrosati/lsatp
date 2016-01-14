@@ -1,0 +1,19 @@
+La abolladura es un fenómeno de inestabilidad elástica que afecta a elementos estructurales bidimensionales cuando estos se someten a tensiones de compresión según su plano o superficie media.
+En ingeniería estructural el problema de abolladura no se presenta en elementos propiamente bidimensionales como placas o láminas sino que también puede aparecer localmente en partes bidimensionales de elementos como el alma o las alas de una viga, los nervios laterales de refuerzo de un depósito etc.
+
+
+== Abolladura de placas por compresión ==
+El ejemplo más simple de abolladura más simple es el de una placa rectangular simplemente apoyada en sus cuatro lados y sometida a compresión mediante cargas uniformes aplicadas sobre dos de sus lados opuestos. De una manera similar al pandeo de elementos unidimensionales, una placa sin defectos de curvatura permanece aproximadamente plana hasta el momento en que la compresión alcanza un valor crítico, y entonces padea con deformaciones laterales.
+La ecuación diferencial para el pandeo de placas, establecida por G. H. Bryan en 1891, para el caso simple de una placa simplemente apoyada sobre sus lados y comprimida según una sola dirección es una modificación de la ecuación de gobierno de Lagrange para placas:
+
+Donde:
+, es el operador laplaciano.
+, es la deflexión lateral en el punto (x, y) de la placa.
+, es el esfuerzo axil crítico por unidad de longitud que representa la compresión máxima a partir de la cual se produce la abolladura.
+, es la rigidez flexional de la placa.
+, es la dirección paralela a las compresiones de la placa.
+Para una placa rectangular de lados a y b y espesor t, comprimida uniaxialmente, la carga crítica o esfuerzo axil crítico por unidad de longitud viene dado por:
+
+Donde el coeficiente km depende de las condiciones de apoyo en los bordes de la placa. Por ejemplo para una placa simplemente apoyada el n-ésimo modo de pandeo con m semiondas viene dado por un valor de km:
+
+El esfuerzo crítico de pandeo vendrá dado por el valor que minimiza el anterior coeficiente. El valor concreto de m depende de la relación a/b aunque el valor de km que da la carga crítica es siempre 4, para una placa simplemente apoyada en sus bordes.

@@ -1,0 +1,44 @@
+Un detector de radar es un dispositivo pasivo electrónico usado por conductores de vehículos para saber si su velocidad está siendo monitoreada por inspectores con pistola radar, logrando potencialmente evitar una infracción por alta velocidad. Solo las unidades del tipo radar Doppler pueden detectarse — otros dispositivos de medición de velocidad como los que usan ANPR, piezo sensores, o tecnología VASCAR no pueden detectarse, mientras las unidades LIDAR requieren un sensor diferente. La mayoría de los actuales detectores de radar ubican señales de una gran variedad de bandas de longitud de ondas — usualmente X, K, Ka (y Ku, en Europa.)
+
+
+== Descripción ==
+Una de las tecnologías que usa el Estado para medir velocidad de vehículos es el radar Doppler que envía un haz de onda de radio al vehículo, y luego adquiere el retorno de la onda de radio reflejada, infiriendo la velocidad del vehículo midiendo el efecto Doppler-en la frecuencia cambiada de la onda reflejada. El radar de control de velocidad puede ser manual, montado en vehículo o en tierra estratégicamente apuntando.
+Los detectores de radar usan un receptor superheterodino para detectar tales emisiones electromagnéticas de la pistola radar, y disparan una alarma para notificar al conductor cuando se detecta una transmisión. Pueden suceder falsas alarmas debido a otros dispositivos, como abreportones automáticos, y otros que operan en la misma parte del espectro electromagnético como las pistolas radar.
+Últimamente algunos detectores han agregado tecnología GPS. Esto permite a los usuarios almacenar manualmente las localidades donde los inspectores frecuentemente monitorean el tráfico, así el detector sonará una alarma al aproximarse a tales localidades en el futuro. Además estos detectores también permiten almacenar manualmente las coordenadas de sitios de frecuentes falsas alarmas, así el detector con GPS ignorará tales sitios. Algunos detectores con GPS puedn bajar las coordenadas GPS de cámaras de monitoreo de velocidad y de semáforos, de internet, que están contenidas en la database Trinity. Así, un conductor de fuera de un Estado, al pasar por Arizona por ej., recibiría una alarma al acercarse a un sitio de cámaras de monitoreo de velocidad.
+
+
+== Tecnología de conteo ==
+Las pistolas radar y sus detectores han ido evolucionando alternativamente, en una forma civil de guerra electrónica. Por ejemplo, al introducirse nuevas frecuencias, los detectores inicialmente estuvieron "ciegos" hasta que su tecnología fue actualizada. Así mismo, la longitud de tiempo y potencia de las transmisiones se han bajado para reducir las posibilidades de detección, lográndose a la postre receptores más sensibles y software más complejo para la tecnología de conteo. Últimamente, los detectores combinan otras tecnologías, como GPS con bases de datos de puntos de interés de localidades conocidas de radares de velocidad, en un solo aparato para mejorar las posibilidades de éxito.
+
+
+=== Detectores de detector de radar ===
+
+El receptor superheterodino en detectores de radar consta de un oscilador local que irradia ligeramente, siendo así posible construir un detector de detector de radar, detectando tales emisiones (usualmente en la frecuencia del tipo de radar que está siendo detectado, más cerca de 10 MHz). El VG-2 Interceptor fue el primer desarrollo para este propósito, pero fue eclipsado por el Spectre III. Esta forma de "guerra electrónica civil" cortó ambas vías - ya que el detector de detector usa un similar receptor superheterodino, y los primeros detectores de radar "stealth" se equipaban con un circuito detector-detector-detector de radar, que cortaba el receptor principal de radar cuando el detector de detector de señales era percibido, previniendo su detección por tales equipos. Esa técnica seguía la técnica ELINT de contramedidas. A principios de 1990s, BEL-Tronics, Inc. de Ontario, Canadá (donde el uso de detectores de radar estaba prohibido) halló que la frecuencia del oscilador local de un detector podía ser alterada para estar fuera del rango del VG-2 Interceptor. Así resultó en que los fabricantes de detectores respondieran cambiando sus frecuencias de oscilador locales. Hoy, prácticamente cada detector de radar en el mercado es inmune al VG-2 Interceptor.
+
+
+=== Emisor de interferencias de radar ===
+Aunque algunas compañías advierten que sus detectores de radar pueden generar interferencias (como el Rocky Mountain Radar), muchos de ellos no afectan a los equipos de radar y de laser debido a su baja potencia y casi nula antena.
+Es ilegal en muchos países poseer cualquier producto que activameente transmita señales de radar con la intención de efectuar interferencias a los equipos de radar. La transmisión de frecuencias con licencia de la FCC sin un permiso es una violación a las regulaciones FCC y un delito en EE. UU.
+
+
+== Detección LIDAR ==
+
+Los últimos detectores de velocidad usan luz pulsada láser, comúnmente referidos como LIDAR, más que ondas de radio. Los detectores radar, que detectan radio transmisiones, son inútiles para detectar la emisión de luz infrarroja emitida por pistolas LIDAR, requiere de un tipo diferente de aparato: detector LIDAR. La detección LIDAR, sin embargo, no es efectiva como la detección radar debido a que su salida del haz es muy enfocada. Mientras las ondas de radio del radar pueden expandirse a 85 pies (25,908 m) desde la fuente a 1000 pies (304,8 m), el haz de luz LIDAR difumina solo cerca de 6 pies (1,8288 m). Además, el operador apuntando a un vehículo lo logrará fácilmente con la pistola radar, y debido a que los detectores de radar se montan en el parabrisas, no deben estar alertas. Últimamente, con los haces laser, un operario usando una pistola LIDAR puede apuntar a un solo auto en proximidad a otros a rangos de 3000 pies (914,4 m).
+A pesar del advenimiento del detector de velocidad LIDAR, el radar permanece más vendido debido a su más barato precio relativo al LIDAR.
+
+
+== Legalidad ==
+El uso o posesión de un detector de radar o un generador de interferencias es ilegal en ciertos países, y puede resultar en su incautación, multa, o ambos. Esas prohibiciones generalmente se introducen bajo la premisa de que un conductor que lo usa tiene un mayor riesgo de siniestro que otro que no lo usa. Sin embargo el 2001 reporte Mori sugiere que los detectores de radar hace a sus usuarios 28% menos de riesgo de accidente. La tabla debajo da información acerca de las leyes regulatorias de detectores de radar en naciones particulares.
+En España, los detectores de radares y los inhibidores han sido siempre ilegales. Pero desde Mayo del 2010, los detectores de radares son legales en España. Para aclarar la polémica y diferentes opiniones, el director de la DGT ha publicado una carta en la que confirma que son legales:, aunque el subdirector adjunto de Normativa y Recursos de la DGT, Javier Villalba, manifestó que estos aparatos se encuentran en “un limbo jurídico” y que se espera que pronto se vuelvan a prohibir.
+Desde Abril de 2014, Ley 6/2014, de 7 de abril, por la que se modifica el texto articulado de la Ley sobre Tráfico, Circulación de Vehículos a Motor y Seguridad Vial, aprobado por el Real Decreto Legislativo 339/1990, de 2 de marzo. Con el PREÁMBULO V: Dentro del artículo 11, referido con un título muy amplio a «Normas generales de conductores», se introduce la prohibición de los sistemas de detección de radares o cinemómetros, mecanismos que no pueden confundirse con los sistemas que tienen como fin exclusivamente informar de la ubicación de los mismos, ni tampoco con los inhibidores de radares o cinemómetros, ya prohibidos. Se ha estimado que un aparato que en el fondo tiene como razón de ser eludir la vigilancia del tráfico y el cumplimiento de los límites de velocidad no puede tener la más mínima cobertura [...]
+
+
+== Enlaces externos ==
+Información, vídeos y comparativas de los mejores detectores de radar para España
+Blog sobre los detectores de radar para España y Europa
+Tienda de los mejores detectores de radar para España
+Radar de tráfico
+Revisión de Detectores de Radar
+
+
+== Referencias ==

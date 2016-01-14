@@ -1,0 +1,76 @@
+La criptografía basada en identidad o IBC (acrónimo de 'Identity-Based Cryptography'), fue introducida en 1984 por Adi Shamir. Se caracteriza por el uso de atributos de identidad de los usuarios (cadenas de caracteres identificativos). Ejemplos de atributos de identidad: direcciones de email, números de teléfono, IP´s, nombres de dominio. A partir de estas cadenas identificativas se puede cifrar y verificar las firmas, sin ser necesario el uso de los certificados digitales de PKI. Por tanto ya no es necesario generar y manejar certificados de usuario y por tanto es mucho más fácil proporcionar criptografía a usuarios noveles ya que los mensajes pueden ser encriptados por los usuarios antes de que éstos interactúen con cualquier entidad.
+En un principio Adi Shamir propuso una forma de usar el algoritmo RSA para firma electrónica o IBS (acrónimo de 'Identity-Based Signature'). Sin embargo hubo que esperar hasta 2001 cuando dos líneas de investigación independientes (Boneh and Franklin y Cocks ) propusieron sistemas para conseguir sistemas de cifrado basado en identidad o IBE (acrónimo de 'Identity-Based Encryption'). También se han desarrollado otros sistemas para hacer firma usando este tipo este tipo de criptografía. Por ejemplo el propuesto por Boneh, Lyn y Shacham. Los esquemas criptográficos propuestos hasta ahora que usan este tipo de criptografía se basan en la teoría matemática de los resíduos cuadráticos o en la de los emparejamientos bilineales. Realmente la amplia mayoría de los esquemas criptográficos basados en identidad, y todos aquellos que son eficientes se basan en los emparejamientos bilineales y por eso a este tipo de criptografía se la llama a veces criptografía basada en emparejamientos o en inglés pairing-based cryptography.
+
+
+== Esquema básico de funcionamiento ==
+La IBC confía en una entidad confiable llamada Generador de claves privadas llamado PKG por ser el acrónimo de 'Private Key Generator'. Antes de que las operaciones puedan comenzar el PKG tiene que generar un par de claves pública/privada (que vamos a llamar pkPKG y skPKG respectivamente). Estas claves son llamadas clave pública maestra y clave privada maestra respectivamente. Para operar, el PKG primero publica la clave pública maestra (pkPKG) a los usuarios de sus servicios. Dada la clave pública maestra cualquiera puede calcular la clave pública correspondiente a una identidad combinando la clave pública maestra con la cadena de identidad. Para obtener la correspondiente clave privada, la parte autorizada a usarla contacta con el PKG para que este use su clave privada maestra para generar la clave privada para la identidad ID.
+
+
+=== Para cifrado (IBE) ===
+El proceso de cifrado/descifrado funciona de la siguiente forma:
+Alicia prepara un mensaje de texto plano M para B. Ella usa la identidad de Bob IDBob y la pkPKG para encriptar M, obteniendo un mensaje cifrado C. Alice envía C a Bob. Observar que IDBob y pkPKG son ya conocidos antes de que Alice comience a cifrar el mensaje a Bob. Por tanto no se requiere coordinación o preparación con Bob para enviarle un mensaje cifrado.
+Bob recibe un mensaje cifrado C de Alice. En la mayoría de las implementaciones se asume que C viene con instrucciones en texto plano para contactar con el PKG y obtener la clave privada requerida para desencriptar el mensaje. Bob se autentica con el PKG, esencialmente enviándole suficiente información para probar que el IDBob le pertenece a él. Una vez probado el PKG le transmite a Bob su clave privada skIDBob a través de un canal seguro. Por ejemplo si el IDBob está basado en una dirección de correo electrónico, el PKG podría enviarle un mensaje a este email para que Bob responda con una acción que provea un nivel de fiabilidad suficiente de que el propietario del IDBob es el que realmente responde al mensaje que el PKG envió. Por ejemplo el mensaje que envía el PKG podría tener un identificador que podría ser devuelto vía un link https en cual se puede usar para descargar su clave privada. Para tener un alto nivel de fiabilidad, a Bob se le podría requerir presentar sus credenciales en persona y recibir un compact disc conteniendo el skIDBob
+Bob descifra C usando su clave privada skIDBob para recuperar el mensaje en texto plano M
+Una variación de el proceso descrito más arriba es que el PKG pueda desencriptar C para Bob y transmitírselo de forma segura mediante autenticación. Este sistea es usado a veces para incrementar la facilidad de uso del proceso de descifrado.
+Se puede ver claramente el punto débil de la IBE: Todas las claves privadas tienen que ser creadas por el PKG.
+La autenticidad de la clave pública está garantizada implícitamente debido a que el transporte de la clave privada al usuario correspondiente es segura (Autenticidad, Integridad y Confidencialidad)
+
+
+=== Para firma (IBS) ===
+La firma usando criptografía basada en identificación es esencialmente el proceso inverso del proceso de cifrado
+Alice se autentica con el PKG y recibe su clave privada skIDAlice
+Usando su clave privada skIDAlice, Alice genera una firma s de M y la transmite a Bob.
+Después de recibir M y s de Alice, Bob mira si s es una firma auténtica de M usando la identidad de Alice IDAlice y la clave pública pkPKG. Si la firma es genuina se acepta el mensaje, en otro caso no. Observar que Bob no necesita en ningún momento tener ningún tipo de certificado de Alice.
+
+
+== Seguridad ==
+En la actualidad la amplia mayoría de los esquemas criptográficos basados en identidad, y todos aquellos que son eficientes, están basados en unas funciones matemáticas llamadas mapas no degenerativos bilineales. Un mapa no degenerativo bilineal es una función que asocia a un par de elementos (emparejamientos o pairing) de un grupo cíclico a otro del mismo orden primo, donde el problema del logaritmo discreto es computacionalmente difícil en el primer grupo.
+La seguridad que aportan los mapas bilineales elegidos se basa en que se consideran funciones de un sólo sentido (funciones que son fáciles de calcular su resultado dando sus parámetros de entrada pero es difícil calcular su inversa). A esta suposición se le suele llamar "Suposición Diffie-Hellman Bilineal" ya que el problema Diffie-Hellman Bilineal es reducible (algorítmicamente equivalente) a el logaritmo discreto.
+Definición: Sean F y G dos grupos de tamaño q primo. G está descrito en términos de una operación aditiva y formado por puntos de una curva elíptica, mientras que F está descrito en términos de una operación multiplicativa y formado por un subconjunto de campo finito. Un par bilineal es un mapeado e:GxG->F con las siguiente propiedades:
+Bilinearidad: Si R1, R2 son de G y a,b son de Z*q entonces e(a·R1,b·R2)=e(R1,R2)ab
+No degenerativo: e no transforma todos los puntos de GxG en único punto de F
+Eficiencia: El cálculo de e es eficiente para cualquier elemento del dominio.
+El problema de Diffie-Hellman original se basa en que, dado un valor g (el generador de un grupo) y x,y enteros aleatorios, si se entrega gx, gy calcular gxy es computacionalmente difícil. La variante bilineal de este problema, llamado PBDH por el acrónimo de 'Problema Diffie-Hellman Bilineal', se basa en ese mismo principio. Si se tiene un grupo G de tamaño q primo, con un mapa e y a,b,c elementos al azar, si se entrega la tupla (G,q,e,P, aP, bP, cP), con P en G calcular e(P,P)abc es computacionalmente difícil.
+Los sistemas mejor conocidos para IBC están basados en emparejamientos bilineales sobre curvas elípticas de dos tipos: Emparejamientos de Weil y emparejamientos de Tate. En estos dos sistemas el operador · se refiere a la multiplicación de un punto en una curva elíptica de enteros. Aunque computar las operaciones de multiplicación a·X es fácil, sin embargo encontrar a, dado X y a·X es computacionalmente difícil.
+
+
+== Ventajas e inconvenientes de la criptografía basada en identidad ==
+
+
+=== Ventajas ===
+No se necesita ninguna preparación por parte del receptor para recibir un mensaje cifrado.
+No se necesita ninguna gestión de infraestructura de clave pública, incluida gestión de CRL´s.
+Observar que tanto el cifrado como la firma puede ser realizado por el PKG. Por tanto se elimina la propiedad del no-repudio en la mayoría de los casos. Pero esta propiedad hace posible otras propiedades que no son posibles en los sistemas basado en PKI donde el firmante es el único propietario de su clave privada:
+Firmas Camaleón, en la cual sólo el destinatario es capaz de asegurar la validez de la firma.
+Mejorar la amigabilidad del sistema haciendo que el PKG gestione las operaciones criptográficas para el usuario y no requerir instalación de clientes en hardware del usuario. Esto puede ser especialmente poderoso en el caso donde una empresa quiera adoptar una política donde cualquier mensaje de cierta nivel de sensibilidad sea automáticamente firmado o cifrado usando herramientas como la búsqueda de palabras clave en el contenido del mensaje, expresiones regulares en los que reciben o en el que envía el mensaje. Los usuarios no necesitan modificar su forma de operar.
+Si los usuarios no tienen que recibir su clave pública y por tanto se mantiene sólo en el PKG, normalmente podemos asegurar un nivel de seguridad mucho más alto que si estuviera en el equipo del usuario.
+
+No tener PKI significa tener menos información pública sobre la empresa revelada a quien no tiene necesidad de conocerla. Cada aplicación o persona que se conecta a una base de datos de certificados de una empresa podría teóricamente descubrir una gran cantidad de información sobre la infraestructura o jerarquía de la empresa. Esto puede ser una mejora importante de la seguridad en grandes compañías donde algunos empleados trabajan en proyectos sensibles y que sólo interactúan en su día a día con un círculo cerrado de compañeros.
+
+
+=== Inconvenientes ===
+La desventaja más importante del IBC es que inherentemente el PKG puede realizar tanto la firma como el cifrado (the key scrow problem). Por tanto se elimina la propiedad del no-repudio en la mayoría de los casos. Sin embargo hay que observar que en algunas organizaciones que usan PKI ya renuncian a esta propiedad para permitir a los usuarios recuperar datos cifrados y que serían irrecuperables si los usuarios pierden su clave privada.
+Para eliminar o mitigar esta desventaja se han desarrollado variantes de la IBC. Ejemplo:
+Usando criptografía basada en certificados.
+Usando criptografía con claves seguras. En ellas el nivel de confiaza en el PKG se reduce dispersando las claves maestras a través de múltiples PKG's. Esto incrementa la seguridad del sistema pero reduce el rendimiento
+Usando criptografía sin certificados
+Usando técnicas de para almacenamiento compartido de secretos. Ejemplo el esquema de Shamir
+
+Observar que hay sistemas que incluso usando PKI no proveen de forma perfecta la propiedad del no-repudio ya que hay siempre un momento antes de que la clave comprometida sea reportada a la CA. En los sistemas IBC hay también todavía algunos niveles de no-repudio, pero ellos están sustentados en el nivel de confianza en el PKG.
+En cualquier caso en sistemas con número finito y definido de usuarios en los que podemos asegurar que todos los usuarios se han descargado su clave privada, podemos dar más seguridad haciendo que el PKG destruya todas esas claves privadas (observar que tenemos que confiar en que esa destrucción es efectiva). Si hacemos esto estamos asumiendo que las claves son siempre válidas, ya que no hay forma de revocar las claves.
+IBC en la forma más básica también tiene un punto débil en la revocación de claves: Supongamos, por ejemplo, que la clave privada de Bob está comprometida. La clave fue asociada con su dirección pública de email. ¿Bob necesita ahora cambiar de dirección de email porque su clave privada ha sido comprometida?. ¿Qué pasaría si en lugar de asociarse a su dirección de email, se ha asociado a algún tipo de dato biométrico, por ejemplo su huella dactilar?. Una forma de paliar el alcance del problema sería concatenar a la identificación un timestamp de validez. Según esta solución la clave pública sólo será válida mientras el timestamp no caduque, lo cual permite limitar el daño que podría hacer que una clave privada sea comprometida
+Otra desventaja es el alto de nivel de seguridad y disponibilidad que se requiere en el PKG ya que en él están todas las claves privadas y tiene que estar disponibles. El nivel requerido es mayor que el requirdo para una CA de una PKI. Una CA puede estar desconectada de la red, pero el PKG tiene que estar disponible en todo momento para enviar sus claves privadas a los usuarios lo que la hace más vulnerable a un ataque. Para mitigar parte del problema de que el PKG sea comprometido se puede establecer un sistema de forma que las claves caduquen (Ej concatenando un timestamp al identificador) y que cada cierto tiempo se generen un nuevo par de claves independientes. Esto introduce una nueva complejidad para que todos los usuarios tengan en cada momento las claves actualizadas
+Es necesario el uso de un canal seguro entre el usuario que legítimamente tiene el identificador y el PKG para retransmitirle la clave privada. Como canal normalmente se usan conexiones sobre SSL. Observar que para retransmitirle la información el PKG tiene que estar seguro de autenticar al usuario. Esto puede ser un problema dependiendo de la seguridad de autenticación requerida. Ej: mandarle un email a la cuenta de correo con un link https para bajarse la clave secreta, usar autenticación mediante un certificado de una PKI (Ej smartcards)
+Se puede apoyar sobre técnicas criptográficas que son inseguras contra ataques con computación cuántica
+
+
+== Implementaciones ==
+Boneh and Franlin junto con otros investigadores han desarrollado una implementación en C++ de un sistema IBE publicado bajo una licencia de tipo MIT llamada Stanford IBE System
+Shamus Software también ha desarrollado otra librería criptográfica en C++ llamada MIRACL que entre otras aporta la funcionalidad del esquema IBE de Boneh and Franlin
+Hay una implementación comercial de IBE publicada por Voltage Security . El producto se ofrece a través de plug-in para clientes de correo como Outlook
+
+
+== Referencias ==
+
+Carl Youngblood, An Introduction to Identity-based Cryptography- CSEP 590TU-Marzo 2005
+María Francisca Moreno Vilicich Diseño e implementación de un esquema de encriptación y firmas basado en identidad para dispositivos BUG- Universidad de Chile. Facultad de ciencias físicas y matemáticas. Departamento de ciencias de la computación. Diciembre 2010.

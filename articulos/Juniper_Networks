@@ -1,0 +1,63 @@
+Juniper Networks es una multinacional dedicada a sistemas de redes y seguridad fundada en 1996. Su sede principal está Sunnyvale, California. Es actualmente junto con Enterasys, la competencia más directa de Cisco, sobre todo en Europa.
+
+
+== Productos ==
+
+
+=== Routers ===
+Su electrónica de red se divide en routers:
+Serie BX (Gateways multiacceso)
+Serie CTP (Plataforma circuito a paquete)
+Serie J (Routers de servicio)
+Serie E (Routers de servicio)
+Serie LN (Routers de seguridad movil)
+Serie M (Routers de multiservicio)
+Serie T (Routers de core)
+Posee, al igual que cisco, un sistema operativo propio para sus routers, denominado JunOS. El mismo se utiliza en los routers, los switches y los dispositivos de seguridad que ofrece Juniper. Reduce el tiempo necesario para implementar nuevos servicios y reduce los costos de operación.
+
+
+=== Equipos de seguridad ===
+Equipos de seguridad, como IDS, Firewall y VPN:
+Gama ISG con módulos IDS integrados (IDP, Intrusion Detection and Protection o Detección y Protección contra Intrusos)
+IDP específicos
+Su amplia serie de Firewalls NetScreen.
+Concentradores de túneles VPN-SSL e IPSec (equipos denominados Secure Access).
+
+
+=== Otros productos ===
+Equipos de optimización de enlaces:
+Compresores y aceleradores de enlaces de área amplia (WAN por sus siglas en inglés, Wide Area Network) series WX y WXC (anteriormente Peribit, empresa absorbida por Juniper Networks).
+Equipos de conmutación:
+Switches serie EX.
+Equipos y software de gestión centralizada:
+Netscreen Security Manager (NSM), software disponible tanto para Linux como para Solaris y el dispositivo NSMXpress, el cual es un equipos con procesadores Intel Dual Core, Linux Red Hat y el software NSM preinstalado.
+Si bien los switches comparten el sistema operativo JunOS presente en todos los routers de la compañía, otros equipos presentan sistemas operativos similares aunque distintos: los firewalls Netscreen, ISG y SSG ScreenOS; los compresores WX/WXC usan WXOS, los concentradores de VPN Secure Access usan IVE y los equipos IDP cuentan con un sistema operativo Red Hat linux modificado.
+
+
+== Certificaciones técnicas ==
+Juniper también posee certificaciones técnicas que permiten a los participantes demostrar competencias en la utilización de los dispositivos de Juniper. Existen los siguientes niveles para las diversas soluciones:
+Juniper Networks Certified Internet Associate (JNCIA-xx)
+Juniper Networks Certified Internet Specialist (JNCIS-xx)
+Juniper Networks Certified Internet Professional(JNCIP-xx)
+Juniper Networks Certified Internet Expert (JNCIE-xx)
+
+
+== Adquisiciones ==
+Noviembre de 1999 — Layer Five
+Diciembre de 2000 — Micromagic
+Noviembre de 2001 — Pacific Broadband
+Mayo de 2002 — Nexsi Systems
+Julio de 2002 — Unisphere Networks, una subsidiaria de Siemens
+Abril de 2004 — NetScreen Technologies
+Abril de 2005 — Kagoor
+Julio de 2005 — Peribit Networks
+Julio de 2005 — Redline Networks
+Octubre de 2005 — Acorn Packet Solutions
+Diciembre de 2005 — Funk Software
+Abril de 2010 — Ankeena Networks
+Noviembre de 2010 — Trapeze Networks
+Diciembre de 2010 — Altor Networks
+
+
+== Enlaces externos ==
+Página web oficial

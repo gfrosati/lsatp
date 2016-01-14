@@ -1,0 +1,22 @@
+En genética, GC, Contenido GC o Porcentaje GC (contenido de guanina y citosina) es una característica del genoma de un organismo o de cualquier pedazo de ADN o ARN. G y C denotan guanina y citosina, respectivamente. Expresado generalmente como porcentaje, representa la cantidad de pares Guanina-Citosina en la molécula de ADN o genoma que está siendo investigado. La fracción restante de cualquier molécula de ADN contendrá bases A (adenina) y T (timina), de forma que el contenido GC da también el contenido AT (por ejemplo, un GC del 58% implica un contenido AT del 42%). Los pares GC en el ADN están conectados por tres enlaces de hidrógeno en vez de dos de los pares AT. Esto hace el enlace GC más fuerte y más resistente a la desnaturalización por efecto de la temperatura por lo que el contenido GC tiende así a ser mayor en los hipertermófilos.
+El contenido GC se utiliza a veces para clasificar organismos en taxonomía. Por ejemplo, las Actinobacteria se caracterizan por ser “bacterias de GC alto”. En Streptomyces coelicolor el GC es del 72%, en la levadura Saccharomyces cerevisiae del 38%, mientras que en el organismo modelo Arabidopsis thaliana es del 36%.
+Debido a la naturaleza del código genético, es virtualmente imposible para que un organismo tenga un genoma con un contenido GC que se acerque al 0% o a 100%. Una especie con un GC extremadamente bajo es Plasmodium falciparum (GC ~20%), y en estos casos es generalmente común referirlos como AT altos en vez de GC bajos. En una sección larga de la secuencia genómica, los genes se caracterizan a menudo por un GC más alto comparado con el genoma entero. Particularmente, los exones son genes con GC alto, mientras que los intrones tienen generalmente AT alto (GC bajo). Más generalmente, muchos estudios han buscado (y encontrado) patrones de la variación de GC a través de una secuencia genómica (abarcando ambas regiones, génicas e intragénicas que las separan). La función y significado de tal variación es confusa. En experimentos con la reacción en cadena de la polimerasa, el GC del partidor se utiliza para determinar los patrones de temperatura. Un GC más alto implica una temperatura de desnaturalización más alta.
+El GC se puede medir por varios métodos, siendo uno de los más simples la temperatura de desnaturalización de la doble hélice del ADN con un espectrofotómetro. La respuesta del ADN a en la longitud de onda de 260 nm aumenta bastante abrupta cuando la doble hélice se separa en dos las dos hebras cuando se calienta suficientemente. Alternativamente, si la molécula ADN o ARN ha sido secuenciada entonces el GC se puede obtener exactamente contando el número de bases.
+
+
+== Determinación ==
+El contenido GC es expresado usualmente como porcentaje, aunque algunas veces como una razón (llamada razónG+C o razón GC). El contenido GC en porcentaje se calcula
+
+Mientras que la razón G+C se calcula
+
+.
+
+
+== Referencias ==
+↑ Definition of GC – content on CancerWeb of Newcastle University,UK
+↑ Madigan,MT. and Martinko JM. (2003). Brock biology of microorganisms (10th ed. edición). Pearson-Prentice Hall. ISBN 84-205-3679-2. 
+↑ Definition of GC-ratio on Northwestern University, IL, USA
+
+
+=== Enlaces externos ===
+Table with GC-content of all sequenced prokaryotes

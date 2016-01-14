@@ -1,0 +1,18 @@
+Se define como operación nularia aquella operación matemática la que el operadores no necesita argumento para que se pueda calcular un valor.
+Las operaciones nularias son funciones constantes, dado que sin argumentos devuelven un valor normalmente, siempre el mismo. Por ejemplo, la función pi devuelve el número π sin necesidad de argumentos.
+
+Un caso excepcional sería la función aleatorio. Es una operación nularia, dado que sin argumento alguno devuelve un número aleatorio mayor o igual que cero y menor que uno.
+
+Por lo cual es válido decir que la función aleatorio es una operación de aridad cero. Esto es, sin argumentos.
+
+
+== Referencias ==
+
+
+== Véase también ==
+Operador
+Operación unaria
+Operación binaria
+Operación ternaria
+Generador de números aleatorios
+Número pseudoaleatorio

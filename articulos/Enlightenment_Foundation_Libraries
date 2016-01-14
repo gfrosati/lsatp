@@ -1,0 +1,38 @@
+Las Enlightenment Foundation Libraries (EFL) son un conjunto de bibliotecas para el desarrollo y la integración de entornos gráficos desarrollada y liderada por Carsten «Rasterman» Haitzler y apoyada por el grupo de desarrolladores del proyecto Enlightenment.
+Las EFL (bajo el codename Asparragus) conforman un conjunto de bibliotecas gráficas, todas dependientes entre sí, cuales proporcionan funciones para el despliegue de Canvas, Manipulación de imágenes, redimensiones, solapamiento, widgets, manejo de fuentes, etc.
+Una de las bibliotecas más importantes, de nombre EVAS (la cual conforma gran parte del núcleo de las EFL), es la encargada de renderizar y manipular los objetos desplegados en pantalla(el motor gráfico), además de ofrecer métodos para escalar y solapar, cargar de imágenes(según el formato compilado:JPG, GIF, PNG, etc), renderización de texto, etc, además permite el uso de OpenGL para acelerar las funciones de renderizado proporcionadas por el motor gráfico, esta; en conjunto con ECORE permiten la comunicación entre los eventos de la interfaz X(mensajes, sockets, semaforos, etc) y los programas compilados para el motor EVAS entregando abstracción para el desarrollo de aplicaciones independiente del hardware o interfaz implementada.
+
+
+== Bibliotecas ==
+Actualmente son 10 las principales bibliotecas incluidas en las EFL (más otras bibliotecas que proporcionan funcionalidad adicional que aún están en desarrollo o en estado deprecated o devaluado). He aquí una breve descripción de cada una:
+imlib : Biblioteca de manipulación gráfica encargada de proporcionar métodos para manipulación de imágenes.
+eet : Encargada de gestionar datos en modo comprimido proporcionando un acceso más rápido que un formato zip.
+evas : Mencionada anteriormente, es el motor gráfico encargado de renderizar objetos, acelerados por hardware o software.
+ecore: Biblioteca principal, proporciona una capa de abstracción entre los eventos de la X Window y las aplicaciones creadas con las EFL.
+epeg : Biblioteca que proporciona métodos de generación de thumbnails(previsualizaciones) para el formato JPEG de manera eficiente, reduciendo el uso de la CPU al momento de recalcular una imagen.
+epsilon : Similar a epeg pero permite el uso de otros formatos, basado en el estándar freedesktop.org.
+embryo : Script interpreter, proporciona funciones para interpretar scripts generados en código SMALL(http://www.compuphase.com/small.htm).
+edje : Biblioteca que permite la creación de themes en formato comprimido, con capacidades de layering y gráficos animados.
+esmart: Colección de objetos para la biblioteca evas(widgets).
+ewl: Biblioteca para la creación de widgets basado en las funciones de Evas y Edje.
+
+
+== Desarrollos basados en EFL ==
+Actualmente, no existen desarrollos basados en las EFL, solamente se ha seguido la línea de desarrollo del proyecto Enlightenment consiguiendo llegar a una nueva versión llamada DR17 utilizando estas bibliotecas, la versión anterior de Enlightenment(0.16 o DR16) utiliza otras bibliotecas lo cual le permite retro compatibilidad con Entornos X como Gnome o KDE, en cambio la nueva versión aun en desarrollo(0.17 o DR17) no incorpora esta compatibilidad ya que su desarrollo ha comenzado desde 0.
+
+
+== Documentación técnica ==
+Gracias a un desarrollo coordinado, se dispone de una completa documentación técnica de cada una de las bibliotecas, módulos, funciones y estructuras de cada uno de los componentes, además de contar con un sitio centralizado de información referente a los avances del proyecto.
+
+
+== Desarrolladores principales ==
+Rasterman : http://www.rasterman.com/
+Nathan Ingersoll : http://ningerso.atmos.org/
+Brian Mattern : http://www.rephorm.com/
+
+
+== Enlaces externos ==
+Sitio oficial del proyecto Enlightenment: http://www.enlightenment.org/
+Documentos técnicos Enlightenment: http://www.enlightenment.org/Libraries/Documentation/
+EFL Snapshots: http://enlightenment.freedesktop.org/
+Releases y avances DR17: http://www.get-e.org/

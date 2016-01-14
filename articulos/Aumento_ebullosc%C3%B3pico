@@ -1,0 +1,16 @@
+El aumento o ascenso ebulloscópico es el aumento del punto de ebullición que experimenta un disolvente puro, al formar una disolución con un soluto determinado. El agua con sal, hierve más tarde que el agua sin sal, por ejemplo. La magnitud del ascenso ebulloscópico, , se obtiene al calcular la diferencia entre la temperatura de ebullición de la disolución y del disolvente puro,  y  respectivamente:
+
+Es directamente proporcional a la molalidad del soluto, o más precisamente, a la actividad del soluto, según la siguiente ecuación:
+aumento ebulloscópico= i x Kb x actividad
+la actividad se expresa en mol/kg y se obtiene multiplicando la molalidad por el coeficiente de actividad.
+Kb, constante de aumento ebulloscópico, característica de cada sustancia.
+i es el factor de van't Hoff (ver Jacobus Henricus van't Hoff), tiene en cuenta la formación de iones en la solución, indica el número de partículas formadas por cada partícula de soluto que pasa a la solución.
+Por ejemplo:
+i = 1 para azúcar en agua.
+i = 2 para NaCl en agua (un ion cloruro y un ion sodio).
+i = 3 para CaCl2 en agua (dos iones cloruro y un ion calcio).
+i = 2 para HCl en agua (se disocia completamente).
+i = 1 para HCl en benceno. (no se disocia en benceno)
+Véase también:
+Descenso crioscópico
+Propiedad coligativa

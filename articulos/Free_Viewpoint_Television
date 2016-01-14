@@ -1,0 +1,56 @@
+
+== Introducción ==
+Free Viewpoint Television (FTV, Televisión de punto de vista libre) es un sistema de información en 3D que engloba adquisición, procesado y reproducción de imágenes. Ha sido diseñado por Masayuki Tanimoto de la Universidad de Nagoya (Japón).
+FTV pretende crear una nueva época en la historia de la televisión porque permite ver libremente un mundo real (de 3D) únicamente cambiando el punto de vista tal y como se haría estando presente en la escena adquirida. Se trata de un sistema en el que el usuario elige qué es lo que quiere ver de una escena.
+Una escena es captada por decenas de cámaras conectadas a un servidor. Por otro lado está el usuario que tiene frente a él un monitor en el que podrá observar las imágenes adquiridas, y una cámara que detectará el movimiento de este usuario. La información extraída de la cámara sobre el movimiento del usuario será la que ordene al servidor qué imagen es la que se debe reproducir por pantalla. De esta forma se produce un efecto ventana. Si el usuario se desplaza hacia la derecha, podrá ver lo que hay a la izquierda de la escena y viceversa.
+Así, no sólo generara imágenes de punto de vista libre sino que también transporta el espacio. FTV es una plataforma de la información espacial 3D. FTV se puede aplicar a amplias áreas tales como el entretenimiento, la observación de la naturaleza, el turismo, el arte, los museos, la educación, la medicina, la seguridad, etcétera.
+
+
+== Sistema FTV ==
+Se ha desarrollado el FTV basándose en la teoría del rayo-espacio. En la teoría del rayo-espacio, un rayo en el espacio real 3D es representado por un punto en el espacio del rayo. El espacio del rayo está compuesto por muchas imágenes de la visión. Una sección representativa del espacio del rayo da una imagen de la visión. La información visual del espacio 3D se representa como "rayos". Los datos del rayo tienen toda la información de las escenas vistas de cualquier punto de vista en el espacio 3D. Una imagen de la visión es subespacio del rayo-espacio y podemos generar imágenes foto-realistas de la visión simplemente muestreando el rayo-espacio. El rayo-espacio tiene estructuras especiales debido al hecho de que el rayo va recto. El rayo-espacio tiene 5 dimensiones.
+Si colocamos cámaras en una línea o un círculo, tenemos solamente una porción de datos del rayo-espacio. En tales casos, definimos dos clases de rayo-espacio más pequeños: coordenadas ortogonales y coordenadas esféricas. El rayo-espacio ortogonal se utiliza para los sistemas paralelos de la visión y el rayo-espacio esférico se utiliza para los sistemas convergentes de la visión.
+
+Las partes más diferenciadas del FTV son la adquisición, la interpolación, la compresión y el visionado.
+
+
+== Adquisición de la Señal FTV ==
+La adquisición de la señal se consigue mediante una serie de cámaras conectadas a un servidor colocadas a la misma altura frente a la escena que se desea captar. Así se consigue el rayo-espacio de 5 dimensiones. Hay diferentes tipos de colocación de las cámaras dependiendo de cuan libremente queremos que se vea la escena, pero las disposiciones más estandarizadas son: lineal y semicircular.
+Por ejemplo, si deseamos ver la escena a partir de un lado solamente, las cámaras se colocan en una línea. Si deseamos ver la parte posterior de la escena, se colocan en un círculo. Si deseamos ver la parte superior de la escena, se colocan en una bóveda semiesférica. A mayor número de cámaras, mayor densidad del rayo-espacio. En el caso de la disposición lineal de cámaras, las imágenes de éstas se ponen verticalmente en paralelo en el rayo-espacio, formando la señal de FTV según lo demostrado en las siguientes imágenes.
+El rayo-espacio es originalmente 4-dimensional y el parámetro tiempo nos aporta la quinta dimensión. Si colocamos cámaras en una región limitada tal como una línea o un círculo, el rayo obtenido es limitado y el rayo-espacio construido de estos rayos es un subespacio del rayo-espacio.
+ 
+
+
+== Procesado de la Señal FTV ==
+
+
+=== Interpolación ===
+La calidad de las vistas generadas depende principalmente de la interpolación realizada, puesto que no es posible tener infinidad de cámaras. Si el usuario se coloca de tal forma que una cámara no puede captar la escena deseada, FTV interpola las imágenes de las dos cámaras situadas más cercanas al punto determinado. Así, un rayo-espacio poco denso (número deficiente de cámaras) puede compensarse mediante la interpolación. Esta interpolación puede hacerse tanto en el transmisor como en el receptor, depediendo de la aplicación.
+
+
+=== Compresión ===
+La compresión de la señal de FTV es muy importante porque el número de cámaras es grande. La manera más simple es aplicar el MPEG convencional que cifra cada señal de la cámara independientemente. Sin embargo, la señal de FTV se puede comprimir con más eficacia considerando la señal entera de FTV y la estructura del rayo-espacio porque hay una gran correlación entre las señales de las cámaras.
+
+
+== Visualización de la Señal FTV ==
+FTV ofrece un alto grado de detalle y definición, incluso en complicadas escenas tenemos resultados óptimos. Cuando el usuario da su punto de vista al sistema, la imagen de la visión se obtiene simplemente como imagen de la sección del rayo-espacio. La imagen de la visión se puede exhibir en 2D o 3D. Dos o varias secciones transversales se hacen para 3D o la exhibición de la multi-vista.
+Dependiendo de la posición del espectador el sistema es capaz de actualizar la información mostrada para tener en cuenta la perspectiva visual que se tendría en la realidad. Cuando el espectador se ha desplazado a la izquierda, lo que el sistema muestra es la esquina izquierda del elemento reproducido en 3D y no la parte frontal (y viceversa). Así se puede decir que el punto de vista mostrado por el sistema varía en función de la posición del espectador.
+
+
+== Métodos de distribución espacial para dar sensación 3D ==
+La mayoría de los monitores free-viewing producen un limitado número de vistas (como mínimo dos). En este caso, la única forma de dar una sensación 3D consiste en hacer una distribución espacial de las distintas vistas. Algunos de los métodos más destacados son:
+Electroholográficos: Estos displays, actualmente en fase de investigación, pueden grabar y reproducir las propiedades de las ondas de luz (amplitud, longitud de onda y fase). Este proceso, en caso de realizarse de forma perfecta, sería el ideal para sistemas de visión libre 3D.
+Volumétricos: Estos displays crean la sensación de inmersión proyectando la información 3D dentro de un volumen. Estos sistemas típicamente presentan problemas de resolución además de necesitar mucho ancho de banda. Este tipo de displays se encuentran actualmente en fase de investigación.
+Multiplexado por direccionamiento: Se aplican efectos ópticos como la difracción, refracción, reflexión y oclusión para redirigir la luz emitida por los pixeles de distintas vistas al ojo apropiado. Existen diversos tipos, pero los más destacados (debido a que están más desarrollados tecnológicamente) son los basados en la refracción y en la oclusión.
+Oclusión: Debido al efecto parallax (paralaje), partes de la imagen son ocultadas a un ojo y visibles para el otro. Existen diversos tipos dependiendo del número de hendiduras y de la posición de colocación de la barrera, que puede estar enfrente o detrás de la pantalla. Las pantallas con barrera de parallax detrás del display ya se pueden encontrar en el mercado en monitores tanto de PC como de portátiles. La barrera de parallax es la encargada de redirigir los haces de luz (y no la imagen en si), al ojo adecuado. El problema que tiene este tipo de displays es que la posición de visualización es muy estricta siendo posible su uso sólo para una persona.
+Refracción: Como en el caso anterior existen diversos tipos de display. En este tipo de displays la imagen se compone de múltiples pequeñas imágenes 2D capturadas con un amplio número de grupos de pequeñas lentes convexas. Cada grupo de lentes captura la escena desde un punto de vista distinto. De esta manera el usuario percibe diferentes imágenes para diferentes puntos de vista. El problema radica en que los grupos de lentes deben de ser muy pequeños, debido a que cada píxel debe contener un grupo de lentes. Por este motivo, el display debe de tener una resolución muy alta. Como solución alternativa existen las pantallas lenticulares que usan lentes cilíndricas. Debido a la orientación vertical de las lentes, los rayos de luz de cada imagen son emitidos en direcciones específicas en el plano horizontal.
+
+
+== Aplicaciones ==
+FTV puede adquirir, almacenar y transmitir toda la información visual del espacio 3D. Así, la función de FTV es generar no sólo imágenes de punto de vista libre sino también transportar el espacio de la representación visual 3D. El siguiente cuadro recoge algunas de las aplicaciones actuales del sistema FTV.
+
+
+== Ejemplo de un sistema FTV ==
+
+
+=== 100-Camera System ===
+Este sistema ha sido desarrollado para poder capturar escenas más grandes. Consiste en un servidor y 100 clientes (llamados nodos) equipados con cámaras PULNiX TM-1400CL. El servidor genera una señal de sincronismo y la distribuye a todos los nodos. Este sistema no sólo es capaz de capturar video de alta resolución con 30 imágenes por segundo, sino que además puede capturar señal analógica de hasta 96 kHz.

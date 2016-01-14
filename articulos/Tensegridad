@@ -1,0 +1,77 @@
+La Tensegridad es un principio estructural basado en el empleo de componentes aislados comprimidos que se encuentran dentro de una red tensada continua, de tal modo que los miembros comprimidos (generalmente barras) no se tocan entre sí y están unidos únicamente por medio de componentes traccionados (habitualmente cables) que son los que delimitan espacialmente dicho sistema.
+El término Tensegridad, proveniente del inglés Tensegrity es un término arquitectónico acuñado por Buckminster Fuller como contracción de tensional integrity (integridad tensional).
+Las estructuras de tensegridad fueron exploradas por el artista Kenneth Snelson, produciendo esculturas como Needle Tower, de 18 metros de altura y construida en 1968. El término “tensegrity” fue acuñado por Buckminster Fuller, conocido por uno de sus más famosos diseños arquitectónicos denominado domo geodésico, como la Biosphère construida por Fuller para la Expo 67 en Montreal.
+
+
+== OrigenEditar ==
+
+Tres hombres han sido considerados los inventores de la Tensegridad: Richard Buckminster Fuller, David Georges Emmerich y Kenneth D. Snelson . Aunque todos ellos han clamado para sí el privilegio de ser el primer descubridor, el segundo de ellos, Emmerich (Debrecen, Hungría, 1925-1996) evidenció que el primer prototipo de sistema tensegrítico, denominado “Gleichgewichtkonstruktion”, fue creado por Karl Ioganson en pleno constructivismo ruso allá por 1920.
+Como precaución, los nombres de los tres mencionados autores se citan por orden cronológico según la fecha de sus patentes: Fuller-13 Nov 1962; Emmerich-28 Sep 1964; Snelson-16 Feb 1965.
+
+
+== ConceptoEditar ==
+
+Una estructura constituye un sistema de tensegridad si se encuentra en un estado de autoequilibrio estable, formado por elementos que soportan compresión y elementos que soportan tracción. En las estructuras de tensegridad, los elementos sometidos a compresión suelen ser barras, mientras que los elementos sometidos a tracción están formados por cables. El equilibrio entre esfuerzos de ambos tipos de elementos dotan de forma y rigidez a la estructura. Esta clase de construcciones combina amplias posibilidades de diseño junto a gran resistencia, así como ligereza y economía de materiales.
+
+
+== Geometría y estabilidadEditar ==
+La relación entre geometría y estabilidad en un sistema de tensegridad puede explicarse fácilmente utilizando un simil: la analogía del balón.
+Forma indeterminada: El balón encierra un volumen de aire menor que el que permite su envoltura. Se tiene, por tanto, un balón desinflado y arrugado.
+Geometría de equilibrio: El balón adopta forma esférica al igualarse la presión de aire interior con la del exterior, pero el balón aún no presenta rigidez.
+Estado de autotensión: Con el balón completamente inflado, la presión en el interior es mayor que en el exterior. Así, el aire (elemento de compresión) confiere rigidez a la envoltura del balón (elemento de tracción).
+
+
+== De la arquitectura a la célulaEditar ==
+A mediados de los años 70, Donald Ingber se plantea una hipótesis en la que relaciona las estructuras de tensegridad con el comportamiento mecánico de las células. Para comprobarlo, modela una estructura compuesta por seis barras unidas con hilos elásticos. Al colocarla sobre una superficie rígida tiende a adoptar una forma aplanada, mientras que sobre una superficie flexible se alzaba mostrando una conformación más redondeada. Este comportamiento se ajustaba al observado en células cuando se depositaban sobre el mismo tipo de superficies. Ingber concluyó que, desde un punto de vista mecánico, la célula podía considerarse un sistema de tensegridad. Los descubrimientos en biología confirmaron esta hipótesis cuando, a principios de la década de los 80, Keith R. Porter lograba desvelar una red tridimensional de filamentos en el interior de las células: el citoesqueleto, que tendrían el mismo papel que las barras y los cables en las estructuras de tensegridad: equilibrar los esfuerzos que darían forma y rigidez a la célula.
+
+
+== Ventajas e inconvenientes de las estructuras tensegríticasEditar ==
+Las ventajas de las estructuras tensegríticas son:
+No presenta puntos de debilidad local.
+Resulta factible el empleo de materiales de forma económica y rentable.
+Las tensegridades no sufren a torsión y el pandeo es un fenómeno raramente presente en ellas.
+Se tiene la capacidad de crear sistemas más complejos mediante el ensamblaje de otros más simples.
+Para estructuras a gran escala, el proceso constructivo se vería facilitado al no necesitar de andamiajes adicionales. La propia estructura sirve de andamio para sí misma.
+En sistemas plegables, sólo se necesita una pequeña cantidad de energía para cambiar su configuración.
+Los inconvenientes de las estructuras tensegríticas son:
+Las agrupaciones tensegríticas aún han de resolver el problema de congestión de barras. A medida que crece el tamaño, sus montajes empiezan a interferirse entre ellos.
+Se constata un relativamente alto grado de deformaciones y una escasa eficiencia del material, en comparación con estructuras convencionales geométricamente rígidas.
+La compleja fabricación de estas construcciones es una barrera para el desarrollo de las mismas.
+Para mantener el estado de auto-tensión, es necesario someterlas a un estado de pretensado que requeriría de fuerzas muy elevadas para su estabilidad, especialmente para aquellas de grandes dimensiones.
+
+
+== Estructura tensegrítica básica (Simplex)Editar ==
+La estructura tensegrítica más elemental es la conocida con el nombre de estructura Simplex. Consta de 6 nodos, los cuales están unidos mediante 3 elementos a compresión (barras) y 9 elementos a tracción (cables). Veamos los pasos necesarios para su construcción:
+- Construimos un prisma regular de base dodecagonal que nos servirá de guía para construir la estructura Simplex.
+- Dibujamos en la base inferior un triángulo equilátero uniendo los puntos 1, 5 y 9.
+- Dibujamos en la base superior un triángulo equilátero uniendo los puntos 2', 6' y 10'.
+- Dibujamos los elementos a compresión uniendo los puntos de las bases inferior y superior respectivamente: 1-6', 5-10' y 9-2'.
+- Dibujamos los elementos a tracción oblicuos uniendo los puntos de las bases inferior y superior respectivamente: 1-2', 5-6' y 9-10'.
+- Finalmente eliminamos el prisma regular dodecagonal y tendremos nuestra estructura tensegrítica Simplex.
+
+Se puede formar una estructura más compleja formada por estructuras elementales Símplex, como se puede ver en la figura, a base de compartir uno de los vértices y una de los elementos a tracción oblicuo. Este tipo de unión se le conoce con el nombre de unión Tipo Ia.
+
+
+== NotasEditar ==
+
+
+== ReferenciasEditar ==
+Gómez Jáuregui, Valentín (2007). Tensegridad. Estructuras Tensegríticas en Ciencia y Arte.. Santander. Servicio de Publicaciones de la Universidad de Cantabria. ISBN 978-84-8102-437-1. 
+Gómez Jáuregui, Valentín (2010). Tensegrity Structures and their Application to Architecture.. Santander. Servicio de Publicaciones de la Universidad de Cantabria. ISBN 978-84-8102-575-0. 
+Bustelo, J.A. (2007). Equilibrio de tensiones. Madrid. Equipo Sirius, S.A. ISBN 978-84-95495-71-6. 
+Guzmán, M. de (2002). «Tensegridad. De la escultura a la célula». Ars Médica Revista de Humanidades 1 (2). ISSN 1579-8607, 166-176. 
+Gómez-Jáuregui, V. (2008). «Estructuras Tensegríticas: Ingeniería y Arquitectura Novedosas». Ingeniería Civil (Servicio Publicaciones CEDEX) (152): 87–94. ISSN 0213-8468,. 
+Motro, R. (2003). Tensegrity. Structural systems for the future. Londres. Kogan Page Science. ISBN 978-1-903996-37-9. 
+Ingber, D.E. (2003). «Tensegrity I. Cell structure and hierarchical systems biology.». Journal of Cell Science. 116 (7). ISSN 1477-9137, pag. 1157-1173.. 
+Ingber, D.E. (2003). «Tensegrity II. How structural networks influence cellular information processing networks.». Journal of Cell Science 116 (8). ISSN 1477-9137, pag. 1397-1408. 
+Ingber, D.E. (1998). «The Architecture of Life». Scientific American (enero 1998). ISSN 0036-8733, pag. 48-57. 
+Sutherland, William Garner (1990). «Teachings in the Science of Osteopathy». Ruda Press. ISBN 0915801264. 
+Schleip, Robert et al. (2013). «Fascia: The Tensional Network of the Human Body: The science and clinical applications in manual and movement therapy». Elsevier Health Science. ISBN-13: 978-0702034251 ISBN-10: 0702034258. 
+
+
+== Enlaces externosEditar ==
+Página web del escultor Kenneth Snelson
+Página web del ingeniero Valentín Gómez Jáuregui
+Frame and Form: "Tensegridad, islas de compresión en un mar de tracciones" - (artículo técnico sobre las estructuras tenségridas)
+Página web del Marcelo Pars
+ Wikimedia Commons alberga contenido multimedia sobre Tensegridad. Commons

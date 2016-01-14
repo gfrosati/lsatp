@@ -1,0 +1,5 @@
+TACACS (acrónimo de Terminal Access Controller Access Control System , en inglés ‘sistema de control de acceso mediante control del acceso desde terminales’) es un protocolo de autenticación remota, propietario de cisco, que se usa para comunicarse con un servidor de autenticación comúnmente usado en redes Unix. TACACS permite a un servidor de acceso remoto comunicarse con un servidor de autenticación para determinar si el usuario tiene acceso a la red. TACACS está documentado en el RFC 1492.
+
+
+== Enlaces externosEditar ==
+cisco

@@ -1,0 +1,35 @@
+ABNT NBR 15601 es el estándar técnico publicado por la Associação Brasileira de Normas Técnicas (Asociación Brasileña de Normas Técnicas) que se encarga de atender los aspectos relativos a la transmisión en la norma de televisión digital SBTVD, también conocida como ISDB-Tb.
+El documento abarca un gran número de cuestiones relativas a las características detalladas de los transmisores y es esencial para la adecuada comprensión y la fabricación de equipos para el mercado de la televisión digital en Suramérica y los países centroamericanos donde fue adoptado. La redacción y la discusión sobre la norma técnica fue realizada por el Forum SBTVD.
+El estándar fue redactado por expertos en telecomunicaciones y televisión de muchos países siendo sus trabajos coordinados por el Forum SBTVD y cubren en detalle todos los aspectos de transmisión que se aplican a la norma SBTVD.
+
+
+== Introducción ==
+Los aspectos de la transmisión de la norma SBTVD son descritos en la norma técnica ABNT NBR 15601:2007 - Televisión digital terrestre - Sistema de transmisión, documento publicado por la Asociación Brasileña de Normas Técnicas. La difusión de televisión digital terrestre en Brasil es introducida en la bandas VHF y UHF y se ajusta en los actuales canales de 6 MHz originalmente previstos para la transmisión de televisión analógica. El servicio de Televisión Digital Terrestre coexistirá con los actuales transmisiones de televisión analógica por un período temporal.
+La norma fue desarrollada teniendo en cuenta la transmisión simultánea de una jerarquía de niveles anidados de calidad de transmisión, incluyendo la televisión de alta definición (HDTV) y de definición estándar (SDTV) dentro de una única banda.
+
+
+== Resumen técnico del documento ==
+
+La Norma ABNT NBR 15601:2007 describe la modulación y codificación de canal para el sistema brasileño, que es idéntico al de la norma japonesa ISDB-T y Sistema C de UIT. El sistema de transmisión fue seleccionado después de una prueba comparativa extensa basada en la metodología y los resultados del Informe BT.2035 de la UIT.
+De manera similar a los enfoques de europeos y japoneses especifica la señal modulada digitalmente con el fin de permitir la compatibilidad de equipos desarrollados por diferentes fabricantes.
+Como descripción general, los procesos siguientes se aplicarán al flujo de transporte: codificación de corrección de errores, entrelazado temporal y modulación de portadora. La codificación de canal se lleva a cabo en segmentos de modulación OFDM como en la norma ISDB-T. Un conjunto de segmentos define una capa jerárquica, en la cual los parámetros anteriormente mencionados se pueden especificar independientemente. Pueden ser provistas hasta tres capas jerárquicas, que incluyen la capa de recepción parcial definida por el segmento central. Además la información de tramas, la especificación brasileña incluye la composición espectral de la transmisión jerárquica, los medios de envío de señales múltiples y tablas múltiples en diferentes capas.
+El grupo de especificación ha propuesto tres máscaras de emisión diferentes para hacer frente con el escenario de planificación de Brasil. Todas las estaciones de alta potencia deberán operar con la máscara crítica excepto en ausencia de canales instalados o previstos adyacentes. Todas las otras estaciones operarán con una máscara sub-crítica, excepto en las siguientes condiciones:
+En ausencia de cualquiera de canales adyacentes digitales o analógicos, planificados o instalados en una misma localidad, la máscara de emisión podría ser no crítica.
+En presencia de un canal adyacente analógico, la máscara de emisión será crítico.
+En presencia de un canal adyacente digital con una diferencia de potencia mayor de 3 dB, la máscara de emisión será crítica.
+En presencia de un canal digital adyacente con una distancia entre los sistemas radiantes de más de 400 metros, la máscara de emisión será crítica.
+
+
+== Sumario ==
+Los requisitos de transmisión establecidos por las normas brasileñas de televisión digital cumplen con las características generales que existen en su homólogo japonés, mientras que aborda los retos de la radiodifusión en un espectro más contaminado y no reglamentado.
+Los requisitos adicionales establecidos por el documento ABNT NBR 15601:2007 pueden ser vistos como la evolución sugerida para la obtención de mejores niveles de desempeño general en el período de transición entre la televisión analógica y digital.
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+Norma ABNT NBR 15601 en español, en el sitio Web de UPJET 
+Sitio Web de ABNT, en idioma portugués 
+Sitio Web de ARIB (Association of Radio Industries and Businesses), en idioma inglés 
+Sitio Web de DiBEG (Digital Broadcasting Experts Group)

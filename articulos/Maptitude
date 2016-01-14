@@ -1,0 +1,50 @@
+Maptitude es un programa de mapeo creado por Caliper Corporation, que permite a usuarios ver, editar e integrara mapas.. El programa, y la tecnología que utiliza, están diseñados para facilitar la visualización y el análisis geográfico, utlizando tanto datos incluidos en el programa como datos externos.
+Maptitude está orientado a usuarios de negocios, pero compite en todos los niveles del mercado de Sistemas de Información Geográfica (SIG) en diferenes sectores. Incluye el motor de análisis geográfico de la familia de productos de Caliper, y se integra con Oficina de Microsoft, con datos de diversas fuentes como Microsoft Excel, e incluye un lenguage propio de programación similar a BASIC (Caliper Script) que puede utilizarse dentro una interface de desarrollo (GISDK) para automatizar y persnalizar el ambiente de Maptitude.
+La tecnología de Caliper se utiliza en los siguientes programas:
+Maptitude (para usuarios internacionales, con prodcutos adaptados a los mercados principales ( USA, Reino Unido, Canada, Australia y Brasil, con versiones adicionales para Argentina , Chile , Colombia , Francia, Alemania, India, Irlanda, Italia, Mexico , Holanda, Nueva Zelandia, España , Bolivia , Perú , Ecuador , y South Africa)
+Maptitude para reconfiguracion de distritos
+Maptitude para Precintos Electorales y Manejo de Elecciones (para oficinas de elecciones a nivel gubarmental)
+Maptitude Político (para strategas de campaía) [discontinuado en 2008]
+TransCAD (para profesionales del transporte)
+TransModeler (para simulación de tráfico)
+Los siguientes servidores de Web también utilizan la tecnología de Caliper:
+Maptitude Para la Web
+TransCAD Para la Web
+Las aplicaciones de la plataforma de desarrollo Web usan código fuente que puede editarse y modificarse con Javascritp, HTML y ASP.NET. Pueden usarse “plantillas” de aplicaciones para crear paginas o servicios Web. Las plantillas standard, incluidas con el programa, incluyen aplicaciones Ajax y “mashups” que utilizan Google Maps via la correspondiente API de Google.
+
+
+== Historia del Producto ==
+Maptitude tiene una versión nueva cada año, la versiεn actual es 2014. Fue lanzado por primera vez como Maptitude 3.0 en 1995 y su numeración se hizo coincidir con TransCad 3.0, la primera versión de este software para Windows de Microsoft. La edición Comunidad 2020 fue lanzada en 1997   , y desarrollada para el Departamento de Vivienda y Desarrollo Urbano de los EE.UU (HUD, por sus silgas en inglés). Maptitude 4.0 fue lanzado ese mismo año. Las versiones subsiguientes incluyeron datos del Censo de los EE. UU. y capacidades adicionales.  . La Versión 5.0 fue lanzada el 29 de enero de 2008. La edición colaborativa MAF/TIGER Partnership Software (MTPS), un producto desarrollado para la Agencia de Censo de los EE.UU. , se lanzó en en el 2008.  La versión 6.0 fue lanzada en los primeros meses de 2011.
+Maptitude 2012, Maptitude 2013, y Maptitude 2014 incluyeron actualizaciones de los mapas, los datos demográficos y la funcionalidad. Por ejemplo, la versión para EE. UU. se actualizaron los datos del Censo 2010 y los datos Nokia HERE. En la versión actual, Maptitude 2014, se hicieron mejoras en los documentos de salida, con la inclusión de mapas 3D, reportes e imágenes salitrales a pedido.
+Maptitude 3.0 (1995), primera versión, producto comercial
+Community 2020 (1997), para el departamento de Vivienda y Desarrollo Urbano de los EE. UU.
+Maptitude 4.0 (1997), importantes mejoras en el producto
+Maptitude 4.1 (1999), primera versión con datos del Censo 2000 de los EE. UU.
+Maptitude 4.2 (2000), primera versión en incluir GISDK junto con el producto, en lugar de ofrecerse solamente como una opción
+Maptitude 4.5 (2001), importantes mejoras en el producto
+Maptitude 4.6 (2003), muy similar to 4.5; con actualización de los datos de censos
+Maptitude 4.7 (2004), nuevas funcionalidad y nuevos datos
+Maptitude 4.8 (2006), la primera versión en ofrecer descargas de fotos aéreas
+Maptitude 5.0 (2008), lanzamiento importante
+MTPS (2008), para la Oficina de Censos de los EE. UU.
+Maptitude 6.0 (2011), primera versión en incluir datos de calle de calidad comercial.
+Maptitude 2012 (2012), actualización en el programa, los datos y la demografía. Mejoras en la funcionalidad para ruteo y cálculo de tiempos de viaje.
+Maptitude 2013 (2013), actualización en el programa, los datos geográficos y los datos demográficos.. Se ampliaron las capacidades para manejar datos internacionales.
+Maptitude 2014 (2014), actualización en el programa, los datos geográficos y los datos demográficos. Mejora en en la calidad de los productos de salida.
+Maptitude 2015 (2015), actualización en el programa, los datos geográficos y los datos demográficos.. Mejoras en la capacidad para generar reportes.
+En algunos casos se lanzaron nuevas versiones sin una versión equivalente de TransCad, y han sido numeradas de manera idéntica, pero las versiones recientes siempre coincidieron con la fecha de lanzamiento de versiones de TransCad. Maptitude 2012 representó un cambio en el sistema de numeración de versiones, pasándose de una numeración secuencial al número del año.
+El software es disponible para Windows de Microsoft.
+
+
+== Ver también ==
+Caliper Empresa
+
+
+== Referencias ==
+
+
+== Links externos ==
+Caliper Software de mapeo - sitio web oficial
+Características nuevas de Maptitude 5.0 - Una revisión de usuario de características nuevas de Maptitude 5.0
+Maptitude Grupo de discusión
+Maptitude Noticioso - Prensa & Noticiosa

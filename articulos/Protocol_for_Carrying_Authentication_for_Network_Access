@@ -1,0 +1,38 @@
+PANA (Protocol for Carrying Authentication for Network Access) es un protocolo basado en IP que permite a un dispositivo autenticarse para obtener acceso a la red y a los servicios que en ésta última se disponen. PANA no define un nuevo método de autenticación, distribución de claves o un protocolo de derivación de las mismas. PANA es un protocolo definido con la intención de actuar como EAP Lower Layer, o lo que es lo mismo, pensado para transportar métodos de autenticación definidos en el protocolo EAP.
+PANA soporta varios métodos de autenticación. Además, es un protocolo que funciona independientemente de la tecnología utilizada en la capa de enlace.
+PANA es un Protocolo definido por el IETF, descrito en RFC 5191.
+
+
+== Historia ==
+Existe un gran abanico de posibilidades para manejar los procesos de autentiación y acceso a la red. Este aspecto es negativo para los operadores de red, puesto que necesitan considerar diferentes mecanismos de autenticación. Además se suma el hecho de que para desarrollar nuevas extensiones a los procesos de autenticación hay que tener en cuenta la tecnología de acceso utilizada en la red subyacente.
+Para tratar de zanjar la problemática surgida de la utilización de soluciones propietarias en el control del acceso a la red, el IETF ha desarrollado, por medio del PANA Working Group, el protocolo denominado Protocol for carrying Authentication for Network Access y su arquitectura asociada. PANA provee de un mecanismo de autenticación y autorización de acceso a una red, el cual funciona a nivel de aplicación sea cual sea el protocolo utilizado en los niveles inferiores.
+
+
+== Entidades PANA ==
+PaC (PANA Client). es la entidad en la que se encierra la parte cliente del protocolo. Obviamente, esta parte reside en el nodo que quiere acceder a la red. La idea es que el software del cliente pueda ser introducido tanto en PCs portátiles o sobremesas como PDAs o teléfonos móviles. El PaC es el responsable de realizar la petición de acceso a la red y participar en el proceso de autenticación utilizando PANA.
+PAA (PANA Authentication Agent) se trata de la entidad que contiene la parte servidor del protocolo. Su función es la de comunicarse con los PaCs para autenticarlos y autorizarles el acceso un determinado servicio de red. En el caso de que la arquitectura EAP asociada esté configurada como pass-through, el PAA consulta a un servidor de autenticación que implemente la funcionalidad de un servidor EAP para verificar las credenciales que el cliente ha presentado durante la realización de la petición.
+AS (Authentication Server) se trata del servidor AAA de la arquitectura asociada a este protocolo. Contiene la información necesaria para verificar las credenciales de un PaC. Este nodo recibe las peticiones del PAA ”de parte de” los PaCs y responde con el resultado de la verificación de los datos y con los parámetros de la autorización, por ejemplo: el ancho de banda permitido, la configuración de IP, etc.
+EP (Enforcement Point) encargado de filtrar el tráfico proveniente de los clientes que ya han sido autenticados y autorizados. Básicamente un EP representa un punto de conexión a la red en el que se implementan una serie de filtros, ya sean criptográficos (IPsecIPsec) o no criptográficos (filtros IP), para descartar ciertos paquetes en función de una serie de parámetros. Estos parámetros son los que tiene asociados cada PaC como resultado del proceso de autenticación y autorización realizado. Típicamente, la función de EP es realizada por un dispositivo de red, tal como un punto de acceso o un router.
+
+
+== Mensajes PANA ==
+PANA-Client-Initiator (PCI) este mensaje es enviado por parte del PaC para notificar al PAA el inicio del proceso de autenticación.
+PANA-Auth-Request/Answer (PAR/PAN) estos mensajes son utilizados durante la fase de autenticación y autorización y en el transcurso de la fase de reautenticación. Permiten negociar algunos parámetros entre el PaC y el PAA (activando el flag S en el primer intercambio de estos mensajes), y transportar los paquetes EAP en el resto de intercambios realizados. Para indicar que se ha terminado el proceso de autenticación, estos mensajes incluyen el flag C activo.
+PANA-Notification-Request/Answer (PNR/PNA) Este tipo de mensajes es intercambiado una vez que el PaC ha sido correctamente autenticado. Son usados para comprobar si los dos extremos de las comunicación siguen funcionando correctamente y para señalar el comienzo de un proceso de reautenticación (activando el flag A).
+PANA-Termination-Request/Answer (PTR/PTA) Estos mensajes son intercambiados para llevar a cabo la finalización de una sesión establecida entre el PaC y el PAA como resultado del proceso de autenticación. Tanto el PaC como el PAA puede iniciar este intercambio de mensajes.
+
+
+== Referencias ==
+
+EAP
+Protocolo
+IETF
+AAA
+
+
+== Enlaces externos ==
+rfc5191 Protocol for carrying Authentication Network Access
+rfc5609 State machines for PANA
+OpenPANA
+Cpana
+OpenDiameter

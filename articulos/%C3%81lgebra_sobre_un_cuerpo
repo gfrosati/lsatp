@@ -1,0 +1,71 @@
+En matemáticas, un álgebra sobre un cuerpo K, o una K -álgebra, es un espacio vectorial A sobre K equipado con una noción compatible de multiplicación de elementos de A. Una generalización directa admite que K sea cualquier anillo conmutativo. Algunos autores[cita requerida] utilizan el término "álgebra" como sinónimo de "álgebra asociativa".
+
+
+== DefinicionesEditar ==
+Para ser exactos, sea  un espacio vectorial sobre el cuerpo , y supongamos que existe una operación binaria definida entre vectores:
+
+Tal que es bilineal y distributiva respecto a la suma, es decir, tal que para todo :
+
+ (distributiva)
+ (bilineal)
+Entonces con esta operación,  se convierte en un álgebra sobre  y  es el cuerpo base del álgebra . La segunda operación se llama "multiplicación". Sin embargo, la operación en varias clases especiales de álgebra toma diversos nombres:
+Las álgebras también se pueden definir más generalmente sobre cualquier anillo unitario : necesitamos un módulo  sobre  y una operación bilineal de multiplicación que satisfaga las mismas identidades que arriba; entonces  es una -álgebra, y  es el anillo bajo . Dos álgebras  y  sobre  son isomorfas si existe una K biyección - función lineal f:  tal que f (xy) = f(x)f(y) para todo x, y en . Para todos los propósitos prácticos, las álgebras isomorfas son idénticas; solamente se diferencian en la notación de sus elementos.
+
+
+== CaracterísticasEditar ==
+Para las álgebras sobre un cuerpo, la multiplicación bilineal de  a  es determinada totalmente por la multiplicación de los elementos de la base de A. Inversamente, una vez que ha sido elegida una base para , los productos de los elementos de base se pueden fijar arbitrariamente, y entonces extender de una manera única a un operador bilineal en , es decir de modo que la multiplicación que resulta satisfaga las leyes del álgebra.
+Así, dado el cuerpo K, cualquier álgebra se puede especificar salvo un isomorfismo dando su dimensión (digamos n), y especificar los n3 coeficientes de estructura ci,j,k, que son escalares. Estos coeficientes de estructura determinan la multiplicación en  vía la regla siguiente:
+
+Donde e1,...en una base de A. El único requisito en los coeficientes de la estructura es que, si la dimensión n es un número infinito, entonces esta suma debe converger (en cualquier sentido que sea apropiado para la situación). Observe, sin embargo, que diversos conjuntos de coeficientes de estructura pueden dar lugar a álgebras isomorfas.
+En física matemática, los coeficientes de estructura se escriben a menudo ci,jk, y se escribe usando el convenio de sumación de Einstein como
+ei ej = c i,jk ek.
+Si se aplica esto a vectores escritos en notación de índice, entonces se convierte en
+(xy)k = c i,j k xi yj.
+Si K es solamente un anillo conmutativo y no un cuerpo, entonces lo mismo funciona si  es un módulo libre sobre K. Si no es, entonces la multiplicación todavía está determinada totalmente por su acción en un conjunto generador de ; sin embargo, las constantes de estructura no se pueden especificar arbitrariamente en este caso, y saber solamente las constantes de estructura no específica el álgebra módulo isomorfismo.
+
+
+== Clases de álgebra y ejemplosEditar ==
+Un álgebra conmutativa es una en que la multiplicación es conmutativa; un álgebra asociativa es una en que la multiplicación es asociativa. Éstas incluyen las clases más familiares de álgebra.
+
+
+=== Álgebras asociativasEditar ===
+Entre los ejemplos de álgebra asociativa podemos destacar:
+
+el álgebra de todas las matrices n-por-n sobre el cuerpo (o anillo conmutativo) K. Aquí la multiplicación es multiplicación ordinaria de matrices.
+las álgebra grupo, donde un grupo sirve de base del espacio vectorial y la multiplicación del álgebra amplía la multiplicación del grupo.
+el álgebra conmutativa K[x] de todos los polinomios sobre K, es un espacio vectorial de dimensión infinita (alef-0) sobre el cuerpo en el que se definen.
+las álgebras de funciones, tales como el R-álgebra de todas las funciones continuas real-valoradas definidas en el intervalo [0, 1], o la C-álgebra de todas las funciones holomórficas definidas en algún conjunto abierto en el plano complejo. Éstas son también conmutativos.
+las álgebras de incidencia se construyen sobre ciertos conjuntos parcialmente ordenados.
+las álgebras de operadores lineales, por ejemplo en un espacio de Hilbert. Aquí la multiplicación del álgebra viene dada por la composición de operadores. Estas álgebras también llevan una topología; se definen muchas de ellas en un espacio subyacente de Banach que las convierte en un álgebra de Banach. Si una involución se da también, obtenemos B-estrella-álgebras y C-estrella-álgebras. Éstas se estudian en análisis funcional.
+
+
+=== Álgebras no asociativasEditar ===
+Las clases más conocidas de álgebras no-asociativas son las que son casi asociativas, es decir, en que una cierta ecuación simple obliga las diferencias entre diversas maneras de asociar la multiplicación de elementos. Éstos incluyen:
+Álgebra de Lie, para las cuales requerimos la identidad de Jacobi z ( xy ) + (yz) x + (zx) y = 0 y anticonmutatividad: xx = 0. Para estas álgebra el producto se llama el corchete de Lie y se escribe [ x,y ] en vez de xy. Los ejemplos incluyen:
+Espacio euclidiano R³ con la multiplicación dada por el producto vectorial (con K el cuerpo R de los números reales);
+Álgebra de los campos vectoriales en una variedad diferenciable (si K es R o los números complejos C) o una variedad algebraica (para el general K);
+Cada álgebra asociativa da lugar a un álgebra de Lie usando el conmutador como corchete de Lie. De hecho cada álgebra de Lie se puede construir de esta manera, o es una subálgebra de un álgebra de Lie así construida.
+
+Álgebra de Jordan, para las cuales requerimos (xy)x² = x(yx²) y también xy = yx.
+Cada álgebra asociativa sobre un cuerpo de característica distinta de 2 da lugar a un álgebra de Jordan definiendo una nueva multiplicación x*y = (1/2)(xy + yx). En contraste con el caso del álgebra de Lie, no toda álgebra de Jordan se puede construir de esta manera. Las que si se pueden se llaman especiales.
+
+Álgebras alternativas, para las cuales requerimos que (xx)y =x(xy) y (yx)x = y(xx). Los ejemplos más importantes son los octoniones (un álgebra sobre los reales), y generalizaciones de los octoniones sobre otros cuerpos. (todas las álgebras asociativas son obviamente alternativas.) Salvo isomorfismo las únicas álgebras alternativas reales finito-dimensionales son los reales, los complejos, los cuaterniones y los octoniones.
+Álgebras potencia-asociativas, para las cuales requerimos que xmxn = xm+n, donde m ≥ 1 y n ≥ 1. (aquí definimos formalmente xn+1 recurrentemente como x (x n).) Los ejemplos incluyen todas las álgebras asociativas, todas las álgebras alternativas, y los sedeniones.
+
+
+=== Más clases de álgebraEditar ===
+Las álgebras de división, en las cuales el inverso multiplicativo existe o la división puede ser realizada. Las álgebras finito-dimensionales de división sobre el cuerpo de los números reales se pueden clasificar bien.
+Álgebras cuadráticas, para las cuales requerimos xx=re + sx, para algunos elementos r y s en el cuerpo de base, y e una unidad para el álgebra. Los ejemplos incluyen todas las álgebras alternativas finito-dimensionales, y el álgebra de las matrices reales 2-por-2. Salvo un isomorfismo las únicas álgebras reales alternativas, cuadráticas sin divisores de cero son los reales, los complejos, los cuaterniones, y los octoniones.
+Las álgebras de Cayley-Dickson (donde K es R, que comienzan con:
+C (una álgebra conmutativa y asociativa);
+los cuaterniones H (una álgebra asociativa);
+los octoniones (un álgebra alternativa);
+los sedeniones (un álgebra potencia-asociativa, como todas las álgebras de Cayley-Dickson).
+
+Las álgebras de Poisson se consideran en la cuantización geométrica. Tienen dos multiplicaciones, haciéndolas álgebras conmutativas y álgebras de Lie de diversas maneras.
+
+
+== Véase tambiénEditar ==
+Álgebra de Clifford
+Álgebra geométrica
+Álgebra simple central

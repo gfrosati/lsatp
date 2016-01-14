@@ -1,0 +1,12 @@
+En la teoría de la información y en la ciencia de computadores, se llama distancia de Damerau-Levenshtein o distancia de edición al número mínimo de operaciones requeridas para transformar una cadena de caracteres en otra. Se entiende por operación, bien una inserción, eliminación, sustitución o transposición de dos caracteres. Lo que la distingue de la distancia de Levenshtein es que esta última cuenta como una sola operación de edición a cualquiera de las tres primeras, pero cuenta la transposición como dos operaciones de edición.
+
+
+== Véase tambiénEditar ==
+Ispell
+
+
+== Enlaces externosEditar ==
+Implementación en C++ de la distancia de Damerau-Levenshtein como UDF para MySQL
+
+
+== ReferenciasEditar ==

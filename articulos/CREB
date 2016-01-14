@@ -1,0 +1,55 @@
+CREB ('cAMP response element-binding', en inglés) es una proteína que actúa como factor de transcripción. Se une a ciertas secuencias de ADN llamadas "elementos de respuesta a AMPc" (cAMP Response Element, en inglés), mediante los cuales incrementa o reduce la transcripción "corriente abajo" (downstream) regulada por estos genes. CREB fue descrita por primera vez en 1987 como un factor de transcripción de respuesta al cAMP, regulador del gen de somatostatina.
+Entre los genes cuya transcripción está regulada por CREB se encuentran C-Fos, la neurotrofina BDNF (Brain-derived neurotrophic factor, en inglés), Tirosina hidroxilasa, y múltiples neuropéptidos (como la somatostatina, encefalina, Factor de crecimiento nervioso, y la Hormona de Liberación de Corticotropina (CRH; "Corticotropin-Releasing Hormone", en inglés).
+Tanto funcional como estructuralmente, CREB está estrechamente relacionado con las proteínas CREM (Elemento modulador de respuesta a AMPc, cAMP response element modulator, en inglés) y ATF1 (Factor de transcripción dependiente de AMPc 1; cAMP-dependent Transcription Factor 1, en inglés). Estas proteínas se expresan en multitud de animales, incluidos los humanos.
+A su vez, el papel de CREB en los procesos de aprendizaje y plasticidad neuronal en el cerebro ha sido bien descrito.
+
+
+== Subtipos ==
+Los genes mencionados a continuación son los encargados de codificar CREB y las proteínas afines a este.
+CREB1CREB1
+CREB2, renombrado ATF4 ATF4
+CREB3 CREB3
+CREB5 CREB5
+CREB3L1 CREB3L1
+CREB3L2 CREB3L2
+CREB3L3 CREB3L3
+CREB3L4 CREB3L4
+
+
+== Mecanismo de acción ==
+La secuencia típica de eventos (aunque simplificada de alguna forma) es la siguiente. Una señal llega a la superficie celular, activando el receptor correspondiente. Este activa un segundo mensajero, como la cAMP o el Ca2+, los cuales activan una proteína kinasa. Esta proteína se desplaza hacia el interior del núcleo celular, donde activa la proteína CREB. Una vez activado, CREB se une a una región CRE, configurando el CBP (Proteína de unión a CREB; CREB-Binding Protein, en inglés), que lo coactiva. Esto permite a CREB “encender” y “apagar” ciertos genes. La unión de CREB al ADN está mediada por el dominio de (Cremallera de leucina), como se describe en la imagen.
+
+
+== Función ==
+CREB tiene muchas funciones en distintos órganos. Sin embargo, la mayoría de sus funciones han sido estudiadas en referencia al cerebro. Se cree que, en las neuronas, CREB está relacionado con la formación de aprendizaje y memoria a largo plazo; tal y como se ha visto en el molusco Aplysia punctata, la mosca de la fruta Drosophila melanogaster, y en ratas rattus norvegicus. CREB es necesario para la última fase de la potenciación a largo plazo. También juega un importante papel en el desarrollo de la adicción a drogas.   Existen formas activadoras y represoras de CREB. Moscas modificadas genéticamente para sobreexpresar la forma inactiva de CREB pierden su habilidad para almacenar memoria a largo plazo. CREB también resulta fundamental para la supervivencia neuronal, como muestran experimentos llevados a cabo con ratones modificados genéticamente en los que CREB y CREM fueron eliminados del cerebro. La falta de CREB durante el proceso de desarrollo embrionario del ratón, provoca la muerte inmediata de estos al nacer. Esto muestra, una vez más, el papel crítico de CREB en el neurodesarrollo.
+
+
+== Enfermedad relacionadas ==
+La alteración de la función de CREB en el cerebro puede contribuir al desarrollo y progresión de la enfermedad de Huntington. También se ha visto que anormalidades en la proteína que interactúa con el dominio KID de CREB, el CBP, está asociado con el Síndrome de Rubinstein-Taybi. Asimismo, se cree que CREB está también implicada en el crecimiento de distintos tipos de cáncer.
+
+
+== Elemento de respuesta a AMPc ==
+El elemento de respuesta a AMPc es el "elemento de respuesta" de CREB. En tanto que los efectos de la Proteín kinasa A en la síntesis de proteínas actúan activando CREB, el elemento de respuesta a AMPc es responsable de la modulación de estos efectos que actúan mediante síntesis proteica.
+
+
+== Referencias ==
+
+Lauren Slater, (2005). Opening Skinner's Box: Great Psychological Experiments of the Twentieth Century. Nueva York: W. W. Norton & Company. ISBN 0-393-32655-1. 
+Barco A, Bailey C, Kandel E (2006). «Common molecular mechanisms in explicit and implicit memory». J. Neurochem. 97 (6): 1520–33. doi:10.1111/j.1471-4159.2006.03870.x. PMID 16805766. 
+Conkright M, Montminy M (2005). «CREB: the unindicted cancer co-conspirator». Trends Cell Biol. 15 (9): 457–9. doi:10.1016/j.tcb.2005.07.007. PMID 16084096. 
+Mantamadiotis T, Lemberger T, Bleckmann S, Kern H, Kretz O, Martin Villalba A, Tronche F, Kellendonk C, Gau D, Kapfhammer J, Otto C, Schmid W, Schütz G (2002). «Disruption of CREB function in brain leads to neurodegeneration». Nat. Genet. 31 (1): 47–54. doi:10.1038/ng882. PMID 11967539. 
+Mayr B, Montminy M (2001). «Transcriptional regulation by the phosphorylation-dependent factor CREB». Nat. Rev. Mol. Cell Biol. 2 (8): 599–609. doi:10.1038/35085068. PMID 11483993. 
+Yin J, Del Vecchio M, Zhou H, Tully T (1995). «CREB as a memory modulator: induced expression of a dCREB2 activator isoform enhances long-term memory in Drosophila». Cell 81 (1): 107–15. doi:10.1016/0092-8674(95)90375-5. PMID 7720066. 
+Yin J, Wallach J, Del Vecchio M, Wilder E, Zhou H, Quinn W, Tully T (1994). «Induction of a dominant negative CREB transgene specifically blocks long-term memory in Drosophila». Cell 79 (1): 49–58. doi:10.1016/0092-8674(94)90399-9. PMID 7923376. 
+
+
+== Enlaces externos ==
+Johannessen, M., Pedersen Delghandi, M., and Moens, U. (2004) - What Turns CREB on ? - Cell Signall.; 10:1211-1227. http://www.sigtrans.org/publications/what-turns-creb-on/
+http://focus.hms.harvard.edu/2001/Oct26_2001/neuroscience.html
+MeSH: CREB+Protein (en inglés)
+Drosophila Cyclic-AMP response element binding protein A - The Interactive Fly
+Drosophila Cyclic-AMP response element binding protein B at 17A - The Interactive Fly
+
+
+== Véase también ==
+Dominio proteico Factor de transcripción

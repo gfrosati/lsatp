@@ -1,0 +1,45 @@
+VIA C7 es una CPU x86 diseñada por Centaur Technology y vendida por VIA Technologies.
+
+
+== Historia ==
+Ofrece una serie de mejoras a los viejos núcleos de VIA C3, pero es casi idéntico al último VIA C3 (núcleo Nehemiah). La producción del C7 se inició oficialmente en mayo de 2005, aunque de acuerdo con informes de mercado, no se encontraba en su máximo el volumen de producción a esa fecha. En mayo de 2006 el acuerdo de licencias cruzadas que mantenía Intel con VIA expiró y no fue renovado, por esta razón el 31 de marzo de 2006 finalizaron forzosamente los envíos de procesadores C3, porque VIA había perdido los derechos a utilizar el socket 370 diseñado por Intel.
+El C7 es utilizado en algunos miniportátiles tipo Netbook y UMPC como el OQO model 02 o el HP MiniNote 2133, así como en los basados en el prototipo VIA Nanobook como el Everex Cloudbook.
+
+
+== Versiones ==
+C7: para equipos de escritorio y computadoras portátiles (1.5-2.0 GHz) - encapsulado tipo FCPGA Pentium-M. FSB: 400, 533, 800 MHz.
+C7-M: para móviles y embebidos (1.5-2.0 GHz) - NanoBGA2, 21mmx21mm, 400, 800 MHz FSB.
+C7-M Ultra Low Voltage: para móviles y embebidos (1.0-1.6 GHz) - NanoBGA2, 21mmx21mm, 400, 800 MHz FSB.
+C7-D: C7 similar a la original, pero compatible con RoHS y comercializados como "procesador libre de carbono". Algunas variantes de estos micros no soportan PowerSaver.
+
+
+=== Esther ===
+El Esther (C5J) es el próximo paso de la evolución de la línea Nehemías + (C5P), núcleo del VIA C3, incluyendo una migración a un proceso de fabricación de 90 nm de silicio sobre aislante (SOI) el desarrollado por IBM Microelectronics. Los procesadores se fabrican en fabricas de IBM en East Fishkill, Nueva York. El chip fue diseñado como siempre por Centaur Technology (filial de VIA) en Austin, Texas, por un personal permanente de apenas 85 ingenieros.
+Las nuevas funciones de este núcleo son:
+Promedio de consumo de energía de menos de 1 vatio.
+2 GHz y una operación de bajo TDP de 20 vatios. En comparación, los procesadores Pentium-M de núcleo Dothan necesitan 21 (FSB 400) o 27 vatios (FSB 533) para llegar a 2,0 GHz.
+Aumento de caché de nivel 2 de 64k a 128k, la asociatividad aumentó de las 16 vías en conjunto asociativo del C3 a 32 vías en conjunto asociativo del C7.
+VIA ha declarado que el bus del C7 está físicamente basado en el Pentium-M de 479-pin, pero que utiliza el bus propietario VIA V4 para señalización eléctrica, en lugar de Intel AGTL + Bus Quad Pumbed, evitando una infracción de patentes.
+Tecnología "Twin Turbo", que consta de doble PLL, una fija en un reloj de alta velocidad, y el otro a menor velocidad. Esto permite que la frecuencia de reloj del procesador se ajuste en un solo ciclo de procesador, mucho más rápido que la tecnología Intel SpeedStep comparable, proporcionando un mayor ahorro de energía.
+Soporte para instrucciones extendidas SSE2 y SSE3.
+NX bit en modo PAE para evitar que los errores de desbordamiento de búfer sean explotables por virus o atacantes.
+Soporte de hardware para SHA-1 y SHA-256 hashing.
+Hardware basado en el multiplicador de Montgomery soporta criptografía de clave pública con tamaño de clave de hasta 32K.
+
+
+== Metodología de diseño ==
+El C7 Esther es un paso evolutivo después del C3 Nehemiah, en la que VIA/Centaur ha continuado su enfoque tradicional de equilibrio entre rendimiento, potencia y presupuesto.
+La piedra angular de los chips de serie C3 es una filosofía de diseño de que incluso un núcleo relativamente sencillo escalar in-orden puede ofrecer rendimiento razonable contra un núcleo complejo superescalar out-of-order si está apoyado en un eficiente "front-end", es decir, prefetch, caché y mecanismos del predictor de saltos.
+En el caso de C7, el equipo de diseño se ha centrado en seguir racionalizando el "front-end" de los chips, es decir, el tamaño de la caché, asociatividad y rendimiento, así como el sistema de prefetch. Al mismo tiempo, sin cambios significativos al núcleo de ejecución ( "back-end").
+El éxito del C7 cierra más la brecha en el rendimiento con AMD / Intel, ya que la velocidad de reloj no está limitada térmicamente.
+
+
+== Véase también ==
+VIA C3
+VIA Eden
+VIA Nano
+VIA NanoBook
+
+
+== Enlaces externos ==
+Una mirada a la Via C7-M

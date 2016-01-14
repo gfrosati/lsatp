@@ -1,0 +1,30 @@
+Una reacción controlada por difusión (o limitada por difusión) es una reacción química que ocurre tan rápidamente que la velocidad de reacción es directamente la velocidad de transporte de los reactivos a través del medio donde se produce (por lo general una solución). Tan pronto como los reactivos se encuentran uno con otro, se produce la reacción.
+
+
+== Modelo teórico ==
+El proceso de reacción química puede ser considerado como una serie de pasos que incluyen la difusión de los reactivos hasta que estos se encuentran en la proporción correcta y forman un complejo activado el cual a su vez se rompe para formar los productos. La velocidad de reacción observada, es, por lo general; la velocidad del paso más lento o paso limitante de la velocidad. En las reacciones controladas por difusión, la formación de los productos a partir del complejo activado es mucho más rápida que la velocidad de difusión de los reactivos, y por lo tanto la velocidad de reacción se encuentra dominada por la frecuencia de colisión.
+
+
+== Ocurrencia ==
+Las reacciones controladas por difusión son raras en la fase gaseosa, donde las velocidades de difusión son por lo general muy altas. Las reacciones controladas por difusión son más probables en medios más densos como el líquido o el sólido, donde las velocidades de difusión son más lentas debido a las colisiones con las moléculas de la fase dispersante (solvente).
+De igual modo las reacciones donde el complejo activado se forma con mucha facilidad, y este complejo activado decae rápidamente para formar los productos; es mucho más probable que resulten limitadas por difusión.
+Algunos ejemplos de este tipo de reacciones on aquellas que involucran reacciones catalizadas tales como las reacciones enzimáticas. Las reacciones heterogéneas donde los reactivos se encuentran en diferentes fases, también son muy buenas candidatas a estar sometidas al control por difusión.
+Una prueba clásica para determinar si una reacción es controlada por difusión, es observar si la velocidad de reacción se altera por mezclado o agitación; si esto ocurre entonces es casi totalmente probable que esta reacción sea controlada por difusión bajo las condiciones estudiadas.
+
+
+== Aplicaciones en biología ==
+
+La teoría de una reacción controlada por difusión fue utilizada originalmente por R.A. Alberty, Gordon Hammes, y Manfred Eigen para estimar el límite superior de una reacción de tipo enzima-sustrato.  De acuerdo con su estimación,  el límite superior para una reacción de tipo enzima-sustrato era de 109 M−1 s−1.
+En 1972, se observó que en la deshidratación del H
+2CO
+3 catalizada por la anhidrasa carbónica, la constante catalítica de segundo orden obtenida experimentalmente estaba en el orden de 1,5 × 1010 M−1 s−1, la cual es un orden de magnitud mayor que el límite estimado por Alberty, Hammes, y Eigen basados en un modelo simplificado. 
+Para resolver esta aparente paradoja, el profesor Kuo-Chen Chou y su equipo de colaboradores propusieron un modelo que tenía en cuenta el factor espacial, y el factor de campo de fuerzas entre la enzima y su sustrato, y encontraron que el límite superior podía alcanzar tasas de 1010 M−1 s−1,   y que podía ser utilizado para explicar algunas velocidades de reacción sorprendentemente altas observadas en biología molecular.  
+El nuevo límite superior encontrado por Chou y colaboradores, para las reacciones enzima-sustrato fue posteriormente analizado y discutido por una serie de estudios subsecuentes.  
+Una comparación detallada entre el modelo simplificado Alberty-Hammes-Eigen (a) y el modelo de Chou (b) para el cálculo de la velocidad de reacción de una enzima limitada por difusión con su sustrato, o el límite superior de una reacción de tipo enzima-sustrato, fue elaborada en la publicación de Zhou, del año 1982.
+
+
+== Véase también ==
+Enzima controlada por difusión
+
+
+== Referencias ==

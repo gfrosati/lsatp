@@ -1,0 +1,31 @@
+Una partida guardada es un archivo informático que se encarga de almacenar la información sobre el progreso del jugador a lo largo de un videojuego. Esta partida guardada puede ser cargada más tarde, de forma que el jugador pueda continuar con el juego donde lo había dejado. Los jugadores guardan partidas normalmente para evitar la perdida de su progreso.
+El uso de las partidas guardadas es muy común en los videojuegos actuales, especialmente en los largos, que no se pueden finalizar de una sola partida.
+
+
+== Historia ==
+En un principio, con los videojuegos arcade, no existía la necesidad de guardar la partida, dado que estos no solían tener una trama que se fuese desarrollando durante largo tiempo.
+Dada la complejidad o dificultad de almacenar las partidas guardadas en un ordenador o videoconsola al no tener estas medios de almacenamiento perpetuo, se prefería el uso de contraseñas, o passwords, como se harían conocidas al estar la mayoría de los juegos en inglés, que normalmente eran un conjunto de caracteres codificados en el propio código del juego que los jugadores recibían tras concretar ciertos objetivos, que al ser introducidos a futuro le devolvían al jugador todo el progreso que había obtenido al momento de obtener el código.
+Las computadoras domésticas en los comienzos de la década de 1980 tenían la ventaja de usar medios externos para salvar, como cassettes o disquetes, antes que se usaran dispositivos internos como los discos duros.
+Más tarde, en videojuegos basados en cartuchos, como The Legend of Zelda, las partidas se almacenaban en memorias RAM con baterías dentro del cartucho mismo. En las consolas más recientes, que usan tecnología CD o DVD, las partidas se almacenan en tarjetas de memoria o unidades de disco duro dentro de la máquina.
+Algunos juegos no guardan el progreso del jugador a medida que avanza, sino solamente sus puntajes, configuraciones personalizadas y otras características. Esto ocurre con frecuencia en juegos más viejos y en arcades.
+
+
+== Formas de guardado ==
+
+
+=== Estados de guardado ===
+Los estados de guardado, o save states cuando se está jugando con un emulador. De esta forma, se puede guardar en absolutamente cualquier momento. Esto se hace ingresando al volcado de memoria, eligiendo guardar lo que esté pasando por la memoria RAM en el mismísimo momento. Los archivos de guardado generados por este proceso son usualmente llamados save states (al significar esto "estado de guardado" en inglés). Muchos de estos save states son modificados de modo que el juego reaccione de formas en las que reproducidos en una consola no reaccionarían.
+Algunos juegos tienen una forma similar de guardado en forma nativa, solo que temporal ya que al apagar la consola los datos se pierden.
+
+
+=== Puntos de control ===
+Los puntos de control o checkpoints son lugares del videojuego en los que se guarda la partida. En juegos sin capacidad de guardado, este método solía usarse para que si perdías pudieses revivir en ese punto y no al principio del nivel ni del juego (cosa que se ejemplifica muy claramente en Sonic the Hedgehog, en donde un objeto denominado star post cumple el papel de punto de control). A día de hoy, la mayoría de los videojuegos, guardan el estado del juego completo en estos puntos, es lo que se conoce como autoguardado. En muchos videojuegos de carreras cronometrados, los puntos de control aumentan el tiempo disponible, retrasando el fin del juego y aumentando las posibilidades del jugador de obtener un puntaje más alto. En algunos juegos, se entregan premios por pasar los puntos de control.
+Los diseñadores de videojuegos usualmente optan por incluir estos puntos de guardado sin salir del estilo del juego. Resident Evil posee puntos de guardados en forma de antiguas máquinas de escribir y requiere de un poco de "tinta" para cada guardado. En Grand Theft Auto se utiliza en cada lanzamiento algo típico de cada época: casetes para mediados de los 80 en Grand Theft Auto: Vice City, disquetes para el principio de los 90 en Grand Theft Auto: San Andreas y CDs para finales de los 90 en Grand Theft Auto: Liberty City Stories. En muchos videojuegos de rol, se incluye la opción de guardado como un diario en donde los personajes pueden escribir (como en Harvest Moon, o como una cama o albergue para descansar (como en Paper Mario.
+
+
+=== Guardar en cualquier momento ===
+Otro tipo de salvado de juego es el concepto de guardar en cualquier momento, lo que permite salvar independientemente de la ubicacióin en el terreno, el estátus de juego, etc. Esta habilidad ha estado disponible mayormente en juegos de ordenador hasta la llegada del disco duro a las consolas. Ocasionalmente, esta característica se limita en número para aumentar la dificultad, este es el caso de Hitman 2, en el que al aumentar la dificultad, entre otras cosas, se limita la cantidad de partidas que puedes guardar por nivel.
+
+
+== Intercambio de archivos de guardado ==
+Durante años, compartir los archivos de guardado entre amigos ha sido bastante común. Desde negociar con contraseñas a intercambiar memory cards, los jugadores siempre han podido ayudarse mutuamente para desbloquear juegos. Con la creciente popularidad de internet, mucha gente sube sus datos de guardado para ayudar a gente en línea en el progreso de diversos juegos. Sin embargo, con la llegada de diversos medidores de progreso, como el «gamescore» en los juegos de Xbox 360, muchos jugadores empiezan a considerar tramposos a aquellos que cargan partidas de otros en sus sistemas.

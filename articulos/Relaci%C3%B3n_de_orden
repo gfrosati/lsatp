@@ -1,0 +1,67 @@
+En matemática y en lógica matemática, especialmente en teoría del orden y álgebra abstracta, una relación de orden es una relación binaria que pretende formalizar la idea intuitiva de ordenación de los elementos de un conjunto.
+
+
+== Definición ==
+Sea  un conjunto dado no vacío y  una relación binaria definida en , entonces se dice que  es una relación de orden si cumple las siguientes propiedades:
+Reflexividad: Todo elemento de  está relacionado consigo mismo. Es decir, .
+Antisimetría: Si dos elementos de  se relacionan entre sí, entonces ellos son iguales. Es decir, 
+Transitividad: Si un elemento de  está relacionado con otro, y ese otro a su vez se relaciona con un tercero, entonces el primero estará relacionado también con este último. Es decir, 
+Una relación de orden  sobre un conjunto  puede denotarse con el par ordenado .
+Relación de orden amplio
+En el caso de que R sea reflexiva, antisimétrica y transitiva. Por ejemplo la inclusión en el conjunto potencia de A. Además dos subconjuntos cualesquiera no se pueden comparar mediante la inclusión. La inclusión no es una relación de orden total.
+
+
+== Relación de orden total ==
+Sea  un conjunto dado,  es una relación de orden total si y solo si todos los elementos de  se relacionan entre sí, es decir,
+
+.
+
+Ejemplo  es totalmente ordenado. En efecto, es:
+Reflexivo:  entonces  (porque por definición, )
+Antisimétrico:  si  y  entonces  
+Transitivo:  si  y  entonces 
+Orden total, pues
+
+Sean m y n dos números naturales, entonces m ≤ n ó n ≤ m.
+Contraejemplo, (ℤ+, | ) no es totalmente ordenado con la relación a|b, " a divide b"; pues
+5 no divide a 12, ya que no existe h entero positivo tal que 12 = 5h. En todo caso, para cualquier h ∈ ℤ+, 12 ≠ 5h.
+
+
+== Relación de orden parcial ==
+Sea  un conjunto dado,  es una relación de orden parcial si y solo si al menos un par de elementos de  se relacionan entre sí, es decir,
+
+ tal que .
+
+Ejemplo. Sea el conjunto  y el conjunto potencia de , definido por:
+
+Entonces  es parcialmente ordenado, pues sean
+
+ pero 
+Nótese que las relaciones de orden total son un caso particular de las relaciones de orden parcial.
+
+
+== Relación de orden densa o bien ordenada ==
+
+Una relación de orden parcial ≤ sobre un conjunto X se dice densa (o densa-en -sí-misma) si, para todo x e y en X tales que x < y (x ≤ y y x ≠ y), existe otro z en X tal que x < z < y.
+Ejemplo 1: Los números racionales con la ordenación habitual son un conjunto densamente ordenado, al igual que los números reales. Si q1 < q2 entonces tenemos que q3:= (q1+q2)/2 satisface que: q1 < q3 < q2.
+Ejemplo 2: Los números enteros por otro lado con la ordenación habitual no son un conjunto densamente ordenado ya que entre un número entero y su siguiente no existe un número intermedio.Sin embargo, para cualquier real t existen los enteros k y k+1, tal que k ≤ t < k+1.
+
+
+== Véase también ==
+Teoría del orden
+Desigualdad matemática
+Igualdad matemática
+
+
+=== Esquema de temas relacionados ===
+
+
+== Referencias ==
+
+
+== Bibliografía ==
+Birkhoff, Garrett (1948). Lattice Theory (en inglés). New York: American Mathematical Society. 
+Davey, B.A.; Priestley, H.A (2002). Introduction to Lattices and Order (en inglés). Cambridge: Cambridge University Press. ISBN 978-0-521-78451-1.   
+Fraïssé, Roland (2000). Theory of Relations (en inglés). Amsterdam: Elsevier. ISBN 0-444-50542-3.  
+Roman, Steven (2008). Lattices and Ordered Sets (en inglés). New York: Springer. ISBN 978-0-387-78900-2. 
+Rosenstein, Joseph G (1982). Linear Orderings (en inglés) (2nd. edición). New York: Academic Press. ISBN 0-12-597680-1.

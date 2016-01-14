@@ -1,0 +1,258 @@
+La Radio Digital Terrestre es un sistema de radiodifusión de audio, que se distingue por la emisión de señal digital. Actualmente existen tres sistemas de radiodifusión digital conocidos con repercusión a nivel mundial: IBOC (In-band On-channel), DAB (Digital Audio Broadcasting) y DRM (Digital Radio Mondiale).
+
+
+== Historia ==
+La creciente necesidad de desarrollar un sistema digital de radiodifusión hizo que diversas empresas, con el final del siglo XX, principios del siglo XXI, se lanzaran a la búsqueda de un sistema que pudiera ser útil y rentable, basándose en distintas filosofías de creación. Mientras que Europa iniciaba sus estudios mediante el proyecto Eureka 147, tratando de ganar calidad, Estados Unidos, mediante la empresa iBiquity Digital Corporation, buscaba un sistema muy adaptativo que permitiera un cambio gradual de los receptores, el IBOC.
+Actualmente el IBOC se está implantando con relativa facilidad en los países donde se ha adoptado este sistema, debido a su filosofía. En Europa el sistema DAB se está implantando de forma más lenta y con algo más de dificultad en algunos países, pero otros países como Suecia ya tienen planes para apagar la FM.
+La Radio Digital es el más significativo avance en tecnología de radio desde la introducción del FM stereo. Ofrece tanto a oyentes como emisoras una interesante combinación de beneficios y oportunidades:
+Por parte de los oyentes
+
+Proporciona gran calidad en la recepción de señales sonoras, equivalente a la del Disco Compacto.
+Robustez del sistema de transmisión aéreo. Receptores móviles y portátiles libres de interferencias (multipath, fading, co-channel) en la recepción; es decir, resuelve los problemas de distorsión y cancelaciones que sufren las señales de FM en móviles (vehículos en movimiento).
+Receptores de bajo costo (en el largo plazo).
+Mayor variedad en la información recibida. Texto, Multimedia.
+
+Por parte de las emisoras
+
+Permite configurar Redes de Frecuencia Única, que permiten la recepción de un programa en la misma frecuencia a todo el territorio de cobertura, sin necesidad de resintonizar el equipo receptor. Esta es una gran ventaja respecto a la FM convencional, donde se requieren redes multifrecuencia para la difusión de un programa en zonas amplias de cobertura u orográficamente complejas.
+Garantiza calidad elevada en recepción con niveles de señal reducidos. Una relación entre la señal recibida y el ruido de 9 dB permite ya una calidad de señal sonora de calidad, frente de los 50 dB (decibelios) s/n que se requieren en FM.
+Optimiza y economiza el espectro radioeléctrico, combinando un solo bloque y, por tanto, un solo transmisor, dando lugar a un mayor número de estaciones. Ofrece mayor cobertura, llegando a lugares de difícil acceso.
+Flexibilidad: el sistema DAB provee un canal digital de datos por el cual se puede entregar un amplio rango de tipos de servicios, desde audio hasta multimedia, mediante el envío de información adicional visualizable en pantalla:
+informaciones asociadas al programa
+información complementaria e independiente
+imágenes, mapas, etc.
+incluso el sistema puede proveer servicios con más valor agregado, que son un desafío a la innovación de los radiodifusores (web, vídeo, letras de canciones, etc.).
+
+Al ser un canal digital, se pueden multiplexar diez o más servicios de alta calidad. El multiplex puede ser reconfigurado dinámicamente para introducir nuevos servicios temporales o de suscripción, por ejemplo.
+
+
+== Estándares de radio digital ==
+
+
+=== IBOC (In-band On-channel) ===
+
+Año de creación: aprobación del estándar AM en abril de 2005.
+Principales países donde se utiliza: Estados Unidos, México, Tailandia,[cita requerida] Indonesia,[cita requerida] Nueva Zelanda,[cita requerida] Brasil,[cita requerida] Filipinas,[cita requerida] Panamá, República Dominicana y Puerto Rico; aunque algunas empresas como Microsoft tratan de impulsarlo en países que quieren implantar el DAB, como Francia.[cita requerida]
+Ventajas: posibilidad de convivencia de receptores analógicos y digitales mediante la misma señal recibida.
+Inconvenientes: la convivencia de ambas señales puede producir solapamientos y, por tanto, pérdidas cualitativas, menor cobertura que la FM y al usar la red de FM no permite una red de frecuencia única.
+Rango de precios de sus receptores (noviembre de 2006): entre 150 y 300 $
+Bandas de transmisión utilizadas: frecuencias de 530 a 1710 kHz (AM) y de 87.5 a 108 MHz (FM).
+
+
+=== DAB (Digital Audio Broadcasting) ===
+
+Año de creación: primeros pasos en septiembre de 1995 en el Reino Unido.
+Principales países donde se utiliza: principales países europeos (Noruega, España, Italia, Suecia, Suiza, Dinamarca, Alemania, Francia, Reino Unido y Bélgica), Australia y algunos países asiáticos, como China.
+Ventajas: da una altísima calidad de audio, sin consumir demasiados recursos. Permite una red de frecuencia única y una oferta mucho más amplia que en la FM.
+Inconvenientes: a diferencia del Iboc, no permite “incluir” señal analógica dentro del mismo ancho de banda, lo que hace que la señal solo sirva a receptores digitales.
+Rango de precios de sus receptores (2014): entre 20 y 230 €.
+Bandas de transmisión utilizadas: banda III (de los 174 a 240 MHz) y banda L (de los 1452 a 1492 MHz); ésta última es peor porque al ser la frecuencia mayor se pierde cobertura, en Estados unidos es destinada a uso militar y en España se usará para 4G. En algunos países puede también transmitir por banda UHF.
+
+
+=== DRM (Digital Radio Mondiale) ===
+
+El DRM es un sistema creado por el consorcio del mismo nombre, cuya misión era establecer un sistema digital para las bandas de radiodifusión con modulación de amplitud, Onda Larga (ondas kilométricas), Onda Media (ondas hectométricas) y Onda Corta (ondas decamétricas), por debajo de 30 MHz. El 16 de junio de 2003 se iniciaron las primeras emisiones regulares.
+El sistema ha sido aprobado en el año 2003 por la UIT (recomendación ITU-R BS 1514) y recomendado por ese organismo como único estándar mundial en las bandas entre 3 y 30 MHz (Onda Corta).
+También ha sido estandarizado por la norma IEC-62272-1 y por la ETSI ES-201980.
+Actualmente DRM es estándar para radio digital que cubre las siguientes bandas de radiodifusión: en Amplitud Modulada (onda larga, onda media y onda corta) y en Frecuencia Modulada también conocido como DRM+.
+
+
+=== ISDB-Tsb ===
+ISDB-Tsb (terrestial sound broadcasting) es la norma para la radio digital terrestre. La especificación técnica es la misma que ISDB-T. ISDB-Tsb soporta el codec MPEG2, transmitida por BST-OFDM usando 1 o 3 segmentos, siendo compatible con el servicio 1Seg de ISDB-T. Su implementación está planificada para julio del 2011, después del apagón de la televisión analógica y usaría dichas frecuencias liberadas (90-108 MHz). La radiodifusión analógica en FM de Japón (que se ubica entre 76 y 90 MHz) no sería reemplazada. El ISDB-Tsb seria un servicio radial complementario al FM analógico. Se efectúan transmisiones de pruebas desde en octubre de 2003 en Tokio y Osaka patrocinadas por Digital Radio Promotion Association (DRP). En este caso se están usando las frecuencias correspondientes al canal 7 en VHF (188-192 MHz).
+
+
+== Radio Digital Terrestre en el Mundo ==
+
+
+=== África ===
+
+
+==== Sudáfrica ====
+Las emisiones se ofrecen en DMB. Son llevadas por la empresa MobileTV, en el que el 20% de las acciones son de la Cámara Nacional de Comercio (NAFCOC).
+
+
+==== Ghana ====
+Sus emisiones digitales son en DMB de pago.
+
+
+=== América ===
+
+
+==== Estados Unidos ====
+En este país la radio digital esta a cargo de la empresa iBiquity, cuyo sistema comercial es el HD Radio, el cual ofrece de momento, la transmisión de radio híbrida, es decir, transmitir tanto la señal analógica como la digital.
+
+
+==== México ====
+Desde el mes de marzo de 2012, en algunas ciudades del país, varias estaciones transmiten su programación en HD Radio. Sin embargo este sistema no se comercializa, no se encuentran en el mercado receptores que posibiliten su sintonización, a fecha de 2015 solo algunos automóviles de lujo entre otros tienen sintonizadores de radio digital o así como algunos equipos de audio.
+
+
+==== El Salvador ====
+La Radio digital está en el formato HD Radio.
+
+
+==== Panamá ====
+Sus emisiones digitales se ofrecen en HD Radio, es decir, radio híbrida. Antes se hicieron pruebas en DAB y DRM
+
+
+==== Chile ====
+El gobierno de ese país aún no decide el estándar que se utilizará para digitalizar la radio.
+
+
+==== Colombia ====
+En Colombia se adapta la señal DAB para los receptores de TDT, algunas de las emisoras que prueban este tipo de tecnología en Bogotá DC y algunas ciudades principales son Radiónica (Pública), Señal Radio Colombia (Pública), Blu Radio (Privada), La FM y RCN Radio (Privadas).
+
+
+=== Asia ===
+
+
+==== Kuwait ====
+Se ha encargado recientemente a la empresa Factum la migración a DAB+ y probablemente haya más encendidos. Actualmente emite un múltiple en DAB.
+
+
+==== India ====
+Las emisiones están planificadas para ofrecerse en DRM entre este año y 2013.
+
+
+==== Malasia ====
+Las emisiones digitales están en DMB y en DAB+.
+
+
+==== Vietnam ====
+Las emisiones digitales se ofrecen en pruebas en DMB. Este año 2012 se ha pedido la licencia definitiva.
+
+
+==== Hong Kong ====
+Desde 2011 se ofrecen emisiones en DAB+.
+
+
+==== Taiwan ====
+Se emite en DAB y DAB+ con hasta 13 emisoras.
+
+
+==== China ====
+Las emisiones se ofrecen en DAB y DMB.
+
+
+==== Corea del Sur ====
+Pionera en las emisiones DMB, ofrece múltiples en DMB y DAB con un total de 16 emisoras.
+
+
+==== Japón ====
+Sus emisiones digitales son en el formato ISDB.
+
+
+=== Europa ===
+
+
+==== Bélgica ====
+Las emisiones son en el formato DAB con emisiones distintas según región. Se está planteando la posibilidad de emitir en DAB+ entre innovaciones como la TDT en DVB-T2.
+
+
+==== Países Bajos ====
+Gracias al contexto favorable, y una vez puestos plazos de cobertura, desde el verano de 2012 se ofrece un múltiple privado en DAB+ y DMB.
+
+
+==== Dinamarca ====
+Las emisiones se ofrecen en DAB, con dos múltiples compartidos entre la DR y emisoras privadas.
+
+
+==== Noruega ====
+Las emisiones se ofrecen en formato DAB. Además, está previsto el apagón analógico de la radio para el 2017.
+
+
+==== Suecia ====
+Teracom es quien lleva las emisiones digitales, con múltiples en DAB y DAB+. Actualmente hay un concurso de licencias privadas en DAB+. Hay una propuesta de apagón de la FM en 2022.
+
+
+==== Polonia ====
+Las emisiones están en DAB+ y DMB. Desde finales de 2012, InfoTVOperator y la corporación pública de radio prueban el DAB+.
+
+
+==== Gibraltar ====
+A finales de 2012, se activaron los servicios de Radio digital DAB+, que son llevados por la empresa Arqiva. Las emisiones, junto a las de TDT salen desde el Peñón y cubren todo el país.
+
+
+==== España ====
+Desde 2000, se emiten tres múltiples nacionales:
+FU-E
+MF-I
+MF-II
+La cobertura solo está en Madrid y Barcelona y en formato DAB. Radio María es la única que emite en DAB+.
+
+
+==== Irlanda ====
+Sus emisiones digitales actualmente constan de un múltiple en DAB llevado por RTÉ. Desde el verano de 2012, hay un múltiple privado en pruebas en los formatos DAB y DAB+. Se da el caso de que una de las emisoras es en irlandés.
+
+
+==== Reino Unido ====
+Lleva emitiendo desde el 2000. Existen múltiples regionales, nacionales y locales.
+
+
+==== Francia ====
+Las emisiones digitales llevan desbloqueadas desde marzo de 2012, cuando se decidió acelerar el proceso de concesión de licencias de DAB. Además, existen múltiples locales en pruebas. El sistema a utilizar será finalmente en DAB+, aunque no hay frecuencias para Radio France y los grupos más importantes se han retirado del concurso. El 20 de junio de 2014 se empezó a emitir en París, Marsella y Niza.
+
+
+==== Alemania ====
+Desde 2011 se emite en DAB+. Es uno de los países que más se han tomado en serio la Radio digital. Hay una propuesta de apagar la FM en el 2025
+
+
+==== República Checa ====
+Teleko lleva un múltiple mixto en DAB/DAB+ desde 2007. Ahora la idea es definir más claramente los procesos de digitalización.
+
+
+==== Austria ====
+Actualmente emite en DAB. Estuvo a punto de emitir en DAB+, pero las pruebas se cancelaron por problemas de viabilidad.
+
+
+==== Hungría ====
+Emite un múltiple local en DAB+ desde 2009.
+
+
+==== Croacia ====
+Desde 1997 se ofrece un múltiple en DAB para Zagreb y algunas zonas de su alrededor.
+
+
+==== Suiza ====
+Las emisiones son actualmente en DAB+, con decenas de emisoras según la zona lingüística. El apagón analógico de radio está previsto para 2024
+
+
+==== Italia ====
+Lleva emitiendo en DAB desde 2005 y en DAB+ desde 2007.
+
+
+==== Malta ====
+Fue el primer país en emitir en DAB+ y ofrece en sus emisiones emisoras nacionales e internacionales en inglés, italiano y maltés (lenguas oficiales de ese país).
+
+
+=== Oceanía ===
+
+
+==== Australia ====
+Sus emisiones se ofrecen en DAB+ desde 2007.
+
+
+==== Nueva Zelanda ====
+Las emisiones se ofrecen en DAB y DAB+.
+
+
+== Apagón analógico ==
+2015 - 2019  Reino Unido
+2017:  Noruega 
+2019  Dinamarca
+2024   Suiza
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+Sitio oficial del World DAB Forum: Digital Audio Broadcasting
+Sitio oficial del consorcio DRM: Digital Radio Mondiale
+Sitio oficial de iBiquity Digital Corporation: iBiquity
+Situación de la radio digital terrestre en España
+Características de la radio digital terrestre en España
+Televisión Digital (Noticias Radio Digital)
+Federal Comunications Commission
+Unión Internacional de Telecomunicaciones
+TDT en Valladolid
+[1]

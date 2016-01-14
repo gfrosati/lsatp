@@ -1,0 +1,18 @@
+El GNU Pascal (GPC) es un compilador Pascal abarcado un frontend para el GCC, similar a la manera en que Fortran y otros lenguajes fueron agregados al GCC. El GNU Pascal es compatible con ISO 7185, y, según el manual, implementa la "mayoría" del estándar ISO 10206 Extended Pascal.
+La principal ventaja de montar al GNU Pascal sobre los hombros del compilador GCC es que es instantáneamente transportable a cualquier plataforma que soporta al GCC.
+
+
+== Referencias ==
+
+
+== Véase también ==
+Pascal
+GNU
+GCC
+
+
+== Enlaces externos ==
+The GNU Pascal (GPC) website
+Standard Pascal — Recursos e historia del estándar original Pascal
+Pascal User's Group Newsletters — Una historia fuente temprana la historia de Pascal, conteniendo muchas cartas de Niklaus Wirth y otros acerca de Pascal.
+Pascal and its Successors — Un artículo de Niklaus Wirth acerca del desarrollo de Pascal, Modula-2 y Oberon

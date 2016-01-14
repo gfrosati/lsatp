@@ -1,0 +1,77 @@
+Las ondas sonoras son ondas mecánicas longitudinales, se originan por el movimiento de alguna porción de un medio elástico (sólido, líquido o gaseoso) con respecto a su posición de equilibrio, y debido a las propiedades elásticas del medio, esta perturbación puede desplazarse de un lugar a otro. Existe un gran margen de frecuencias entre las cuales se puede generar ondas mecánicas longitudinales. Las ondas sonoras se reducen a los límites de frecuencia que pueden estimular el oído humano para ser percibidas en el cerebro como una sensación acústica. Estos límites de frecuencia se extienden de aproximadamente 20 Hz a cerca 20 KHz y se llaman límites de audición. Las ondas audibles son producidas por cuerdas en vibración (por ejemplo el violín y las cuerdas vocales), por columnas de aire en vibración (el órgano y el clarinete) y por placas y membranas en vibración (el caso del tambor) [Resnick, Halliday. 1965].
+
+
+== Descripción del aparato fonador humano ==
+
+El aparato fonador es el conjunto de órganos que tienen como función producir la voz humana, lo conforman los pulmones, los cuales producen un flujo de aire; la laringe, que contiene las cuerdas vocales, la faringe, las cavidades oral y nasal y una serie de elementos articulatorios como los labios, los dientes, el alvéolo, el paladar, el velo del paladar y la lengua.
+En el proceso de generación de la voz, el sonido inicial proviene de la vibración de las cuerdas vocales conocida como vibración glotal, es decir, el efecto sonoro se genera por la rápida apertura y cierre de las cuerdas vocales conjuntamente con el flujo de aire emitido desde los pulmones. Las cuerdas vocales son dos membranas ubicadas dentro de la laringe, la abertura entre ambas cuerdas se denomina glotis. Cuando la glotis comienza a cerrarse, el aire proveniente desde los pulmones experimenta una turbulencia, emitiéndose un ruido de origen aerodinámico.
+
+Al cerrarse más las cuerdas vocales comienzan a vibrar a modo de lengüetas, produciéndose un sonido tonal, es decir periódico y cuya frecuencia varia en forma inversa al tamaño de las cuerdas. Este sonido es propio del hablante y es más agudo para el caso de mujeres y niños. Carece de información lingüística.
+Luego de atravesar la glotis el sonido pasa a través de la cavidad supraglótica, que es la porción del aparato fonador que permite modificar el sonido dentro de márgenes muy amplios. Está conformado principalmente por tres cavidades, la cavidad oral, la cavidad labial y la cavidad nasal, correspondientes a la garganta, los labios y la nariz respectivamente. Estas cavidades constituyen resonadores acústicos, los cuales modifican los sonidos de acuerdo a la forma que adopten, la lengua y los labios permiten efectuar esta variación de manera voluntaria.
+
+
+== Características fundamentales de la señal de voz ==
+
+
+=== Forma de onda de la señal de voz ===
+
+La señal de voz está constituida por un conjunto de sonidos generados por el aparato fonador. Esta señal acústica puede ser transformada por un micrófono en una señal eléctrica. La señal de voz en el tiempo puede ser representada en un par de ejes cartesianos. Como todo los sonidos, está formado esencialmente por curvas elementales (senos y cosenos) pero las posibles combinaciones de éstas pueden ser complejas. A manera de ejemplo, se muestra la forma de onda de la palabra ‘explorador’ (Imagen extraída de [Peralta, Cotrina. 2002]). La representación de la señal de voz en función del tiempo es importante puesto que brinda información sobre características importantes como la energía y los cruces por cero, las cuales facilitan su estudio y análisis.
+
+
+=== Energía y cruces por cero ===
+La función de energía de una señal representa la energía disipada por una resistencia de 1 ohm cuando se le aplica un voltaje . En una señal continua, la Energía total  en el intervalo de tiempo  a  está definida como:
+
+Para el caso de las señales discretas donde  es el número de muestras de la señal, la energía se define por:
+
+La variación de energía en la señal de voz se debe a la variación de la presión subglotal y de la forma del tracto vocal. La Energía es útil para distinguir segmentos sordos y sonoros en la señal de voz, debido a que los valores de esta característica aumentan en los sonidos sonoros respecto a los sordos.
+Los cruces por cero indican el número de veces que una señal continua toma el valor de cero. Para las señales discretas, un cruce por cero ocurre cuando dos muestras consecutivas difieren de signo, o bien una muestra toma el valor de cero. Consecuentemente, las señales con mayor frecuencia presentan un mayor valor de esta característica, el ruido también genera un gran número de cruces por cero.
+
+La formulación matemática de la Densidad de cruces por cero para señales discretas esta representa en la siguiente fórmula, en la cual,  es la función signo y  es el número de muestras de la señal.
+
+Se muestra las gráficas de energía y cruces por cero de la palabra 'seis'. Como se puede observar, el valor de la energía varía en relación directa con la amplitud de la señal. La función de Densidad de Cruces por Cero alcanza sus valores más altos cuando se trata de sonidos tales como la 's', que son conocidos como sonidos fricativos.
+
+Se realiza el estudio de la señal de voz en el dominio de la frecuencia, con la finalidad de conocer sus características espectrales. Se muestra el espectro de una señal de voz correspondiente a la palabra 'Dos'.
+
+La frecuencia fundamental o también denominada pitch, brinda información sobre la velocidad a la que vibran las cuerdas vocales al producir un sonido, el cual es generado por la rápida apertura y cierre de las cuerdas vocales con pequeños soplidos de aire, produciendo un espectro de frecuencia similar al mostrado en la figura siguiente. Este espectro podría ser obtenido si se colocara un micrófono de amplio rango directamente en la garganta, encima de las cuerdas vocales, pero debajo de las estructuras resonantes del tracto vocal.
+El espectro está conformado de armónicos de periodo pitch, el cual es el rango fundamental de frecuencia producidas por las cuerdas vocales. Si bien el espectro lleva un gran componente cerca de la frecuencia pitch (aprox. 50 Hz), tiene gran cantidad de armónicos, y así tiene componentes de frecuencia que se extiende hasta pasado los 5 KHz. [Flores. 1993]. Otra característica importante es la envolvente espectral. Un análisis adecuado sobre esta característica permite obtener información sobre los diferentes tipos de sonido.
+
+
+=== Frecuencias formantes ===
+Las cavidades que conforman la cavidad supraglótica actúan como resonadores acústicos. Si se realiza un análisis espectral del sonido luego de haber atravesado estas cavidades, el efecto de la resonancia produciría un énfasis en determinadas frecuencias del espectro obtenido, a las que se les denominara 'formantes'. Existen tantas formantes como resonadores posee el tracto vocal. Sin embargo se considera que sólo las tres nciar los distintos tipos de sonido. En la figura se muestra el espectro de la palabra 'uno', y se denominan F1, F2 y F3 a sus tres principales frecuencias formantes. La amplificación de cada una de estas tres frecuencias depende del tamaño y forma que adopta la cavidad bucal y la cavidad oral, y si el aire pasa o no por la nariz.
+
+
+== Tipos de señales de voz ==
+Básicamente, la Señal de Voz puede clasificarse en los siguientes tipos, Sonora, No Sonora y Plosiva [Flores. 1993].
+
+
+=== Señal sonora ===
+La señal sonora se genera por la vibración de las cuerdas vocales manteniendo la glotis abierta, lo que permite que el aire fluya a través de ella. Estas señales se caracterizan por tener alta Energía y un contenido frecuencial en el rango de los 300 Hz a 4000 Hz presentando cierta periodicidad, es decir son de naturaleza cuasiperiódica. El tracto vocal actúa como una cavidad resonante reforzando la energía en torno a determinadas frecuencias (formantes). En la figura siguiente se muestra el comportamiento de este tipo de señales en el tiempo. Toda las vocales se caracterizan por ser sonoras pero existen consonantes que también lo son, tales como, la 'b', 'd' y la 'm', entre otras.
+
+
+=== Señal no sonora ===
+A esta señal también se le conoce como señal fricativa o sorda, y se caracteriza por tener un comportamiento aleatorio en forma de ruido blanco. Tienen una alta densidad de Cruces por Cero y baja Energía comparadas con las señales de tipo sonora. Durante su producción no se genera vibración de las cuerdas vocales, ya que, el aire atraviesa un estrechamiento, y genera una turbulencia. Las consonantes que producen este tipo sonidos son la 's', la 'f' y la 'z' entre otras. La figura siguiente muestra la forma de onda de una señal no sonora.
+
+
+=== Señal plosiva ===
+Esta señal se genera cuando el tracto vocal se cierra en algún punto, lo que causa que el aire se acumule para después salir expulsado repentinamente (explosión). Se caracterizan por que la expulsión de aire está precedida de un silencio. Estos sonidos se generan por ejemplo, cuando se pronuncia la palabra 'campo'. La p es una consonante de carácter plosivo, y existe un silencio entre las sílabas 'cam' y 'po'. Otras consonantes que presentan esta característica son 't', y 'k', entre otras. La figura siguiente muestra el comportamiento de este tipo de señal.
+
+
+== Modelo del tracto ==
+El tracto vocal se comporta como un filtro, cuyos parámetros varían en el tiempo en función de la acción consciente que se realiza al pronunciar una palabra. Se muestra el diagrama de bloques del modelo del tracto vocal. Se consideran dos posibles entradas que dependerán del tipo de señal a reproducir, sonora o no sonora. Para señales sonoras, la excitación será un tren de impulsos de frecuencia controlada, mientras que para las señales no sonoras la excitación será ruido aleatorio. La combinación de estas señales modela el funcionamiento de la glotis. El espectro de frecuencias de la Señal de Voz puede obtenerse a partir del producto del espectro de la excitación por la respuesta en frecuencia del filtro.
+
+El control de ganancia G, determina la intensidad de la excitación. El tracto vocal manifiesta un número muy grande de resonancias, pero como se afirmó anteriormente, sólo se consideran tres y en algunos casos cuatro, esto es debido a que las resonancias de alta frecuencia son atenuadas por la característica frecuencial del tracto que tiende a actuar como un filtro pasabajo. Este modelo es una simplificación del proceso del habla. Los sonidos fricativos, no se filtran por el tracto con la misma extensión en que lo hacen las señales sonoras, por lo que el modelo no es muy preciso para este tipo de señales. Además, el modelo supone que las dos señales pueden separarse sin considerar ninguna interacción entre ellas, lo que no es del todo cierto, ya que la vibración de las cuerdas vocales es afectada por las ondas de presión dentro del tracto. Sin embargo, estas consideraciones pueden ser ignoradas, resultando el modelo lo suficientemente adecuado.
+
+
+=== Factores que afectan la señal de voz ===
+Existen muchos factores que afectan la correcta percepción de las Señales de Voz, tales como el ruido, la acústica y la calidad del micrófono. El ruido, se define como aquellos sonidos aleatorios que de forma "oculta" transforman y enmascaran el sonido. Dado que, es poco probable encontrar un entorno de audio digital en perfecto silencio, es importante conocer la cantidad de ruido, en relación con la señal que se introduce en el equipo de sonido, especialmente en la tarjeta de sonido. La fuerza de cualquier sonido (hablar por ejemplo), comparada con la fuerza promedio del ruido, se conoce como relación señal a ruido (SNR). A medida que aumenta la relación SNR, es mejor el trabajo realizado en grabación.
+Acústica de la habitación (ecos), puede crear cambios en el espectro de la Señal de Voz, debido a las resonancias de la habitación. Puesto que, cualquier ambiente cerrado tendría resonancias inherentes, su énfasis cuando interfiere con una señal de habla puede crear rangos anormales de frecuencias. Debido a esto, se producen dos cambios básicos en la acústica de una habitación, el primero es causado por el retardo en el tiempo del retorno de la señal original de una superficie reflectante, tal como una pared o una ventana. Cuando la onda es reflejada, regresa con mucho menor amplitud, y retardada en el tiempo, ésta interactúa con la forma de onda originalmente hablada para crear un nuevo espectro compuesto del habla. El segundo, está relacionado con la reflexión de una superficie rugosa de una pared, lo cual tiende a atenuar en altas frecuencias, pero a reforzar en el rango de bajas frecuencias. [Cater. 1984]. Ruido del ambiente afecta si el usuario del sistema está operando el dispositivo en cualquier lugar que no sea una habitación tranquila, existe la posibilidad de la interferencia del ruido con las formas de onda. No obstante sin ruido externo, el sistema es susceptible de captar ruido a través del micrófono, y aunque suene extraño, muchas veces el ruido proviene desde la boca durante la pronunciación del mensaje.
+En el caso de los sonidos plosivos, si el micrófono es ubicado directamente enfrente de la boca del hablante, entonces es muy susceptible de ser bombardeado por pequeñas ráfagas de aire ocasionadas por los sonidos plosivos. La mejor forma de tratar el problema es de rodear el micrófono con un material esponjoso transparente acústico, que rápidamente disipe la velocidad del viento de las pronunciaciones plosivas, permitiendo a las vibraciones acústicas normales pasar a través del micrófono. Otras fuentes de ruido externo, tal como los ventiladores en las computadoras, aire acondicionados, teléfonos, y otras personas hablando puede también causar problemas con la exactitud del sistema de reconocimiento. Otra técnica para cancelar el ruido externo es filtrar la señal de audio antes procesarla. Debido a que las frecuencias de voz que contienen información relevante están dentro de un rango relativamente estrecho desde 200 a 3000 Hz, el espectro de audio puede ser filtrado a través de un filtro pasabanda para rechazar las señales acústicas fuera de ese rango de frecuencias.
+La calidad del micrófono probablemente es, el factor que más influye en la adquisición electrónica de señales del habla es el tipo de micrófono que se está usando. Existen, principalmente, cuatro tipos de micrófonos disponibles en el mercado, los cuales son el electreto, el dinámico, el de cristal y el de carbón. Para percibir fácilmente las diferencias entre estos tipos de micrófonos, sus características principales son comparadas en la siguiente tabla.
+
+
+== Referencias ==
+
+Resnick, Robert; Halliday David (1965). Física para estudiantes de Ciencias e Ingeniería. Parte 1. John Wiley & Sons, Inc.  
+Andrés, Flores Espinoza (1993). Reconocimiento de Palabras Aisladas en Castellano. Inictel. Dirección de Investigación y Desarrollo. 
+Fernando, Peralta; Anibal Cotrina-Atencio (2002). Reconocedor y analizador de voz. Universidad Nacional Mayor de San Marcos.  
+John P., Cater (1984). Electronically Hearing: Computer Speech Recognition, 1st Edition. Howard W. Sams & Co. Inc.

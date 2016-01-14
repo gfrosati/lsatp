@@ -1,0 +1,67 @@
+El centro de masas de un sistema discreto o continuo es el punto geométrico que dinámicamente se comporta como si en él estuviera aplicada la resultante de las fuerzas externas al sistema. De manera análoga, se puede decir que el sistema formado por toda la masa concentrada en el centro de masas es un sistema equivalente al original. Normalmente se abrevia como c.m..
+
+
+== Otros conceptos relacionadosEditar ==
+
+En un tratamiento de sistemas de masas puntuales el centro de masas es el punto donde, a efectos inerciales, se supone concentrada toda la masa del sistema. El concepto se utiliza para análisis físicos en los que no es indispensable considerar la distribución de masa. Por ejemplo, en las órbitas de los planetas.
+En la Física, el centroide, el centro de gravedad y el centro de masas pueden, bajo ciertas circunstancias, coincidir entre sí. En estos casos se suele utilizar los términos de manera intercambiable, aunque designan conceptos diferentes. El centroide es un concepto puramente geométrico que depende de la forma del sistema; el centro de masas depende de la distribución de materia, mientras que el centro de gravedad depende también del campo gravitatorio. Así tendremos que:
+el centro de masas coincide con el centroide cuando la densidad es uniforme o cuando la distribución de materia en el sistema tiene ciertas propiedades, tales como simetría.
+el centro de masas coincide con el centro de gravedad, cuando el sistema se encuentra en un campo gravitatorio uniforme (el módulo y la dirección de la fuerza de gravedad son constantes).
+
+
+== Cálculo del c.m. de un sistemaEditar ==
+
+
+=== Distribución discreta de materiaEditar ===
+Para un sistema de masas discreto, formado por un conjunto de masas puntuales, el centro de masas se puede calcular como:
+
+, masa total del sistema de partículas.
+, masa de la partícula i-ésima.
+, vector de posición de la masa i-ésima respecto al sistema de referencia supuesto.
+Un poco más explícito si A1,... An son n puntos, y m1,... mn n números (m como masa). Entonces el centro de masa de los (Ai, mi) es el punto G definido como sigue:
+
+Esta definición no depende del punto O, que puede ser cualquiera. Si se toma el origen del plano o del espacio, se obtienen las coordenadas del baricentro como promedio ponderado por los mi de las coordenadas de los puntos Ai:
+
+La definición anterior equivale a la fórmula siguiente, más práctica para el cálculo vectorial, pues prescinde de las fracciones (se obtiene tomando O = G):
+
+
+=== Distribución cuasidiscreta de materiaEditar ===
+En el caso de un sistema de cuerpos cuasipuntuales, o cuerpos que distan entre sí mucho más que las dimensiones de cada uno de los cuerpos, el cálculo anterior resulta bastante aproximado.
+
+
+=== Distribución continua de materiaEditar ===
+Para sistemas de masas continuos o distribuciones continuas de materia debemos recurrir al Cálculo Infinitesimal e Integral, de modo que la expresión anterior se escribe en la forma:
+
+Distribución de masa homogénea: Si la masa está distribuida homogéneamente, la densidad será constante por lo que se puede sacar fuera de la integral haciendo uso de la relación siguiente: 
+
+siendo V el volumen total.
+Para cuerpos bidimensionales (superficies) o monodimensionales (líneas) se trabajará con densidades superficiales y longitudinales respectivamente.
+Para el caso de cuerpos con densidad uniforme, el c.m. coincidirá con el centroide del cuerpo.
+Distribución de masa no homogénea: Los centros de masas en cuerpos de densidad variable pueden calcularse si se conoce la función de densidad . En este caso se calcula el centro de masas de la siguiente forma.
+
+Para calcular la integral hay que conocer la función de densidad.
+
+
+== Cálculo de centro de masasEditar ==
+Para el cálculo de sólidos de revolución resulta muy útil el Teorema de Pappus-Guldin.
+
+
+== Véase tambiénEditar ==
+Baricentro
+Centroide
+Centro de gravedad
+
+
+== ReferenciasEditar ==
+
+
+=== BibliografíaEditar ===
+Marion, Jerry B. (1996). Dinámica clásica de las partículas y sistemas. Barcelona: Ed. Reverté. ISBN 84-291-4094-8. 
+Ortega, Manuel R. (1989-2006). Lecciones de Física (4 volúmenes). Monytex. ISBN 84-404-4290-4, ISBN 84-398-9218-7, ISBN 84-398-9219-5, ISBN 84-604-4445-7. 
+Resnick,Robert & Krane, Kenneth S. (2001). Physics (en inglés). New York: John Wiley & Sons. ISBN 0-471-32057-9. 
+Serway, Raymond A.; Jewett, John W. (2004). Physics for Scientists and Engineers (en inglés) (6ª edición). Brooks/Cole. ISBN 0-534-40842-7.  
+Tipler, Paul A. (2000). Física para la ciencia y la tecnología (2 volúmenes). Barcelona: Ed. Reverté. ISBN 84-291-4382-3. 
+
+
+=== Enlaces externosEditar ===
+Centro de masas en heurema.com

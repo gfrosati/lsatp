@@ -1,0 +1,75 @@
+El Commodore Amiga 4000T, también conocido como A4000T, es una versión en torre del ordenador Commodore Amiga 4000. Usando el chipset AGA, fue inicialmente lanzado en pequeñas cantidades en 1994 con un procesador Motorola 68040 a 25 MHz y relanzado en mayor número por Escom en 1995, después del cierre de Commodore, junto con una nueva variante que incluía un procesador Motorola 68060 a 50 MHz. A pesar de la desaparición de Escom, la producción fue continuada por QuikPak en Norteamérica hasta, al menos, 1997.
+El A4000T es el único Amiga que incluye interfaces tanto SCSI como IDE integrados en la placa madre. Tener software controlador para ambos en la ROM de 512 KB significa que se tienen que excluir de la misma algunas partes del AmigaOS, siendo así la única máquina que requiere que el fichero "workbench.library" esté en el disco. También es el único en usar una placa madre con formato PC (AT) y uno de los pócos que usan una batería de ion de litio en lugar de una NiCd, reduciendo mucho el riesgo de que la batería termine derramando fluido corrosivo en la placa madre y causando daños. La modularidad es otro aspecto único de la máquina, con puertos para el procesador, el audio, el vídeo y la entrada/salida en placas hija.
+La máquina está orientada hacia las estaciones de vídeo de gama alta, estando pensado como un sistema expandible y con la placa Video Toaster de NewTek como objetivo. Su placa madre contiene dos ranuras de vídeo Amiga, cinco ranuras Zorro III de 100 pistas, cuatro ranuras ISA y su caja puede acomodar hasta seis unidades de almacenamiento. Pueden instalarse hasta 16 MB de RAM en la placa madre, y más RAM adicional se puede instalar en algunas placas de procesador (hasta 128 MB) y aún más en las tarjetas Zorro.
+Este fue el último ordenador lanzado por Commodore International. Sólo un par de cientos de 4000T fueron producidos antes del cierre de la empresa. La producción de los 4000T fue reiniciada posteriormente cuando Escom compró la propiedad intelectual de los Amiga. Aparte de la nueva opción de usar un procesador 68060, los 4000T fabricados por Escom tienen pequeñas diferencias con los de Commodore, incluyendo la sustitución de las disqueteras de alta densidad por una de doble densidad y un enganche diferente del frontal de la caja.
+
+
+== Especificaciones ==
+CPU:
+68040 a 25 MHz
+68060 a 50 MHz
+
+Memoria:
+512 KB de ROM con el Kickstart
+2 MB de Chip RAM
+Hasta 16 MB de RAM en placa
+Hasta 128 MB de RAM adicionales mediante la ranura de la CPU en el bus local del mismo
+Hasta 512 MB adicionales en la ranura Zorro III
+
+Chipset: AGA (Advanced Graphics Architecture)
+Vídeo:
+Paleta de color de 24 bits (16,8 millones de colores)
+Hasta 256 colores en pantalla en modo indexado
+262,144 colores en pantalla en modo HAM-8
+Resoluciones de hasta 1280×512i (más con overscan)
+Frecuencias de HSync de 15,60 a 31,44 kHz
+
+Audio (Paula):
+4 canales hardware (estéreo)
+Resolución de 8 bits / 6 bits de volumen
+Máxima frecuencia de muestras con DMA de 28-56 kHz (dependiendo del modo de vídeo en uso)
+
+Almacenamiento extraíble:
+Unidad de disquetes HD de 3'5", con capacidad de 1,76 MB
+
+Almacenamiento interno:
+Conector de disquetera de 23 pines
+Controlador ATA de 40 pines con buffer
+Fast SCSI2 de 50 pines
+
+Conexiones de Entrada/Salida:
+Salida de vídeo analógico RGB (DB-23M)
+Salida de audio (2 × RCA)
+Salida de audio (1 × 3.5mm cascos)
+Teclado (DIN de 5 pines)
+2 conectores para ratón/gamepad (DE9)
+Puerto serie RS-232 (DB-25M)
+Puerto paralelo estilo Centronics (DB-25F)
+Fast SCSI2 (D-High density DB-50F)
+
+Ranuras de expansión:
+5 ranuras Zorro III de 100 pines y 32 bits
+2 ranuras de vídeo AGA (en línea con las ranuras Zorro)
+4 ranuras ISA de 16 bits (requiere tarjeta puente para activarlas)
+1 ranura de expansión de CPU de 200 pines
+4 ranuras SIMM de 72 pines
+
+Sistema operativo:
+AmigaOS 3.1 (Kickstart 3.1/Workbench 3.1)
+
+Otras características:
+0 bahías para unidades accesibles frontalmente de 3.5"
+5 bahías para unidades accesibles frontalmente de 5.25"
+1 agarre para unidad interna de 5.25"
+Bloqueo (deshabilita el ratón y el teclado)
+
+
+== Véase también ==
+Modelos de Amiga y variantes
+
+
+== Enlaces externos ==
+Ryan E. A. Czerwinski's Commodore Amiga 4000T page
+Commodore A4000T (Amiga History Guide)
+Amiga Technologies A4000T (Amiga History Guide)
+Famous Amiga Uses

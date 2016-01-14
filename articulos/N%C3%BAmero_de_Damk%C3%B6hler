@@ -1,0 +1,27 @@
+Los números de Damköhler (Da) son números adimensionales utilizados en ingeniería química para relacionar la escala temporal de una reacción química con otros fenómenos que ocurran en el sistema. Se llaman así en honor al químico alemán Gerhard Damköhler (1908-1944).
+Hay varios números de Damköhler y su definición varía de acuerdo al sistema en consideración. Así para una reacción química A → B de orden n en un sistema batch, el número de Damköhler se define como:
+
+en donde:
+k es la constante cinética de la reacción química.
+C0 es la concentración inicial.
+n es el orden de reacción.
+t es el tiempo.
+Aquí el número de Damköhler representa un tiempo de reacción adimensional. En procesos químicos continuos o semibatch, la definición general del número de Damköhler se define como:
+
+O también:
+
+Por ejemplo, en un reactor químico continuo, el número de Damköhler es:
+
+en donde τ es el tiempo de residencia medio.
+En sistemas reactivos donde se incluya también el transporte de materia entre fases, el Segundo Número de Damköhler (DaII) se define como la relación entre la velocidad de reacción química y la velocidad de transferencia de masa.
+
+en donde:
+kg es el coeficiente global de transporte de masa.
+a es el área interfacial.
+
+
+== Número de Damköhler en combustión ==
+El número de Damköhler se utiliza en combustión turbulenta y corresponde a la relación entre la escala de tiempo de la reacción química  y la escala de tiempo de la turbulencia . Esta escala de tiempo turbulenta es normalmente una escala de tiempo integral.
+
+El número de Damköhler mide cuán importante es la interacción entre la reacción química y la turbulencia.
+Si Da << 1 la turbulencia es mucho más rápida que la reacción química. El número de Karlovitz está relacionado al número de Damköhler, cuando la escala de turbulencia es la escala de Kolmogórov.

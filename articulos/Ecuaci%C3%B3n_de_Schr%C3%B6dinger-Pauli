@@ -1,0 +1,45 @@
+La ecuación de Pauli, o ecuación de Schrödinger-Pauli, es una generalización o reformulación de la ecuación de Schrödinger para partículas de espín 1/2 que tiene en cuenta la interacción entre el espín y el campo electromagnético. Esta ecuación es el límite no relativista de la ecuación de Dirac y puede usarse para describir electrones que para los cuales los efectos relativistas de la velocidad pueden despreciarse.
+La ecuación de Pauli fue propuesta originalmente por Wolfgang Pauli en 1927.
+
+
+== Forma de la ecuación ==
+La ecuación de Pauli tiene la forma:
+
+(1)
+
+donde:
+ es la masa de la partícula.
+ es la carga eléctrica de la partícula.
+ es un "vector" cuyas tres componentes son precisamente las matrices de Pauli bidimensionales.
+ es el operador vectorial asociado al momento lineal. Las componentes de este vector son 
+ es el potencial vector del campo electromagnético.
+ es el potencial eléctrico escalar.
+ es un espinor formado por dos funciones de onda componentes, que se puede representar como .
+
+
+=== Forma alternativa ===
+Si se usan la propiedades de las matrices de Pauli se demuestra fácilmente la siguiente igualdad:
+
+Y como:
+
+La ecuación (1) puede reescribirse en la forma:
+
+(2)
+
+
+== Derivación histórica ==
+La derivación histórica de la ecuación se hizo siguiendo principios formales no muy diferentes del principio de acoplamiento mínimo usado posteriormente en la teoría cuántica de campos.
+
+
+== Densidad de probabilidad ==
+La ecuación de Pauli para el espinor de Pauli formado por dos componentes, cada uno con un significado similar a la función de onda. De hecho, en ausencia de campo la ecuación de Pauli se reduce a una ecuación de Schrödinger "doble", es decir, cada cada una de las dos componentes del espinor satisface independiente la ecuación de Schrödinger.
+La densidad de probabilidad conjunta viene dada por las reglas usuales de la mecánica cuántica:
+
+E igualmente puede probarse que el valor esperado para los operadores de espín viene dado:
+
+
+== Referencia ==
+
+
+=== Bibliografía ===
+de la Peña, Luis (2006). «15». Introducción a la mecánica cuántica (3 edición). México DF: Fondo de Cultura Económica. pp. 519–523. ISBN 968-16-7856-7.

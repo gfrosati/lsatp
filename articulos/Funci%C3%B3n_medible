@@ -1,0 +1,19 @@
+En teoría de la medida, una función medible es aquella que preserva la estructura entre dos espacios medibles. Formalmente, una función entre dos espacios medibles se dice medible si la preimagen (también llamada imagen inversa) de cualquier conjunto medible es a su vez medible.
+
+
+== Funciones medibles especiales ==
+Si  y  son espacios de Borel, entonces toda función medible  es llamada función de Borel (o función Borel-medible). Toda función continua es de Borel, pero no toda función de Borel es continua.
+Una función Lebesgue-medible es una función , donde  es la sigma-álgebra de los conjuntos Lebesgue-medibles y  es el álgebra de Borel en los números complejos . Éstas funciones son de interés en el análisis matemático debido a que siempre pueden ser integradas.
+Las variables aleatorias son por definición funciones medibles cuyo dominio es un espacio muestral donde se ha definido una sigma-álgebra y contradominio en  con la medida de Lebesgue.
+
+
+== Propiedades de las funciones medibles ==
+La suma y producto de dos funciones complejas medibles es también medible. Debido a esto también lo es el cociente (siempre que no haya división por cero).
+Si  y  son medibles entonces la composición  es medible. Esto no es necesariamente cierto cuando las sigma-álgebras no coinciden, es decir, si  y  entonces  podría no ser medible aunque f y g sí lo sean.
+
+
+== Referencias ==
+1. Strichartz, Robert (2000). The Way of Analysis. Jones and Bartlett. ISBN 0-7637-1497-6.
+2. Folland, Gerald B. (1999). Real Analysis: Modern Techniques and their Applications. Wiley. ISBN 0471317160.
+3. Billingsley, Patrick (1995). Probability and Measure. Wiley. ISBN 0-471-00710-2.
+4. Royden, H. L. (1988). Real Analysis. Prentice Hall. ISBN 0-02-404151-3.

@@ -1,0 +1,58 @@
+'Pooling fiable servidor ( 'RSerPool) es un ordenador protocolo marco de servidor piscina la gestión y el acceso. RSerPool es un IETF norma, que ha sido desarrollado por el IETF RSerPool Grupo de Trabajo y documentado en el RFC 5351 al RFC 5356.
+
+
+== Introducción ==
+En la terminología de un servidor RSerPool se denota como Piscina Elemento (PE). En su piscina, es identificado por su Piscina elemento identificador (PE ID), un número de 32 bits. El PE ID es escogido de forma aleatoria a un registro del PE para su piscina. El conjunto de todas las piscinas se denota como el Handlespace. En la literatura de más edad, puede ser denominado de nombres. Esta denominación ha sido eliminado para evitar confusiones con el Sistema de Nombres de Dominio (DNS). Cada piscina en un handlespace es identificada por una única Piscina Asa (PH), que está representado por un vector arbitrario de bytes. Por lo general, se trata de un nombre ASCII o Unicode de la piscina, por ejemplo, "DownloadPool" o "WebServerPool".
+Handlespace cada uno tiene un cierto margen (por ejemplo, una organización o empresa), denominado Operación Alcance. Es un objetivo no explícito de RSerPool para la gestión de la Internet mundial de las piscinas en un único handlespace. Debido a la localización de la Operación de miras, es posible mantener la handlespace "plana". Es decir, PHS no tienen ninguna jerarquía en contraste con el Sistema de Nombres de Dominio con su más alto nivel y sub-dominios. Esta limitación se traduce en una importante simplificación de la gestión handlespace.
+En el marco de una operación de alcance, la handlespace redundante es gestionado por Piscina Secretario s (PR), también denominado ENRP servidores o Servidores de nombres (NS). RP deberá ser redundante con el fin de evitar un PR se convierta en un único punto de error (SPoF). Cada RP alcance de una operación se identifica por su Secretario de identificación (ID PR), que es de 32 bits un número aleatorio. No es necesario para garantizar la singularidad de las relaciones públicas ID. El RP contiene una copia completa de la operación del alcance handlespace. RP de una operación de alcance sincronizar su punto de vista de la handlespace usando la Punto final Handlespace Redundancy Protocol (ENRP). Las versiones anteriores de este protocolo se utiliza el término Protocolo de redundancia de nombres de punto final, lo de nombres ha sido sustituido para evitar la confusión con el DNS, pero la abreviatura se ha mantenido. Debido a la sincronización handlespace por ENRP, los Receptores de una operación de alcance son funcionalmente iguales. Es decir, si cualquiera de las RFs falla, sí PR es perfectamente capaz de sustituirla.
+Uso de la global servidor Protocolo de acceso (ASAP), una empresa pública puede añadir a un grupo o eliminarlo de solicitar un registro o de anulación de una arbitraria PR alcance de la operación. En caso de éxito de la inscripción, el elegido para el registro PR se convierte en el PE de la Inicio-PR (PR-H). El RP-H no sólo informa a los demás rupias alcance de la operación sobre el registro o la anulación de sus empresas públicas, sino que también supervisa la disponibilidad de sus empresas públicas por ASAP de mantenimiento de conexiones mensajes. Un mensaje de mantenimiento de conexión por un PR-H tiene que ser reconocido por el PE en un determinado intervalo de tiempo. Si el PE no responde dentro de un cierto tiempo, se asume que está muerto e inmediatamente retirado de la handlespace. Además, una empresa pública se espera que volver a registrarse con regularidad. En un nuevo registro, también es posible que el PE para modificar su lista de direcciones de transporte, o su política de información.
+Para utilizar el servicio de una piscina, un cliente - llamada Grupo de Usuario (PU) en RSerPool terminología - en primer lugar tiene que solicitar la resolución del PH de la piscina a una lista de identidades a un PE arbitraria PR alcance de la operación. Este procedimiento de selección se denota como Manipule Resolución. Para el caso de que la piscina existente, el PR se seleccionará una lista de identidades de acuerdo PE a la piscina de la Selección Política Piscina miembro, también denominado simplemente Política de la piscina.
+Posible piscina por ejemplo, las políticas una selección aleatoria (al azar) o el menos cargado PE (menos utilizado). Mientras que en el primer caso no es necesario tener ninguna selección de información (empresas públicas son seleccionados al azar), es necesaria para mantener actualizada la información de carga en el segundo caso de la selección de los menos cargado PE. El uso de una adecuada política de selección, es por ejemplo posible distribuir igualmente la solicitud de carga en la piscina de la empresas públicas.
+Después de la recepción de una lista de identidades de una PE PR, una PU llenará el PE la información en su memoria caché local. Esta caché es denominado PU lado caché. Fuera de su caché, el PU será seleccionar un PE - de nuevo con la piscina de la política de selección - y establecer una conexión con él mediante la aplicación del protocolo, por ejemplo, HTTP en SCTP o TCP en el caso de un servidor web. Utilizando esta conexión, el servicio prestado por el servidor se utiliza. Para el caso de que el establecimiento de la conexión falla o se aborta la conexión durante el uso del servicio, un nuevo PE se puede seleccionar por repetir el procedimiento de selección descrito. Si la información en la caché de PU no es anticuado, una empresa pública la identidad puede ser seleccionada directamente desde la caché, el esfuerzo de pasar de pedir a PR para tratar de resolución. Después de volver a establecer una conexión con un nuevo PE, el estado de la solicitud de reunión se ha de volver a instancia de la nueva PE. El procedimiento necesario para la sesión de reanudación se denota como a fallos de procedimiento y es, por supuesto, para aplicaciones específicas. Para una FTP descargar por ejemplo, el procedimiento en caso de fallo podría significar para decirle al nuevo servidor FTP y el nombre del archivo de datos de la última posición. Por eso, el servidor FTP será capaz de reanudar la descarga período de sesiones. Dado que el procedimiento en caso de fallo es altamente dependiente de la aplicación, no es parte de RSerPool sí mismo, aunque de gran alcance RSerPool proporciona apoyo a la aplicación arbitraria de los regímenes de conmutación por error por su período de sesiones de capa mecanismos.
+Para hacer posible que los componentes RSerPool configurar automáticamente, los RP pueden anunciar a través de UDP en IP multicast. Estos anuncia puede ser recibido por empresas públicas, pus y otros rupias, lo que les permite obtener la lista de los RP se dispone actualmente en la operación alcance. La ventaja de utilizar multidifusión IP en lugar de la emisión es que este mecanismo también trabajo en los routers (por ejemplo, LAN s entre los conectados a través de un VPN) y anuncia la voluntad -- para el caso de, por ejemplo, una conmutación Ethernet - sólo se escucha y procesados por las estaciones realmente interesado en esta información. Para el caso de multidifusión IP que no está disponible, es por supuesto posible configurar estáticamente PR direcciones.
+
+
+== Aplicaciones ==
+Las siguientes aplicaciones son conocidas:
+RSPLIB Proyecto por la Universidad de Duisburg-Essen (también está implementación de referencia de la IETF RSerPool GT)
+Motorola
+Cisco
+Münster Universidad de Ciencias Aplicadas
+
+
+== Normas de documentos ==
+
+
+=== RFC ===
+RFC 3237 - Requisitos para la puesta en común de servidor fiable
+RFC 5351 - Un panorama general de la Agrupación de los protocolos de servidor fiable
+RFC 5352 - Protocolo de acceso de servidor global (ASAP)
+RFC 5353 - punto final Handlespace Redundancy Protocol (ENRP)
+RFC 5354 - Protocolo de acceso de servidor global (ASAP) y el punto final Handlespace Redundancy Protocol (ENRP) Parámetros
+RFC 5355 - Amenazas por vía fiable servidor Pooling (RSerPool) y requisitos para la Seguridad en respuesta a las amenazas
+RFC 5356 - Puesta en común políticas de servidor fiable
+RFC 5525 - fiable servidor Pooling: Management Information Base utilizando SMIv2
+
+
+=== Grupo de Trabajo de proyectos ===
+Arquitectura de servidor fiable Pooling
+Comparación de los Protocolos de servidor fiable Pooling
+TCP fiable servidor de cartografía para la puesta en común de modo reforzada
+Servicios Proporcionado por servidor fiable Pooling
+fiable Agrupación de sockets de servidor de extensiones API
+
+
+=== Otros proyectos ===
+Handle Resolution Option for ASAP
+Least-Used Policy for Reliable Server Pooling
+Reliable Server Pooling Applicability for IP Flow Information Exchange
+Applicability of Reliable Server Pooling for Real-Time Distributed Computing
+Reliable Server Pooling (RSerPool) Bakeoff Scoring
+Applicability of Reliable Server Pooling for SCTP-Based Endpoint Mobility
+Takeover Suggestion Flag for the ENRP Handle Update Message
+
+
+== Enlaces externos ==
+Thomas Dreibholz del servidor fiable Pooling (RSerPool) Página
+RSerPool IETF Grupo de Trabajo
+h: Puesta en común fiable servidor Es fiable servidor de la puesta en común

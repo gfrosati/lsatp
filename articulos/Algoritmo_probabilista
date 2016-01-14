@@ -1,0 +1,146 @@
+Un algoritmo probabilista (o probabilístico) es un algoritmo que basa su resultado en la toma de algunas decisiones al azar, de tal forma que, en promedio, obtiene una buena solución al problema planteado para cualquier distribución de los datos de entrada. Es decir, al contrario que un algoritmo determinista, a partir de unos mismos datos se pueden obtener distintas soluciones y, en algunos casos, soluciones erróneas.
+Existen varios tipos de algoritmos probabilísticos dependiendo de su funcionamiento, pudiéndose distinguir:
+Algoritmos numéricos, que proporcionan una solución aproximada del problema.
+Algoritmos de Montecarlo, que pueden dar la respuesta correcta o respuesta erróneas (con probabilidad baja).
+Algoritmos de Las Vegas, que nunca dan una respuesta incorrecta: o bien no encuentran la respuesta correcta e informan del fallo.
+
+
+== Consideraciones ==
+Se puede optar por la elección aleatoria si se tiene un problema cuya elección óptima es demasiado costosa frente a la decisión aleatoria. Un algoritmo probabilista puede comportarse de distinta forma aplicando la misma entrada.
+A un algoritmo determinista nunca se le permite que no termine: hacer una división por 0, entrar en un bucle infinito, etc. mientras que a un algoritmo probabilista se le permiten estos casos siempre que la probabilidad de que ocurran sea baja.
+Si existe más de una solución para unos datos dados, un algoritmo determinista siempre encuentra la misma solución (a no ser que se programe para encontrar varias o todas).
+Un algoritmo probabilista puede encontrar soluciones diferentes ejecutándose varias veces con los mismos datos.
+A un algoritmo determinista no se le permite que calcule una solución incorrecta para ningún dato.
+Un algoritmo probabilista puede equivocarse siempre que esto ocurra con una probabilidad pequeña para cada dato de entrada.
+Repitiendo la ejecución un número suficiente de veces para el mismo dato, puede aumentarse tanto como se quiera el grado de confianza en obtener la solución correcta.
+El análisis de la eficiencia de un algoritmo determinista es, en determinadas ocasiones, difícil.
+El análisis de los algoritmos probabilistas es, a menudo, muy difícil.
+
+
+== Algoritmos numéricos ==
+La solución obtenida es siempre aproximada pero su precisión esperada mejora aumentando el tiempo de ejecución. Normalmente, el error es inversamente proporcional a la raíz cuadrada del esfuerzo invertido en el cálculo.
+
+
+=== Ejemplo: La aguja de Buffon ===
+
+En el siglo XVIII, Georges Louis Leclerc, conde de Buffon enunció el Teorema de Buffon
+
+si se tira una aguja de longitud μ a un suelo hecho con tiras de madera de anchura w (w≥μ),
+la probabilidad de que la aguja toque más de una tira de madera es p=2μ/wπ.
+
+Aplicación:
+Una aplicación del teorema de Buffon es utilizarlo para predecir el valor de π. Sea μ=w/2, entonces p=1/. Si se tira la aguja un número de veces n suficientemente grande y se cuenta el número k de veces que la aguja toca más de una tira de madera, se puede estimar el valor de p: k ~ n/p → p ~ n/k.
+En la práctica, no es un algoritmo útil, porque se pueden obtener aproximaciones de π mucho mejores empleando métodos deterministas. A pesar de esto, esta aproximación fue muy utilizada en el siglo XIX, haciendo de éste uno de los primeros algoritmos probabilistas que se utilizaron.
+
+
+=== Ejemplo: Integración numérica ===
+
+El algoritmo probabilista numérico más conocido es la integración de Monte Carlo. Cabe destacar que a pesar de su nombre, no es un algoritmo probabilista de Monte Carlo.
+El algoritmo de Monte Carlo puede ser representado por el siguiente pseudocódigo, en donde se integra la función f entre a y b utilizando n iteraciones.
+
+función MonteCarlo(f,n,a,b)
+suma = 0
+para i=1 hasta n
+ x = uniforme(a,b)
+ suma = suma + f(x)
+devolver (b-a)(suma/n)
+
+La varianza de la estimación calculada mediante este algoritmo es inversamente proporcional al número de puntos de la muestra. El error esperado en la estimación es inversamente proporcional a la raíz cuadrada de n, de forma que se requieren 100 iteraciones más para obtener un dígito adicional de precisión.
+En general, se pueden obtener estimaciones de integrales mediante métodos deterministas con mayor precisión y con menos iteraciones. Sin embargo, a todo algoritmo determinista de integración, incluso a los más complejos, le corresponden funciones continuas diseñadas expresamente para engañar al algoritmo. Esto no ocurre con el método de Monte Carlo, aunque existe una probabilidad pequeña de que el algoritmo pudiera cometer un error similar aun cuando integre una función completamente común.
+La aplicación de la integración de Monte Carlo tiene más sentido cuando se tiene que evaluar una integral múltiple, ya que la dimensión de la integral suele tener poco efecto sobre la precisión obtenida, aunque la cantidad de trabajo aumente con la dimensión. En la práctica, se utiliza para evaluar integrales de dimensiones mayores que tres ya que no hay otra técnica que sea competitiva. Se puede mejorar la precisión de las respuestas empleando técnicas híbridas.
+
+
+== Algoritmos de Montecarlo ==
+Hay problemas para los que no se conocen ningún algoritmo eficiente (determinista o probabilista) que den siempre una solución correcta en todas las ocasiones. Los algoritmos de Monte Carlo cometen ocasionalmente un error, pero encuentran la solución correcta con una probabilidad alta sea cual sea el caso considerado. Al contrario de los algoritmos de Las Vegas, no suele darse ningún aviso cuando el algoritmo comete un error. Una característica importante es que suele ser posible reducir arbitrariamente la probabilidad de error a costa de un aumento del tiempo de cálculo.
+Definición: Sea p un número real tal que 0.5<p<1.Un algoritmo de Montecarlo es p–correcto si:
+Devuelve una solución correcta con probabilidad mayor o igual que p, cualesquiera que sean los datos de entrada.
+A veces, p dependerá del tamaño de la entrada, pero nunca de los datos de la entrada en sí.
+
+
+=== Ejemplo: Comprobación de primalidad ===
+
+Un ejemplo de algoritmo de Montecarlo (el más conocido) es decidir si un número impar es primo o compuesto.
+Ningún algoritmo determinista conocido puede responder en un tiempo razonable si un número muy grande (de cientos de cifras) es primo o no.
+La utilización de primos de cientos de cifras es fundamental en Criptografía, por ejemplo para el sistema criptográfico RSA.
+La historia de la comprobación probabilista de primalidad tiene sus raíces en Pierre Fermat, quien postuló en 1640 el Pequeño teorema de Fermat
+
+Sea n primo. Entonces, a(n-1) mod n = 1 para todo entero a tal que 1≤a≤n-1.
+
+Ejemplo: n = 7, a = 5 → 56 mod 7 = 1.
+El algoritmo se basa en el enunciado del contrarrecíproco del mismo teorema
+
+Si a y n son enteros tales que 1≤a≤n-1, y si a(n-1) mod n <> 1, entonces n no es primo.
+
+Fermat formuló la hipótesis: Fn = 2(2n)+ 1 es primo para todo n y lo comprobó para: F0=3, F1=5, F2=17, F3=257, F4=65537. Lamentablemente, no pudo comprobar F5 ya que era un número demasiado grande. Tuvo que pasar casi un siglo para que Euler demostrara que no es primo.
+
+Utilización del pequeño teorema de Fermat para comprobar la primalidad: en el caso de F5, a Fermat le hubiera bastado con ver que existe un a tal que 1≤a≤F5-1 tal que a(F5 - 1) mod F5 <> 1) (a=3). Con estas premisas, se puede desarrollar el siguiente algoritmo:
+
+función primo(n) 
+principio 
+  a:=uniforme(1..n-1); 
+  si an-1 mod n = 1 
+     entonces devuelve verdadero
+     sino devuelve falso
+  fsi 
+fin
+
+Sabemos que n es compuesto cuando la función devuelve el valor falso, por el teorema de Fermat. Cabe destacar que cuando el algoritmo establece que el número es compuesto, no ofrece información de sus divisores. En cambio, cuando el algoritmo devuelve el valor verdadero no podemos afirmar que n sea primo. Necesitaríamos el recíproco y el contrapositivo del teorema de Fermat.
+
+
+== Algoritmos de Las Vegas ==
+Un algoritmo de Las Vegas nunca da una solución falsa.
+Toma decisiones al azar para encontrar una solución antes que un algoritmo determinista.
+Si no encuentra solución lo admite.
+Hay dos tipos de algoritmos de Las Vegas, según la posibilidad de no encontrar una solución:
+Los que siempre encuentran una solución correcta, aunque las decisiones al azar no sean afortunadas y la eficiencia disminuya.
+Los que a veces, debido a decisiones desafortunadas, no encuentran una solución.
+Tipo a: Algoritmos de Sherwood
+Existe una solución determinista que es mucho más rápida en media que en el peor caso.
+Ejemplo: quicksort.
+Coste peor Ω(n^2) y coste promedio O(nlog n).
+Coste promedio: se calcula bajo la hipótesis de equiprobabilidad de la entrada.
+En aplicaciones concretas, la equiprobabilidad es falsa: entradas catastróficas pueden ser muy frecuentes.
+Degradación del rendimiento en la práctica.
+Los algoritmos de Sherwood pueden reducir o eliminar la diferencia de eficiencia para distintos datos de entrada:
+Uniformización del tiempo de ejecución para todas las entradas de igual tamaño.
+En promedio (tomado sobre todos los ejemplares de igual tamaño) no se mejora el coste.
+Con alta probabilidad, ejemplares que eran muy costosos (con algoritmo determinista) ahora se resuelven mucho más rápido.
+Otros ejemplares para los que el algoritmo determinista era muy eficiente, se resuelven ahora con más coste.
+Tipo b: Algoritmos que, a veces, no dan respuesta.
+Son aceptables si fallan con probabilidad baja.
+Si fallan, se vuelven a ejecutar con la misma entrada.
+Resuelven problemas para los que no se conocen algoritmos deterministas eficientes(ejemplo: la factorización de enteros grandes).
+El tiempo de ejecución no está acotado pero sí es razonable con la probabilidad deseada para toda entrada.
+Consideraciones sobre el coste:
+Sea LV un algoritmo de Las Vegas que puede fallar y sea p(x) la probabilidad de éxito si la entrada es x.
+
+algoritmo LV(ent x:tpx; sal s:tpsolución; 
+             sal éxito:booleano) 
+{éxito devuelve . si LV encuentra la solución 
+y en ese caso s devuelve la solución encontrada}
+
+Se exige que p(x)>0 para todo x.
+Es mejor aún si existe d>0: p(x)>=d para todo x (así, la probabilidad de éxito no tiende a 0 con el tamaño de la entrada).
+Ahora repetimos el algoritmo anterior para ganar en eficacia:
+
+función repe_LV(x:tpx) devuelve tpsolución 
+variables s:tpsolución; éxito:booleano 
+principio 
+   repetir 
+      LV(x,s,éxito) 
+   hastaQue éxito; 
+   devuelve s 
+fin
+
+El número de ejecuciones del bucle es ./p(x).
+Sea v(x) el tiempo esperado de ejecución de LV si éxito=. y f(x) el tiempo esperado si éxito=.
+el tiempo esperado de repe_LV() = v(x) + ((. - p(x))/ p(x)) f(x).
+Ejemplo: El problema de todos los . en el tablero de go.
+Algoritmo determinista: Nº de nodos visitados: . de los . nodos del árbol)
+Algoritmo de Las Vegas voraz: colocar cada . aleatoriamente en uno de los escapes posibles de la siguiente fila. El algoritmo solo puede terminar con éxito (pues siempre hay forma de colocar el siguiente .).Nº de nodos visitados para éxito: v=., Probabilidad de éxito: p=. (más de . vez de cada .)
+Número esperado de nodos visitados repitiendo hasta obtener un éxito: t=v+f(.-p)/p=., menos de .
+
+
+== Enlaces externos ==
+Wikilibros
+ Wikilibros alberga un libro o manual sobre Algoritmos probabilísticos (Algoritmia).

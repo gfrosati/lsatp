@@ -1,0 +1,52 @@
+La matemática védica de Bhárati Krishná Tirthá es un sistema de cálculo mental desarrollado por Shri Bhárati Krishná Tirtháji a mediados del siglo XX quien dijo haberse basado en el Átharva Vedá, un antiguo texto de los Vedás. Tiene algunas similitudes con el método Trachtenberg, asimismo tiene aplicaciones para matemáticas avanzadas, tales como el cálculo o el álgebra lineal. El sistema se publicó primeramente en el libro Matemáticas védicas en 1965. Desde entonces ha sido ampliado, y se han editado otros libros al respecto.
+
+
+== Resta ==
+Aplicando el método de «Todo de nueve y el último de diez», se puede resolver con una relativa facilidad una operación aritmética de resta:
+
+
+== Cuadrar ==
+Para cuadrar un número, o sea, para elevarlo a la segunda potencia multiplicándolo una vez por sí mismo, se puede seguir la regla «Uno más que el predecesor»:
+
+Esto no funciona siempre, ya que por ejemplo:
+ cuando el verdadero resultado es 15.876
+
+El método para calcular números alejados de la base como es el caso del número 126 de debe usar el método Yavadunam modificado el cual dice lo siguiente: Partimos de un número natural N (lejano a las bases anteriores) del que queremos calcular su cuadrado. Tomamos como b la mayor base de las anteriores (potencias de 10) que sea menor que N y elegimos como subbase, sb el múltiplo de b más cercano a N. Por ejemplo, si N=126, tomaremos b=100 y sb=100. Con estos dos valores calcularemos un nuevo parámetro, que denominamos ratio, R, que es el cociente entre sb y b.
+Ejemplo:
+Cálculo de 126^2
+N= 126 sb=100 b=100 Ratio =100/100 Ratio=1
+calcularemos la DES que es la resta entre N y sb 100-26 Des=26
+Elevamos Des^2 (se puede utilizar este mismo método para elevar 26^2) Des^2=676 Al elevar Des^2 se tomara el resultado de la siguiente manera Des^2=676
+Exceso= es el primer número del resultado de Des^2 y PB serán los últimos 2 números del resultado de Des^2
+Por lo tanto Exceso=6 PB=76
+Por último se toma Ratio(N+Des)+Exceso
+sustituyendo valores 1(126+26)+6= 158
+Para obtener el resultado final debe agregar PB al resultado obtenido de la operación pasada
+15876
+
+
+== Multiplicación ==
+Dos números con dos dígitos, cuyo primer número es idéntico y en cuyo último número se añade 10 con otro resultado, puede ser fácilmente multiplicado:
+
+Asimismo, los números de dos dígitos arbitrarios se pueden multiplicar por la regla “vertical y en cruz”:
+
+2 3
+1 8
+=====
+2 19 24
+Unidades: (24 = 8 x 3) Se pone un cuatro y se guarda el dos para las decenas.
+Decenas: (19 = 2 x 8 + 3 x 1) Se pone un 1 (19+2=21) y se guarda el dos para las centenas.
+Centenas: (2 = 2 x 1) Se pone un 4 (2+2).
+Resultado: 414
+
+
+== Críticas ==
+Las críticas han cuestionado si este sistema de cálculo merece el nombre de védico o hasta el de matemáticas:
+Apuntan a una falta de pruebas de que provenga de algún sutra proveniente del Átharva-veda o de cualquier texto del periodo védico, la incoherencia entre este sistema y las matemáticas conocidas de la antigua India, las extrapolaciones sustanciales de unos pocos términos del sutra para la aritmética compleja, y la restricción de las aplicaciones para casos oportunos.
+Los críticos afirman además que la rapidez en el cálculo aritmético de este método no se puede llevar a cabo mediante un ordenador o una calculadora, lo que lo convierte en irrelevante para el mundo moderno.
+
+
+== Enlaces externos ==
+VedicMaths.org (en inglés).
+VedicMathsIndia.org (en inglés).
+VedicMathsIn10Days.com (en inglés).

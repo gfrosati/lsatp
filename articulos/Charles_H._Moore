@@ -1,0 +1,25 @@
+Charles H. Moore (también conocido como Chuck Moore) (nació en 1938) es el inventor del lenguaje de programación Forth.
+En 1968, mientras estaba empleado en el National Radio Astronomy Observatory (NRAO) de Estados Unidos, Moore inventó la versión inicial del lenguaje Forth para ayudar a controlar los radiotelescopios. En 1971, junto con Elizabeth Rather cofundó Forth, inc., el primer, y todavía uno de los líderes como proveedores de soluciones Forth. Durante los años 1970 portó Forth a docenas de arquitecturas de computadora.
+En los años 1980, Moore movió su atención y las tecnologías de desarrollo de Forth hacia el diseño de CPU, desarrollando, a lo largo de su trabajo, varios microprocesadores de máquinas de pila y ganando varias patentes relacionadas con microprocesadores[1]. Todos sus diseños enfatizan un alto desempeño y un bajo consumo de energía. También exploró arquitecturas Forth alternas tales como cmForth y machine Forth, que se emparejaban más cercanamente con los lenguajes de máquina de sus chips. Éstos evolucionaron, más adelante en 1996, como el colorForth para el IBM PC.
+En 1983, Moore fundó Novix, Inc., donde desarrolló el procesador NC4000. Este diseño fue licenciado a Harris semiconductor quien lo mercadeó como el RTX2000, un procesador de pila reforzado contra radiaciones que ha sido usado en numerosas misiones de la NASA. En 1985, en su firma de consultores Computer Cowboys, desarrolló el procesador Sh-Boom. Comenzando en 1990, desarrolló su propio sistema VLSI CAD, llamado OKAD, para superar las limitaciones en el software existente de CAD. Él utilizó estas herramientas para desarrollar varios chips multinúcleo de mínimo conjunto de instrucciones (MISC): el MuP21 en 1990 y el F21 en 1993.
+Moore fue un fundador de la corporación iTv Corp., una de las primeras compañías en trabajar en Internet appliances. En 1996 diseñó otro de encargo para este sistema, el i21.
+Uno de los más recientes proyectos es el dialecto colorForth del Forth, un lenguaje derivado de lenguaje de script|lenguajes de scripting para su sistema VLSI CAD, el OKAD. En 2001, reescribió el OKAD en colorForth y diseñó el procesador c18.
+En 2005, Moore cofundó y se convirtió en Chief Technology Officer de IntellaSys, que desarrolla y mercadea sus diseños de chips, tales como el procesador multinúcleo seaForth-24.
+
+
+== Publicaciones ==
+"History of Programming Languages, Volume 2" (excerpt) 1996, ISBN 0-201-89502-1
+
+
+== Véase también ==
+Forth
+Máquina de pila
+Grandes sistemas de Burroughs
+
+
+== Enlaces externos ==
+Página personal de Chuck Moore (en inglés)
+Forth, Inc. (en inglés)
+Patente de Chuck Moore en temporización de procesadores (en inglés)
+IntellaSys (en inglés)
+Entrevista de Computerworld con Charles H. Moore sobre el lenguaje Forth (en inglés)

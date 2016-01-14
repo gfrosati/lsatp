@@ -1,0 +1,14 @@
+DragonFly BSD es un sistema operativo basado en BSD, desarrollado por el proyecto con el mismo nombre, cuyo director y fundador es Matthew Dillon. La mascota del proyecto es una libélula (Dragonfly, en inglés).
+Es un fork de FreeBSD en el cual, partiendo del código de FreeBSD 4.8 en junio de 2003, busca distanciarse un poco de otros sistemas operativos similares a Unix. El objetivo inicial del proyecto fue reescribir toda la gestión de concurrencia, SMP y la mayoría de los subsistemas del núcleo.
+Una de sus características es que posee un instalador propio, y adaptado por otras distribuciones BSD, llamado BSD Installer.
+
+
+== Véase también ==
+ Portal:Software libre. Contenido relacionado con Software libre.
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+Sitio web oficial (en inglés)

@@ -1,0 +1,51 @@
+Para la modalidad de carrera cross véase: Campo a través
+Crossings es un juego abstracto para dos jugadores inventado por Robert Abbott. Las reglas fueron publicadas en el libro de Sid Sackson llamado A Gamut of Games (es español Un Espectro de Juegos). Crossings finalmente evolucionó en el juego que se llamaría epaminondas, aunque sus antiguas reglas son lo suficientemente diferentes para hacer que la jugabilidad sea significativamente distinta de la que tiene epaminondas.
+
+
+== Jugar a Crossings ==
+
+Los jugadores compiten en un tablero de 8x8 casillas. Hay 16 fichas para cada jugador, blancas y negras. Las fichas han de ser ligeramente más pequeñas que las usadas en las damas, ya que se ha de jugar tanto sobre las intersecciones de las casillas, como sobre las casillas mismas.
+Las Negras mueven primero y desde ese momento los jugadores alternan sus turnos. En cada turno cada jugador desplaza una de sus fichas y a continuación retira del tablero cualquier ficha capturada. El término captura puede que no sea el más apropiado, ya que algunas fichas capturadas o incluso la mayoría, pueden ser propias. Una ficha sobre una esquina se dice que guarda las 4 casillas a las que pertenece esa intersección.
+Gana el primero en llegar con una de sus piezas a la fila más alejada sin que el contrario la capture inmediatamente después.
+
+
+=== Movimientos ===
+Un grupo es una serie de una o más fichas del mismo color adyacentes las unas a las otras en línea (diagonal, horizontal o vertical). Una ficha puede pertenecer a uno o más grupos.
+Un jugador puede mover una única ficha, un grupo entero o un subgrupo. La ficha que se mueva puede pasar por encima de cualquier número de piezas propias o de casillas vacías guardadas por fichas propias y deberá pararse en la primera casilla vacía que el jugador no esté guardando, sin poder pasar por encima de fichas enemigas.
+Un grupo formado por una única ficha puede mover un espacio en diagonal o puede mover ortogonalmente dentro de una casilla vacía.
+Un grupo deberá moverse a lo largo de la línea que lo define. Puede mover un número de espacios igual al número de piezas que forman el mismo.
+Cuando se mueve parte de un grupo, es decir, un subgrupo, este se debe mover a lo largo de la línea que lo define. Puede mover un número de espacios igual al número de fichas que configuran el subgrupo.
+Cuando se mueve un subgrupo este debe implicar a alguna de las fichas del final.
+Las fichas no pueden moverse dentro de casillas ya ocupadas por otras fichas.
+Las fichas pueden moverse a una esquina desocupada de la casilla sobre la que esté. Sin embargo, una ficha no puede trasladarse a una esquina si al hacerlo resultara que ambos jugadores quedaran guardando la misma casilla. No se consideran esquinas las intersecciones del borde del tablero.
+
+En la figura 1 vemos como la ficha negra en el extremo derecho puede mover 7 espacios hacia la izquierda, dando como resultado la posición mostrada en la parte inferior del mismo diagrama. La ficha podía haberse parado en cualquiera de las 4 casillas vacías a lo largo del camino.
+Una ficha que esté sobre una esquina al comienzo del turno puede mover de cualquiera de los modos siguientes:
+Moverse a una de las casillas que esté guardando.
+"Dividirse", en cuyo caso, cada una de las casillas vacías que dicha ficha estuviera guardando, se rellenará con una ficha que previamente hubiera sido retirada del tablero. Un jugador debe rellenar tantas casillas guardadas como le sea posible, pero si no tuviera repuestos suficientes, deberá elegir cuáles rellena y cuáles no. Una vez completada esta operación, la ficha dividida se retira del tablero.-
+
+
+=== Capturar fichas del oponente ===
+Si la primera ficha de un grupo en movimiento encuentra una única ficha del oponente, el movimiento del grupo termina ahí y la ficha del oponente es capturada.
+Si la primera ficha de un grupo en movimiento encuentra una ficha de final de un grupo del oponente, puede capturarla si el grupo del oponente es menor, terminando el turno.
+Si no puede capturar la ficha de final de grupo porque el grupo del oponente es de mayor tamaño o igual, no podrá mover hacia esa casilla.
+Una ficha que esté sobre una casilla y que tenga al menos 2 de sus esquinas ocupadas por piezas enemigas.
+Una ficha sobre una esquina y que tenga al menos 2 de sus casillas guardadas ocupadas por piezas enemigas.
+Se forma una cruz con una ficha sobre una casilla teniendo sus 4 casillas adyacentes ocupadas, no importando a quién pertenezcan. A esto se le llama "captura en Cruz" y siempre afecta a 5 fichas, por lo que nunca podrá formarse sobre el borde del tablero.
+
+En esta figura 2 vemos como se retirarán todas las fichas excepto la ficha blanca en la esquina inferior derecha. Aunque esta pieza está sobre una esquina, no forma parte de la formación que captura que consiste en una ficha blanca en una casilla y las 3 fichas negras en las esquinas.
+Puede ocurrir alguna vez que un sólo movimiento cree más de una formación de captura simultáneamente, siendo lo más frecuente, 2 cruces solapadas. En este caso, el jugador que mueve decide el orden de las capturas.
+
+
+=== Fin del juego ===
+Un jugador gana el juego si captura una ficha de la fila final del oponente o de la fila más lejada de su lado. Si su oponente no puede capturar una ficha de su contrario situada en la fila final suya en el movimiento siguiente, el primer jugador gana. De otra forma, aquellas fichas serán bloquedas; no podrán moverse ni capturarse. El próximo intento en crossing, tal y como es llamado, determinará el ganador (a menos que se produzcan una serie de movimientos crossing).
+Se llega al empate si ningún jugador puede alcanzar el objetivo del juego, aunque es muy raro que se prduzcan empates en este juego.
+
+
+== Referencias ==
+Sackson, Sid. A Gamut of Games. ISBN 0-486-27347-4
+Schmittberger, R. Wayne. New Rules for Classic Games. ISBN 0-471-53621-0
+
+
+== Enlaces externos ==
+Juegos de Robert Abbott.

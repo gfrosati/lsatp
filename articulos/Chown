@@ -1,0 +1,36 @@
+El comando chown permite cambiar el propietario de un archivo o directorio en sistemas tipo UNIX. Puede especificarse tanto el nombre de un usuario, así como el identificador de usuario (UID) y el identificador de grupo (GID). Opcionalmente, utilizando un signo de dos puntos (:), o bien un punto (.), sin espacios entre ellos, entonces se cambia el usuario y grupo al que pertenece cada archivo.
+Cada archivo de Unix tiene un propietario y un grupo, que se corresponden con el usuario y el grupo de quien lo creó.
+El usuario root puede cambiar el propietario de cualquier archivo o directorio. En algunos sistemas está restringido el cambio de propietarios por medio de chown para usuarios normales por motivos de seguridad. En los sistemas que está permitido, además de cambiarse el propietario, pueden alterarse otros indicadores del archivo, como el sticky bit.
+Sintaxis:
+
+Cambia el propietario de archivo1 archivo2, etc. que pasará a ser nuevousr
+
+Cambia el propietario para que pase a ser nuevousr a directorio, todos los archivos y subdirectorios contenidos en él, cambiándolos también de forma recursiva en todos archivos de los subdirectorios.
+
+
+== Ejemplos ==
+Si un archivo tiene estos propietarios:
+
+... y se ejecuta:
+
+... el nuevo propietario del archivo sería admin, tal y como se muestra:
+
+Otro ejemplo:
+
+...cambia el propietario a todos los archivos y directorios del directorio actual. Todos pasarán a pertenecer al usuario user1.
+
+...además entraría recursivamente en todos los subdirectorios descendientes y cambiaría el propietario a todos los archivos y directorios que hubiera.
+El siguiente ejemplo asigna el usuario (user1) y el grupo (grupoX) al directorio /ABC/DEF, recursivamente.
+
+Este último ejemplo, transfiere el control del archivo al usuario y grupo cuyo identificador de usuario (UID) y de grupo (GID) es 0 root.
+
+
+== Véase también ==
+chgrp
+su
+chmod
+id
+
+
+== Enlaces externos ==
+chown(2): cambio de propietario de archivos y directorios – Llamadas de sistema en el Manual de Debian

@@ -1,0 +1,27 @@
+Se conoce como teorema de Saint-Venant a la afimación:
+El teorema honra la memoria del matemático y mecánico francés Adhémar Jean Claude Barré de Saint-Venant (1797 – 1886).
+
+
+== Conceptos previos ==
+
+En mecánica de sólidos deformables, es habitual utilizar el modelo de viga o barra, donde una dimensión es mucho mayor que las otras dos. Así, es posible calcular en función de la coordenada X, relacionando las cargas mecánicas con propiedades del material y la sección perpendicular a dicha dirección preferente.
+Cuanto mayor sea la sección, menores serán las deformaciones ante una carga dada. Sin embargo, no importa sólo el valor absoluto del área geométrica, sino también su distribución (momento de inercia). De esa forma se acuña el concepto ingenieril de rigidez. Así, un problema típico del cálculo de estructuras busca calcular la forma y posición de una sección que minimice el área (y por tanto el material empleado) al soportar unos determinados esfuerzos.
+El teorema de Saint-Venant enuncia la configuración óptima para una viga maciza (sin huecos), que soporta esfuerzos de torsión.
+
+
+== Descripción formal ==
+Dado un dominio simplemente conexo D en un plano con área A, radio  y siendo  el área de su mayor círculo inscrito, podemos definir la rigidez torsional P de D mediante;
+
+.
+
+Donde el supremo se toma mediante cálculo variacional sobre todas las posibles funciones diferenciables que tienen como contorno D. La existencia de dicho supremo se puede demostrar como conscuencia de la desigualdad de Poincaré.
+Saint-Venant conjeturó en 1856 que de todos los dominios posibles D de igual área A, el círculo era el que tenía una mayor rigidez torsional, es decir:
+
+.
+
+Una prueba rigurosa de dicha desigualdad no se obtuvo hasta 1948 por parte de Pólya. Otra demostración de este teorema fue dada por Davenport. La prueba más general y la estimación
+
+fue dada por Makai.
+
+
+== Referncias ==

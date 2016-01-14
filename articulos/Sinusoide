@@ -1,0 +1,47 @@
+En matemáticas, se llama sinusoide o senoide la curva que representa gráficamente la función seno y también a dicha función en sí.
+
+
+== CaracterísticasEditar ==
+La sinusoide puede ser descrita por las siguientes expresiones matemáticas:
+
+La forma representada es:
+donde
+A es la amplitud de oscilación.
+ω es la velocidad angular; .
+T es el período de oscilación; .
+f es la frecuencia de oscilación.
+ωx + φ es la fase de oscilación.
+φ es la fase inicial.
+
+
+=== Período (T) en una sinusoideEditar ===
+Es el menor conjunto de valores de x que corresponden a un ciclo completo de valores de la función; en este sentido toda función de una variable que repite sus valores en un ciclo completo es una función periódica, seno o no sinusoidal.
+En las gráficas de las funciones seno-coseno el período es .
+
+
+=== Amplitud (A) en una sinusoideEditar ===
+Es el máximo alejamiento en el valor absoluto de la curva medida desde el eje x.
+Desde un punto de vista más técnico, la amplitud de la sinusoide es la norma del supremo de la sinusoide: 
+
+
+=== Fase inicial (φ) en una sinusoideEditar ===
+La fase da una idea del desplazamiento horizontal de la sinusoide. Si dos sinusoides tienen la misma frecuencia e igual fase, se dice que están en fase.
+Si dos sinusoides tienen la misma frecuencia y distinta fase, se dice que están en desfase, y una de las sinusoides está adelantada o atrasada con respecto de la otra.
+Carece de sentido comparar la fase de dos sinusoides con distinta frecuencia, puesto que éstas entran en fase y en desfase periódicamente.
+
+
+== Sinusoide y cosinusoideEditar ==
+Obsérvese que la cosinusoide (coseno), o cualquier combinación lineal de seno y coseno con la misma frecuencia, se pueden transformar en una sinusoide y viceversa, ya que:
+
+siendo
+
+Si M<0, considérese +π
+
+
+== Véase tambiénEditar ==
+Velocidad angular
+Interferencia
+
+
+== Enlaces externosEditar ==
+ Wikimedia Commons alberga contenido multimedia sobre Sonidos de onda sinusoidal. Commons

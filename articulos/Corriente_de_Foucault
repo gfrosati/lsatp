@@ -1,0 +1,100 @@
+La corriente de Foucault (corriente parásita también conocida como "corrientes torbellino", o eddy current en inglés) es un fenómeno eléctrico descubierto por el físico francés Léon Foucault en 1851. Se produce cuando un conductor atraviesa un campo magnético variable, o viceversa. El movimiento relativo causa una circulación de electrones, o corriente inducida dentro del conductor. Estas corrientes circulares de Foucault crean electroimanes con campos magnéticos que se oponen al efecto del campo magnético aplicado (ver Ley de Lenz). Cuanto más fuerte sea el campo magnético aplicado, o mayor la conductividad del conductor, o mayor la velocidad relativa de movimiento, mayores serán las corrientes de Foucault y los campos opositores generados.
+En los núcleos de bobinas y transformadores se generan tensiones inducidas debido a las variaciones de flujo magnético a que se someten aquellos núcleos. Estas tensiones inducidas son causa de que se produzcan corrientes parásitas en el núcleo (llamadas corrientes de Foucault), que no son óptimas para la buena eficiencia eléctrica de éste.
+Las corrientes de Foucault crean pérdidas de energía a través del efecto Joule. Más concretamente, dichas corrientes transforman formas útiles de energía, como la cinética, en calor no deseado, por lo que generalmente es un efecto inútil, cuando no perjudicial. A su vez disminuyen la eficiencia de muchos dispositivos que usan campos magnéticos variables, como los transformadores de núcleo de hierro y los motores eléctricos. Estas pérdidas son minimizadas utilizando núcleos con materiales magnéticos que tengan baja conductividad eléctrica (como por ejemplo ferrita) o utilizando delgadas hojas de acero eléctrico, apiladas pero separadas entre sí mediante un barniz aislante u oxidadas tal que queden mutuamente aisladas eléctricamente. Los electrones no pueden atravesar la capa aislante entre los laminados y, por lo tanto, no pueden circular en arcos abiertos. Se acumulan cargas en los extremos del laminado, en un proceso análogo al efecto Hall, produciendo campos eléctricos que se oponen a una mayor acumulación de cargas y a su vez eliminando las corrientes de Foucault. Cuanto más corta sea la distancia entre laminados adyacentes (por ejemplo, cuanto mayor sea el número de laminados por unidad de área, perpendicular al campo aplicado), mayor será la eliminación de las corrientes de Foucault y, por lo tanto, menor el calentamiento del núcleo.
+
+
+== Orígenes de las corrientes de Foucault ==
+Si hacemos oscilar un péndulo constituido por una placa de cobre entre los polos de un electroimán, se observará que se va frenando hasta pararse por completo, produciéndose este efecto más rápidamente cuanto mayor sea la intensidad del campo. Al tratarse de una placa de cobre, material no magnético, el frenado del péndulo no es debido a la atracción de los polos del imán.
+Lo que sucede es que en la placa, al cortar el flujo entre las piezas polares, se induce una fuerza electromotriz, según predice la ley de Lenz. Como el cobre es un buen conductor y la placa ofrece una gran sección al paso de la corriente, su resistencia óhmica es pequeña y las corrientes inducidas intensas. Estas corrientes se oponen a la acción del origen que las produce, esto es, la propia oscilación del péndulo, por tanto, actúan de freno.
+La energía cinética del péndulo en movimiento, por el principio conservación, se transforma en calor por el efecto Joule.
+Otros ejemplos claros donde aparecen este tipo de corrientes inductoras lo podemos observar en la mayoría de maquinaria eléctrica, dinamos, motores de corriente continua, alternadores, transformadores y en cualquier máquina donde exista un flujo de inducción.
+En general, las corrientes de Foucault son indeseadas, ya que representan una inútil disipación de energía en forma de calor.
+
+
+== Aplicaciones ==
+
+
+=== Eléctricas ===
+
+Las corrientes de Foucault son usadas para aumentar el efecto en convertidores de movimiento a electricidad como en los generadores eléctricos y los micrófonos dinámicos. También pueden ser usados para inducir un campo magnético en latas de aluminio, lo que permiten que éstas sean fácilmente separables de otros elementos reciclables. Los superconductores permiten una conducción perfecta, sin pérdidas, que crean corrientes de Foucault iguales y opuestas al campo magnético externo, permitiendo de esta manera la levitación magnética. Por la misma razón, los campos magnéticos dentro de un medio superconductor serán exactamente cero, independientemente del campo externo aplicado.
+Una de las aplicaciones prácticas de las corrientes de Foucault es la utilizada en los medidores de consumo eléctrico, donde el disco corta líneas de fuerza, al girar, accionado por el campo de un imán. Las corrientes, que se producen en el disco, generan una fuerza opuesta a la que acciona. Este frenado de corrientes de Foucault permite calibrar los contadores, modificando la posición del imán. Este mismo dispositivo sirve para el ajuste de fin de velocidad de los gira discos y el amortiguamiento de los instrumentos de medida.
+Algunos tacómetros tienen un imán que gira a la velocidad que se trate de medir frente a un disco metálico móvil. Las acciones electromagnéticas, debidas a las corrientes de Foucault, lo accionan en sentido de rotación del imán. Gracias a un muelle de retorno, se consigue inmovilizar el disco en una posición de equilibrio, que es función de la velocidad del imán.
+Las corrientes de Foucault se emplean aún en ensayos no destructivos para detectar discontinuidades superficiales y medir conductividad eléctrica en metales no magnéticos.
+
+
+=== Mecánicas ===
+Las corrientes de Foucault son usadas para frenar al final de algunas montañas rusas. Este mecanismo no tiene ningún desgaste mecánico y produce una precisa fuerza de frenado. Típicamente, pesadas placas de cobre extendiéndose desde el carro son movidas entre pares de imanes permanentes muy potentes. La resistencia eléctrica entre las placas genera un efecto de arrastre análogo a la fricción, que disipa la energía cinética del carro.
+
+
+==== Efecto de frenado ====
+Aunque la pérdida de energía útil resulta casi siempre indeseable, a veces tiene algunas aplicaciones prácticas. Una de ellas es en algunos trenes y vehículos pesados, como autocares y camiones, cuyos frenos se actúan a base de inducir corrientes de Foucault (eddy current brake). Durante el frenado, las llantas de metal en las ruedas están expuestas al campo magnético de un electroimán, que genera corrientes de Foucault en los núcleos y llantas de las ruedas. Las corrientes de Foucault encuentran resistencia mientras circulan a través del metal, y disipan energía en forma de calor, haciendo que las ruedas disminuyan su velocidad. Cuanto más rápido giren las ruedas, más fuerte será el efecto, resultando que a medida que el tren disminuye su velocidad, también lo hará la fuerza de frenado, consiguiéndose un frenado suave proporcional a la velocidad de las ruedas.
+Si colocamos un disco de aluminio, que gira de forma libre, frente a un imán, el campo magnético producido por el imán reduce sensiblemente la velocidad de rotación del disco, es decir, produce un par de frenado proporcional a la velocidad del disco. Este efecto de frenado es también debido a las corrientes de Foucault, y se aplica en numerosos aparatos de medida, como por ejemplo, en los vatihorímetros o contadores de energía eléctrica. Hay que puntualizar que esta acción de frenado sólo se manifiesta en planos perpendiculares a las líneas de inducción, ya que los circuitos abrazan la mayor parte del flujo, experimentando el máximo efecto de las variaciones cuando está de forma perpendicular.
+
+
+== Efectos colaterales ==
+Las corrientes de Foucault son la causa principal del efecto pelicular en conductores que transportan corriente alterna.
+
+
+=== Pérdidas de energía ===
+Las corrientes de Foucault, como ya se ha comentado, tienen por efecto transformar parte de la energía en calor. Dicho calor producido en la masa metálica sólo se utiliza en los hornos eléctricos de alta frecuencia, por lo que, en general, supone una pérdida de energía. Para el estudio de estas pérdidas, consideraremos a una chapa de longitud , anchura  y grosor , sometida un campo variable de valor:
+
+donde ω es la pulsación y Bm la inducción máxima.
+En esta circunstancia el flujo a través de la superficie de dicha espira es:
+
+Donde S es la superficie que atraviesa el flujo, cuyo valor es
+
+Por lo tanto es posible escribir la ecuación anterior en la forma:
+
+Por otra parte, sabemos que la fem inducida en la espira es:
+
+Derivando se tiene:
+
+Si tomamos en la chapa una espira diferencial, su resistencia será
+
+y despreciando 2x frente a 2b, escribiremos:
+
+La potencia en la espira será,
+
+siendo Eef la tensión eficaz, cuyo valor en función del máximo, Em, es
+
+Por lo tanto la potencia perdida será:
+
+Y la potencia total perdida a consecuencia de las corrientes de Foucault:
+
+< Si reemplazamos ahora ω por , se obtiene
+
+o, lo que es lo mismo
+
+en donde , es el volumen de la carga.
+De todo lo expuesto se deduce que las pérdidas en vatios por metro cúbico debidas a las corrientes de Foucault serán:
+
+Dado el carácter perjudicial de las corrientes de Foucault, por los motivos ya apuntados, es necesario tomar las siguientes precauciones:
+
+a) Todas las masas metálicas sometidas a variaciones de inducción deben ser laminadas y colocadas en paquetes paralelos. De esta forma se evita el recorrido de las corrientes de Foucault engendradas en planos perpendiculares a los flujos.
+
+b) Los remaches y tornillos que unen las chapas no deben cerrar circuitos conductores que abracen flujo variable.
+
+c) Los soportes metálicos de las bobinas han de ser cortados por medio de una incisión paralela a las líneas de inducción, o bien utilizar sustancias no conductoras.
+
+
+== Reducción de las corrientes ==
+Si el ejemplo del péndulo lo repetimos, modificando la estructura de las placas de cobre, es decir, hendimos la pieza de forma vertical con numerosos cortes, podremos comprobar que el frenado del péndulo ha disminuido significativamente. Esto no quiere decir que las corrientes hayan desaparecido, sino que debido a la limitación de la banda donde actúa, limitado por los cortes realizados, éstas se ven muy mermadas.
+Para disminuir el desarrollo de las corrientes de Foucault se emplea el sistema de construir los núcleos de hierro en lugar de macizos, mediante chapas o láminas superpuestas con un espesor de 0.2 a 0.6 mm, aisladas unas de las otras con barniz o papel. Las chapas se hacen con un acero al silicio de alta resistividad, de modo que la intensidad de la corriente inducida disminuye y las pérdidas alcanzan así un valor admisible. Esta construcción no produce la disminución del flujo magnético, pues se dispone siempre según el plano que recorren las líneas de fuerza.
+La calidad de estas láminas en cuanto a las pérdidas por histéresis y corrientes de Foucault se caracteriza por la potencia en vatios(W), disipada por kilo de plancha sometido a una inducción alternativa de una tesla, a razón de 50 ciclos de imantación por segundo.
+La siguiente tabla da los valores de las pérdidas específicas en W/kg, para diversas calidades de planchas magnéticas que existen en el mercado.
+
+En los núcleos de hierro utilizados en las bobinas de alta frecuencia, la disposición clásica en láminas, que hemos visto antes, ya no es suficiente, por lo que, estos núcleos están construidos con hierro especial, de polvo comprimido y aglomerado con barniz aislante, de tal manera que cada grano de hierro se encuentra aislado de sus más próximos, siendo ésta la única forma de reducir las pérdidas en el hierro, hasta conseguir un valor aceptable.
+
+
+== Véase también ==
+Sensor inductivo
+Transformador
+Bobina de Tesla
+Ferrita
+
+
+== Enlaces externos ==
+Una demostración en vídeo de corrientes de Foucault
+Separadores por corriente de Foucault para materiales no magnéticos - máquinas utilizadas en el sector de reciclado.
+Vídeos de los separadores por corrientes de Foucault
+Un medidor de conductividad por el método de las corrientes de Foucault

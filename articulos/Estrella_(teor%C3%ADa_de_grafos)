@@ -1,0 +1,7 @@
+En teoría de grafos, una estrella Sk es el grafo bipartito completo K1,k, un árbol con un vértice interno y k hojas. Una estrella con 3 aristas se conoce en inglés como claw (garra o garfio).
+La estrella Sk es transitiva en aristas, tiene una distancia de 1 y un diámetro de 2, girth ∞, índice cromático k y número cromático 2.
+Las estrellas pueden también describirse como los únicos grafos conexos en que a lo más un vértice tiene grado mayor que uno.
+
+
+== Referencias ==
+Weisstein, Eric W. «Star Graph». En Weisstein, Eric W. MathWorld (en inglés). Wolfram Research.

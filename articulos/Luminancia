@@ -1,0 +1,19 @@
+En Fotometría, la luminancia se define como la densidad angular y superficial de flujo luminoso que incide, atraviesa o emerge de una superficie siguiendo una dirección determinada. Alternativamente, también se puede definir como la densidad superficial de intensidad luminosa en una dirección dada.
+La definición anterior se formaliza con la expresión siguiente:
+
+donde:
+LV es la luminancia, medida en Nits o candela/metro2.
+F es el flujo luminoso, en lumen.
+dS es el elemento de superficie considerado, en metros2.
+dΩ es el elemento de ángulo sólido, en estereorradianes.
+θ es el ángulo entre la normal de la superficie y la dirección considerada.
+La luminancia se puede definir a partir de la magnitud radiométrica de la radiancia sin más que ponderar cada longitud de onda por la curva de sensibilidad del ojo. Así, si LV es la luminancia, Lλ representa la radiancia espectral y V(λ) simboliza la curva de sensibilidad del ojo, entonces:
+
+Se puede considerar que el equivalente psicológico de la luminancia es el brillo o la brillantez. Por ejemplo, considerando el caso de la emisión o reflexión de luz por parte de superficies planas y difusas, la luminancia indicaría la cantidad de flujo luminoso que el ojo percibiría para un punto de vista particular. En este caso, el ángulo sólido que interesa es el subtendido por la pupila del ojo.
+
+
+== Referencias ==
+
+
+== Véase también ==
+Iluminación física

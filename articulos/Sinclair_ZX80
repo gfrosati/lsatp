@@ -1,0 +1,23 @@
+El Sinclair ZX80 fue un computador personal comercializado a partir de 1980 por Science of Cambridge. Fue notable por ser la primera computadora disponible en el Reino Unido por cien libras (£99,95, para ser exacto). Se comercializaba como un kit, los compradores tenían que ensamblarlo y soldar las piezas y, por un precio ligeramente más alto, una versión ya montada para las personas no querían armarlo por sí mismas. El ZX80 fue muy popular en su tiempo, llegando a haber una lista de espera de varios meses para poder adquirirlo.
+La máquina, diseñada por Clive Sinclair, se basaba en una CPU NEC μPD780C-1 (un clon del Zilog Z80) que corría a 3,25 MHz, y fue equipada con 1 kB de memoria RAM estática ampliable a 16K, y 4 kB ROM que contenía: el lenguaje de programación Sinclair BASIC, el editor, y el "OS". Los comandos de BASIC no se escribían, en lugar de ello, los comandos eran seleccionados como en una calculadora científica, cada "tecla" tenía diferentes funciones y para acceder a una de ellas se necesitaba apretar teclas especiales de cambio.
+Utilizaba una televisión como monitor y el almacenamiento de los programas se hacía en cinta de casete. El generador de vídeo del ZX80 utilizaba un hardware muy minimalista más una combinación de software para generar la señal de vídeo. Como resultado de esta manera de hacer las cosas, el ZX80 podía generar la imagen solamente cuando estaba desocupado, es decir, cuando estaba esperando para que el usuario apretara una tecla. Cuando estaba corriendo un programa BASIC, la pantalla se ennegrecería. Esto impedía mostrar gráficos animados, etc. El Sinclair ZX81, que vino después, mejoró un poco en esto, porque podía correr "lentamente" mientras que creaba una señal video, o "rápido" sin la generación de una señal video (usado para los cálculos muy largos).
+Un chip de 8 kB con la ROM del ZX81 se podía adquirir como una mejora del ZX80 y costaba un 20% de lo que un ZX81 ya montado. Venía con una máscara para el teclado y el manual del ZX81. Sólo había que levantar la cubierta del ZX80, retirar la vieja ROM del zócalo y poner en su lugar la nueva, cerrar y poner la máscara para el teclado. El ZX80 (ahora ZX81) funcionaba casi idénticamente que un ZX81 excepto el modo lento (SLOW mode), y eso era debido puramente a razones de hardware. El proceso podía revertirse con facilidad.
+La memoria del ZX80 podía ampliarse con un RamPac a 3 kB. No había actualización posible para la aritmética sólo de enteros ni para el display monocromo.
+La máquina se montaba en una minúscula caja plástica de color blanco. Tenía un teclado de membrana, de color azul, de una sola pieza en el frente. Debió su distintivo aspecto al diseñador industrial Rick Dickinson. El sistema entero tenía más o menos el tamaño de dos libros de bolsillo colocados uno al lado del otro. Este computador inició la locura de los computadores personales en los años 1980 y fue el precursor del ZX81 y el muy exitoso Sinclair ZX Spectrum.
+Las ventas del ZX80 superaron las 50.000 unidades, lo que contribuyó al liderazgo de Inglaterra en los 80 en el campo de los ordenadores domésticos. Debido a su nada sofisticado diseño y su tendencia al sobrecalentamiento, son pocas las máquinas sobrevivientes en buen estado de funcionamiento, por lo que alcanzan altos precios entre los coleccionistas.
+
+
+== Referencias ==
+↑ «Sinclair ZX80» (en inglés). zonadepruebas.com. Consultado el 25 de enero de 2011. 
+
+
+== Véase también ==
+Sinclair ZX81
+ZX Spectrum
+
+
+== Enlaces externos ==
+Ficha del Sinclair ZX80 en Zonadepruebas
+Yet another Computer Museum con fotos de la placa madre y el manual online del ZX 80
+ZX80 hardware page nos explica como montar nuestro propio ZX 80
+ZEsarUX - ZX Second-Emulator And Released for UniX (GPL)

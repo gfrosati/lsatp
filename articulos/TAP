@@ -1,0 +1,9 @@
+Para la línea aérea portuguesa, véase TAP Portugal.
+Un tap es un dispositivo de red que permite separar la entrada de datos de la salida de datos.
+
+El dispositivo más básico cuenta con una entrada y una salida de ethernet, un puerto ethernet con la salida de datos TX y otro puerto ethernet con la entrada de datos RX.
+Estos dispositivos están pensados para usarse en sistemas de monitorización de red, y no para ser conectados a equipos "activos".
+
+
+== Enlaces externos ==
+Como construir un tap (inglés)

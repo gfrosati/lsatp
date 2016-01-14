@@ -1,0 +1,57 @@
+jGnash es una aplicación libre de gestión de finanzas personales programada en Java para entorno de ejecución Java (JRE). jGnash puede ejecutarse en cualquier sistema operativo que tenga instalado el run-time environment Java 1.4.0 o superior.
+
+
+== Características ==
+Compatibilidad con transacciones basadas en partida doble.
+Cuenta de ajuste o reconciliación.
+Generación de informes en formato PDF.
+Importa archivos de los formatos OFX, QIF y GnuCash.
+Autocompletado de campos de formulario.
+Recordatorios de pagos recurrentes programados.
+Soporte para múltiples monedas (unidades monetarias).
+Registro y control de cuentas de inversiones y operaciones.
+Actualizaciones automáticas en línea de inventarios de activos, precios y tasas de cambio de moneda.
+Cifrado seguro de archivos.
+Interfaz de usuario personalizable.
+Uso de scripts BeanShell.
+Advanced Server / Arquitectura de red de cliente/servidor avanzada.
+
+
+== Requisitos de sistema ==
+Serie 2.x
+Java Runtime Environment 1.6.0 (o superior)
+
+Serie 1.x
+Java Runtime Environment 1.4.0 (o superior)
+Java 1.4.1_12 o superior recomendada para todo usuario.
+Si está disponible, es preferible Java Runtime Environment 5.0
+
+Resolución mínima de pantalla, 800x600 (recomendada).
+jGnash ha sido probado solamente con la máquina virtual JVM oficial de Sun.
+
+
+== Uso ==
+Para ejecutar el programa, hay que escribir en una línea de comandos o terminal el comando java -jar.
+
+
+== Véase también ==
+ Portal:Software libre. Contenido relacionado con Software libre.
+
+
+== Referencias ==
+
+
+=== Artículos conexos ===
+Grisbi
+GnuCash
+KMyMoney
+Comparación de software contable
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+(en inglés) Sitio web oficial
+
+jGnash en SourceForge (en inglés)

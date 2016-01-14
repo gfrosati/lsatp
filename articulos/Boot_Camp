@@ -1,0 +1,53 @@
+Boot Camp es un software desarrollado por la empresa Apple que asiste al usuario en la instalación de las versiones de Windows XP, Windows Vista, Windows 7 o GNU/Linux en computadoras Macintosh con procesador Intel. Boot Camp guía al usuario a través de un reparticionamiento no destructivo (incluyendo poder cambiar el tamaño de las particiones existentes) de sus discos duros y también le da la posibilidad de crear un CD con los controladores de hardware correspondientes para Windows XP y Vista. Además de los controladores para el hardware, el CD incluye un panel de control de Windows para configurar el sistema operativo primario.
+Boot Camp no es un herramienta de virtualización que permita al usuario correr Windows y Mac OS X al mismo tiempo, sino que la computadora debe ser reiniciada para usar uno u otro sistema operativo. El administrador de arranque incluido con todos los ordenadores Mac con Intel permiten la selección del sistema operativo.
+Boot Camp requiere que el usuario actualice el firmware en los primeros ordenadores Macintosh con procesador Intel a la última versión, la cual incluye el cargador de arranque y el módulo de compatibilidad para la BIOS requerido para que las máquinas con EFI puedan arrancar sistemas operativos antiguos.
+La tecnología estuvo en estado Beta, hasta el lanzamiento de Mac OS X v10.5 Leopard donde se incluye la versión 2.0 de lanzamiento.
+
+
+== Requisitos ==
+Mac OS X 10.4, Mac OS X 10.5 o Mac OS X 10.6 o superior
+10GB de espacio libre en disco (Boot Camp recomienda 10GB, pero la instalación también se permite con menos espacio disponible, según los requerimientos de Windows, y permite hacer particiones a partir del último fichero no bloqueado en el Mac, intentarlo produce un error, aunque exista espacio libre suficiente).
+Un Mac con procesador Intel con el firmware actualizado
+Un disco de instalación de Windows XP Service Pack 2 o superior (Home Edition o Professional), Windows Vista (32 ó 64 Bits; sólo se pueden instalar las versiones Home Basic, Home Premium, Business y Ultimate) o Windows 7 (32 ó 64 Bits; sólo se pueden instalar las ediciones Home Premium, Professional y Ultimate).
+No tener rEFIt instalado. Si se ha instalado rEFIt para poder hacer un arranque dual con Linux, éste se ha posicionado como la primera partición en el disco, haciendo que Boot Camp no se pueda ejecutar. Lo que provoca que no se pueda crear el CD con los controladores para Windows.
+Para la instalación de Windows 7, es necesario Mac OS X 10.6 Snow Leopard.
+El DVD de instalación de Mac OS X incluido en el Mac.
+
+
+== Dispositivos soportados ==
+Apple Remote.
+Cámara iSight.
+Audio integrado.
+Teclado y ratón.
+Sensor de aceleración repentina en los MacBook Pro.
+Sensor de luz ambiental en los MacBook Pro.
+Cualquier gráfica ATI montada por defecto en un Mac con procesador Intel.
+Cualquier gráfica NVIDIA montada por defecto en un Mac con procesador Intel
+Teclado, incluyendo las teclas de función propias del Mac
+Airport.
+Ethernet gigabit.
+Unidades en NTFS y FAT32.
+Dispositivos Firewire.
+
+
+== Dispositivos no soportados ==
+Aunque en versiones beta no se soportaban todos los dispositivos incluidos de serie en los ordenadores Mac en la versión final se han incorporado todos los controladores de dispositivo de Mac certificados por los WHQL
+
+
+== Véase también ==
+Cygwin
+Fink
+WINE - el software libre (código abierto) base de Cedega.
+CrossOver Office - otro producto comercial basado en Wine, dirigido a ejecutar aplicaciones de productividad o empresariales más que juegos.
+Cedega
+DOSBOX
+
+
+== Referencias ==
+
+
+== Enlaces ==
+Boot Camp en la página oficial de Apple
+Soporte oficial de Boot Camp (inglés)
+Boot Camp Turns Your Mac Into a Reliable Windows PC (en inglés) - Walter Mossberg, The Wall Street Journal
+Libro Kayla Itsines sobre Boot Camp

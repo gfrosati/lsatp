@@ -1,0 +1,18 @@
+id Tech 6 es un motor gráfico basado en OpenGL que actualmente está siendo desarrollado por id Software, el cual será el sucesor de id Tech 5.
+
+
+== Desarrollo ==
+La información preliminar dada por John Carmack sobre este motor, el cual en ese entonces aun se encontraba en sus fases más tempranas de desarrollo, tenía la tendencia a mostrar que id Software apuntaba en una dirección en la que combinarían ray tracing y raster graphics. No obstante, también explicó durante QuakeCon 08 que el hardware capaz de correr id Tech 6 aún no existía.
+En julio de 2011, indicó que id Software había comenzado a realizar las investigaciones necesarias para el desarrollo de id Tech 6.
+El 19 de julio de 2014, dados los recientes problemas financieros de Crytek, se anunció que Tiago Sousa, el director del departamento de Investigación y Desarrollo en Crytek, dejaría la empresa para unirse al equipo de desarrollo de Doom e idTech 6.
+
+
+== Tecnología ==
+Funcionará haciendo un raycasting de la geometría presentada por los vóxeles (en lugar de triángulos) encapsulados en un árbol octal. John Carmack asegura que este formato sera más eficiente para almacenar datos en dos dimensiones al igual que datos de geometría en 3D, ya que no tienen problemas con el empaquetamiento o los contornos. Virtualizará a la geometría como texturas. 
+
+
+== Videojuegos que utilizan id Tech 6 ==
+Doom (Primavera de 2016) – de id Software
+
+
+== Referencias ==

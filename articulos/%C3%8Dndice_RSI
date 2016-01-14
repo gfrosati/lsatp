@@ -1,0 +1,51 @@
+El RSI o indicador de fuerza relativa (Relative Strength Index, en inglés) es un indicador tipo oscilador utilizado en análisis técnico que muestra la fuerza del precio mediante la comparación de los movimientos individuales al alza o a la baja de los sucesivos precios de cierre.
+El RSI es popular porque es relativamente fácil de interpretar. Fue ideado por J. Welles Wilder y publicado en la revista Commodities (actualmente llamada Futures) en junio de 1978, y en su New Concepts in Technical Trading Systems ese mismo año.
+Nótese que el término fuerza relativa se refiere a la fuerza en relación tanto al mercado en general como a un sector en particular. Por ejemplo, el valor XYZ podría subir un 2% mientras el resto del mercado asciende sólo un 1%. A esto en ocasiones se llama relative strength comparative para evitar confusiones. No alude al RSI descrito en este artículo.
+
+
+== Cálculo ==
+Se calcula para cada día un cambio al alza U o a la baja D.  En un día de subida, con el precio de cierre superior al de ayer:
+
+O recíprocamente, en un día de bajada (nótese que D es un número positivo):
+
+Si el cierre de hoy es igual que el de ayer, tanto U como D valen cero. Se calcula un U promedio con una media móvil exponencial utilizando un factor N-days smoothing dado, y análogamente para D. El cociente de esas medias es la Fuerza Relativa (RS, Relative Strength):
+
+Esto se convierte a un índice RSI (Relative Strength Index) entre 0 y 100,
+
+Que puede expresarse como sigue, para enfatizar la forma en que el RSI representa las subidas como una proporción del total de subidas y bajadas (de cada una de sus medias):
+
+El EMA en teoría utiliza un volumen infinito de datos sobre el pasado (como se discute en el artículo sobre EMA). Es necesario o bien retroceder suficientemente atrás, o bien al principio de los datos comenzar con una media de N días: 
+
+y después continuar a partir de ahí con la habitual fórmula de EMA:
+
+(Análogamente con D.)
+En caso de que las pérdidas medias (EMA de D) sea cero, el valor del RSI es 100 por definición. Del mismo modo, si las ganancias medias para el período dado es cero, el valor del RSI es 0 por definición.
+
+
+== Interpretación ==
+Wilder recomendó un periodo suavizado de N=14, basándose en su suposición de suavizado de la media movil exponecial, i.e. α = 1/14 or N = 27).
+Wilder consideró que si el RSI alcanza el nivel de 70 hay que interpretar que el valor está sobrecomprado (cuyo significado es que el especulador debería plantearse vender). Y análogamente al contrario, sobrevendido en el nivel de 30. La hipótesis sería que cuando hay una alta proporción de movimientos diarios en una dirección esto sugiere que se alcanzará el extremo, y los precios tenderán a darse la vuelta. También se usan los niveles 80 y 20, u otros, de acuerdo a las condiciones del mercado (ej. un Mercado Alcista podría tener un nivel superior).
+Large surges and drops in securities afectan al RSI, pero podrían sólo inducir una compra o venta equivocadas. El RSI se utiliza preferentemente como un complemento a otros indicadores del análisis técnico.
+
+
+== RSI de Cutler ==
+Una variante llamada RSI de Cutler se basa en un promedio móvil simple de U y D, en vez de la media exponencial arriba expuesta:
+
+Esto es como el cálculo, mostrado arriba, de los datos del punto inicial, pero usado para todos los días, no sólo el primero. El divisor N se cancela en los SMAs del numerador y denominador, por lo que no se necesitan esas divisiones, sino sólo hacer una suma de U y una suma de D de los últimos N días.
+El RSI de Cutler generalmente difiere del habitual RSI de Wilder, pero ambos son parecidos, ya que un SMA y EMA son bastante similares.
+
+
+== Véase también ==
+↑ Relative Strength Index (RSI) at borsanaliz.com
+↑ Relative Strength, Comparative at MarketScreen.com
+↑ a b Relative Strength Index (RSI) at StockCharts.com]
+↑ a b Relative Strength Index at IncredibleCharts.com]
+↑ Relative Strength Index (RSI) en efxto.com]
+↑ Cutler's RSI page at Aspen Graphics Technical Analysis Software
+
+
+== Enlaces externos ==
+
+
+== Bibliografía ==
+New Concepts in Technical Trading Systems by J. Welles Wilder, ISBN 0-89459-027-8

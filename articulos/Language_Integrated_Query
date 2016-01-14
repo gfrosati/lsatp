@@ -1,0 +1,184 @@
+Language Integrated Query (LINQ, pronunciado “link”) es un componente de la plataforma Microsoft .NET que agrega capacidades de consulta a datos de manera nativa a los lenguajes .NET, si bien existen implementaciones para Java, PHP, JavaScript y ActionScript
+LINQ extiende el lenguaje a través de las llamadas expresiones de consulta, que son parecidas a las sentencias SQL y pueden ser usadas para extraer y procesar convenientemente datos de arrays, clases enumerables, documentos XML, bases de datos relacionales y fuentes de terceros. Otros usos, que utilizan expresiones de consulta como plataforma general para la composición de expresiones más legibles, incluyen la construcción de manejadores de eventos.
+LINQ además define un conjunto de nombres de métodos (llamados operadores de consulta estándar), y un conjunto de reglas de traducción, que son usadas por el compilador para traducir las expresiones de consulta en expresiones normales del lenguaje, usando estos nombres de métodos, expresiones lambda y tipos anónimos. Muchos de los conceptos que LINQ ha introducido, fueron probados inicialmente en el proyecto de investigación Microsoft Cω. LINQ fue lanzado como un componente principal de .NET Framework 3.5 el 19 de noviembre de 2007.
+
+
+== Arquitectura de LINQ en .NET ==
+
+
+=== Operadores de consulta estándar ===
+En la siguiente sección, las descripciones de los operadores están basados en la aplicación de trabajar con colecciones. El conjunto de operadores de consulta definido por LINQ se expone al usuarios como la Standard Query Operator (SQO) API.
+Los operadores soportados por la API son:
+Select
+Realiza una proyección de la colección y selecciona los aspectos deseados de los elementos. El usuario especifica una función arbitraria, como un delegado o una expresión lambda, que es la que proyecta los elementos.
+Where
+Permite la definición de un conjunto de predicados que son evaluados para cada objeto en la colección, de manera que los objetos que no cumplan el predicado son excluidos del resultado. El predicado se especifica al operador como un delegado.
+SelectMany
+Mapea de elementos de una colección a colecciones. Semánticamente, se realizan dos pasos. Primero, cada elemento se mapea a su colección correspondiente. Después, el resultado del primer paso se mezcla en un mismo nivel. Nota: Select y Where son ambos implementables usando SelectMany.
+Sum / Min / Max / Average
+Estos operadores reciben un parámetro opcional lambda, que toma un valor de cada elemento en la colección y lo usa para encontrar la suma, el mínimo, el máximo o el promedio respectivamente de todos los elementos en la colección.
+Aggregate
+Una versión generalizada de Sum/Min/Max. Este operador recibe una expresión lambda que especifica cómo serán combinados los
+valores para formar un resultado intermedio o final. De manera opcional, se puede especificar un valor inicial, permitiendo que el tipo de la agregación pueda ser cualquiera. Además, una función de finalización, convirtiendo el resultado de la agregación en otro valor, que puede ser especificado.
+Join
+Realiza un inner join entre dos colecciones, basado en llaves coincidentes para los objetos de cada colección. Recibe dos funciones como delegados, una para cada colección, que se ejecutará sobre cada elemento de la colección para extraer su llave.
+GroupJoin
+Al igual que el anterior pero realiza un GroupJoin.
+Take / TakeWhile
+El operador Take selecciona los n primeros objetos de una colección, mientras que el operador TakeWhile, que recibe un
+predicado, selecciona solo los n primeros objetos que cumplan con este.
+Skip / SkipWhile
+Son los complementos de Take y TakeWhile respectivamente, se ignoran los primeros n elementos o los primeros n que cumplan el predicado especificado.
+OfType
+Para seleccionar solo los elementos de cierto tipo.
+Concat
+Concatena dos colecciones.
+OrderBy / ThenBy
+El operador OrderBy se utiliza para especificar el ordenamiento primario de los elementos en una colección de acuerdo con alguna llave. El orden por defecto es en orden ascendente, para invertir el orden se utiliza el operador OrderByDescending. ThenBy y ThenByDescending especifica el subsiguiente orden de los elementos. La función para extraer el valor de llave del objeto debe ser especificada por el usuario como un delegado.
+Reverse
+El operador Reverse invierte una colección.
+GroupBy
+El operador GroupBy toma un delegado que extrae un valor de llave y devuelve una colección de objetos de tipo
+IGrouping<Key, Values> , para cada valor de llave distinta. Los IGrouping objetos pueden entonces utilizar para
+enumerar todos los objetos de un valor de llave en particular.
+Distinct
+El operador Distinct elimina instancias duplicadas de un valor de llave en una colección. La función para recuperar el valor
+de llave que se retornará es un delegado.
+Union / Intersect / Except
+Estos operadores se utilizan para realizar una operación de unión, intersección y diferencia entre dos secuencias, respectivamente.
+SequenceEqual
+El operador SequenceEqual determina si todos los elementos de dos colecciones son iguales y tienen el mismo orden.
+First / FirstOrDefault / Last / LastOrDefault
+Estos operadores reciben como parámetro un predicado. El operador First devuelve el primer elemento para el cual se satisface el predicado o lanza una excepción, si este no se satisface. El operador FirstOrDefault es como el primer operador, excepto que devuelve el valor predeterminado para el tipo de elemento (por lo general una referencia null) en caso
+de que no se satisfaga con el predicado. El operador Last recupera el último elemento para el cual se satisface el predicado, o se produce una excepción, si este no se satisface. El operador LastOrDefault devuelve el valor predeterminado si no existe tal elemento.
+Single
+El operador Single recibe como parámetro un predicado y devuelve el elemento que satisface con el predicado. Se produce una excepción, si ninguno o más de un elemento satisface con el predicado.
+ElementAt
+El operador ElementAt devuelve el elemento situado en un índice especificado de una colección.
+Any / All / Contains
+El operador Any determina si ninguno de los elementos de la colección satisface con el predicado. El operador All determina,
+si todos los elementos de la colección satisfacen con el predicado. El operador Contains determina si una colección contiene
+un elemento especificado.
+Count
+El operador Count cuenta el número de elementos en la colección dada.
+
+En la API de los (SQO) operadores de consulta estándar también se definen algunos operadores para convertir una colección a otro tipo:
+AsEnumerable: convierte una colección en un IEnumerable<T> .
+AsQueryable: convierte una colección en un IQueryable<T> .
+ToArray: convierte una colección en un array .
+ToList: convierte una colección en un IList<T> .
+ToDictionary: convierte una colección en un IDictionary<K, T> , indexado por la llave K.
+ToLookup: convierte una colección en un ILookup<K, T> , indexado por la llave K.
+Cast: convierte una colección no genérica en un IEnumerable<T> , convirtiendo cada elemento al tipo T . Lanza una excepción para los tipos incompatibles.
+OfType: convierte la colección no genérica en un IEnumerable<T> . Sólo los elementos de tipo T están incluidos.
+
+
+=== Extensiones del Lenguaje ===
+Mientras LINQ es principalmente implementado como un biblioteca para .NET Framework 3.5, también define las extensiones opcionales de idioma que realizan consultas de primera clase construcción del lenguaje y proporciona un azúcar sintáctico para escribir consultas. Estas extensiones del lenguaje han sido implementadas inicialmente en C# 3.0, VB 9.0 y Oxygene, aunque otros lenguajes como F# y Nemerle habían anunciado un soporte preliminar. Las extensiones del lenguaje son:
+Sintaxis de consultas
+Variables de tipo implícito
+Tipos anónimos
+Inicializadores de Objetos
+Expresiones lambda
+
+
+== Provedores de LINQ ==
+
+
+=== LINQ to Objects ===
+El proveedor LINQ to Objects se utiliza para colecciones en memoria, utilizando el motor de ejecución local de consultas de LINQ. El código generado por este proveedor se refiere a la implementación de los operadores de consulta estándar tal como se definen en el patrón Sequence y permite que colecciones IEnumerable<T> se puedan consultar localmente. La implementación actual de LINQ to Objects usa, por ejemplo O(n) búsqueda lineal para las búsquedas simples, y no está optimizado para consultas complejas.
+
+
+=== LINQ to XML (antes llamado XLinq) ===
+El proveedor de LINQ to XML convierte un documento XML a una colección de objetos XElement, que puede ser consultada usando el motor de ejecución local de LINQ. LINQ to XML utiliza las características más recientes de los lenguajes de .NET Framework y es comparable con la API de XML para el Modelo de objetos de documento (DOM).
+
+
+=== LINQ to DataSet ===
+El proveedor de LINQ to SQL sólo funciona con bases de datos de Microsoft SQL Server. Para soportar cualquier base de datos genérica, LINQ también incluye LINQ to DataSet, que utiliza ADO.NET para manejar la comunicación con las base de datos. Una vez que los datos están en DataSets de ADO.NET, LINQ to DataSet ejecuta las consultas sobre estos datasets.
+
+
+=== Otros proveedores ===
+Los proveedores de LINQ pueden ser implementados por terceros para diferentes fuentes de datos. Varios servidores de bases de datos especifican sus implementaciones de proveedores de LINQ. Algunos de los proveedores más populares incluyen:
+Data Services: LINQ to ADO.NET Data Services
+dotConnect: LINQ to Oracle, MySQL, PostgreSQL, and SQLite
+Entity Framework: LINQ to Entities
+SSAS Entity Framework Provider: LINQ to OLAP cubes in SSAS.
+Windows Search: LINQ to System Search
+Google search: LINQ to Google
+DbLinq: LINQ to MySQL, PostgreSQL, Oracle, Ingres, SQLite and Microsoft SQL Server
+NHibernate:
+LINQ to NHibernate proyecto de contribución
+Soporta LINQ nativo en la versión 3.0 basado en re-linq
+
+DataObjects.NET: LINQ to DataObjects.NET
+LLBLGen Pro: LINQ to LLBLGen
+OpenMapi: LINQ to MAPI
+CSV: LINQ to CSV
+Twitter: LINQ to Twitter
+db4o: LINQ to db4o
+Wikipedia: LINQ to Wikipedia
+LINQ to XSD: LINQ to XML Schema
+
+
+== PLINQ ==
+La versión 4 del framework .NET incluye PLINQ , o LINQ Paralelo, un motor de ejecución paralelo para las consultas LINQ. Además se define una nueva interfaz IParallelEnumerable<T> . Si la colección de origen implementa esta interfaz, el motor de ejecución paralelo se invoca. El motor PLINQ puede ejecutar simultáneamente partes de una consulta en múltiples hilos, proporcionando así resultados más rápidos.
+
+
+== Ejemplos ==
+
+
+=== Ejemplo #1 LINQ To Objects ===
+
+
+=== Ejemplo #2 LINQ to SQL ===
+
+
+== Otras implementaciones de LINQ ==
+Saffron es una extensión de Java que incorporan SQL como expresiones relacionales.
+Las relaciones pueden ser colecciones en memoria, tablas de bases de datos o fuentes de datos. Fue desarrollado independientemente de LINQ en 2001 por Julian Hyde, quien más tarde escribió el servidor OLAP Mondrian.
+jLinq jLinq es una librería de JavaScript totalmente extensible que permite realizar consultas estilo LINQ en arrays de objetos.
+jlink-node implementación para NodeJS.
+JSINQ es la implementación de Kai Jäger de LINQ to Objects para JavaScript. También proporciona un compilador que traduce expresiones de consulta estilo LINQ en código JavaScript.
+JSLINQ JSLINQ es otra biblioteca de JavaScript que permite realizar consultas estilo LINQ sobre datos.
+Chris Pietschmann's LINQ to JavaScript es una implementación de LINQ que extiende los arrays de objetos de JavaScript para soportar LINQ.
+Phinq es una implementación para PHP de LINQ por Tommy Montgomery.
+PHPLinq es una implementación para PHP de LINQ por Maarten Balliauw.
+Quaere implementación para Java de LINQ.
+JaQue implementación para Java de LINQ.
+asq es una implementación en Python de LINQ to Objects y Parallel LINQ-to-objects (PLINQ).
+Embarcadero Prism, también conocido como Delphi Prism, admite LINQ.
+
+
+== Véase también ==
+Mapeo Objeto Relacional
+
+
+== Referencias ==
+
+
+== Enlaces externos ==
+Official Microsoft LINQ Project
+101 C# LINQ Samples
+101 Visual Basic LINQ Samples
+F# 3.0 LINQ Samples
+LINQ to XML Documentation
+Microsoft LINQ forum
+[1] LINQ to Objects for the .NET developer
+LINQ page on NetFXGuide.com
+LINQ wiki
+LINQ books
+Continuous LINQ
+LINQ To Sharepoint
+LINQ To Active Directory
+LINQ for Novell.Directory.Ldap
+LinqToWikipedia
+LINQ Tutorials and Active Articles
+[2] Looking to LINQ - Will Microsoft's Language Integrated Query transform programmatic data access?
+Obtics (Observable Object LINQ)
+LINQ to SNMP
+[3] Different Ways Of Retrieving Data From Collections.
+Future of LINQ to SQL
+LINQ Exchange - Learn LINQ and Lambda Expressions
+MoreLINQ - Extensions to LINQ to Objects by Jon Skeet
+50 LINQ Examples, Tips and How To's
+[4] How does it work in C#?

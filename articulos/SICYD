@@ -1,0 +1,29 @@
+SICYD (Servicios Informáticos de Conferencias y Documentación, S.L.) fue una de las primeras BBS (Bulletin Board System) multiusuario de pago de España. Constituida la compañía en Barcelona 27 de julio de 1989 por Julio González, Antonio Castillo y los hermanos Jorge y Santiago Muñoz, abrió sus líneas oficialmente el 16 de octubre del mismo año.
+
+
+== Tecnología ==
+
+El sistema estaba basado en la versión 5.07 del software The Major BBS de Galacticomm Inc., que corría en plataforma PC, concretamente en un ordenador Unisys con procesador Intel 80386 a 20 MHz con 1 MiB de memoria RAM y 80 MB de disco duro y dos lectores de CD-ROM de marca Philips. La gran novedad de este software es que era capaz de gestionar hasta 32 puertos serie RS-232 con un sistema operativo monousuario y monotarea como era MS-DOS gracias a las bibliotecas GSBL (Galacticomm Software Breakthrough Library) y a hardware específico del fabricante. El software fue totalmente traducido al castellano por el equipo de SICYD. La capacidad multiusuario de estas bibliotecas GSBL se fue aumentando sucesivamente hasta dar soporte a 256 usuarios concurrentes en 1992.
+Los usuarios accedían a SICYD a través de un grupo de salto de 8 líneas telefónicas conectadas a 8 módems internos Supra de 2400 bit/s alojados en una Galactibox, un chasis fabricado por Galacticomm Inc. capaz de gestionar hasta 16 módems internos. Los principales servicios ofrecidos fueron la Teleconferencia (equivalente al actual chat), las Bibliotecas de Ficheros (descarga de documentos y software de dominio público y de shareware almacenados en CD-ROMs), las Conferencias (grupos de charlas temáticos similares a los newsgrups de Usenet o los actuales foros de Internet) y Quest for Magic, un adictivo juego conversacional on-line. El sistema también ofrecía una plataforma para comercio electrónico, y con el tiempo se fueron añadiendo otros servicios, como consultas a bases de datos, juegos, etc.
+
+
+== Pasarela con Internet ==
+A los pocos meses de la puesta en marcha, SICYD solicitó un dominio en internet para ofrecer a sus usuarios una pasarela de correo electrónico pionera en España. El dominio "sicyd.es" fue el número 35 que se concedió en España, y el servicio de pasarela e-mail ofrecido junto con la posibilidad de efectuar consultas sobre los CD-ROMs del HST Guide Star Catalog atrajo a diversas sociedades astronómicas españolas, como Sadeya, Gea, Aster y la Agrupación Astronómica de Sabadell. La conexión con internet se realizaba por el nodo de EUnet en España en el Dept. de Ingeniería Telemática de la ETSI de Telecomunicación de la Universidad Politécnica de Madrid, llamado "Goya", mediante varias llamadas diarias por módem en las que se intercambiaba el correo con el protocolo UUCP implementado en Waffle BBS. "Goya" conectaba directamente con el nodo central de EUnet en Holanda y formaba parte de RedIRIS, red creada en 1988 para interconectar las universidades españolas y los centros de investigación científica, y en 1992 se profesionalizó para convertirse en el primer proveedor de servicios de Internet en España.
+
+
+== Conexión a Iberpac ==
+
+SICYD amplió su capacidad, su alcance y sus servicios gracias a su posterior conexión con la red de conmutación de paquetes Iberpac de Telefónica, basada en X.25. Esta conexión acercaba SICYD a los usuarios de otras provincias y de otros países, abaratando el coste de las llamadas dado que sólo se facturaba la cantidad de información transmitida, no la distancia ni el tiempo. La red Iberpac contaba con una serie de nodos de acceso X.28 por red telefónica a nivel provincial, de manera que los usuarios sólo tenían que efectuar una llamada local a su nodo.
+Otra ventaja de la conexión a Iberpac era la disponibilidad de varios canales de comunicación por línea, con lo que SICYD llegó a contar con 24 canales de acceso simultáneos, 8 por red telefónica y 16 por X.25. Por último, la conexión a esta red también permitió la salida al exterior de los usuarios, pudiendo conectar con BBS del extranjero a través del servicio de Dial-Out, intercambiar mensajes mediante la interconexión de Conferencias con FidoNet, y charlar directamente con usuarios de otros sistemas mediante las conexiones de Teleconferencia que se realizaban periódicamente. En esta época la revista HELP400 para usuarios y profesionales de sistemas AS/400 escogió SICYD para dar soporte a sus lectores. El servicio de Dial-Out también permitió integrar plenamente el sistema con el Waffle BBS que se utilizaba para el intercambio de correo electrónico con Internet.
+
+
+== Consolidación y desenlace ==
+El momento álgido de SICYD llegó a principios de 1992, cuando los ingresos por los servicios on-line superaron los gastos de la compañía y ésta empezó a dar beneficios. En ese momento FONOCOM S.A. inició conversaciones para la compra de la compañía, acción que se llevó a cabo el 29 de mayo de 1992 con el cese de la actividad de SICYD, tras más de dos años y medio de la apertura de líneas. Parte del equipo de SICYD se integró en la nueva compañía, junto con los clientes, el inmovilizado material y el servicio de BBS, que siguió operando con el nombre de FONOCOM-BBS. La sociedad se extinguió definitivamente el 15 de marzo de 1993.
+
+
+== Enlaces externos ==
+Historia de Internet
+HELP400, una década en Internet
+Dos décadas del correo electrónico en España
+Análisis histórico de Internet en España
+Galacticomm Archive

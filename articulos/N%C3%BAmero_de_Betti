@@ -1,0 +1,81 @@
+En topología algebraica, los números de Betti distinguen los espacios topológicos. Intuitivamente, el primer número de Betti de un espacio, cuenta el número máximo de cortes que se pueden hacer sin dividir al espacio en dos piezas.
+Cada número de Betti es o bien un número natural o bien un elemento de la recta real extendida (+∞). Para los espacios de dimensión finita más comunes (como las variedades compactas, un Complejo simplicial o CW-complejo) la secuencia de números de Betti es 0 para algunos puntos progresivamente (se anulan para dimensiones superiores al espacio), y son todos finitos.
+El término «números de Bettina» fue acuñado por Henri Poincaré en honor al matemático italiano Enrico Betti.
+
+
+== Definición informal ==
+
+Informalmente, el k-ésimo número de Betti se refiere al número k dimensional de superficies no-conectadas. Los siguientes números de Betti tienen las siguientes definiciones intuitivas:
+b0 es el número de componentes conectadas.
+b1 es el número de agujeros «circulares» bidimensionales.
+b2 es el número de agujeros o «vacíos» tridimensionales.
+
+
+== Definición ==
+Para un entero no negativo k, el k-ésimo número de Betti bk(X) del espacio X se define como el rango del grupo abeliano Hk(X), el k-ésimo grupo de homología de X. Equivalentemente, se puede definir la dimensión del espacio vectorial Hk(X; Q), dado que el grupo de homología es en este caso un espacio vectorial sobre Q. El teorema del coeficiente universal, en un caso muy simple, muestra que estas tres definiciones son iguales.
+Más generalmente, dado un cuerpo F se puede definir bk(X, F), el késimo número de Betti con coeficientes en F, como la dimensión del F-espació vectorial Hk(X, F).
+
+
+== Ejemplo: el primer número de Betti en teoría de grafos ==
+En teoría de topología de grafos el primer número de Betti de un grafo G con n vértices, m aristas y k componentes conectados iguales
+
+Esto se prueba unmediatamente por inducción matemática sobre el número de aristas. Una nueva arista incrementa el número de 1-ciclos hace decrecer el número de componentes conectados.
+Véase complejidad ciclomática para una aplicación del primer número de Betti en ingeniería de software.
+
+
+== Propiedades ==
+Los números de Betti bk(X) (racionales), no toman en cuenta la torsión del grupo de homología, pero son invariantes topológicos muy útiles. En los términos más intuitivos, permiten conter el número de «agujeros» de distintas dimensiones. Para un círculo, el primer número de Betti es 1. Para un pretzel común, el primer número de Betti es el doble del número de agujeros.
+En el caso de complejos simpliciales finitos los grupos de homología Hk(X, Z) son finitamente generados, por lo que tienen rango finito. También el grupo es 0 cuando k excede la dimensión tope del simplex de X.
+Para un CW-complejo finito K se tiene
+
+donde  denota la característica de Euler de K y todo campo F.
+
+Para dos espacios X e Y se tiene
+
+donde PX denota el polinomio de Poincaré de X, (más generalmente, las series de Poincaré, para espacios de dimensión infinita), i.e. la función generadora de los números de Betti de X:
+
+véase teorema de Künneth.
+Si X es una variedad n-dimensional, hay simetría intercambiando k y n − k, para toda k:
+
+bajo condiciones (una variedad cerrada y orientada); véase dualidad de Poincaré.
+La independencia del campo F es solo a través de su característica. Si los grupos de homología son libres de torsión, entonces los números de Betti son independientes de F. La conexión de p-torsión y el número de Betti con característica p, para p un número primo, está dada en detalle por el teorema del coeficiente universal (basado en los Tor functores, pero en un caso simple).
+
+
+== Ejemplos ==
+La secuencia del número de Betti para un círculo es 1, 1, 0, 0, 0, ...;
+el polinomio de Poincaré es
+.
+
+La secuencia del número de Betti para un dos-toro is 1, 2, 1, 0, 0, 0, ...;
+el polinomio de Poincaré es
+.
+
+La secuencia del número de Betti para un a tres-toro es 1, 3, 3, 1, 0, 0, 0, ... .
+el polinomio de Poincaré es
+.
+
+Análogamente, para un n-toro,
+el polinomio de Poincaré es
+ (por el teorema de Künneth), por lo que los números de Betti son los coeficientes binomiales.
+
+Los espacios de dimensión infinita pueden tener, de manera esencial, una secuencia infinita de números de Betti no nulos. Un ejemplo es el espacio proyectivo complejo de dimensión infinita, con la secuencia 1, 0, 1, 0, 1, ... periódica, de período 2. En este caso la función de Poincaré no es un polinomio sino más bien una serie infinita
+,
+la cual, siendo una serie geométrica, puede expresarse como la función racional
+
+Más generalmente, toda secuencia periódica puede expresarse somo una suma de series geométricas, generalizando el resultado precedente: e.g.,  tiene función generatríz
+,
+y secuencias lineales recursivas más generales son exactamente las secuencias generadas por funciones racionales; luego la serie de Poincaré se puede expresar como una función racional si y solo si la secuencia de números de Betti es una secuencia lineal recursiva.
+
+
+== Relación con dimensiones de espacios de formas diferenciales ==
+En situaciones geométricas cuando  es una variedad cerrada, la importancia de los números de Betti surge desde una dirección distinta, en particular, predicen las dimensiones de espacios vectoriales de formas diferenciales cerradas módulo formas diferenciales exactas. La conexión con la definición dada más arriba se da por la vía de tres resultados básicos, el teorema de De Rham y la dualidad de Poincaré (cuando aplican), y el teorema del coeficiente universal de la teoría de homología.
+Hay una lectura alternativa, en particular que los números de Betti dan las dimensiones de espacios de formas armónicas. Para esto se requiere el uso de algunos resultados de la teoría de Hodge, sobre el laplaciano de Hodge.
+En este formato, la teoría de Morse da un conjunto de inecuaciones para sumas alternadas de números de Betti en términos de una suma alternada correspondiente del número de puntos críticos  de una función de Morse de un índice dado:
+
+Witten dio una explicación de estas inecuaciones utilizando la función de Morse para modificar las derivadas exteriores en el de Rham complejo.
+
+
+== Referencias ==
+
+Warner, Frank Wilson (1983), Foundations of differentiable manifolds and Lie groups, New York: Springer, ISBN 0387908943 .
+Roe, John (1998), Elliptic Operators, Topology, and Asymptotic Methods, Research Notes in Mathematics Series, 395 (Second edición), Boca Raton, FL: Chapman and Hall, ISBN 0582325021 .

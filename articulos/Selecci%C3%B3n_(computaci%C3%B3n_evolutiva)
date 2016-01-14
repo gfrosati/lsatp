@@ -1,0 +1,33 @@
+Selección es, en el campo de la computación evolutiva, el proceso mediante el cual se eligen individuos a partir de una población, con el objeto de ser evolucionados o, una vez evolucionados, ser reinsertados en la población.
+Existen varios mecanismos de selección, las más frecuentemente utilizadas son presentadas a continuación.
+
+
+== Selección de ruleta ==
+
+La Selección de ruleta (roulette-wheel selection) es también conocida como Selección proporcional a la función de desempeño (fitness proportionate selection).
+Sea N el número de individuos existentes y  el desempeño del i-ésimo individuo. La probabilidad asociada a su selección está dada por:
+
+Esta selección permite que los mejores individuos sean elegidos con una mayor probabilidad, pero al mismo tiempo permite a los peores individuos ser elegidos, lo cual puede ayudar a mantener la diversidad de la población, en contraste con la selección por truncamiento.
+Un problema de la selección de ruleta se presenta cuando existe una pequeña fracción de la población (en el límite, sólo un individuo) que posee una medida de desempeño excesivamente superior al resto. Esto provoca pérdida de diversidad y puede conducir a convergencia prematura pues la mayor parte de los individuos seleccionados será una copia de los pocos predominantes. En este caso es preferible utilizar selección basada en ranking o selección por torneo.
+
+
+== Selección por truncamiento ==
+En esta selección las soluciones candidatas son ordenadas según su función de desempeño, y una proporción p (por ejemplo =1/2, 1/3, 1/4, ...) de los individuos con mejor desempeño es seleccionada y reproducida 1/p veces. Esta selección es menos sofisticada que la mayoría de los métodos de selección, y generalmente no es usada en la práctica
+
+
+== Selección basada en ranking ==
+En esta selección los individuos se ordenan según su medida de desempeño y luego son asignados con una segunda medida de desempeño, inversamente proporcional a su posición en el ranking (esto es, otorgando una mayor probabilidad a los mejores). Los valores de esta segunda asignación pueden ser lineales o exponenciales. Finalmente, los individuos son seleccionados proporcionalmente a esta probabilidad.
+Este método disminuye el riesgo de convergencia prematura que se produce cuando se utiliza selección de ruleta en poblaciones con unos pocos individuos con medidas de desempeño muy superiores a las del resto.
+
+
+== Selección por torneo ==
+Esta selección se efectúa mediante un torneo (comparación) entre un pequeño subconjunto de individuos elegidos al azar desde la población.
+Los beneficios de este tipo de selección son la velocidad de aplicación (dado que no es necesario evaluar ni comparar la totalidad de la población) y la capacidad de prevenir, en cierto grado, la convergencia prematura. La principal desventaja es la necesidad de establecer el parámetro correspondiente al tamaño del subconjunto.
+
+
+== Referencias ==
+(Selección de ruleta) Holland, John (1975). Adaptation in natural and artificial systems. Ann Arbor: The University of Michigan Press. 
+(Selección por torneo) Brad L. Miller and David E. Goldberg (1995). «Genetic Algorithms, Tournament Selection, and the Effects of Noise». IlliGAL Report (95006). 
+(Selección basada en ranking) James E. Baker (1985). «Adaptive Selection Methods for Genetic Algorithms». Proceedings of the 1st International Conference on Genetic Algorithms. 0-8058-0426-9, pp.101-111. 
+Byoung-Tak ZHANG, Jung-Jib KIM (2000). «Comparison of Selection Methods for Evolutionary Optimization». Evolutionary Optimization 2 (2). pp.55-70. 
+Hancock, Peter J.B. (1994). An Empirical Comparison of Selection Methods in Evolutionary Algorithms.
