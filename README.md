@@ -13,4 +13,7 @@ Trabajo práctico para la materia [Introducción a la Neurociencia Computacional
 
 * En la carpeta **resources** se encuentra el [diccionario](https://github.com/sromano/lsatp/blob/master/resources/wikipedia.dict) y el [modelo de LSA](https://github.com/sromano/lsatp/blob/master/resources/lsaWikipedia.lsi) a partir de los 10000 artículos generados a partir del generadorLSA.py
 
+* El archivo **analizador.py** tiene funciones útiles usadas para analizar los discursos.
+
+
 Copyright 2016 Sergio Romano
