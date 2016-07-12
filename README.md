@@ -3,7 +3,14 @@
 Trabajo práctico para la materia [Introducción a la Neurociencia Computacional](http://www.dc.uba.ar/materias/incc), Departamento de Computación, Universidad de Buenos Aires.
 
 
-### Indice
+### Aclaración
+
+En la última versión se utilizó todos los artículos de la Wikipedia en Español (según el dump disponible al 2 de junio de 2016). Por otro lado, se crearon tres versiones de la matriz LSA para 200, 400 y 600 dimensiones.
+
+Por el tamaño de los archivos, no subimos en resources ni el dump, ni el diccionario, ni las tres versiones de la matriz LSA. De todas maneras, es fácil replicarlo a partir del código disponible.
+
+
+### Indice (viejo)
 
 * En la carpeta **artículos** se encuentran los +10.000 artículos bajados aleatoriamente desde la Wikipedia en español para el experimento con el programa *article_fetcher* (Ruby)
 

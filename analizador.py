@@ -10,6 +10,8 @@ import rlcompleter
 import itertools
 import re
 
+import numpy, scipy.io
+
 #Configura el autocompletar con tab en la consola
 if 'libedit' in readline.__doc__:
     readline.parse_and_bind("bind ^I rl_complete")
@@ -17,10 +19,11 @@ else:
     readline.parse_and_bind("tab: complete")
 
 #Cargar LSA (o LSI)
-lsi = models.LsiModel.load('resources/lsaWikipedia.lsi')
+lsi = models.LsiModel.load('resources/lsaWikipedia400.lsi')
 
 #Cargar diccionario que convierte textos en indices de LSA
-dic = corpora.dictionary.Dictionary.load('resources/wikipedia.dict')
+#dic = corpora.dictionary.Dictionary.load('resources/wikipedia.dict')
+dic = corpora.Dictionary.load_from_text('resources/wikipedia.dict')
 
 def tokenize(text):
     return [token for token in simple_preprocess(text)]
@@ -34,10 +37,23 @@ corpus = [lsi[dic.doc2bow(tokenize(open(filename).read()))] for filename in docu
 #Indice de similitud
 fullIndex = similarities.MatrixSimilarity(corpus)
 
+def similarity_by_word(presidentes,palabras,encode=True):
+    palabrasC = palabras
+    if encode:
+      palabrasC = [unicode(x,'utf-8') for x in palabrasC]
+
+    aCorpus = [ lsi[dic.doc2bow([pal])] for pal in palabrasC]
+    anIndex = similarities.MatrixSimilarity(aCorpus)
+
 def promedio_palabras(presidentes,palabras):
     sims = similarity(presidentes,palabras)
     values = map((lambda x: (x[1])),sims)
     return sum(values) / len(values)
+
+def document_topics_to_csv():
+    import numpy
+    full = map( (lambda y: map( (lambda x: x[1]), y)), corpus)
+    numpy.savetxt("documents_to_topics.csv", full, delimiter=",")
 
 def similarity(presidentes,palabras,encode=True):
     palabrasC = palabras
@@ -78,6 +94,7 @@ def matrix_simetria():
         #print(sim)
         #print(map((lambda x: (re.match('.*/(.*)[0-9]{4}',todosAgrupados[x[0]][0]).group(1),round(x[1],2))),list(enumerate(sim))))
 
-
-analisis_global(todos,['enemigo','opositor'])
-
+matrix_simetria()
+#analisis_global(todos,['enemigo','opositor'])
+#analisis_global_raw(todos,'intervención control normativa estrategícos')
+#analisis_global_raw(todos,'individuo intervencion libertad inciativa')
