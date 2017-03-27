@@ -2,6 +2,9 @@
 
 Trabajo práctico para la materia [Introducción a la Neurociencia Computacional](http://www.dc.uba.ar/materias/incc), Departamento de Computación, Universidad de Buenos Aires.
 
+### Informe
+
+El informe del trabajo se puede leer en [lsatp/incc-lsi.pdf](https://github.com/sromano/lsatp/blob/master/incc-lsi.pdf)
 
 ### Aclaración
 
